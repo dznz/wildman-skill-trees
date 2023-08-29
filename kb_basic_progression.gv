@@ -1,0 +1,73 @@
+digraph kb_progression {
+  // Kettlebell Basic Skill Progression Diagram © 2023
+  // by dznz using knowledge from Mark Wildman is licensed
+  // under CC BY-NC-SA 4.0 
+  // http://creativecommons.org/licenses/by-nc-sa/4.0/
+  label="Kettlebell Basic Skill Progression"
+  node [colorscheme="paired12"]
+  node [shape=record]
+  node [style="rounded,filled"]
+  node [color=12, fillcolor=11]
+
+  subgraph warmup {
+    node [color=8, fillcolor=7]
+    mov_atw; mov_halo, mov_atwf2b, mov_atwb2f
+  }
+
+  subgraph aux {
+    node [color=10, fillcolor=9]
+    mov_2hu1hd; mov_2hucleandown; mov_news;
+  }
+  
+  mov_deadlift [label="{{1|Two Hand Deadlift}|HIP HINGE}" URL="https://www.youtube.com/watch?v=x0XkmM34BPI&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=1"];
+  mov_swing [label="{{2|Two Hand Swing}|LEG DRIVE &\nHIP SNAP}" URL="https://www.youtube.com/watch?v=m-S9H2XVvYg&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=2"]
+  mov_atw [label="{{3|Around the World}|HAND TRANSITION}" URL="https://www.youtube.com/watch?v=XaegZzSbtr0&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=3"]
+  mov_halo [label="{{4|Halo}|GLOBE UP\nORDER POSITION}" URL="https://www.youtube.com/watch?v=25xdtjbFPtw&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=4"]
+  mov_atwf2b [label="5|Around the World\nFront to Back" URL="https://www.youtube.com/watch?v=TwlQQXAQpaQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=5"]
+  mov_atwb2f [label="6|Around the World\nBack to Front" URL="https://www.youtube.com/watch?v=GrRO00YOIWM&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=6"]
+  mov_althalo [label="7|Alternating Halo" URL="https://www.youtube.com/watch?v=SMpquy5zSL4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=7"]
+  mov_2hu1hd [label="{{8|Two Hand Pickup\nOne Hand Putdown}|RACK POSITION}" URL="https://www.youtube.com/watch?v=eMkDP9VmMc0&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=8"]
+  mov_saswing [label="{{9|Single Arm Swing}|THUMB POINTS BACK}" URL="https://www.youtube.com/watch?v=ejPpyLKZ1L4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=9"]
+  mov_h2h [label="10|Hand to Hand\nTransition" URL="https://www.youtube.com/watch?v=0Uk0Rdm3QFs&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=10"]
+  mov_2hucleandown [label="11|Two Hand Pickup\nClean Putdown" URL="https://www.youtube.com/watch?v=cQC2y-ByaAw&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=11"]
+  mov_clean [label="12|Swing Clean" URL="https://www.youtube.com/watch?v=_nIsSXWs5iU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=12"]
+  mov_cleanh2h [label="13|Clean with\nHand Transition" URL="https://www.youtube.com/watch?v=6TVqHl2gtuM&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=13"]
+  mov_press [label="14|Single Arm\nOverhead Press" URL="https://www.youtube.com/watch?v=XHkI03S6Pls&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=14"]
+  mov_news [label="15|Newspaper drill" URL="https://www.youtube.com/watch?v=htByOXjHLXE&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=15"]
+  mov_startstopclean [label="16|Start Stop Clean" URL="https://www.youtube.com/watch?v=XbK3jxI0WNQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=16"]
+  mov_cap [label="17|Clean & Press" URL="https://www.youtube.com/watch?v=SSxB3m5qRas&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=17"]
+  mov_caph2h [label="18|Clean & Press with\nHand Transition" URL="https://www.youtube.com/watch?v=5Q4vMOYvAGg&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=18"]
+  mov_startstopcap [label="19|Start Stop\nClean & Press" URL="https://www.youtube.com/watch?v=dSj3kqbuois&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=19"]
+  mov_gobboxsquat [label="{{20|Bottoms-Up Goblet\nBox Squat}|SQUAT BACK}" URL="https://www.youtube.com/watch?v=k5Bc7pkEmrU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=20"]
+  mov_boxsquathalo [label="{{21|Goblet Box Squat\nwith Halo}|STAND AT TOP}" URL="https://www.youtube.com/watch?v=Aik5-BStbnc&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=21"]
+  mov_gobsquathalo [label="{{22|Goblet Squat\nwith Halo}|FULL DEPTH}" URL="https://www.youtube.com/watch?v=cnZ8Mx8NQPE&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=22"]
+  mov_racksquat [label="{{23|Single-bell front squat}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
+
+  mov_deadlift -> mov_swing;
+  mov_deadlift -> mov_atw;
+  mov_deadlift -> mov_halo;
+  mov_atw -> mov_atwf2b;
+  mov_atwf2b -> mov_atwb2f;
+  mov_halo -> mov_althalo;
+  mov_deadlift -> mov_2hu1hd;
+  mov_swing -> mov_saswing;
+  mov_saswing -> mov_h2h;
+  mov_2hu1hd -> mov_2hucleandown;
+  mov_saswing -> mov_2hucleandown;
+  mov_2hucleandown -> mov_clean;
+  mov_clean -> mov_cleanh2h;
+  mov_h2h -> mov_cleanh2h;
+  mov_2hu1hd -> mov_press;
+  mov_clean -> mov_news;
+  mov_clean -> mov_startstopclean;
+  mov_clean -> mov_cap;
+  mov_press -> mov_cap;
+  mov_cap -> mov_caph2h;
+  mov_cleanh2h -> mov_caph2h;
+  mov_cap -> mov_startstopcap;
+  mov_halo -> mov_gobboxsquat;
+  mov_gobboxsquat -> mov_boxsquathalo;
+  mov_boxsquathalo -> mov_gobsquathalo;
+  mov_gobsquathalo -> mov_racksquat;
+  mov_2hu1hd -> mov_racksquat;
+}
