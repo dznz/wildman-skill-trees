@@ -1,0 +1,105 @@
+digraph kb_progression {
+  // Single Arm Heavy Club Skill Progression Diagram © 2023
+  // by dznz using knowledge from Mark Wildman is licensed
+  // under CC BY-NC-SA 4.0 
+  // http://creativecommons.org/licenses/by-nc-sa/4.0/
+  label="Single Arm Heavy Club Skill Progression"
+  node [colorscheme="paired12"]
+  node [shape=record]
+  node [style="rounded,filled"]
+  node [color=12, fillcolor=11]
+
+  subgraph warmup {
+    node [color=8, fillcolor=7]
+  }
+
+  subgraph aux {
+    node [color=10, fillcolor=9]
+    mov_backs2s, mov_perry, mov_millprep
+  }
+
+  // Movements external to this diagram
+  subgraph ext {
+    node [color=4, fillcolor=3]
+    ext_2h_s2s, ext_2h_sideswingl2h, ext_2h_sc, ext_2h_pullover
+    ext_2h_s2srockit
+    ext_2h_incircle, ext_2h_outcircle
+    ext_2h_outpend, ext_2h_inpend, ext_2h_altpend
+  }
+
+  ext_2h_s2s [label="{{2H-01|Two-Hand\nSide to Side Swing}}"]
+  ext_2h_incircle [label="{{2H-05|Two-Hand\nInside Circle}}"]
+  ext_2h_outcircle [label="{{2H-06|Two-Hand\nOutside Circle}}"]
+  ext_2h_sc [label="{{2H-09|Two-Hand\nShield Cast}}"]
+  ext_2h_sideswingl2h [label="{{2H-02|Two-Hand\nSide Swing\nLow to High}}" ]
+  ext_2h_s2srockit [label="{{2H-15|Two-Hand\nSide to Side\nRockit}}"                         URL=""];
+  ext_2h_pullover [label="{{2H-07|Two-Hand\nPullover}}" URL="https://www.youtube.com/watch?v=jpIn1Sumg78&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=7"]
+  ext_2h_outpend [label="{{2H-16|Two-Hand\nOutside Pendulum}}"]
+  ext_2h_inpend [label="{{2H-16|Two-Hand\nInside Pendulum}}"]
+  ext_2h_altpend [label="{{2H-??|Two-Hand\nAlternating Pendulum}}" URL="https://www.youtube.com/watch?v=GULjXPS_ba4"]
+  
+  mov_s2s               [label="{{01|Side to Side Swing}|ELBOWS LOCKED}"         URL="https://www.youtube.com/watch?v=cosgyt2BQG4&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw"];
+  mov_incircle          [label="{{02|Inside Circle}|}"                           URL="https://www.youtube.com/watch?v=-gtRj1KEUmw"];
+  mov_outcircle         [label="{{03|Outside Circle}|}"                           URL="https://www.youtube.com/watch?v=Mf2QuZvRtQ4&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=2"];
+  mov_pullover          [label="{{04|Pullover}|}"                                 URL="https://www.youtube.com/watch?v=HHT6TrTLJM8"];
+  mov_backs2s           [label="{{05|Back Position Swing}|THUMB TO SHIRT}"                      URL="https://www.youtube.com/watch?v=sxePeWDR1U0"];
+  mov_perry             [label="{{06|Perry Cast\naka Bailout}|SAFE FAILURE}" URL="https://www.youtube.com/watch?v=FpUecSrX_AI&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=3"];
+  mov_sc                [label="{{07|Shield Cast}|}"                         URL="https://www.youtube.com/watch?v=huwc0g3yLWk&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=4"];
+  mov_sideswingl2h      [label="{{08|Side Swing\nLow to High\nwith Stop}|HIP SNAP}"                         URL="https://www.youtube.com/watch?v=huwc0g3yLWk&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=5"];
+  mov_s2srockit         [label="{{09|Side to Side Rockit}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=6"];
+  mov_sideswingl2hcont  [label="{{10|Side Swing\nLow to High\nContinuous}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=7"];
+  mov_altcircle         [label="{{11|Alternating Circle}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=8"];
+  mov_outpend           [label="{{12|Outside Pendulum}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=9"];
+  mov_inpend            [label="{{13|Inside Pendulum}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=10"];
+  mov_outpull           [label="{{14|Outside Pullover}|+ EXT ROTATION}"                         URL="https://www.youtube.com/watch?v=sJ5XCgdCMx8&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=14"];
+  mov_inpull            [label="{{15|Inside Pullover}|+ INT ROTATION}"                         URL="https://www.youtube.com/watch?v=sJ5XCgdCMx8&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=15"];
+  mov_altpend           [label="{{16|Alternating Pendulum}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=16"];
+  mov_millprep          [label="{{17|Mill Prep}|}"                                     URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=17"];
+  mov_alt180pull        [label="{{18|Alternating 180 Degree\nPullover}|}"                      URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=18"];
+  mov_mill              [label="{{19|Mill}|}"                                          URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=19"];
+  mov_revmill           [label="{{20|Reverse Mill}|}"                                  URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=20"];
+
+  // external skill links
+  ext_2h_s2s -> ext_2h_sideswingl2h -> ext_2h_s2srockit;
+  ext_2h_outpend -> ext_2h_inpend -> ext_2h_altpend;
+  ext_2h_incircle -> ext_2h_outcircle;
+  ext_2h_pullover -> ext_2h_sc;
+
+  // external skill dependencies
+  ext_2h_s2s -> mov_s2s;
+  ext_2h_incircle -> mov_incircle;
+  ext_2h_outcircle -> mov_outcircle;
+  ext_2h_sc -> mov_sc;
+  ext_2h_pullover -> mov_pullover;
+  ext_2h_sideswingl2h -> mov_sideswingl2h;
+  ext_2h_s2srockit -> mov_s2srockit;
+  ext_2h_outpend -> mov_outpend;
+  ext_2h_inpend -> mov_inpend;
+  ext_2h_altpend -> mov_altpend;
+
+  mov_s2s -> mov_sideswingl2h;
+  mov_s2s -> mov_incircle;
+  mov_incircle -> mov_outcircle;
+  mov_sideswingl2h -> mov_s2srockit;
+  mov_s2srockit -> mov_outpend;
+  mov_outcircle -> mov_outpend;
+  mov_sideswingl2h -> mov_sideswingl2hcont;
+  mov_outcircle -> mov_altcircle;
+  mov_outpend -> mov_inpend -> mov_altpend;
+  mov_pullover -> mov_sc;
+  mov_pullover -> mov_backs2s -> mov_sc;
+  mov_pullover -> mov_perry -> mov_sc;
+  mov_backs2s -> mov_outpull;
+  mov_perry -> mov_outpull;
+  mov_pullover -> mov_outpull;
+  mov_outpull -> mov_inpull;
+  mov_incircle -> mov_millprep;
+  mov_sc -> mov_millprep;
+  mov_millprep -> mov_alt180pull;
+  mov_inpull -> mov_alt180pull;
+  mov_alt180pull -> mov_mill;
+  mov_altcircle -> mov_mill;
+  mov_altcircle -> mov_revmill;
+  mov_alt180pull -> mov_revmill;
+  mov_altcircle -> mov_altpend;
+}
