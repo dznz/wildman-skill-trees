@@ -29,6 +29,14 @@ digraph kb_progression {
   mov_cleansblungeclean [label="{{27|Clean Step-Back\nLunge Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=27"]
   mov_floorpress [label="{{28|Single-Bell Floor Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=28"]
   mov_halfkneelcap [label="{{29|Half-Kneeling\nClean & Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=29"]
+  mov_floorpressroll [label="{{30|Floor Press with Roll}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=30"]
+  mov_kneelwindmill [label="{{31|Half-Kneeling Windmill}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=31"]
+  mov_quartgu [label="{{32|Quarter Turkish Get-Up}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=32"]
+  mov_kneelcapwindmill [label="{{33|Half-Kneeling\nClean & Press Windmill}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=34"]
+  mov_halfgu [label="{{34|Half Get-Up}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=35"]
+  // 35 C&P to overhead step-back lunge
+  mov_cap2ohsblunge [label="{{35|Clean & Press to Overhead\nStep-Back Lunge}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=37"]
+  // 36 half-kneeling overhead hip drop
 
   mov_clean -> mov_startstopclean;
   mov_clean -> mov_cap;
@@ -41,4 +49,11 @@ digraph kb_progression {
   mov_halfkneelclean -> mov_cleansblungeclean;
   mov_startstopcap -> mov_halfkneelcap;
   mov_halfkneelclean -> mov_halfkneelcap;
+  mov_floorpress -> mov_floorpressroll;
+  mov_halfkneelcap -> mov_kneelwindmill;
+  mov_floorpressroll -> mov_quartgu;
+  mov_halfkneelcap -> mov_kneelcapwindmill;
+  mov_kneelwindmill -> mov_kneelcapwindmill;
+  mov_quartgu -> mov_halfgu;
+  mov_kneelcapwindmill -> mov_cap2ohsblunge;
 }
