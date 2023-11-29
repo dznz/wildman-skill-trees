@@ -24,21 +24,27 @@ For the SVG version of the diagrams, links to the video and the playlist it belo
 
 ### Kettlebell Basic Skill Progression ###
 
-[`kb_basic_progression.gv`](/kb_basic_progression.gv)
+Because any single diagram will eventually become too complicated to use, I am breaking the KB Basic Skill progression into roughly the order presented, organised by theme (and whim).
 
-Covers all the back KB handling drills from picking them up through to standard movements like the Clean & Press.
+**Part 1, Covers #1 to #23** - [`kb_basic_progression.gv`](/kb_basic_progression.gv)
+
+Covers Wildman's Kettlebell Basic Instruction from #1 to #23.
 
 I have chosen to colour the drills that are specifically highlighted as useful warmup movements (orange), and what I call 'auxiliary' drills that are unlikely to be included in workouts long-term after the core idea has been digested.
 
 ![Tree of kettlebell drills, arranged in order of learning.](/dist/kb_basic_progression.svg)
 
-### Kettlebell Turkish Get-Up Skill Progression ###
+**Part 2, Covers #24 to #38, and #42 (TGU)** - [`kb_tgu_progression.gv`](/kb_tgu_progression.gv)
 
-[`kb_tgu_progression.gv`](/kb_tgu_progression.gv)
-
-Once the basics have been established, Wildman moves into developing the precursor skills for the Turkish Get-Up.
+Once the basics have been established, Wildman moves into developing the precursor skills for the Turkish Get-Up and Turkish Get-Down. Wildman prefers to alternate between the getup and getdown lessons to keep it fresh.
 
 ![Tree of kettlebell drills for TGU skills, arranged in order of learning.](/dist/kb_tgu_progression.svg)
+
+**Part 3, Covers #39 up** - [`kb_progression_3.gv`](/kb_progression_3.gv)
+
+This diagram is a WIP and is likely to change as I catch up to Mark (he's on #69 as of today) and he uploads further videos. Also as structure becomes more apparent. 
+
+![Tree of kettlebell drills for further skills, arranged in order of learning.](/dist/kb_progression_3.svg)
 
 ### Single-Arm Heavy Club Skill Progression ###
 
