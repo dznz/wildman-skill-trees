@@ -58,6 +58,7 @@ The diagrams are created using GraphViz's Dot language and [command-line rendere
 ```sh
 $ dot -Tsvg kb_basic_progression.gv -o dist/kb_basic_progression.svg
 $ dot -Tsvg kb_tgu_progression.gv -o dist/kb_tgu_progression.svg
+$ dot -Tsvg kb_progression_3.gv -o dist/kb_progression_3.svg
 $ dot -Tsvg hc_sa_progression.gv -o dist/hc_sa_progression.svg
 ```
 
