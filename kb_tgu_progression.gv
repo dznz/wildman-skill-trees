@@ -1,0 +1,44 @@
+digraph kb_progression {
+  // Kettlebell Turkish Get-Up Progression Diagram © 2023
+  // by dznz using knowledge from Mark Wildman is licensed
+  // under CC BY-NC-SA 4.0 
+  // http://creativecommons.org/licenses/by-nc-sa/4.0/
+  label="Kettlebell Turkish Get-Up Progression"
+  node [colorscheme="paired12"]
+  node [shape=record]
+  node [style="rounded,filled"]
+  node [color=12, fillcolor=11]
+
+  subgraph pre {
+    node [color=4, fillcolor=3]
+    mov_racksquat
+    mov_cap, mov_startstopcap
+    mov_clean, mov_startstopclean
+  }
+  
+  // Precursor drills 
+  mov_clean [label="12|Swing Clean" URL="https://www.youtube.com/watch?v=_nIsSXWs5iU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=12"]
+  mov_startstopclean [label="{{16|Start Stop Clean}|START & END CLEAN}" URL="https://www.youtube.com/watch?v=XbK3jxI0WNQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=16"]
+  mov_cap [label="17|Clean & Press" URL="https://www.youtube.com/watch?v=SSxB3m5qRas&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=17"]
+  mov_startstopcap [label="{{19|Start Stop\nClean & Press}|START & END C&P}" URL="https://www.youtube.com/watch?v=dSj3kqbuois&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=19"]
+  mov_racksquat [label="{{23|Single-Bell Front Squat}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
+
+  mov_racklunge [label="{{24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
+  mov_clean2sblunge [label="{{25|Clean Step-Back Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=25"]
+  mov_halfkneelclean [label="{{26|Half-Kneeling Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=26"]
+  mov_cleansblungeclean [label="{{27|Clean Step-Back\nLunge Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=27"]
+  mov_floorpress [label="{{28|Single-Bell Floor Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=28"]
+  mov_halfkneelcap [label="{{29|Half-Kneeling\nClean & Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=29"]
+
+  mov_clean -> mov_startstopclean;
+  mov_clean -> mov_cap;
+  mov_cap -> mov_startstopcap;
+  mov_racksquat -> mov_racklunge;
+  mov_racklunge -> mov_clean2sblunge;
+  mov_startstopclean -> mov_clean2sblunge;
+  mov_clean2sblunge -> mov_halfkneelclean;
+  mov_clean2sblunge -> mov_cleansblungeclean;
+  mov_halfkneelclean -> mov_cleansblungeclean;
+  mov_startstopcap -> mov_halfkneelcap;
+  mov_halfkneelclean -> mov_halfkneelcap;
+}
