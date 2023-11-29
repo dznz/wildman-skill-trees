@@ -17,11 +17,11 @@ digraph kb_progression {
   }
   
   // Precursor drills 
-  mov_clean [label="12|Swing Clean" URL="https://www.youtube.com/watch?v=_nIsSXWs5iU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=12"]
-  mov_startstopclean [label="{{16|Start Stop Clean}|START & END CLEAN}" URL="https://www.youtube.com/watch?v=XbK3jxI0WNQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=16"]
-  mov_cap [label="17|Clean & Press" URL="https://www.youtube.com/watch?v=SSxB3m5qRas&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=17"]
-  mov_startstopcap [label="{{19|Start Stop\nClean & Press}|START & END C&P}" URL="https://www.youtube.com/watch?v=dSj3kqbuois&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=19"]
-  mov_racksquat [label="{{23|Single-Bell Front Squat}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
+  mov_clean [label="KB-12|Swing Clean" URL="https://www.youtube.com/watch?v=_nIsSXWs5iU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=12"]
+  mov_startstopclean [label="{{KB-16|Start Stop Clean}|START & END CLEAN}" URL="https://www.youtube.com/watch?v=XbK3jxI0WNQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=16"]
+  mov_cap [label="KB-17|Clean & Press" URL="https://www.youtube.com/watch?v=SSxB3m5qRas&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=17"]
+  mov_startstopcap [label="{{KB-19|Start Stop\nClean & Press}|START & END C&P}" URL="https://www.youtube.com/watch?v=dSj3kqbuois&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=19"]
+  mov_racksquat [label="{{KB-23|Single-Bell Front Squat}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
 
   mov_racklunge [label="{{24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
   mov_clean2sblunge [label="{{25|Clean Step-Back Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=25"]

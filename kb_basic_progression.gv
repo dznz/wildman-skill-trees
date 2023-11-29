@@ -52,10 +52,10 @@ digraph kb_progression {
   mov_racksquat [label="{{23|Single-bell Front Squat}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
 
   // Next skills
-  mov_racklunge [label="{{24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
-  mov_clean2sblunge [label="{{25|Clean Step-Back Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=25"]
-  mov_halfkneelclean [label="{{26|Half-Kneeling Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=26"]
-  mov_halfkneelcap [label="{{29|Half-Kneeling\nClean & Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=29"]
+  mov_racklunge [label="{{KB-24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
+  mov_clean2sblunge [label="{{KB-25|Clean Step-Back Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=25"]
+  mov_halfkneelclean [label="{{KB-26|Half-Kneeling Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=26"]
+  mov_halfkneelcap [label="{{KB-29|Half-Kneeling\nClean & Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=29"]
 
   mov_deadlift -> mov_swing;
   mov_deadlift -> mov_atw;
