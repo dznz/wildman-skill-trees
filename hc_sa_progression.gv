@@ -39,25 +39,25 @@ digraph kb_progression {
   ext_2h_altpend [label="{{2H-??|Two-Hand\nAlternating Pendulum}}" URL="https://www.youtube.com/watch?v=GULjXPS_ba4"]
   
   mov_s2s               [label="{{01|Side to Side Swing}|ELBOWS LOCKED}"         URL="https://www.youtube.com/watch?v=cosgyt2BQG4&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw"];
-  mov_incircle          [label="{{02|Inside Circle}|}"                           URL="https://www.youtube.com/watch?v=-gtRj1KEUmw"];
-  mov_outcircle         [label="{{03|Outside Circle}|}"                           URL="https://www.youtube.com/watch?v=Mf2QuZvRtQ4&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=2"];
-  mov_pullover          [label="{{04|Pullover}|}"                                 URL="https://www.youtube.com/watch?v=HHT6TrTLJM8"];
+  mov_incircle          [label="{{02|Inside Circle}}"                           URL="https://www.youtube.com/watch?v=-gtRj1KEUmw"];
+  mov_outcircle         [label="{{03|Outside Circle}}"                           URL="https://www.youtube.com/watch?v=Mf2QuZvRtQ4&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=2"];
+  mov_pullover          [label="{{04|Pullover}}"                                 URL="https://www.youtube.com/watch?v=HHT6TrTLJM8"];
   mov_backs2s           [label="{{05|Back Position Swing}|THUMB TO SHIRT}"                      URL="https://www.youtube.com/watch?v=sxePeWDR1U0"];
   mov_perry             [label="{{06|Perry Cast\naka Bailout}|SAFE FAILURE}" URL="https://www.youtube.com/watch?v=FpUecSrX_AI&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=3"];
-  mov_sc                [label="{{07|Shield Cast}|}"                         URL="https://www.youtube.com/watch?v=huwc0g3yLWk&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=4"];
+  mov_sc                [label="{{07|Shield Cast}}"                         URL="https://www.youtube.com/watch?v=huwc0g3yLWk&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=4"];
   mov_sideswingl2h      [label="{{08|Side Swing\nLow to High\nwith Stop}|HIP SNAP}"                         URL="https://www.youtube.com/watch?v=huwc0g3yLWk&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=5"];
-  mov_s2srockit         [label="{{09|Side to Side Rockit}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=6"];
-  mov_sideswingl2hcont  [label="{{10|Side Swing\nLow to High\nContinuous}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=7"];
-  mov_altcircle         [label="{{11|Alternating Circle}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=8"];
-  mov_outpend           [label="{{12|Outside Pendulum}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=9"];
-  mov_inpend            [label="{{13|Inside Pendulum}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=10"];
+  mov_s2srockit         [label="{{09|Side to Side Rockit}}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=6"];
+  mov_sideswingl2hcont  [label="{{10|Side Swing\nLow to High\nContinuous}}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=7"];
+  mov_altcircle         [label="{{11|Alternating Circle}}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=8"];
+  mov_outpend           [label="{{12|Outside Pendulum}}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=9"];
+  mov_inpend            [label="{{13|Inside Pendulum}}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=10"];
   mov_outpull           [label="{{14|Outside Pullover}|+ EXT ROTATION}"                         URL="https://www.youtube.com/watch?v=sJ5XCgdCMx8&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=14"];
   mov_inpull            [label="{{15|Inside Pullover}|+ INT ROTATION}"                         URL="https://www.youtube.com/watch?v=sJ5XCgdCMx8&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=15"];
-  mov_altpend           [label="{{16|Alternating Pendulum}|}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=16"];
-  mov_millprep          [label="{{17|Mill Prep}|}"                                     URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=17"];
-  mov_alt180pull        [label="{{18|Alternating 180 Degree\nPullover}|}"                      URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=18"];
-  mov_mill              [label="{{19|Mill}|}"                                          URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=19"];
-  mov_revmill           [label="{{20|Reverse Mill}|}"                                  URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=20"];
+  mov_altpend           [label="{{16|Alternating Pendulum}}"                         URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=16"];
+  mov_millprep          [label="{{17|Mill Prep}}"                                     URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=17"];
+  mov_alt180pull        [label="{{18|Alternating 180 Degree\nPullover}}"                      URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=18"];
+  mov_mill              [label="{{19|Mill}}"                                          URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=19"];
+  mov_revmill           [label="{{20|Reverse Mill}}"                                  URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=20"];
 
   // external skill links
   ext_2h_s2s -> ext_2h_sideswingl2h -> ext_2h_s2srockit;
