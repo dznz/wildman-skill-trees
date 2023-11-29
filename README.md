@@ -26,13 +26,13 @@ For the SVG version of the diagrams, links to the video and the playlist it belo
 
 Because any single diagram will eventually become too complicated to use, I am breaking the KB Basic Skill progression into roughly the order presented, organised by theme (and whim).
 
-**Part 1, Covers #1 to #23** - [`kb_basic_progression.gv`](/kb_basic_progression.gv)
+**Part 1, Covers #1 to #23** - [`kb_progression_1.gv`](/kb_progression_1.gv)
 
 Covers Wildman's Kettlebell Basic Instruction from #1 to #23.
 
 I have chosen to colour the drills that are specifically highlighted as useful warmup movements (orange), and what I call 'auxiliary' drills that are unlikely to be included in workouts long-term after the core idea has been digested.
 
-![Tree of kettlebell drills, arranged in order of learning.](/dist/kb_basic_progression.svg)
+![Tree of kettlebell drills, arranged in order of learning.](/dist/kb_progression_1.svg)
 
 **Part 2, Covers #24 to #38, and #42 (TGU)** - [`kb_tgu_progression.gv`](/kb_tgu_progression.gv)
 
@@ -62,7 +62,7 @@ The diagrams are created using GraphViz's Dot language and [command-line rendere
 [1]: https://graphviz.org/docs/outputs/
 
 ```sh
-$ dot -Tsvg kb_basic_progression.gv -o dist/kb_basic_progression.svg
+$ dot -Tsvg kb_progression_1.gv -o dist/kb_progression_1.svg
 $ dot -Tsvg kb_tgu_progression.gv -o dist/kb_tgu_progression.svg
 $ dot -Tsvg kb_progression_3.gv -o dist/kb_progression_3.svg
 $ dot -Tsvg hc_sa_progression.gv -o dist/hc_sa_progression.svg
