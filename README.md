@@ -16,6 +16,14 @@ This is my humble attempt to coalesce this semi-implicit knowledge into structur
 - Use of GraphViz allows easy extension and remixing.
 - Includes links back to Wildman videos and playlists with full instructions.
 
+## Table of Contents
+
+- [The Diagrams](#the-diagrams)
+  - [Kettlebell Basic Skill Progression](#kettlebell-basic-skill-progression)
+  - [Two-Handed Heavy Club Skill Progression](#two-handed-heavy-club-skill-progression)
+  - [Single-Arm Heavy Club Skill Progression](#single-arm-heavy-club-skill-progression)
+- [Contributing](#contributing)
+
 ## The Diagrams ##
 
 The format includes the Wildman index order of recommended progression, the Wildman name for the drill (and alternative common names), and an optional field that notes the key idea or skill that should be established by the drill before moving onto more complex drills.
@@ -45,6 +53,12 @@ Once the basics have been established, Wildman moves into developing the precurs
 This diagram is a WIP and is likely to change as I catch up to Mark (he's on #69 as of today) and he uploads further videos. Also as structure becomes more apparent. 
 
 ![Tree of kettlebell drills for further skills, arranged in order of learning.](/dist/kb_progression_3.svg)
+
+### Two-Handed Heavy Club Skill Progression ###
+
+This needs revising to fit the current conventions. An old version of this idea [can be found][7] on the [WildFan Athletica discord](https://discord.com/invite/Fv7QF6DQ4g).
+
+[7]: https://discord.com/channels/802688931619143710/1111494005419683900
 
 ### Single-Arm Heavy Club Skill Progression ###
 
