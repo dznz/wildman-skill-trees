@@ -34,11 +34,11 @@ I have chosen to colour the drills that are specifically highlighted as useful w
 
 ![Tree of kettlebell drills, arranged in order of learning.](/dist/kb_progression_1.svg)
 
-**Part 2, Covers #24 to #38, and #42 (TGU)** - [`kb_tgu_progression.gv`](/kb_tgu_progression.gv)
+**Part 2, Covers #24 to #38, and #42 (TGU)** - [`kb_progression_2_tgu.gv`](/kb_progression_2_tgu.gv)
 
 Once the basics have been established, Wildman moves into developing the precursor skills for the Turkish Get-Up and Turkish Get-Down. Wildman prefers to alternate between the getup and getdown lessons to keep it fresh.
 
-![Tree of kettlebell drills for TGU skills, arranged in order of learning.](/dist/kb_tgu_progression.svg)
+![Tree of kettlebell drills for TGU skills, arranged in order of learning.](/dist/kb_progression_2_tgu.svg)
 
 **Part 3, Covers #39 up** - [`kb_progression_3.gv`](/kb_progression_3.gv)
 
@@ -63,7 +63,7 @@ The diagrams are created using GraphViz's Dot language and [command-line rendere
 
 ```sh
 $ dot -Tsvg kb_progression_1.gv -o dist/kb_progression_1.svg
-$ dot -Tsvg kb_tgu_progression.gv -o dist/kb_tgu_progression.svg
+$ dot -Tsvg kb_progression_2_tgu.gv -o dist/kb_progression_2_tgu.svg
 $ dot -Tsvg kb_progression_3.gv -o dist/kb_progression_3.svg
 $ dot -Tsvg hc_sa_progression.gv -o dist/hc_sa_progression.svg
 ```
