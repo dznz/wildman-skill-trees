@@ -3,7 +3,7 @@ digraph kb_progression {
   // by dznz using knowledge from Mark Wildman is licensed
   // under CC BY-NC-SA 4.0 
   // http://creativecommons.org/licenses/by-nc-sa/4.0/
-  label="Kettlebell Basic Skill Progression"
+  label="Kettlebell Basic Skill Progression - Part 1"
   node [colorscheme="paired12"]
   node [shape=record]
   node [style="rounded,filled"]
@@ -20,7 +20,7 @@ digraph kb_progression {
   }
 
   subgraph post {
-    node [color=4, fillcolor=3]
+    node [color=lightslategrey, fillcolor=ghostwhite]
     mov_racklunge
     mov_clean2sblunge
     mov_halfkneelclean
@@ -49,7 +49,7 @@ digraph kb_progression {
   mov_gobboxsquat [label="{{20|Bottoms-Up Goblet\nBox Squat}|SQUAT BACK}" URL="https://www.youtube.com/watch?v=k5Bc7pkEmrU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=20"]
   mov_boxsquathalo [label="{{21|Goblet Box Squat\nwith Halo}|STAND AT TOP}" URL="https://www.youtube.com/watch?v=Aik5-BStbnc&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=21"]
   mov_gobsquathalo [label="{{22|Goblet Squat\nwith Halo}|FULL DEPTH}" URL="https://www.youtube.com/watch?v=cnZ8Mx8NQPE&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=22"]
-  mov_racksquat [label="{{23|Single-bell Front Squat}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
+  mov_racksquat [label="{{23|Single-Bell Front Squat}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
 
   // Next skills
   mov_racklunge [label="{{KB-24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
@@ -90,4 +90,30 @@ digraph kb_progression {
   mov_clean2sblunge -> mov_halfkneelclean;
   mov_startstopcap -> mov_halfkneelcap;
   mov_halfkneelclean -> mov_halfkneelcap;
+
+  { rank = sink;
+    Legend [shape=none, margin=0, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+     <TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+     <TR>
+      <TD>Prerequisites and next steps</TD>
+      <TD BGCOLOR="ghostwhite">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+     </TR>
+     <TR>
+      <TD>Drills</TD>
+      <TD BGCOLOR="11"></TD>
+     </TR>
+     <TR>
+      <TD>Warmup drills</TD>
+      <TD BGCOLOR="7"></TD>
+     </TR>
+     <TR>
+      <TD>Learning drills</TD>
+      <TD BGCOLOR="9"></TD>
+     </TR>
+    </TABLE>
+   >];
+  }
 }

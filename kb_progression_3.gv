@@ -10,7 +10,7 @@ digraph kb_progression {
   node [color=12, fillcolor=11]
 
   subgraph pre {
-    node [color=4, fillcolor=3]
+    node [color=lightslategrey, fillcolor=ghostwhite]
     ext_bw_squat       [label="{{BW|Squat}}"]
     ext_hc_dblswing    [label="{{HC|Double Swing}}"]
     ext_hc_dblrockit   [label="{{HC|Double Rockit}}"]
@@ -128,5 +128,23 @@ digraph kb_progression {
     mov_racksquatpickup
     mov_fourcountsquat
     mov_hornygobsquat
+  }
+
+  { rank = sink;
+    Legend [shape=none, margin=0, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+     <TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+     <TR>
+      <TD>Prerequisites and next steps</TD>
+      <TD BGCOLOR="ghostwhite">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+     </TR>
+     <TR>
+      <TD>Drills</TD>
+      <TD BGCOLOR="11"></TD>
+     </TR>
+    </TABLE>
+   >];
   }
 }

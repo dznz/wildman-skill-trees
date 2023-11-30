@@ -10,10 +10,14 @@ digraph kb_progression {
   node [color=12, fillcolor=11]
 
   subgraph pre {
-    node [color=4, fillcolor=3]
+    node [color=lightslategrey, fillcolor=ghostwhite]
     mov_racksquat
     mov_cap, mov_startstopcap
     mov_clean, mov_startstopclean
+
+    // Implied
+    mov_tgd [label="{{|Turkish Get Down}}"]
+    mov_tgu [label="{{|Turkish Get Up}}"]
   }
   
   // Precursor drills 
@@ -65,6 +69,13 @@ digraph kb_progression {
     mov_kneelhipdrop -> mov_kneelcap2hip;
   }
 
+  mov_cap2ohsblunge -> mov_tgd;
+  mov_cap2ohsblunge -> mov_tgu;
+  mov_kneelcap2hip -> mov_tgd;
+  mov_kneelcap2hip -> mov_tgu;
+  mov_halfgu2kneel -> mov_tgd;
+  mov_halfgu2kneel -> mov_tgu;
+
   subgraph cluster_tgu {
     label="Turkish Get Up"
     mov_floorpress -> mov_floorpressroll;
@@ -72,5 +83,22 @@ digraph kb_progression {
     mov_quartgu -> mov_halfgu;
     mov_halfgu -> mov_halfgu2hip;
     mov_halfgu2hip -> mov_halfgu2kneel;
+  }
+  { rank = sink;
+    Legend [shape=none, margin=0, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+     <TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+     <TR>
+      <TD>Prerequisites and next steps</TD>
+      <TD BGCOLOR="ghostwhite">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+     </TR>
+     <TR>
+      <TD>Drills</TD>
+      <TD BGCOLOR="11"></TD>
+     </TR>
+    </TABLE>
+   >];
   }
 }
