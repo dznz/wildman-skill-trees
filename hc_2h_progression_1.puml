@@ -135,5 +135,35 @@ digraph HC2H {
   mov_sc:s -> mov_gama;
   mov_sc:s -> mov_scsquat;
   mov_squat -> mov_scsquat;
+
+  { rank = sink;
+    Legend [shape=none, margin=0, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+     <TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+     <TR>
+      <TD>Prerequisite Skills</TD>
+      <TD BGCOLOR="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+     </TR>
+     <TR>
+      <TD>Primary Drills</TD>
+      <TD BGCOLOR="11"></TD>
+     </TR>
+     <TR>
+      <TD>Secondary Drills</TD>
+      <TD BGCOLOR="7"></TD>
+     </TR>
+     <TR>
+      <TD>Auxiliary Drills</TD>
+      <TD BGCOLOR="9"></TD>
+     </TR>
+     <TR>
+      <TD>Unsequenced Extra Drills</TD>
+      <TD BGCOLOR="5"></TD>
+     </TR>
+    </TABLE>
+   >];
+  }
 }
 @enddot

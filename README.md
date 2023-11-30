@@ -56,11 +56,11 @@ This diagram is a WIP and is likely to change as I catch up to Mark (he's on #69
 
 ### Two-Handed Heavy Club Skill Progression ###
 
-**Part 1**
+**Part 1** - [`hc_2h_progression_1.puml`](/hc_2h_progression_1.puml)
 
 ![Tree of two-hand heavy club drills, arranged in order of learning.](/dist/hc_2h_progression_1.svg)
 
-**Part 2**
+**Part 2** - [`hc_2h_progression_2.puml`](/hc_2h_progression_2.puml)
 
 ![Tree of more two-hand heavy club drills, arranged in order of learning.](/dist/hc_2h_progression_2.svg)
 

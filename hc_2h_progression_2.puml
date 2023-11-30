@@ -93,5 +93,27 @@ digraph HC2H {
   mov_incirclesquat -> mov_outcirclesquat;
   mov_sblungepullbot -> mov_sblungepullsbpress;
   mov_sbfrontpress -> mov_sblungepullsbpress;
+
+  { rank = sink;
+    Legend [shape=none, margin=0, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+     <TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+     <TR>
+      <TD>Previous Drills</TD>
+      <TD BGCOLOR="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+     </TR>
+     <TR>
+      <TD>Primary Drills</TD>
+      <TD BGCOLOR="11"></TD>
+     </TR>
+     <TR>
+      <TD>Secondary Drills</TD>
+      <TD BGCOLOR="7"></TD>
+     </TR>
+    </TABLE>
+   >];
+  }
 }
 @enduml
