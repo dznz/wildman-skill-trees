@@ -16,6 +16,18 @@ This is my humble attempt to coalesce this semi-implicit knowledge into structur
 - Use of GraphViz allows easy extension and remixing.
 - Includes links back to Wildman videos and playlists with full instructions.
 
+### Limitations
+
+- Movement is infinitely complex, these models are not. Legibility has been preferred over strict accuracy.
+- Mark is constantly publishing new material, and these diagrams are likely to fall out of date.
+- The URL links to each video will only be present on SVG renderings.
+
+### Possible Uses
+
+- Coaches planning a curriculum for student athletes.
+- Self-teaching guide.
+- Near-endless drill variations to freshen a program.
+
 ## Table of Contents
 
 - [The Diagrams](#the-diagrams)
