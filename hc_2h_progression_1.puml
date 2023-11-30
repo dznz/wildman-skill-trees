@@ -1,0 +1,139 @@
+@startdot
+digraph HC2H {
+  // Two-Handed Heavy Club Skill Progression Diagram © 2023
+  // by dznz using knowledge from Mark Wildman is licensed
+  // under CC BY-NC-SA 4.0 
+  // http://creativecommons.org/licenses/by-nc-sa/4.0/
+  label="Two-Handed Heavy Club Skill Progression"
+  fontname="Helvetica,Arial,sans-serif"
+  node [colorscheme="paired12"]
+  node [fontname="Helvetica,Arial,sans-serif"]
+  node [shape=record,style="rounded,filled"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
+  node [color=2, fillcolor=1];
+
+  subgraph "primary" {
+    node [color=12, fillcolor=11]
+    ' node [fontname="Helvetica Bold,Arial Bold,sans-serif",fontsize=16]
+    node [margin=0.2]
+    mov_sc; mov_mill; mov_pullover; mov_insidecircle; mov_outsidecircle; mov_squat; mov_inpend; mov_outpend; mov_stepbacklunge; mov_gama;
+  }
+  subgraph "secondary" {
+    node [color=8, fillcolor=7]
+    mov_sidetoside; mov_sideswinglowtohigh; mov_deadclean; mov_rockit; mov_hangsidelowtohigh; mov_millprep; mov_backpossidetoside; mov_frontpress; mov_swingclean; mov_180pullover; mov_alt180pullover; mov_scsquat; 
+  }
+
+  subgraph "prereq" {
+    node [color=2, fillcolor=1]
+    node [shape=box,style="rounded,filled"]
+    pre_deadlift [label="Deadlift Position"]
+    pre_order [label="Order Position"]
+    pre_shouldercatch [label="Shoulder Catch\nHand Change"]
+  }
+
+  subgraph "post" {
+    node [color=4, fillcolor=3]
+  }
+
+  subgraph "extra" {
+    node [color=6, fillcolor=5]
+    mov_pulloversquat; mov_clockwork; mov_clockworksquat; mov_clockworkstepbacklunge; mov_altcircle; mov_altpendulum; mov_altmill
+  }
+
+  subgraph "aux" {
+    node [color=10, fillcolor=9];
+    mov_robotsc; mov_revrobotsc; mov_3csc
+  }
+
+  // Heavy Club Sequence
+  mov_sidetoside         [label="{{01|Side to Side\nSwing}|ELBOWS LOCKED}"                   URL="https://www.youtube.com/watch?v=LMau5vr7qx4&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds"]
+  mov_sideswinglowtohigh [label="{{02|Side Swing\nLow to High}}"                             URL="https://www.youtube.com/watch?v=NoZCHTlmrCg&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=2"]
+  mov_hangsidelowtohigh  [label="{{03|Hang Side Swing\nLow to High}|LEG DRIVE & HIP SNAP}"   URL="https://www.youtube.com/watch?v=RD1zOWaTjhQ&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=3"]
+  mov_deadclean          [label="{{04|Dead Clean}}"                                          URL="https://www.youtube.com/watch?v=69RGME9RTcY&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=4"]
+  mov_insidecircle       [label="{{05|Inside Circle}}"                                       URL="https://www.youtube.com/watch?v=Mh6iWcLbE3k&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=5"];
+  mov_outsidecircle      [label="{{06|Outside Circle}}"                                      URL="https://www.youtube.com/watch?v=QzMzCal-MYM&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=6"];
+  mov_pullover           [label="{{07|Pullover}|CLUB BEHIND HEAD}"                           URL="https://www.youtube.com/watch?v=jpIn1Sumg78&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=7"]
+  mov_backpossidetoside  [label="{{08|Back Position\nSide to Side Swing}|SWING BEHIND HEAD}" URL="https://www.youtube.com/watch?v=GKwGiB2UwyM&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=8"]
+  mov_sc                 [label="{{09|Shield Cast}}"                                         URL="https://www.youtube.com/watch?v=W-iHvrjn72k&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=9"];
+  mov_squat              [label="{{10|Balance Squat}}"                                       URL="https://www.youtube.com/watch?v=LSXticZ67Pw&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=11"]
+  mov_swingclean         [label="{{11|Swing Clean}|DECELERATE WEIGHT}"                       URL="https://www.youtube.com/watch?v=0oRuCQOkPRo&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=12"]
+  mov_robotsc            [label="{{12|Robot Shield Cast}}"                                   URL="https://www.youtube.com/watch?v=LDGi_lmzGR8&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=13"];
+  mov_frontpress         [label="{{13|Front Press}}"                                         URL="https://www.youtube.com/watch?v=HBRWtm3tTp4&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=15"]
+  mov_revrobotsc         [label="{{14|Reverse Robot\nShield Cast}}"                          URL="https://www.youtube.com/watch?v=Fun_Lscq5go&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=23"];
+  mov_rockit             [label="{{15|Side to Side\nRockit}}"                                URL="https://www.youtube.com/watch?v=4gvF-gARAIs&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=24"]
+  mov_outpend            [label="{{16|Outside Pendulum\n(aka Outside Hang\nPower Clean)}}"   URL="https://www.youtube.com/watch?v=SRNTrFvHgz0&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=25"]
+  mov_stepbacklunge      [label="{{17|Balance Step\nBack Lunge}}"                            URL="https://www.youtube.com/watch?v=dNrYT5iU7BQ&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=26"]
+  mov_altcircle          [label="{{18|Alternating Circle}|DECELERATE &\nCHANGE DIRECTION}"   URL="https://www.youtube.com/watch?v=ukkrHxGTGtI&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=31"]
+  mov_inpend             [label="{{19|Inside Pendulum}}"                                     URL="https://www.youtube.com/watch?v=pV0Hh335Csg&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=34"]
+  mov_3csc               [label="{{20|Three-Count\nShield Cast}}"                            URL="https://www.youtube.com/watch?v=ABQij0Zpt0U&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=35"];
+  mov_gama               [label="{{21|Gamma Cast\naka Gama Cast}}"                           URL="https://www.youtube.com/watch?v=yHIEZN0Nl_U&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=39"];
+  mov_scsquat            [label="{{22|Shield Cast Squat}}"                                   URL="https://www.youtube.com/watch?v=yHIEZN0Nl_U&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=41"];
+
+  // Unsequenced
+  mov_mill                   [label="{{|Mill}}"                            URL="https://www.youtube.com/watch?v=iFtaPBDwG7w"]
+  mov_millprep               [label="{{|Mill Prep}}"                       URL="https://www.youtube.com/watch?v=iFtaPBDwG7w"]
+  mov_180pullover            [label="{{|180 Degree\nPullover}}"]
+  mov_alt180pullover         [label="{{|Alternating 180 Degree\nPullover}}" URL="https://www.youtube.com/watch?v=uz2tKevdtzE"]
+  mov_pulloversquat          [label="{{|Pullover Squat}}"                   URL="https://www.youtube.com/watch?v=2Cejb6rcqis"]
+  mov_clockwork              [label="{{|Clockwork Catch}}"                  URL="https://www.youtube.com/watch?v=opvYcUfzymI"]
+  mov_clockworksquat         [label="{{|Clockwork Squat}}"                  URL="https://www.youtube.com/watch?v=VVFQ5SkrMvM"]
+  mov_clockworkstepbacklunge [label="{{|Clockwork Step Back Lunge}}"        URL="https://www.youtube.com/watch?v=-LQFwOehs74"]
+  mov_altpendulum            [label="{{|Alternating Pendulum}}"             URL="https://www.youtube.com/watch?v=GULjXPS_ba4"]
+  mov_altmill                [label="{{|Alternating Mill}}"]
+
+  // Prerequisite skills
+  pre_deadlift -> mov_deadclean;
+  pre_order -> mov_deadclean;
+  pre_shouldercatch -> mov_insidecircle;
+  pre_deadlift -> mov_sidetoside;
+  pre_shouldercatch -> mov_pullover;
+
+  mov_deadclean -> mov_insidecircle;
+  mov_insidecircle -> mov_outsidecircle;
+  mov_sidetoside -> mov_sideswinglowtohigh;
+  mov_sideswinglowtohigh -> mov_hangsidelowtohigh;
+  mov_sidetoside -> mov_insidecircle;
+  mov_hangsidelowtohigh -> mov_insidecircle;
+  mov_deadclean -> mov_pullover;
+  mov_pullover -> mov_180pullover;
+  mov_180pullover -> mov_alt180pullover;
+  mov_180pullover -> mov_mill;
+  mov_pullover -> mov_backpossidetoside;
+  mov_pullover -> mov_sc;
+  mov_backpossidetoside -> mov_sc;
+  mov_deadclean -> mov_squat;
+  mov_deadclean -> mov_swingclean;
+  mov_pullover -> mov_robotsc;
+  mov_robotsc -> mov_revrobotsc;
+  mov_revrobotsc -> mov_sc;
+  mov_deadclean -> mov_frontpress;
+  mov_hangsidelowtohigh -> mov_rockit
+  mov_sidetoside -> mov_rockit;
+  mov_rockit -> mov_outpend;
+  mov_swingclean -> mov_outpend;
+  mov_outsidecircle -> mov_outpend;
+  mov_squat -> mov_stepbacklunge;
+  mov_insidecircle -> mov_altcircle;
+  mov_outsidecircle -> mov_altcircle;
+  mov_outpend -> mov_inpend;
+  mov_inpend -> mov_altpendulum;
+  mov_outpend -> mov_altpendulum;
+  mov_sc -> mov_3csc;
+  mov_backpossidetoside -> mov_3csc;
+  mov_squat -> mov_pulloversquat;
+  mov_pullover -> mov_pulloversquat;
+  mov_insidecircle -> mov_millprep;
+  mov_sc:s -> mov_millprep;
+  mov_millprep -> mov_mill;
+  mov_altcircle -> mov_clockwork;
+  mov_clockwork -> mov_clockworksquat;
+  mov_squat -> mov_clockworksquat;
+  mov_clockworksquat -> mov_clockworkstepbacklunge;
+  mov_stepbacklunge -> mov_clockworkstepbacklunge;
+  mov_alt180pullover -> mov_altmill;
+  mov_mill -> mov_altmill;
+  mov_sc:s -> mov_gama;
+  mov_sc:s -> mov_scsquat;
+  mov_squat -> mov_scsquat;
+}
+@enddot

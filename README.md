@@ -56,9 +56,13 @@ This diagram is a WIP and is likely to change as I catch up to Mark (he's on #69
 
 ### Two-Handed Heavy Club Skill Progression ###
 
-This needs revising to fit the current conventions. An old version of this idea [can be found][7] on the [WildFan Athletica discord](https://discord.com/invite/Fv7QF6DQ4g).
+**Part 1**
 
-[7]: https://discord.com/channels/802688931619143710/1111494005419683900
+![Tree of two-hand heavy club drills, arranged in order of learning.](/dist/hc_2h_progression_1.svg)
+
+**Part 2**
+
+![Tree of more two-hand heavy club drills, arranged in order of learning.](/dist/hc_2h_progression_2.svg)
 
 ### Single-Arm Heavy Club Skill Progression ###
 
@@ -80,6 +84,8 @@ $ dot -Tsvg kb_progression_1.gv -o dist/kb_progression_1.svg
 $ dot -Tsvg kb_progression_2_tgu.gv -o dist/kb_progression_2_tgu.svg
 $ dot -Tsvg kb_progression_3.gv -o dist/kb_progression_3.svg
 $ dot -Tsvg hc_sa_progression.gv -o dist/hc_sa_progression.svg
+$ plantuml -tsvg -o dist/ hc_2h_progression_1.puml
+$ plantuml -tsvg -o dist/ hc_2h_progression_2.puml
 ```
 
 ### Hint ###
