@@ -48,11 +48,17 @@ Once the basics have been established, Wildman moves into developing the precurs
 
 ![Tree of kettlebell drills for TGU skills, arranged in order of learning.](/dist/kb_progression_2_tgu.svg)
 
-**Part 3, Covers #39 up** - [`kb_progression_3.gv`](/kb_progression_3.gv)
+**Part 3** - [`kb_progression_3.gv`](/kb_progression_3.gv)
 
-This diagram is a WIP and is likely to change as I catch up to Mark (he's on #69 as of today) and he uploads further videos. Also as structure becomes more apparent. 
+Covers #39 to #55, as well as a cheeky #72, the Deck Squat. This is mostly related to improving squat and getup technique, with a sidebar for performance with the Push Press and Thruster.
 
 ![Tree of kettlebell drills for further skills, arranged in order of learning.](/dist/kb_progression_3.svg)
+
+**Part 4** - [`kb_progression_4.gv`](/kb_progression_4.gv)
+
+Covers #56 to #73, minus the Deck Squat. Here, the snatch is developed, as well as a range of double KB drills.
+
+![Tree of kettlebell drills for further skills, arranged in order of learning.](/dist/kb_progression_4.svg)
 
 ### Two-Handed Heavy Club Skill Progression ###
 
