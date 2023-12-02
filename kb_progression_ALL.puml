@@ -120,35 +120,41 @@ digraph kb_progression {
   mov_deadlift -> mov_swing;
   mov_deadlift -> mov_atw;
   mov_deadlift -> mov_halo;
-  mov_atw -> mov_atwf2b;
-  mov_atwf2b -> mov_atwb2f;
-  mov_halo -> mov_althalo;
   mov_deadlift -> mov_2hu1hd;
   mov_swing -> mov_saswing;
   mov_saswing -> mov_h2h;
   mov_2hu1hd -> mov_2hucleandown;
   mov_saswing -> mov_2hucleandown;
-  mov_2hucleandown -> mov_clean;
   mov_clean -> mov_cleanh2h;
-  mov_h2h -> mov_cleanh2h;
   mov_2hu1hd -> mov_press;
-  mov_clean -> mov_news;
-  mov_clean -> mov_startstopclean;
-  mov_clean -> mov_cap;
-  mov_press -> mov_cap;
-  mov_cap -> mov_caph2h;
-  mov_cleanh2h -> mov_caph2h;
-  mov_cap -> mov_startstopcap;
   mov_halo -> mov_gobboxsquat;
-  mov_gobboxsquat -> mov_boxsquathalo;
-  mov_boxsquathalo -> mov_gobsquathalo;
-  mov_gobsquathalo -> mov_racksquat;
+  mov_h2h -> mov_cleanh2h;
+
   mov_2hu1hd -> mov_racksquat;
   mov_racksquat -> mov_racklunge;
   mov_startstopclean -> mov_clean2sblunge;
 
   mov_startstopcap -> mov_halfkneelcap;
 
+  subgraph cluster_warmup {
+    label="Warmups"
+    mov_halo -> mov_althalo;
+    mov_atw -> mov_atwf2b;
+    mov_atwf2b -> mov_atwb2f;
+
+  }
+
+  subgraph cluster_cap {
+    label="Clean & Press"
+    mov_2hucleandown -> mov_clean;
+    mov_clean -> mov_startstopclean;
+    mov_clean -> mov_cap;
+    mov_clean -> mov_news;
+    mov_press -> mov_cap;
+    mov_cap -> mov_caph2h;
+    mov_cleanh2h -> mov_caph2h;
+    mov_cap -> mov_startstopcap;
+  }
 
  subgraph cluster_tgd {
     label="Turkish Get Down/\nTurkish Get Up"
@@ -181,6 +187,7 @@ digraph kb_progression {
   mov_clean -> mov_2hdeadclean2rack;
 
 
+
   mov_startstopcap -> mov_pushpress;
   mov_gobsquatcurl -> mov_boxsquat2boat;
   mov_hornygobsquat -> mov_boxsquat2boat;
@@ -202,6 +209,9 @@ digraph kb_progression {
     mov_seatedpress -> mov_backpullsituppress;
 
     // Squats
+    mov_gobboxsquat -> mov_boxsquathalo;
+    mov_boxsquathalo -> mov_gobsquathalo;
+    mov_gobsquathalo -> mov_racksquat;
     mov_boxsquat2boat -> mov_deck;
     mov_bwspinalrock -> mov_spinalrock;
     mov_spinalrock -> mov_deck;
