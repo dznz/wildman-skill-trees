@@ -44,6 +44,10 @@ For the SVG version of the diagrams, links to the video and the playlist it belo
 
 ### Kettlebell Basic Skill Progression ###
 
+This is the full progression, to the best of my abilities. It's quite a lot to take in all at once.
+
+![Tree of every kettlebell drill, arranged in order of learning.](/dist/kb_progression_ALL.svg)
+
 Because any single diagram will eventually become too complicated to use, I am breaking the KB Basic Skill progression into roughly the order presented, organised by theme (and whim).
 
 **Part 1, Covers #1 to #23** - [`kb_progression_1.gv`](/kb_progression_1.gv)
@@ -101,6 +105,8 @@ The diagrams are created using GraphViz's Dot language and [command-line rendere
 $ dot -Tsvg kb_progression_1.gv -o dist/kb_progression_1.svg
 $ dot -Tsvg kb_progression_2_tgu.gv -o dist/kb_progression_2_tgu.svg
 $ dot -Tsvg kb_progression_3.gv -o dist/kb_progression_3.svg
+$ dot -Tsvg kb_progression_4.gv -o dist/kb_progression_4.svg
+$ plantuml -tsvg -o dist/ kb_progression_ALL.puml
 $ dot -Tsvg hc_sa_progression.gv -o dist/hc_sa_progression.svg
 $ plantuml -tsvg -o dist/ hc_2h_progression_1.puml
 $ plantuml -tsvg -o dist/ hc_2h_progression_2.puml
