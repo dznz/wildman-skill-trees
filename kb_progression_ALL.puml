@@ -136,6 +136,7 @@ digraph kb_progression {
 
   mov_startstopcap -> mov_halfkneelcap;
 
+
   subgraph cluster_warmup {
     label="Warmups"
     mov_halo -> mov_althalo;
@@ -143,6 +144,32 @@ digraph kb_progression {
     mov_atwf2b -> mov_atwb2f;
 
   }
+
+  // LAYOUT HACKS
+
+  {
+    node [style=invis]
+    edge [style=invis]
+    
+    mov_atwb2f -> lay_endwarmup;
+    mov_startstopcap -> lay_endcap
+    lay_startsnatch -> mov_halfsnatchdown;
+    lay_starttgu -> mov_racklunge;
+    mov_deck -> lay_endsquat
+  }
+
+  // Have warmup precede squat
+  { rank=same; lay_endwarmup; ext_bw_altshinbox}
+
+  // have C&P precede snatch & tgu
+  { rank=same; lay_endcap; lay_startsnatch; }
+
+  { rank=same; lay_endsquat; lay_starttgu}
+
+  { rank=same; mov_2hu1hd; ext_bw_altshinbox; }
+  { rank=same; mov_suitcasedl; mov_h2h}
+
+  // END LAYOUT HACKS
 
   subgraph cluster_cap {
     label="Clean & Press"
