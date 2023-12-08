@@ -132,16 +132,21 @@ The diagrams are created using GraphViz's Dot language and [command-line rendere
 [0]: https://graphviz.org/doc/info/command.html
 [1]: https://graphviz.org/docs/outputs/
 
-```sh
-$ dot -Tsvg kb_progression_1.gv -o dist/kb_progression_1.svg
-$ dot -Tsvg kb_progression_2_tgu.gv -o dist/kb_progression_2_tgu.svg
-$ dot -Tsvg kb_progression_3.gv -o dist/kb_progression_3.svg
-$ dot -Tsvg kb_progression_4.gv -o dist/kb_progression_4.svg
-$ plantuml -tsvg -o dist/ kb_progression_ALL.puml
-$ dot -Tsvg hc_sa_progression.gv -o dist/hc_sa_progression.svg
-$ plantuml -tsvg -o dist/ hc_2h_progression_1.puml
-$ plantuml -tsvg -o dist/ hc_2h_progression_2.puml
+### Building ###
+
+I use the Powershell build automation tool, [psake], to run graphviz and PlantUML steps.
+
+[psake]: https://github.com/psake/psake/tree/master
+
+```ps1
+> Invoke-Psake .\psakefile.ps1
 ```
+
+The following targets are currently available:
+
+- `Compile`
+  - `CompileHeavyClub`
+  - `CompileKettlebell`
 
 ### Hint ###
 
@@ -153,7 +158,6 @@ digraph kb_progression { ... }
 @enddot
 ```
 
-Long-term, I may switch to PlantUML as the official render to take advantage of its built-in extras like [legends][3].
+Long-term, I may switch to PlantUML as the official render tool.
 
 [2]: https://plantuml.com/dot
-[3]: https://plantuml.com/commons#3b05da228ffe6d52
