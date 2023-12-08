@@ -20,7 +20,7 @@ digraph HC2H {
   }
   subgraph "secondary" {
     node [color=8, fillcolor=7]
-    mov_kneelsc; mov_sblungepull; mov_fbpull; mov_kneelbackswing; mov_fbpullsit; mov_sblungepullbot; mov_incirclesquat; mov_outcirclesquat; mov_fbpullsitpress; mov_altshinbox; mov_altshinboxfrpress; mov_sblungepullsbpress; mov_squatpress
+    mov_kneelsc; mov_sblungepull; mov_fbpull; mov_kneelbackswing; mov_fbpullsit; mov_sblungepullbot; mov_incirclesquat; mov_outcirclesquat; mov_fbpullsitpress; mov_altshinbox; mov_altshinboxfrpress; mov_sblungepullsbpress; mov_squatpress; mov_millprep
   }
 
   subgraph "prereq" {
@@ -65,6 +65,7 @@ digraph HC2H {
   mov_sblungepullsbpress [label="{{35|Step-Back Lunge Pullover\nStep-Back Press}}"           URL="https://www.youtube.com/watch?v=1cXPBXfKNhU"]
   mov_squatpress         [label="{{36|Squat Press}}"                                         URL="https://www.youtube.com/watch?v=6p1niExqXSA"]
   mov_cap                [label="{{37|Clean & Press}}"                                       URL="https://www.youtube.com/watch?v=6kpEYglMJ1c"]
+  mov_millprep           [label="{{38|Mill Prep}}"                                           URL="https://www.youtube.com/watch?v=G_OXuFs2bRs"]
 
   // Prerequisite skills
   pre_shinbox -> mov_altshinbox;
@@ -85,6 +86,8 @@ digraph HC2H {
   ext_2h_frontpress -> mov_squatpress;
   ext_2h_frontpress -> mov_sbfrontpress;
   ext_2h_stepbacklunge -> mov_sblungepull;
+  ext_2h_sc -> mov_millprep;
+  ext_2h_incircle -> mov_millprep;
 
   mov_fbpull -> mov_fbpullsit;
   mov_sblungepull -> mov_sblungepullbot;
