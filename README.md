@@ -46,51 +46,82 @@ For the SVG version of the diagrams, links to the video and the playlist it belo
 
 This is the full progression, to the best of my abilities. It's quite a lot to take in all at once.
 
+| Source | SVG |
+|------- | --- | 
+| [`/src/kb/kb_progression_ALL.puml`](/src/kb/kb_progression_ALL.puml) |  [`/dist/kb_progression_ALL.svg`](/dist/kb_progression_ALL.svg) |
+
 ![Tree of every kettlebell drill, arranged in order of learning.](/dist/kb_progression_ALL.svg)
 
 Because any single diagram will eventually become too complicated to use, I am breaking the KB Basic Skill progression into roughly the order presented, organised by theme (and whim).
 
-**Part 1, Covers #1 to #23** - [`kb_progression_1.gv`](/kb_progression_1.gv)
+**Part 1, Covers #1 to #23**
 
 Covers Wildman's Kettlebell Basic Instruction from #1 to #23.
 
 I have chosen to colour the drills that are specifically highlighted as useful warmup movements (orange), and what I call 'auxiliary' drills that are unlikely to be included in workouts long-term after the core idea has been digested.
 
+| Source | SVG |
+|------- | --- | 
+| [`/src/kb/kb_progression_1.gv`](/src/kb/kb_progression_1.gv) |  [`/dist/kb_progression_1.svg`](/dist/kb_progression_1.svg) |
+
 ![Tree of kettlebell drills, arranged in order of learning.](/dist/kb_progression_1.svg)
 
-**Part 2, Covers #24 to #38, and #42 (TGU)** - [`kb_progression_2_tgu.gv`](/kb_progression_2_tgu.gv)
+
+**Part 2, Covers #24 to #38, and #42 (TGU)** 
 
 Once the basics have been established, Wildman moves into developing the precursor skills for the Turkish Get-Up and Turkish Get-Down. Wildman prefers to alternate between the getup and getdown lessons to keep it fresh.
 
+| Source | SVG |
+|------- | --- | 
+| [`/src/kb/kb_progression_2_tgu.gv`](/src/kb/kb_progression_2_tgu.gv) |  [`/dist/kb_progression_2_tgu.svg`](/dist/kb_progression_2_tgu.svg) |
+
 ![Tree of kettlebell drills for TGU skills, arranged in order of learning.](/dist/kb_progression_2_tgu.svg)
 
-**Part 3** - [`kb_progression_3.gv`](/kb_progression_3.gv)
+**Part 3**
 
 Covers #39 to #55, as well as a cheeky #72, the Deck Squat. This is mostly related to improving squat and getup technique, with a sidebar for performance with the Push Press and Thruster.
 
+| Source | SVG |
+|------- | --- | 
+| [`/src/kb/kb_progression_3.gv`](/src/kb/kb_progression_3.gv) |  [`/dist/kb_progression_3.svg`](/dist/kb_progression_3.svg) |
+
 ![Tree of kettlebell drills for further skills, arranged in order of learning.](/dist/kb_progression_3.svg)
 
-**Part 4** - [`kb_progression_4.gv`](/kb_progression_4.gv)
+**Part 4**
 
 Covers #56 to #73, minus the Deck Squat. Here, the snatch is developed, as well as a range of double KB drills.
+
+| Source | SVG |
+|------- | --- | 
+| [`/src/kb/kb_progression_4.gv`](/src/kb/kb_progression_4.gv) |  [`/dist/kb_progression_4.svg`](/dist/kb_progression_4.svg) |
 
 ![Tree of kettlebell drills for further skills, arranged in order of learning.](/dist/kb_progression_4.svg)
 
 ### Two-Handed Heavy Club Skill Progression ###
 
-**Part 1** - [`hc_2h_progression_1.puml`](/hc_2h_progression_1.puml)
+**Part 1**
+
+| Source | SVG |
+|------- | --- | 
+| [`/src/hc/hc_2h_progression_1.puml`](/src/hc/hc_2h_progression_1.puml) |  [`/dist/hc_2h_progression_1.svg`](/dist/hc_2h_progression_1.svg) |
 
 ![Tree of two-hand heavy club drills, arranged in order of learning.](/dist/hc_2h_progression_1.svg)
 
-**Part 2** - [`hc_2h_progression_2.puml`](/hc_2h_progression_2.puml)
+**Part 2**
+
+| Source | SVG |
+|------- | --- | 
+| [`/src/hc/hc_2h_progression_2.puml`](/src/hc/hc_2h_progression_2.puml) |  [`/dist/hc_2h_progression_2.svg`](/dist/hc_2h_progression_2.svg) |
 
 ![Tree of more two-hand heavy club drills, arranged in order of learning.](/dist/hc_2h_progression_2.svg)
 
 ### Single-Arm Heavy Club Skill Progression ###
 
-[`hc_sa_progression.gv`](/hc_sa_progression.gv)
-
 Single-arm Heavy Club is generally developed *after* two-handed heavy club so that the athlete learns to rotate their body correctly. As such, the precursor two-handed skills are included in green to indicate how single-arm heavy club proceeds from them.
+
+| Source | SVG |
+|------- | --- | 
+| [`/src/hc/hc_sa_progression.gv`](/src/hc/hc_sa_progression.gv) |  [`/dist/hc_sa_progression.svg`](/dist/hc_sa_progression.svg) |
 
 ![Tree of single-arm Heavy Club drills, arranged in order of learning.](/dist/hc_sa_progression.svg)
 
