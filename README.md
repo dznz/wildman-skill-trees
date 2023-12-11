@@ -99,6 +99,16 @@ Covers #56 to #73, minus the Deck Squat. Here, the snatch is developed, as well 
 
 ### Two-Handed Heavy Club Skill Progression ###
 
+Here, we've grouped the sequenced drills into logical clusters, not quite the Seven movements that Wildman speaks of. I've excluded the unsequenced drills for simplicity.
+
+| Source | SVG |
+|------- | --- | 
+| [`/src/hc/hc_2h_progression_ALL.puml`](/src/hc/hc_2h_progression_ALL.puml) |  [`/dist/hc_2h_progression_ALL.svg`](/dist/hc_2h_progression_ALL.svg) |
+
+![Tree of two-hand heavy club drills, arranged to highlight sequence.](/dist/hc_2h_progression_ALL.svg)
+
+Because any single diagram will eventually become too complicated to use, we also break out the sequence into parts. We're including the unsequenced drills that we know of as we go.
+
 **Part 1**
 
 | Source | SVG |
