@@ -15,6 +15,7 @@ Task CompileHeavyClub {
   $HCRoot = (Join-Path $SrcRoot "hc")
   plantuml -tsvg -o $DistDir (Join-Path $HCRoot "hc_2h_progression_1.puml")
   plantuml -tsvg -o $DistDir (Join-Path $HCRoot "hc_2h_progression_2.puml")
+  plantuml -tsvg -o $DistDir (Join-Path $HCRoot "hc_2h_progression_ALT.puml")
   dot -Tsvg (Join-Path $SrcRoot "hc\hc_sa_progression.gv") -o (Join-Path $DistDir "hc_sa_progression.svg")
 }
 

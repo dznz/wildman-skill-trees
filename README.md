@@ -115,6 +115,20 @@ Covers #56 to #73, minus the Deck Squat. Here, the snatch is developed, as well 
 
 ![Tree of more two-hand heavy club drills, arranged in order of learning.](/dist/hc_2h_progression_2.svg)
 
+**ALT View**
+
+I'm experimenting with an alternative view of the full 2HHC graph with the following decisions:
+
+- Colour gradient from light yellow to dark green to indicate where in the sequence the drill falls
+- Remove unsequenced drills, simplified dependencies
+- Simplified vertical layout focused on grouping layers together
+
+| Source | SVG |
+|------- | --- | 
+| [`/src/hc/hc_2h_progression_ALT.puml`](/src/hc/hc_2h_progression_ALT.puml) |  [`/dist/hc_2h_progression_ALT.svg`](/dist/hc_2h_progression_ALT.svg) |
+
+![Tree of two-hand heavy club drills, arranged to highlight sequence.](/dist/hc_2h_progression_ALT.svg)
+
 ### Single-Arm Heavy Club Skill Progression ###
 
 Single-arm Heavy Club is generally developed *after* two-handed heavy club so that the athlete learns to rotate their body correctly. As such, the precursor two-handed skills are included in green to indicate how single-arm heavy club proceeds from them.
