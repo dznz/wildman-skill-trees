@@ -58,6 +58,7 @@ digraph kb_progression {
   mov_alt180pull        [label="{{18|Alternating 180 Degree\nPullover}}"                      URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=18"];
   mov_mill              [label="{{19|Mill}}"                                          URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=19"];
   mov_revmill           [label="{{20|Reverse Mill}}"                                  URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=20"];
+  mov_outcirclesc       [label="{{21|Outside Circle\nShield Cast}}"                    URL="https://www.youtube.com/watch?v=NdJlzFTbQwo&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=21"]
 
   // external skill links
   ext_2h_s2s -> ext_2h_sideswingl2h -> ext_2h_s2srockit;
@@ -102,4 +103,6 @@ digraph kb_progression {
   mov_altcircle -> mov_revmill;
   mov_alt180pull -> mov_revmill;
   mov_altcircle -> mov_altpend;
+  mov_outcircle -> mov_outcirclesc;
+  mov_millprep -> mov_outcirclesc;
 }
