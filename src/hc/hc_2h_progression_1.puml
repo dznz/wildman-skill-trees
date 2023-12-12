@@ -1,11 +1,19 @@
 @startdot
 digraph HC2H {
-  // Two-Handed Heavy Club Skill Progression Diagram © 2023
-  // by dznz using knowledge from Mark Wildman is licensed
-  // under CC BY-NC-SA 4.0 
-  // http://creativecommons.org/licenses/by-nc-sa/4.0/
-  label="Two-Handed Heavy Club Skill Progression"
-  fontname="Helvetica,Arial,sans-serif"
+
+  label=<
+<B>Two-Handed Heavy Club Skill Progression - Part 1/2</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Diagram by dznz based on Mark Wildman's teachings.<BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Source: <B>https://github.com/dznz/wildman-skill-trees</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+More by Mark Wildman - <B>https://www.wildmanathletica.com</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+<I>
+© 2023. This work is openly licensed with CC BY-NC-SA 4.0<BR ALIGN="RIGHT"/>
+http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
+</I>
+  >
+  graph [labeljust=r]
+  graph [fontname="Helvetica,Arial,sans-serif"]
+
   node [colorscheme="paired12"]
   node [fontname="Helvetica,Arial,sans-serif"]
   node [shape=record,style="rounded,filled"]
