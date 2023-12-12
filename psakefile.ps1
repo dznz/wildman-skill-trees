@@ -26,6 +26,7 @@ Task CompileKettlebell {
   dot -Tsvg (Join-Path $KBRoot "kb_progression_2_tgu.gv") -o (Join-Path $DistDir "kb_progression_2_tgu.svg")
   dot -Tsvg (Join-Path $KBRoot "kb_progression_3.gv") -o (Join-Path $DistDir "kb_progression_3.svg")
   dot -Tsvg (Join-Path $KBRoot "kb_progression_4.gv") -o (Join-Path $DistDir "kb_progression_4.svg")
+  plantuml -tsvg -o $DistDir (Join-Path $KBRoot "kb_progression_ALL.puml")
 }
 
 Task Clean {
