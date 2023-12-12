@@ -1,9 +1,18 @@
 digraph kb_progression {
-  // Kettlebell Turkish Get-Up Progression Diagram © 2023
-  // by dznz using knowledge from Mark Wildman is licensed
-  // under CC BY-NC-SA 4.0 
-  // http://creativecommons.org/licenses/by-nc-sa/4.0/
-  label="Kettlebell Turkish Get-Up Progression"
+
+  label=<
+<B>Kettlebell Basic Skill Progression - Part 3/4</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Diagram by dznz based on Mark Wildman's teachings.<BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Source: <B>https://github.com/dznz/wildman-skill-trees</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+More by Mark Wildman - <B>https://www.wildmanathletica.com</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+<I>
+© 2023. This work is openly licensed with CC BY-NC-SA 4.0<BR ALIGN="RIGHT"/>
+http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
+</I>
+  >
+  graph [labeljust=r]
+  graph [fontname="Helvetica,Arial,sans-serif"]
+
   node [colorscheme="paired12"]
   node [shape=record]
   node [style="rounded,filled"]
