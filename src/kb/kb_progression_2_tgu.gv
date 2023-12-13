@@ -21,9 +21,9 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
 
   subgraph pre {
     node [color=lightslategrey, fillcolor=ghostwhite]
-    mov_racksquat
-    mov_cap, mov_startstopcap
-    mov_clean, mov_startstopclean
+    mov_23_racksquat
+    mov_17_cap, mov_19_startstopcap
+    mov_12_clean, mov_16_startstopclean
 
     // Implied
     mov_tgd [label="{{|Turkish Get Down}}"]
@@ -31,68 +31,70 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   }
   
   // Precursor drills 
-  mov_clean [label="KB-12|Swing Clean" URL="https://www.youtube.com/watch?v=_nIsSXWs5iU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=12"]
-  mov_startstopclean [label="{{KB-16|Start Stop Clean}|START & END CLEAN}" URL="https://www.youtube.com/watch?v=XbK3jxI0WNQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=16"]
-  mov_cap [label="KB-17|Clean & Press" URL="https://www.youtube.com/watch?v=SSxB3m5qRas&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=17"]
-  mov_startstopcap [label="{{KB-19|Start Stop\nClean & Press}|START & END C&P}" URL="https://www.youtube.com/watch?v=dSj3kqbuois&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=19"]
+  mov_12_clean          [label="{{KB-12|Swing Clean}}"                               URL="https://www.youtube.com/watch?v=_nIsSXWs5iU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=12"]
+  mov_16_startstopclean [label="{{KB-16|Start Stop Clean}|START & END CLEAN}"        URL="https://www.youtube.com/watch?v=XbK3jxI0WNQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=16"]
+  mov_17_cap            [label="{{KB-17|Clean & Press}}"                             URL="https://www.youtube.com/watch?v=SSxB3m5qRas&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=17"]
+  mov_19_startstopcap   [label="{{KB-19|Start Stop\nClean & Press}|START & END C&P}" URL="https://www.youtube.com/watch?v=dSj3kqbuois&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=19"]
+  mov_23_racksquat      [label="{{KB-23|Single-Bell Front Squat}}"                   URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
 
-  mov_racksquat [label="{{KB-23|Single-Bell Front Squat}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
+  // Sequence
+  
+  mov_24_racklunge         [label="{{24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
+  mov_25_clean2sblunge     [label="{{25|Clean Step-Back Clean}}"                             URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=25"]
+  mov_26_halfkneelclean    [label="{{26|Half-Kneeling Clean}}"                               URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=26"]
+  mov_27_cleansblungeclean [label="{{27|Clean Step-Back\nLunge Clean}}"                      URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=27"]
+  mov_28_floorpress        [label="{{28|Single-Bell Floor Press}}"                           URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=28"]
+  mov_29_halfkneelcap      [label="{{29|Half-Kneeling\nClean & Press}}"                      URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=29"]
+  mov_30_floorpressroll    [label="{{30|Floor Press with Roll}}"                             URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=30"]
+  mov_31_kneelwindmill     [label="{{31|Half-Kneeling Windmill}}"                            URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=31"]
+  mov_32_quartgu           [label="{{32|Quarter Turkish Get-Up}}"                            URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=32"]
+  mov_33_kneelcapwindmill  [label="{{33|Half-Kneeling\nClean & Press Windmill}}"             URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=34"]
+  mov_34_halfgu            [label="{{34|Half Get-Up}}"                                       URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=35"]
 
-  mov_racklunge [label="{{24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
-  mov_clean2sblunge [label="{{25|Clean Step-Back Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=25"]
-  mov_halfkneelclean [label="{{26|Half-Kneeling Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=26"]
-  mov_cleansblungeclean [label="{{27|Clean Step-Back\nLunge Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=27"]
-  mov_floorpress [label="{{28|Single-Bell Floor Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=28"]
-  mov_halfkneelcap [label="{{29|Half-Kneeling\nClean & Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=29"]
-  mov_floorpressroll [label="{{30|Floor Press with Roll}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=30"]
-  mov_kneelwindmill [label="{{31|Half-Kneeling Windmill}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=31"]
-  mov_quartgu [label="{{32|Quarter Turkish Get-Up}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=32"]
-  mov_kneelcapwindmill [label="{{33|Half-Kneeling\nClean & Press Windmill}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=34"]
-  mov_halfgu [label="{{34|Half Get-Up}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=35"]
-  mov_cap2ohsblunge [label="{{35|Clean & Press to Overhead\nStep-Back Lunge}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=37"]
-  mov_kneelhipdrop [label="{{36|Half-Kneeling Hip Drop}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=38"]
-  mov_halfgu2hip [label="{{37|Half Get-Up\nto Hip Pass}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=39"]
-  mov_kneelcap2hip [label="{{38|Half-Kneeling Clean & Press\nto Hip Drop}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=40"]
+  mov_35_cap2ohsblunge  [label="{{35|Clean & Press to Overhead\nStep-Back Lunge}}"  URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=37"]
+  mov_36_kneelhipdrop   [label="{{36|Half-Kneeling Hip Drop}}"                      URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=38"]
+  mov_37_halfgu2hip     [label="{{37|Half Get-Up\nto Hip Pass}}"                    URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=39"]
+  mov_38_kneelcap2hip   [label="{{38|Half-Kneeling Clean & Press\nto Hip Drop}}"    URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=40"]
   // 42 fits better with this diagram
-  mov_halfgu2kneel [label="{{42|Half Get-Up to Hip Pass\n(to Half-Kneeling)}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=45"]
+  mov_42_halfgu2kneel   [label="{{42|Half Get-Up to Hip Pass\n(to Half-Kneeling)}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=45"]
 
 
   // Precursor dependencies
-  mov_clean -> mov_startstopclean;
-  mov_clean -> mov_cap;
-  mov_cap -> mov_startstopcap;
-  mov_racksquat -> mov_racklunge;
-  mov_startstopcap -> mov_halfkneelcap;
-  mov_startstopclean -> mov_clean2sblunge;
+  mov_12_clean -> mov_16_startstopclean;
+  mov_12_clean -> mov_17_cap;
+  mov_17_cap -> mov_19_startstopcap;
+  mov_23_racksquat -> mov_24_racklunge;
+  mov_19_startstopcap -> mov_29_halfkneelcap;
+  mov_16_startstopclean -> mov_25_clean2sblunge;
 
   subgraph cluster_tgd {
     label="Turkish Get Down"
-    mov_racklunge -> mov_clean2sblunge;
-    mov_clean2sblunge -> mov_halfkneelclean;
-    mov_halfkneelclean -> mov_cleansblungeclean;
-    mov_halfkneelclean -> mov_halfkneelcap;
-    mov_halfkneelcap -> mov_kneelwindmill;
-    mov_kneelwindmill -> mov_kneelcapwindmill;
-    mov_kneelcapwindmill -> mov_cap2ohsblunge;
-    mov_cleansblungeclean -> mov_cap2ohsblunge;
-    mov_kneelcapwindmill -> mov_kneelhipdrop;
-    mov_kneelhipdrop -> mov_kneelcap2hip;
+    mov_24_racklunge -> mov_25_clean2sblunge;
+    mov_25_clean2sblunge -> mov_26_halfkneelclean;
+    mov_26_halfkneelclean -> mov_27_cleansblungeclean;
+    mov_26_halfkneelclean -> mov_29_halfkneelcap;
+    mov_29_halfkneelcap -> mov_31_kneelwindmill;
+    mov_31_kneelwindmill -> mov_33_kneelcapwindmill;
+    mov_33_kneelcapwindmill -> mov_35_cap2ohsblunge;
+    mov_27_cleansblungeclean -> mov_35_cap2ohsblunge;
+    mov_33_kneelcapwindmill -> mov_36_kneelhipdrop;
+    mov_36_kneelhipdrop -> mov_38_kneelcap2hip;
   }
 
-  mov_cap2ohsblunge -> mov_tgd;
-  mov_cap2ohsblunge -> mov_tgu;
-  mov_kneelcap2hip -> mov_tgd;
-  mov_kneelcap2hip -> mov_tgu;
-  mov_halfgu2kneel -> mov_tgd;
-  mov_halfgu2kneel -> mov_tgu;
+  mov_35_cap2ohsblunge -> mov_tgd;
+  mov_35_cap2ohsblunge -> mov_tgu;
+  mov_38_kneelcap2hip -> mov_tgd;
+  mov_38_kneelcap2hip -> mov_tgu;
+  mov_42_halfgu2kneel -> mov_tgd;
+  mov_42_halfgu2kneel -> mov_tgu;
 
   subgraph cluster_tgu {
     label="Turkish Get Up"
-    mov_floorpress -> mov_floorpressroll;
-    mov_floorpressroll -> mov_quartgu;
-    mov_quartgu -> mov_halfgu;
-    mov_halfgu -> mov_halfgu2hip;
-    mov_halfgu2hip -> mov_halfgu2kneel;
+    mov_28_floorpress -> mov_30_floorpressroll;
+    mov_30_floorpressroll -> mov_32_quartgu;
+    mov_32_quartgu -> mov_34_halfgu;
+    mov_34_halfgu -> mov_37_halfgu2hip;
+    mov_37_halfgu2hip -> mov_42_halfgu2kneel;
   }
   { rank = sink;
     Legend [shape=none, margin=0, label=<
