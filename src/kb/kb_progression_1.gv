@@ -20,85 +20,87 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
 
   subgraph warmup {
     node [color=8, fillcolor=7]
-    mov_atw; mov_halo, mov_atwf2b, mov_atwb2f
+    mov_03_atw; mov_04_halo, mov_05_atwf2b, mov_06_atwb2f
   }
 
   subgraph aux {
     node [color=10, fillcolor=9]
-    mov_2hu1hd; mov_2hucleandown; mov_news;
+    mov_08_2hu1hd; mov_11_2hucleandown; mov_15_news;
   }
 
   subgraph post {
     node [color=lightslategrey, fillcolor=ghostwhite]
-    mov_racklunge
-    mov_clean2sblunge
-    mov_halfkneelclean
-    mov_halfkneelcap
+    mov_24_racklunge
+    mov_25_clean2sblunge
+    mov_26_halfkneelclean
+    mov_29_halfkneelcap
   }
   
-  mov_deadlift [label="{{1|Two Hand Deadlift}|HIP HINGE}" URL="https://www.youtube.com/watch?v=x0XkmM34BPI&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=1"];
-  mov_swing [label="{{2|Two Hand Swing}|LEG DRIVE &\nHIP SNAP}" URL="https://www.youtube.com/watch?v=m-S9H2XVvYg&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=2"]
-  mov_atw [label="{{3|Around the World}|HAND TRANSITION}" URL="https://www.youtube.com/watch?v=XaegZzSbtr0&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=3"]
-  mov_halo [label="{{4|Halo}|GLOBE UP\nORDER POSITION}" URL="https://www.youtube.com/watch?v=25xdtjbFPtw&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=4"]
-  mov_atwf2b [label="5|Around the World\nFront to Back" URL="https://www.youtube.com/watch?v=TwlQQXAQpaQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=5"]
-  mov_atwb2f [label="6|Around the World\nBack to Front" URL="https://www.youtube.com/watch?v=GrRO00YOIWM&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=6"]
-  mov_althalo [label="7|Alternating Halo" URL="https://www.youtube.com/watch?v=SMpquy5zSL4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=7"]
-  mov_2hu1hd [label="{{8|Two Hand Pickup\nOne Hand Putdown}|RACK POSITION}" URL="https://www.youtube.com/watch?v=eMkDP9VmMc0&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=8"]
-  mov_saswing [label="{{9|Single Arm Swing}|THUMB POINTS BACK}" URL="https://www.youtube.com/watch?v=ejPpyLKZ1L4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=9"]
-  mov_h2h [label="10|Hand to Hand\nTransition" URL="https://www.youtube.com/watch?v=0Uk0Rdm3QFs&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=10"]
-  mov_2hucleandown [label="11|Two Hand Pickup\nClean Putdown" URL="https://www.youtube.com/watch?v=cQC2y-ByaAw&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=11"]
-  mov_clean [label="12|Swing Clean" URL="https://www.youtube.com/watch?v=_nIsSXWs5iU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=12"]
-  mov_cleanh2h [label="13|Clean with\nHand Transition" URL="https://www.youtube.com/watch?v=6TVqHl2gtuM&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=13"]
-  mov_press [label="14|Single Arm\nOverhead Press" URL="https://www.youtube.com/watch?v=XHkI03S6Pls&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=14"]
-  mov_news [label="15|Newspaper drill" URL="https://www.youtube.com/watch?v=htByOXjHLXE&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=15"]
-  mov_startstopclean [label="{{16|Start Stop Clean}|START & END CLEAN}" URL="https://www.youtube.com/watch?v=XbK3jxI0WNQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=16"]
-  mov_cap [label="17|Clean & Press" URL="https://www.youtube.com/watch?v=SSxB3m5qRas&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=17"]
-  mov_caph2h [label="18|Clean & Press with\nHand Transition" URL="https://www.youtube.com/watch?v=5Q4vMOYvAGg&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=18"]
-  mov_startstopcap [label="{{19|Start Stop\nClean & Press}|START & END C&P}" URL="https://www.youtube.com/watch?v=dSj3kqbuois&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=19"]
-  mov_gobboxsquat [label="{{20|Bottoms-Up Goblet\nBox Squat}|SQUAT BACK}" URL="https://www.youtube.com/watch?v=k5Bc7pkEmrU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=20"]
-  mov_boxsquathalo [label="{{21|Goblet Box Squat\nwith Halo}|STAND AT TOP}" URL="https://www.youtube.com/watch?v=Aik5-BStbnc&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=21"]
-  mov_gobsquathalo [label="{{22|Goblet Squat\nwith Halo}|FULL DEPTH}" URL="https://www.youtube.com/watch?v=cnZ8Mx8NQPE&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=22"]
-  mov_racksquat [label="{{23|Single-Bell Front Squat}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
+  mov_01_deadlift [label="{{01|Two Hand Deadlift}|HIP HINGE}"                     URL="https://www.youtube.com/watch?v=x0XkmM34BPI&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=1"];
+  mov_02_swing    [label="{{02|Two Hand Swing}|LEG DRIVE &\nHIP SNAP}"            URL="https://www.youtube.com/watch?v=m-S9H2XVvYg&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=2"]
+  mov_03_atw      [label="{{03|Around the World}|HAND TRANSITION}"                URL="https://www.youtube.com/watch?v=XaegZzSbtr0&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=3"]
+  mov_04_halo     [label="{{04|Halo}|GLOBE UP\nORDER POSITION}"                   URL="https://www.youtube.com/watch?v=25xdtjbFPtw&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=4"]
+  mov_05_atwf2b   [label="{{05|Around the World\nFront to Back}}"                 URL="https://www.youtube.com/watch?v=TwlQQXAQpaQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=5"]
+  mov_06_atwb2f   [label="{{06|Around the World\nBack to Front}}"                 URL="https://www.youtube.com/watch?v=GrRO00YOIWM&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=6"]
+  mov_07_althalo  [label="{{07|Alternating Halo}}"                                URL="https://www.youtube.com/watch?v=SMpquy5zSL4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=7"]
+  mov_08_2hu1hd   [label="{{08|Two Hand Pickup\nOne Hand Putdown}|RACK POSITION}" URL="https://www.youtube.com/watch?v=eMkDP9VmMc0&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=8"]
+  mov_09_saswing  [label="{{09|Single Arm Swing}|THUMB POINTS BACK}"              URL="https://www.youtube.com/watch?v=ejPpyLKZ1L4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=9"]
+  mov_10_h2h      [label="{{10|Hand to Hand\nTransition}}"                        URL="https://www.youtube.com/watch?v=0Uk0Rdm3QFs&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=10"]
+
+  mov_11_2hucleandown   [label="{{11|Two Hand Pickup\nClean Putdown}}"            URL="https://www.youtube.com/watch?v=cQC2y-ByaAw&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=11"]
+  mov_12_clean          [label="{{12|Swing Clean}}"                               URL="https://www.youtube.com/watch?v=_nIsSXWs5iU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=12"]
+  mov_13_cleanh2h       [label="{{13|Clean with\nHand Transition}}"               URL="https://www.youtube.com/watch?v=6TVqHl2gtuM&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=13"]
+  mov_14_press          [label="{{14|Single Arm\nOverhead Press}}"                URL="https://www.youtube.com/watch?v=XHkI03S6Pls&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=14"]
+  mov_15_news           [label="{{15|Newspaper drill}}"                           URL="https://www.youtube.com/watch?v=htByOXjHLXE&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=15"]
+  mov_16_startstopclean [label="{{16|Start Stop Clean}|START & END CLEAN}"        URL="https://www.youtube.com/watch?v=XbK3jxI0WNQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=16"]
+  mov_17_cap            [label="{{17|Clean & Press}}"                             URL="https://www.youtube.com/watch?v=SSxB3m5qRas&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=17"]
+  mov_18_caph2h         [label="{{18|Clean & Press with\nHand Transition}}"       URL="https://www.youtube.com/watch?v=5Q4vMOYvAGg&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=18"]
+  mov_19_startstopcap   [label="{{19|Start Stop\nClean & Press}|START & END C&P}" URL="https://www.youtube.com/watch?v=dSj3kqbuois&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=19"]
+  mov_20_gobboxsquat    [label="{{20|Bottoms-Up Goblet\nBox Squat}|SQUAT BACK}"   URL="https://www.youtube.com/watch?v=k5Bc7pkEmrU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=20"]
+
+  mov_21_boxsquathalo [label="{{21|Goblet Box Squat\nwith Halo}|STAND AT TOP}" URL="https://www.youtube.com/watch?v=Aik5-BStbnc&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=21"]
+  mov_22_gobsquathalo [label="{{22|Goblet Squat\nwith Halo}|FULL DEPTH}"       URL="https://www.youtube.com/watch?v=cnZ8Mx8NQPE&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=22"]
+  mov_23_racksquat    [label="{{23|Single-Bell Front Squat}}"                  URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=23"]
 
   // Next skills
-  mov_racklunge [label="{{KB-24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
-  mov_clean2sblunge [label="{{KB-25|Clean Step-Back Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=25"]
-  mov_halfkneelclean [label="{{KB-26|Half-Kneeling Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=26"]
-  mov_halfkneelcap [label="{{KB-29|Half-Kneeling\nClean & Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=29"]
+  mov_24_racklunge      [label="{{KB-24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
+  mov_25_clean2sblunge  [label="{{KB-25|Clean Step-Back Clean}}"                             URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=25"]
+  mov_26_halfkneelclean [label="{{KB-26|Half-Kneeling Clean}}"                               URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=26"]
+  mov_29_halfkneelcap   [label="{{KB-29|Half-Kneeling\nClean & Press}}"                      URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=29"]
 
-  mov_deadlift -> mov_swing;
-  mov_deadlift -> mov_atw;
-  mov_deadlift -> mov_halo;
-  mov_atw -> mov_atwf2b;
-  mov_atwf2b -> mov_atwb2f;
-  mov_halo -> mov_althalo;
-  mov_deadlift -> mov_2hu1hd;
-  mov_swing -> mov_saswing;
-  mov_saswing -> mov_h2h;
-  mov_2hu1hd -> mov_2hucleandown;
-  mov_saswing -> mov_2hucleandown;
-  mov_2hucleandown -> mov_clean;
-  mov_clean -> mov_cleanh2h;
-  mov_h2h -> mov_cleanh2h;
-  mov_2hu1hd -> mov_press;
-  mov_clean -> mov_news;
-  mov_clean -> mov_startstopclean;
-  mov_clean -> mov_cap;
-  mov_press -> mov_cap;
-  mov_cap -> mov_caph2h;
-  mov_cleanh2h -> mov_caph2h;
-  mov_cap -> mov_startstopcap;
-  mov_halo -> mov_gobboxsquat;
-  mov_gobboxsquat -> mov_boxsquathalo;
-  mov_boxsquathalo -> mov_gobsquathalo;
-  mov_gobsquathalo -> mov_racksquat;
-  mov_2hu1hd -> mov_racksquat;
-  mov_racksquat -> mov_racklunge;
-  mov_racklunge -> mov_clean2sblunge;
-  mov_startstopclean -> mov_clean2sblunge;
-  mov_clean2sblunge -> mov_halfkneelclean;
-  mov_startstopcap -> mov_halfkneelcap;
-  mov_halfkneelclean -> mov_halfkneelcap;
+  mov_01_deadlift -> mov_02_swing;
+  mov_01_deadlift -> mov_03_atw;
+  mov_01_deadlift -> mov_04_halo;
+  mov_03_atw -> mov_05_atwf2b;
+  mov_05_atwf2b -> mov_06_atwb2f;
+  mov_04_halo -> mov_07_althalo;
+  mov_01_deadlift -> mov_08_2hu1hd;
+  mov_02_swing -> mov_09_saswing;
+  mov_09_saswing -> mov_10_h2h;
+  mov_08_2hu1hd -> mov_11_2hucleandown;
+  mov_09_saswing -> mov_11_2hucleandown;
+  mov_11_2hucleandown -> mov_12_clean;
+  mov_12_clean -> mov_13_cleanh2h;
+  mov_10_h2h -> mov_13_cleanh2h;
+  mov_08_2hu1hd -> mov_14_press;
+  mov_12_clean -> mov_15_news;
+  mov_12_clean -> mov_16_startstopclean;
+  mov_12_clean -> mov_17_cap;
+  mov_14_press -> mov_17_cap;
+  mov_17_cap -> mov_18_caph2h;
+  mov_13_cleanh2h -> mov_18_caph2h;
+  mov_17_cap -> mov_19_startstopcap;
+  mov_04_halo -> mov_20_gobboxsquat;
+  mov_20_gobboxsquat -> mov_21_boxsquathalo;
+  mov_21_boxsquathalo -> mov_22_gobsquathalo;
+  mov_22_gobsquathalo -> mov_23_racksquat;
+  mov_08_2hu1hd -> mov_23_racksquat;
+  mov_23_racksquat -> mov_24_racklunge;
+  mov_24_racklunge -> mov_25_clean2sblunge;
+  mov_16_startstopclean -> mov_25_clean2sblunge;
+  mov_25_clean2sblunge -> mov_26_halfkneelclean;
+  mov_19_startstopcap -> mov_29_halfkneelcap;
+  mov_26_halfkneelclean -> mov_29_halfkneelcap;
 
   { rank = sink;
     Legend [shape=none, margin=0, label=<
