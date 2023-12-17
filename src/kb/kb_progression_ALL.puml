@@ -21,7 +21,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
 
   subgraph warmup {
     node [color=8, fillcolor=7]
-    mov_03_atw; mov_04_halo, mov_07_atwf2b, mov_06_atwb2f
+    mov_03_atw; mov_04_halo, mov_05_atwf2b, mov_06_atwb2f
   }
 
   subgraph aux {
@@ -46,7 +46,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_02_swing              [label="{{2|Two Hand Swing}|LEG DRIVE &\nHIP SNAP}"            URL="https://www.youtube.com/watch?v=m-S9H2XVvYg&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=2"]
   mov_03_atw                [label="{{3|Around the World}|HAND TRANSITION}"                URL="https://www.youtube.com/watch?v=XaegZzSbtr0&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=3"]
   mov_04_halo               [label="{{4|Halo}|GLOBE UP\nORDER POSITION}"                   URL="https://www.youtube.com/watch?v=25xdtjbFPtw&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=4"]
-  mov_07_atwf2b             [label="{{5|Around the World\nFront to Back}}"                 URL="https://www.youtube.com/watch?v=TwlQQXAQpaQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=5"]
+  mov_05_atwf2b             [label="{{5|Around the World\nFront to Back}}"                 URL="https://www.youtube.com/watch?v=TwlQQXAQpaQ&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=5"]
   mov_06_atwb2f             [label="{{6|Around the World\nBack to Front}}"                 URL="https://www.youtube.com/watch?v=GrRO00YOIWM&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=6"]
   mov_07_althalo            [label="{{7|Alternating Halo}}"                                URL="https://www.youtube.com/watch?v=SMpquy5zSL4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=7"]
   mov_08_2hu1hd             [label="{{8|Two Hand Pickup\nOne Hand Putdown}|RACK POSITION}" URL="https://www.youtube.com/watch?v=eMkDP9VmMc0&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=8"]
@@ -155,8 +155,8 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   subgraph cluster_warmup {
     label="Warmups"
     mov_04_halo -> mov_07_althalo;
-    mov_03_atw -> mov_07_atwf2b;
-    mov_07_atwf2b -> mov_06_atwb2f;
+    mov_03_atw -> mov_05_atwf2b;
+    mov_05_atwf2b -> mov_06_atwb2f;
 
   }
 

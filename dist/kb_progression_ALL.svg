@@ -18,25 +18,15 @@
 <text text-anchor="start" x="2267.62" y="-33.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">© 2023. This work is openly licensed with CC BY&#45;NC&#45;SA 4.0</text>
 <text text-anchor="start" x="2335.88" y="-19.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">http://creativecommons.org/licenses/by&#45;nc&#45;sa/4.0/</text>
 <text text-anchor="start" x="2459.62" y="-5.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00"> &#160;</text>
-<g id="clust4" class="cluster">
-<title>cluster_warmup</title>
-<polygon fill="none" stroke="black" points="349,-1812.5 349,-2098 660,-2098 660,-1812.5 349,-1812.5"/>
-<text text-anchor="middle" x="621.25" y="-2080.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Warmups</text>
-</g>
-<g id="clust14" class="cluster">
-<title>cluster_double</title>
-<polygon fill="none" stroke="black" points="1852,-1046.75 1852,-1694.62 2415,-1694.62 2415,-1046.75 1852,-1046.75"/>
-<text text-anchor="middle" x="2380.38" y="-1677.33" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Doubles</text>
-</g>
 <g id="clust15" class="cluster">
 <title>cluster_snatch</title>
 <polygon fill="none" stroke="black" points="1438,-844.5 1438,-1202.5 1774,-1202.5 1774,-844.5 1438,-844.5"/>
 <text text-anchor="middle" x="1744.25" y="-1185.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Snatch</text>
 </g>
-<g id="clust11" class="cluster">
-<title>cluster_cap</title>
-<polygon fill="none" stroke="black" points="1220,-1302.75 1220,-1696.38 1844,-1696.38 1844,-1302.75 1220,-1302.75"/>
-<text text-anchor="middle" x="1790.25" y="-1679.08" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Clean &amp; Press</text>
+<g id="clust4" class="cluster">
+<title>cluster_warmup</title>
+<polygon fill="none" stroke="black" points="349,-1812.5 349,-2098 660,-2098 660,-1812.5 349,-1812.5"/>
+<text text-anchor="middle" x="621.25" y="-2080.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Warmups</text>
 </g>
 <g id="clust12" class="cluster">
 <title>cluster_tgd</title>
@@ -48,6 +38,16 @@
 <title>cluster_squat</title>
 <polygon fill="none" stroke="black" points="8,-1125 8,-1708.25 1014,-1708.25 1014,-1125 8,-1125"/>
 <text text-anchor="middle" x="955.75" y="-1690.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Squats &amp; Getup</text>
+</g>
+<g id="clust14" class="cluster">
+<title>cluster_double</title>
+<polygon fill="none" stroke="black" points="1852,-1046.75 1852,-1694.62 2415,-1694.62 2415,-1046.75 1852,-1046.75"/>
+<text text-anchor="middle" x="2380.38" y="-1677.33" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Doubles</text>
+</g>
+<g id="clust11" class="cluster">
+<title>cluster_cap</title>
+<polygon fill="none" stroke="black" points="1220,-1302.75 1220,-1696.38 1844,-1696.38 1844,-1302.75 1220,-1302.75"/>
+<text text-anchor="middle" x="1790.25" y="-1679.08" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Clean &amp; Press</text>
 </g>
 <!-- mov_03_atw -->
 <g id="node1" class="node">
@@ -62,9 +62,9 @@
 </a>
 </g>
 </g>
-<!-- mov_07_atwf2b -->
+<!-- mov_05_atwf2b -->
 <g id="node3" class="node">
-<title>mov_07_atwf2b</title>
+<title>mov_05_atwf2b</title>
 <g id="a_node3"><a xlink:href="https://www.youtube.com/watch?v=TwlQQXAQpaQ&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=5" xlink:title="{{5|Around the World\nFront to Back}}">
 <path fill="#fdbf6f" stroke="#ff7f00" d="M369.25,-1913.38C369.25,-1913.38 486.75,-1913.38 486.75,-1913.38 492.75,-1913.38 498.75,-1919.38 498.75,-1925.38 498.75,-1925.38 498.75,-1940.88 498.75,-1940.88 498.75,-1946.88 492.75,-1952.88 486.75,-1952.88 486.75,-1952.88 369.25,-1952.88 369.25,-1952.88 363.25,-1952.88 357.25,-1946.88 357.25,-1940.88 357.25,-1940.88 357.25,-1925.38 357.25,-1925.38 357.25,-1919.38 363.25,-1913.38 369.25,-1913.38"/>
 <text text-anchor="middle" x="368.62" y="-1927.7" font-family="Times New Roman,serif" font-size="14.00">5</text>
@@ -74,9 +74,9 @@
 </a>
 </g>
 </g>
-<!-- mov_03_atw&#45;&gt;mov_07_atwf2b -->
+<!-- mov_03_atw&#45;&gt;mov_05_atwf2b -->
 <g id="edge18" class="edge">
-<title>mov_03_atw&#45;&gt;mov_07_atwf2b</title>
+<title>mov_03_atw&#45;&gt;mov_05_atwf2b</title>
 <path fill="none" stroke="black" d="M428.77,-2009.59C428.63,-1996.21 428.46,-1979.14 428.31,-1964.62"/>
 <polygon fill="black" stroke="black" points="431.81,-1964.63 428.21,-1954.67 424.81,-1964.7 431.81,-1964.63"/>
 </g>
@@ -143,9 +143,9 @@
 </a>
 </g>
 </g>
-<!-- mov_07_atwf2b&#45;&gt;mov_06_atwb2f -->
+<!-- mov_05_atwf2b&#45;&gt;mov_06_atwb2f -->
 <g id="edge19" class="edge">
-<title>mov_07_atwf2b&#45;&gt;mov_06_atwb2f</title>
+<title>mov_05_atwf2b&#45;&gt;mov_06_atwb2f</title>
 <path fill="none" stroke="black" d="M428,-1912.96C428,-1901.1 428,-1885.61 428,-1872.1"/>
 <polygon fill="black" stroke="black" points="431.5,-1872.4 428,-1862.4 424.5,-1872.4 431.5,-1872.4"/>
 </g>
