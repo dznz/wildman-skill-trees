@@ -123,6 +123,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_71_deaddblclean       [label="{{71|Dead Stop\nDouble Clean}}"           URL="https://www.youtube.com/watch?v=22bKQqMqAQY"];
   mov_72_deck               [label="{{72|Deck Squat}}"                        URL="https://www.youtube.com/watch?v=vUJ3sZVwZ4Y"];
   mov_73_2hsbldl            [label="{{73|Two Hand Single Bent Leg Deadlift}}" URL="https://www.youtube.com/watch?v=-RD1qqe7P8M"];
+  mov_74_dblhangclean2squat [label="{{74|Double Hang Clean\nTo Squat}}"       URL="https://www.youtube.com/watch?v=SdPEkv56Lt8"];
 
 
   // Next skills
@@ -288,6 +289,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     mov_62_dblclean -> mov_71_deaddblclean;
     mov_58_dblsumodl -> mov_60_dblswing;
     mov_60_dblswing -> mov_64_dbloutswing;
+    mov_68_dblclean2squat -> mov_74_dblhangclean2squat;
   }
 
   subgraph cluster_snatch {
