@@ -34,6 +34,7 @@ This is my humble attempt to coalesce this semi-implicit knowledge into structur
   - [Kettlebell Basic Skill Progression](#kettlebell-basic-skill-progression)
   - [Two-Handed Heavy Club Skill Progression](#two-handed-heavy-club-skill-progression)
   - [Single-Arm Heavy Club Skill Progression](#single-arm-heavy-club-skill-progression)
+  - [Mace Progression](#mace-progression)
 - [Contributing](#contributing)
 
 ## The Diagrams ##
@@ -149,6 +150,19 @@ Single-arm Heavy Club is generally developed *after* two-handed heavy club so th
 
 ![Tree of single-arm Heavy Club drills, arranged in order of learning.](/dist/hc_sa_progression.svg)
 
+### Mace Progression ###
+
+This steel mace/macebell progression is a WIP, currently covering ~30 movements of a listed 107. Because this was the first attempt at sequencing that MW put out, it's a bit different from the rest:
+
+- Many videos cover multiple variations on a movement
+- The focus rapidly moves to building complex, integrated movements
+
+| Source | SVG |
+|------- | --- | 
+| [`/src/mace/mace_progression_ALL.puml`](/src/mace/mace_progression_ALL.puml) |  [`/dist/mace_progression_ALL.svg`](/dist/mace_progression_ALL.svg) |
+
+![Tree of mace drills, arranged in order of complexity.](/dist/mace_progression_ALL.svg)
+
 ## Contributing ##
 
 The diagrams are created using GraphViz's Dot language and [command-line renderer][0]. Dot supports [many image formats][1] so if the existing built formats do not suit, it should be easy to render the diagrams into your format of choice.
@@ -171,6 +185,7 @@ The following targets are currently available:
 - `Compile`
   - `CompileHeavyClub`
   - `CompileKettlebell`
+  - `CompileMace`
 
 ### Hint ###
 
