@@ -8,7 +8,7 @@ Task default -Depends Full
 Task Full -Depends Clean, Compile {
 }
 
-Task Compile -Depends CompileHeavyClub, CompileKettlebell {
+Task Compile -Depends CompileHeavyClub, CompileKettlebell, CompileMace {
 }
 
 Task CompileHeavyClub {
@@ -27,6 +27,11 @@ Task CompileKettlebell {
   dot -Tsvg (Join-Path $KBRoot "kb_progression_3.gv") -o (Join-Path $DistDir "kb_progression_3.svg")
   dot -Tsvg (Join-Path $KBRoot "kb_progression_4.gv") -o (Join-Path $DistDir "kb_progression_4.svg")
   plantuml -tsvg -o $DistDir (Join-Path $KBRoot "kb_progression_ALL.puml")
+}
+
+Task CompileMace {
+  $MaceRoot = (Join-Path $SrcRoot "mace")
+  plantuml -tsvg -o $DistDir (Join-Path $MaceRoot "mace_progression_ALL.puml")
 }
 
 Task Clean {

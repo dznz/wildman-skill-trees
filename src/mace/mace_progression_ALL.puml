@@ -1,0 +1,151 @@
+@startdot
+digraph mace_progression {
+  
+  label=<
+<B>Mace Skill Progression - ALL</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Diagram by dznz based on Mark Wildman's teachings.<BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Source: <B>https://github.com/dznz/wildman-skill-trees</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+More by Mark Wildman - <B>https://www.wildmanathletica.com</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+<I>
+© 2023. This work is openly licensed with CC BY-NC-SA 4.0<BR ALIGN="RIGHT"/>
+http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
+</I>
+  >
+  graph [labeljust=r]
+  graph [fontname="Helvetica,Arial,sans-serif"]
+
+  node [colorscheme="paired12"]
+  node [shape=record]
+  node [style="rounded,filled"]
+  node [color=12, fillcolor=11]
+
+  subgraph aux {
+    node [color=10, fillcolor=9]
+    mov_051_sabackswing; mov_052_backswing
+  }
+
+  subgraph ext {
+    node [color=2, fillcolor=1]
+    ext_sq [label="Balance Squat"]
+    ext_order [label="Order Position"]
+    ext_order -> ext_sq;
+  }
+
+  
+mov_01_360                    [label="{{01  |360}}"                                                  URL="https://www.youtube.com/watch?v=TyZ8iYv6Ip0" ]
+mov_02_alt360                 [label="{{02  |Alternating 360\n(Gama Cast/10 to 2)}}"                 URL="https://www.youtube.com/watch?v=ccifkBh2JSI" ]
+mov_031_prayer                [label="{{03-1|Prayer transition}}"                                    URL="https://www.youtube.com/watch?v=0fjn0vidH2M" ]
+mov_032_pray2360              [label="{{03-2|Prayer transition\nto 360}}"                            URL="https://www.youtube.com/watch?v=0fjn0vidH2M" ]
+mov_041_barbell               [label="{{04-1|Barbell transition}}"                                   URL="https://www.youtube.com/watch?v=WQjHBHoC-MQ" ]
+mov_042_barbell2360           [label="{{04-2|Barbell transition to 360}}"                            URL="https://www.youtube.com/watch?v=WQjHBHoC-MQ" ]
+mov_051_sabackswing           [label="{{05-1|Single arm\nback position swing}}"                      URL="https://www.youtube.com/watch?v=XN-5l6SiSZU" ]
+mov_052_backswing             [label="{{05-2|Back position swing}}"                                  URL="https://www.youtube.com/watch?v=XN-5l6SiSZU" ]
+mov_061_uppercut              [label="{{06-1|90 degree pivot uppercut}}"                             URL="https://www.youtube.com/watch?v=ULFal2-zDt0" ]
+mov_062_uppercut2360          [label="{{06-2|90 degree pivot uppercut to 360}}"                      URL="https://www.youtube.com/watch?v=ULFal2-zDt0" ]
+mov_07_invs2sswing            [label="{{07  |Inverted side to side swings}}"                         URL="https://www.youtube.com/watch?v=bLA2KSghSdc" ]
+mov_081_lowblockspin          [label="{{08-1|Low block spin}}"                                       URL="https://www.youtube.com/watch?v=fk8AG0s1-UI" ]
+mov_082_lowblockspinwpray     [label="{{08-2|Low block spin with\nprayer transition}}"               URL="https://www.youtube.com/watch?v=fk8AG0s1-UI" ]
+mov_09_lowblockspinw360       [label="{{09  |Low block spin with\n360 transition}}"                  URL="https://www.youtube.com/watch?v=GXMSVSDtJVc" ]
+mov_101_martialspin           [label="{{10-1|Simple martial spin}}"                                  URL="https://www.youtube.com/watch?v=p_VgqCIGb-E" ]
+mov_102_samartialspin         [label="{{10-2|Single arm martial spin}}"                              URL="https://www.youtube.com/watch?v=p_VgqCIGb-E" ]
+mov_11_paddlerow2upblock      [label="{{11  |Paddle row to upper block}}"                            URL="https://www.youtube.com/watch?v=4or7Sb8HyaU" ]
+mov_13_pray23602sq            [label="{{13  |Horizontal prayer transition to 360 to squat}}"         URL="https://www.youtube.com/watch?v=2yUz84zdBlk" ]
+mov_14_barpress2sq            [label="{{14  |Barbell transition press\nto squat}}"                   URL="https://www.youtube.com/watch?v=kZK8Eq6ka0U" ]
+mov_15_3602bar2sq             [label="{{15  |360 to barbell transition\nto squat}}"                  URL="https://www.youtube.com/watch?v=S6LDBK1o48U" ]
+mov_16_saincircle             [label="{{16  |Single arm\ninside circle}}"                            URL="https://www.youtube.com/watch?v=MSt1cYAiLzI" ]
+mov_17_saoutcircle            [label="{{17  |Single arm\noutside circle}}"                           URL="https://www.youtube.com/watch?v=ZuaKcM41dP4" ]
+mov_18_saaltcircle            [label="{{18  |Single arm\nalternating circles}}"                      URL="https://www.youtube.com/watch?v=XWIFyifqSr8" ]
+mov_19_incircle2altcoin       [label="{{19  |Inside circle to\nalternate hand coin flip}}"           URL="https://www.youtube.com/watch?v=opgqoNcD1Ds" ]
+mov_20_outcircle2altcoin      [label="{{20  |Outside circle to\nalternate hand coin flip}}"          URL="https://www.youtube.com/watch?v=qX0nE-3VMN0" ]
+mov_21_altcirclewinandoutcoin [label="{{21  |Alt circle with inside and outside coin flip}}"         URL="https://www.youtube.com/watch?v=as46Zm9oibE" ]
+mov_22_incircle2sameflip      [label="{{22  |Inside circle to\nsame hand flip catch}}"               URL="https://www.youtube.com/watch?v=xlClTZRbmc0" ]
+mov_23_outcircle2sameflip     [label="{{23  |Outside circle to\nsame side flip catch}}"              URL="https://www.youtube.com/watch?v=UwR4uFqvUyY" ]
+mov_241_altcircle2sameflip    [label="{{24-1|Alt circle with same side flip catch}}"                 URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
+mov_242_outflip               [label="{{24-2|Outside flip catch balance}}"                           URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
+mov_243_inflip                [label="{{24-3|Inside flip catch balance}}"                            URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
+mov_245_cincirclewaltnunchuck [label="{{25  |Continuous inside circle with alt hand nunchuck flip}}" URL="https://www.youtube.com/watch?v=rCgrNJLsrBM" ]
+  
+// Precursor
+
+ext_sq -> {mov_13_pray23602sq;mov_14_barpress2sq;mov_15_3602bar2sq}
+ext_order -> {mov_01_360; mov_031_prayer; mov_041_barbell}
+
+// Ungrouped arrows
+
+mov_01_360 -> {mov_02_alt360;mov_032_pray2360;mov_042_barbell2360;mov_062_uppercut2360}
+mov_031_prayer -> mov_032_pray2360;
+mov_041_barbell -> mov_042_barbell2360;
+mov_061_uppercut -> mov_062_uppercut2360;
+
+mov_041_barbell -> mov_061_uppercut;
+
+mov_081_lowblockspin -> {mov_082_lowblockspinwpray; mov_09_lowblockspinw360}
+mov_031_prayer -> mov_082_lowblockspinwpray
+mov_01_360 -> mov_09_lowblockspinw360
+
+mov_01_360 -> mov_052_backswing -> mov_051_sabackswing
+
+mov_101_martialspin -> mov_102_samartialspin;
+
+// Squats
+mov_032_pray2360 -> mov_13_pray23602sq
+mov_041_barbell -> mov_14_barpress2sq
+mov_042_barbell2360 -> mov_15_3602bar2sq
+
+// Circles
+mov_16_saincircle -> mov_17_saoutcircle -> mov_18_saaltcircle;
+mov_16_saincircle -> mov_19_incircle2altcoin
+mov_17_saoutcircle -> mov_20_outcircle2altcoin
+{mov_20_outcircle2altcoin; mov_18_saaltcircle} -> mov_21_altcirclewinandoutcoin
+
+mov_16_saincircle -> mov_22_incircle2sameflip
+mov_17_saoutcircle -> mov_23_outcircle2sameflip
+{mov_242_outflip; mov_243_inflip} -> mov_241_altcircle2sameflip;
+{mov_23_outcircle2sameflip; mov_18_saaltcircle} -> mov_241_altcircle2sameflip
+  
+
+
+  subgraph cluster_warmup {
+    label="Warmups"
+    ' mov_04_halo -> mov_07_althalo;
+
+  }
+
+  // LAYOUT HACKS
+
+  {
+    node [style=invis]
+    edge [style=invis]
+    
+    ' mov_06_atwb2f -> lay_endwarmup;
+  }
+
+  // Have warmup precede squat
+'   { rank=same; lay_endwarmup; ext_bw_altshinbox}
+
+
+  // END LAYOUT HACKS
+
+  { rank = sink;
+    Legend [shape=none, margin=0, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+     <TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+     <TR>
+      <TD>Prerequisites and next steps</TD>
+      <TD BGCOLOR="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+     </TR>
+     <TR>
+      <TD>Drills</TD>
+      <TD BGCOLOR="11"></TD>
+     </TR>
+     <TR>
+      <TD>Learning drills</TD>
+      <TD BGCOLOR="9"></TD>
+     </TR>
+    </TABLE>
+   >];
+  }
+}
+@enddot

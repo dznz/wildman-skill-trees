@@ -2,7 +2,7 @@ ID,Graph_Name,Label,URL,VariationCount,VariationDescription,VarIcon,Hands,Isolat
 M-01,mov_01_360,360,https://www.youtube.com/watch?v=TyZ8iYv6Ip0,4,(Left/Right) * (Cross/Straight),LX,2,S
 M-02,mov_02_alt360,Alternating 360\n(Gama Cast/10 to 2),https://www.youtube.com/watch?v=ccifkBh2JSI,2,(Left-hand Low/Right-hand Low),L,2,N
 M-03-1,mov_031_prayer,Prayer transition,https://www.youtube.com/watch?v=0fjn0vidH2M,1,,,2,S
-M-03-2,mov_031_pray2360,Prayer transition\nto 360,https://www.youtube.com/watch?v=0fjn0vidH2M,1,,,2,N
+M-03-2,mov_032_pray2360,Prayer transition\nto 360,https://www.youtube.com/watch?v=0fjn0vidH2M,1,,,2,N
 M-04-1,mov_041_barbell,Barbell transition,https://www.youtube.com/watch?v=WQjHBHoC-MQ,1,,,2,S
 M-04-2,mov_042_barbell2360,Barbell transition to 360,https://www.youtube.com/watch?v=WQjHBHoC-MQ,1,,,2,N
 M-05-1,mov_051_sabackswing,Single arm\nback position swing,https://www.youtube.com/watch?v=XN-5l6SiSZU,2,Left/Right,L,2,S
