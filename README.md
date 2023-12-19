@@ -165,14 +165,17 @@ This steel mace/macebell progression is a WIP, currently covering ~30 movements 
 
 ## Contributing ##
 
-The diagrams are created using GraphViz's Dot language and [command-line renderer][0]. Dot supports [many image formats][1] so if the existing built formats do not suit, it should be easy to render the diagrams into your format of choice.
+The diagrams are created using GraphViz's Dot language as supported by the [PlantUML toolset][2]. Dot supports [many image formats][1] and this is also true of the [PlantUML wrapper][7], so if the existing built formats do not suit, it should be easy to render the diagrams into your format of choice.
 
-[0]: https://graphviz.org/doc/info/command.html
+The reason for PlantUML rather than straight GraphViz is the prevalence of good PlantUML tool integration with tools like VS Code.
+
 [1]: https://graphviz.org/docs/outputs/
+[2]: https://plantuml.com/dot
+[7]: https://plantuml.com/command-line
 
 ### Building ###
 
-I use the Powershell build automation tool, [psake], to run graphviz and PlantUML steps.
+I use the Powershell build automation tool, [psake], to run PlantUML render steps.
 
 [psake]: https://github.com/psake/psake/tree/master
 
@@ -182,21 +185,15 @@ I use the Powershell build automation tool, [psake], to run graphviz and PlantUM
 
 The following targets are currently available:
 
-- `Compile`
-  - `CompileHeavyClub`
-  - `CompileKettlebell`
-  - `CompileMace`
+- `Full` - Build everything from scratch (default)
+  - `Clean` - Delete all generated images
+  - `Compile`
+    - `CompileHeavyClub`
+    - `CompileKettlebell`
+    - `CompileMace`
 
-### Hint ###
+Additional/alternative formats can be rendered by overriding the `$OutputFormats` property:
 
-I actually use PlantUML's (underdocumented) [support][2] for Dot digraphs to take advantage of PlantUML's excellent VS Code preview rendering. It's as simple as wrapping the dot code in the PlantUML start and end tags:
-
-```puml
-@startdot
-digraph kb_progression { ... }
-@enddot
+```ps1
+> Invoke-Psake .\psakefile.ps1 -properties @{"OutputFormats"=@("svg","png")}
 ```
-
-Long-term, I may switch to PlantUML as the official render tool.
-
-[2]: https://plantuml.com/dot
