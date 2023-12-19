@@ -18,40 +18,40 @@
 <text text-anchor="start" x="864.13" y="-33.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">© 2023. This work is openly licensed with CC BY&#45;NC&#45;SA 4.0</text>
 <text text-anchor="start" x="932.38" y="-19.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">http://creativecommons.org/licenses/by&#45;nc&#45;sa/4.0/</text>
 <text text-anchor="start" x="1056.13" y="-5.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00"> &#160;</text>
-<g id="clust12" class="cluster">
-<title>cluster_lunge</title>
-<polygon fill="none" stroke="black" points="58.13,-170 58.13,-600.5 436.13,-600.5 436.13,-170 58.13,-170"/>
-<text text-anchor="middle" x="408.25" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Lunge</text>
-</g>
-<g id="clust8" class="cluster">
-<title>cluster_cap</title>
-<polygon fill="none" stroke="black" points="54.13,-1177.75 54.13,-1557.25 246.13,-1557.25 246.13,-1177.75 54.13,-1177.75"/>
-<text text-anchor="middle" x="192.38" y="-1539.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Clean &amp; Press</text>
-</g>
-<g id="clust11" class="cluster">
-<title>cluster_squat</title>
-<polygon fill="none" stroke="black" points="96.13,-673.5 96.13,-897 604.13,-897 604.13,-673.5 96.13,-673.5"/>
-<text text-anchor="middle" x="574" y="-879.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Squats</text>
-</g>
-<g id="clust7" class="cluster">
-<title>cluster_circles</title>
-<polygon fill="none" stroke="black" points="828.13,-978 828.13,-1255.25 1004.13,-1255.25 1004.13,-978 828.13,-978"/>
-<text text-anchor="middle" x="974" y="-1237.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Circles</text>
-</g>
-<g id="clust13" class="cluster">
-<title>cluster_mill</title>
-<polygon fill="none" stroke="black" points="630.13,-992.75 630.13,-1070.25 750.13,-1070.25 750.13,-992.75 630.13,-992.75"/>
-<text text-anchor="middle" x="732" y="-1052.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mill</text>
+<g id="clust10" class="cluster">
+<title>cluster_sc</title>
+<polygon fill="none" stroke="black" points="254.13,-990.25 254.13,-1458.5 622.13,-1458.5 622.13,-990.25 254.13,-990.25"/>
+<text text-anchor="middle" x="577.75" y="-1441.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Shield Cast</text>
 </g>
 <g id="clust14" class="cluster">
 <title>cluster_getup</title>
 <polygon fill="none" stroke="black" points="627.13,-248 627.13,-600.5 1057.13,-600.5 1057.13,-248 627.13,-248"/>
 <text text-anchor="middle" x="1029.63" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Getup</text>
 </g>
-<g id="clust10" class="cluster">
-<title>cluster_sc</title>
-<polygon fill="none" stroke="black" points="254.13,-990.25 254.13,-1458.5 622.13,-1458.5 622.13,-990.25 254.13,-990.25"/>
-<text text-anchor="middle" x="577.75" y="-1441.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Shield Cast</text>
+<g id="clust13" class="cluster">
+<title>cluster_mill</title>
+<polygon fill="none" stroke="black" points="630.13,-992.75 630.13,-1070.25 750.13,-1070.25 750.13,-992.75 630.13,-992.75"/>
+<text text-anchor="middle" x="732" y="-1052.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mill</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_circles</title>
+<polygon fill="none" stroke="black" points="828.13,-978 828.13,-1255.25 1004.13,-1255.25 1004.13,-978 828.13,-978"/>
+<text text-anchor="middle" x="974" y="-1237.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Circles</text>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_cap</title>
+<polygon fill="none" stroke="black" points="54.13,-1177.75 54.13,-1557.25 246.13,-1557.25 246.13,-1177.75 54.13,-1177.75"/>
+<text text-anchor="middle" x="192.38" y="-1539.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Clean &amp; Press</text>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_lunge</title>
+<polygon fill="none" stroke="black" points="58.13,-170 58.13,-600.5 436.13,-600.5 436.13,-170 58.13,-170"/>
+<text text-anchor="middle" x="408.25" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Lunge</text>
+</g>
+<g id="clust11" class="cluster">
+<title>cluster_squat</title>
+<polygon fill="none" stroke="black" points="96.13,-673.5 96.13,-897 604.13,-897 604.13,-673.5 96.13,-673.5"/>
+<text text-anchor="middle" x="574" y="-879.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Squats</text>
 </g>
 <g id="clust6" class="cluster">
 <title>cluster_sideswing</title>

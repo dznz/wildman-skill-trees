@@ -18,15 +18,25 @@
 <text text-anchor="start" x="2267.62" y="-33.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">© 2023. This work is openly licensed with CC BY&#45;NC&#45;SA 4.0</text>
 <text text-anchor="start" x="2335.88" y="-19.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">http://creativecommons.org/licenses/by&#45;nc&#45;sa/4.0/</text>
 <text text-anchor="start" x="2459.62" y="-5.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00"> &#160;</text>
+<g id="clust11" class="cluster">
+<title>cluster_cap</title>
+<polygon fill="none" stroke="black" points="1220,-1302.75 1220,-1696.38 1844,-1696.38 1844,-1302.75 1220,-1302.75"/>
+<text text-anchor="middle" x="1790.25" y="-1679.08" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Clean &amp; Press</text>
+</g>
+<g id="clust13" class="cluster">
+<title>cluster_squat</title>
+<polygon fill="none" stroke="black" points="8,-1125 8,-1708.25 1014,-1708.25 1014,-1125 8,-1125"/>
+<text text-anchor="middle" x="955.75" y="-1690.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Squats &amp; Getup</text>
+</g>
 <g id="clust15" class="cluster">
 <title>cluster_snatch</title>
 <polygon fill="none" stroke="black" points="1438,-844.5 1438,-1202.5 1774,-1202.5 1774,-844.5 1438,-844.5"/>
 <text text-anchor="middle" x="1744.25" y="-1185.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Snatch</text>
 </g>
-<g id="clust4" class="cluster">
-<title>cluster_warmup</title>
-<polygon fill="none" stroke="black" points="349,-1812.5 349,-2098 660,-2098 660,-1812.5 349,-1812.5"/>
-<text text-anchor="middle" x="621.25" y="-2080.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Warmups</text>
+<g id="clust14" class="cluster">
+<title>cluster_double</title>
+<polygon fill="none" stroke="black" points="1852,-1046.75 1852,-1694.62 2415,-1694.62 2415,-1046.75 1852,-1046.75"/>
+<text text-anchor="middle" x="2380.38" y="-1677.33" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Doubles</text>
 </g>
 <g id="clust12" class="cluster">
 <title>cluster_tgd</title>
@@ -34,20 +44,10 @@
 <text text-anchor="middle" x="1185.88" y="-1021.45" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Turkish Get Down/</text>
 <text text-anchor="middle" x="1185.88" y="-1004.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Turkish Get Up</text>
 </g>
-<g id="clust13" class="cluster">
-<title>cluster_squat</title>
-<polygon fill="none" stroke="black" points="8,-1125 8,-1708.25 1014,-1708.25 1014,-1125 8,-1125"/>
-<text text-anchor="middle" x="955.75" y="-1690.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Squats &amp; Getup</text>
-</g>
-<g id="clust14" class="cluster">
-<title>cluster_double</title>
-<polygon fill="none" stroke="black" points="1852,-1046.75 1852,-1694.62 2415,-1694.62 2415,-1046.75 1852,-1046.75"/>
-<text text-anchor="middle" x="2380.38" y="-1677.33" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Doubles</text>
-</g>
-<g id="clust11" class="cluster">
-<title>cluster_cap</title>
-<polygon fill="none" stroke="black" points="1220,-1302.75 1220,-1696.38 1844,-1696.38 1844,-1302.75 1220,-1302.75"/>
-<text text-anchor="middle" x="1790.25" y="-1679.08" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Clean &amp; Press</text>
+<g id="clust4" class="cluster">
+<title>cluster_warmup</title>
+<polygon fill="none" stroke="black" points="349,-1812.5 349,-2098 660,-2098 660,-1812.5 349,-1812.5"/>
+<text text-anchor="middle" x="621.25" y="-2080.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Warmups</text>
 </g>
 <!-- mov_03_atw -->
 <g id="node1" class="node">
@@ -222,18 +222,18 @@
 <g id="node19" class="node">
 <title>mov_12_clean</title>
 <g id="a_node19"><a xlink:href="https://www.youtube.com/watch?v=_nIsSXWs5iU&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=12" xlink:title="{{12|Swing Clean}}">
-<path fill="#ffff99" stroke="#b15928" d="M1393.38,-1525.38C1393.38,-1525.38 1484.62,-1525.38 1484.62,-1525.38 1490.62,-1525.38 1496.62,-1531.38 1496.62,-1537.38 1496.62,-1537.38 1496.62,-1549.38 1496.62,-1549.38 1496.62,-1555.38 1490.62,-1561.38 1484.62,-1561.38 1484.62,-1561.38 1393.38,-1561.38 1393.38,-1561.38 1387.38,-1561.38 1381.38,-1555.38 1381.38,-1549.38 1381.38,-1549.38 1381.38,-1537.38 1381.38,-1537.38 1381.38,-1531.38 1387.38,-1525.38 1393.38,-1525.38"/>
-<text text-anchor="middle" x="1396.12" y="-1538.08" font-family="Times New Roman,serif" font-size="14.00">12</text>
-<polyline fill="none" stroke="#b15928" points="1410.88,-1525.62 1410.88,-1561.38"/>
-<text text-anchor="middle" x="1453.75" y="-1538.08" font-family="Times New Roman,serif" font-size="14.00">Swing Clean</text>
+<path fill="#ffff99" stroke="#b15928" d="M1392.38,-1525.38C1392.38,-1525.38 1483.62,-1525.38 1483.62,-1525.38 1489.62,-1525.38 1495.62,-1531.38 1495.62,-1537.38 1495.62,-1537.38 1495.62,-1549.38 1495.62,-1549.38 1495.62,-1555.38 1489.62,-1561.38 1483.62,-1561.38 1483.62,-1561.38 1392.38,-1561.38 1392.38,-1561.38 1386.38,-1561.38 1380.38,-1555.38 1380.38,-1549.38 1380.38,-1549.38 1380.38,-1537.38 1380.38,-1537.38 1380.38,-1531.38 1386.38,-1525.38 1392.38,-1525.38"/>
+<text text-anchor="middle" x="1395.12" y="-1538.08" font-family="Times New Roman,serif" font-size="14.00">12</text>
+<polyline fill="none" stroke="#b15928" points="1409.88,-1525.62 1409.88,-1561.38"/>
+<text text-anchor="middle" x="1452.75" y="-1538.08" font-family="Times New Roman,serif" font-size="14.00">Swing Clean</text>
 </a>
 </g>
 </g>
 <!-- mov_11_2hucleandown&#45;&gt;mov_12_clean -->
 <g id="edge25" class="edge">
 <title>mov_11_2hucleandown&#45;&gt;mov_12_clean</title>
-<path fill="none" stroke="black" d="M1424.47,-1623.68C1427.12,-1609.23 1430.81,-1589.1 1433.81,-1572.73"/>
-<polygon fill="black" stroke="black" points="1437.21,-1573.57 1435.57,-1563.1 1430.32,-1572.31 1437.21,-1573.57"/>
+<path fill="none" stroke="black" d="M1424.28,-1623.68C1426.78,-1609.23 1430.26,-1589.1 1433.09,-1572.73"/>
+<polygon fill="black" stroke="black" points="1436.5,-1573.56 1434.76,-1563.11 1429.61,-1572.36 1436.5,-1573.56"/>
 </g>
 <!-- mov_15_news -->
 <g id="node7" class="node">
@@ -501,14 +501,14 @@
 <!-- mov_12_clean&#45;&gt;mov_15_news -->
 <g id="edge28" class="edge">
 <title>mov_12_clean&#45;&gt;mov_15_news</title>
-<path fill="none" stroke="black" d="M1439,-1525.26C1439,-1510.7 1439,-1489.49 1439,-1472.41"/>
-<polygon fill="black" stroke="black" points="1442.5,-1472.89 1439,-1462.89 1435.5,-1472.89 1442.5,-1472.89"/>
+<path fill="none" stroke="black" d="M1438.17,-1525.26C1438.32,-1510.7 1438.54,-1489.49 1438.71,-1472.41"/>
+<polygon fill="black" stroke="black" points="1442.21,-1472.92 1438.81,-1462.89 1435.21,-1472.85 1442.21,-1472.92"/>
 </g>
 <!-- mov_12_clean&#45;&gt;mov_13_cleanh2h -->
 <g id="edge9" class="edge">
 <title>mov_12_clean&#45;&gt;mov_13_cleanh2h</title>
-<path fill="none" stroke="black" d="M1496.9,-1529.11C1548.37,-1516.81 1625.4,-1497.15 1691,-1475.25 1698.08,-1472.89 1705.44,-1470.21 1712.68,-1467.44"/>
-<polygon fill="black" stroke="black" points="1713.71,-1470.79 1721.74,-1463.89 1711.16,-1464.27 1713.71,-1470.79"/>
+<path fill="none" stroke="black" d="M1495.88,-1529.2C1547.55,-1516.92 1625.04,-1497.24 1691,-1475.25 1698.08,-1472.89 1705.44,-1470.21 1712.68,-1467.45"/>
+<polygon fill="black" stroke="black" points="1713.71,-1470.8 1721.75,-1463.9 1711.16,-1464.28 1713.71,-1470.8"/>
 </g>
 <!-- mov_16_startstopclean -->
 <g id="node22" class="node">
@@ -526,8 +526,8 @@
 <!-- mov_12_clean&#45;&gt;mov_16_startstopclean -->
 <g id="edge26" class="edge">
 <title>mov_12_clean&#45;&gt;mov_16_startstopclean</title>
-<path fill="none" stroke="black" d="M1467.94,-1525.04C1491.96,-1510.65 1526.62,-1489.88 1554.82,-1472.99"/>
-<polygon fill="black" stroke="black" points="1556.42,-1476.11 1563.2,-1467.97 1552.82,-1470.11 1556.42,-1476.11"/>
+<path fill="none" stroke="black" d="M1467.12,-1525.04C1491.28,-1510.65 1526.16,-1489.88 1554.53,-1472.99"/>
+<polygon fill="black" stroke="black" points="1556.16,-1476.09 1562.96,-1467.97 1552.58,-1470.08 1556.16,-1476.09"/>
 </g>
 <!-- mov_17_cap -->
 <g id="node23" class="node">
@@ -543,8 +543,8 @@
 <!-- mov_12_clean&#45;&gt;mov_17_cap -->
 <g id="edge27" class="edge">
 <title>mov_12_clean&#45;&gt;mov_17_cap</title>
-<path fill="none" stroke="black" d="M1412.88,-1525.04C1388.94,-1509.14 1353.27,-1485.46 1326.69,-1467.82"/>
-<polygon fill="black" stroke="black" points="1328.88,-1465.07 1318.62,-1462.46 1325.01,-1470.9 1328.88,-1465.07"/>
+<path fill="none" stroke="black" d="M1412.06,-1525.04C1388.27,-1509.14 1352.85,-1485.46 1326.45,-1467.82"/>
+<polygon fill="black" stroke="black" points="1328.69,-1465.11 1318.44,-1462.46 1324.8,-1470.93 1328.69,-1465.11"/>
 </g>
 <!-- mov_50_2hdeadclean2rack -->
 <g id="node55" class="node">
@@ -561,7 +561,7 @@
 <!-- mov_12_clean&#45;&gt;mov_50_2hdeadclean2rack -->
 <g id="edge56" class="edge">
 <title>mov_12_clean&#45;&gt;mov_50_2hdeadclean2rack</title>
-<path fill="none" stroke="black" d="M1404.6,-1525.01C1394.01,-1520.1 1382.18,-1515.06 1371,-1511.25 1304.06,-1488.42 1284.25,-1493.77 1216,-1475.25 1206.27,-1472.61 1196.06,-1469.65 1186.05,-1466.64"/>
+<path fill="none" stroke="black" d="M1404.13,-1524.99C1393.69,-1520.08 1382.04,-1515.05 1371,-1511.25 1304.13,-1488.23 1284.25,-1493.77 1216,-1475.25 1206.27,-1472.61 1196.06,-1469.65 1186.05,-1466.64"/>
 <polygon fill="black" stroke="black" points="1187.31,-1463.37 1176.73,-1463.8 1185.27,-1470.06 1187.31,-1463.37"/>
 </g>
 <!-- mov_18_caph2h -->
@@ -592,18 +592,18 @@
 <g id="node31" class="node">
 <title>mov_25_clean2sblunge</title>
 <g id="a_node31"><a xlink:href="https://www.youtube.com/watch?v=KTDVl0Lkdc4&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=25" xlink:title="{{25|Clean Step&#45;Back Clean}}">
-<path fill="#ffff99" stroke="#b15928" d="M1017.75,-853C1017.75,-853 1168.25,-853 1168.25,-853 1174.25,-853 1180.25,-859 1180.25,-865 1180.25,-865 1180.25,-877 1180.25,-877 1180.25,-883 1174.25,-889 1168.25,-889 1168.25,-889 1017.75,-889 1017.75,-889 1011.75,-889 1005.75,-883 1005.75,-877 1005.75,-877 1005.75,-865 1005.75,-865 1005.75,-859 1011.75,-853 1017.75,-853"/>
-<text text-anchor="middle" x="1020.5" y="-865.7" font-family="Times New Roman,serif" font-size="14.00">25</text>
-<polyline fill="none" stroke="#b15928" points="1035.25,-853.25 1035.25,-889"/>
-<text text-anchor="middle" x="1107.75" y="-865.7" font-family="Times New Roman,serif" font-size="14.00">Clean Step&#45;Back Clean</text>
+<path fill="#ffff99" stroke="#b15928" d="M1020.75,-853C1020.75,-853 1171.25,-853 1171.25,-853 1177.25,-853 1183.25,-859 1183.25,-865 1183.25,-865 1183.25,-877 1183.25,-877 1183.25,-883 1177.25,-889 1171.25,-889 1171.25,-889 1020.75,-889 1020.75,-889 1014.75,-889 1008.75,-883 1008.75,-877 1008.75,-877 1008.75,-865 1008.75,-865 1008.75,-859 1014.75,-853 1020.75,-853"/>
+<text text-anchor="middle" x="1023.5" y="-865.7" font-family="Times New Roman,serif" font-size="14.00">25</text>
+<polyline fill="none" stroke="#b15928" points="1038.25,-853.25 1038.25,-889"/>
+<text text-anchor="middle" x="1110.75" y="-865.7" font-family="Times New Roman,serif" font-size="14.00">Clean Step&#45;Back Clean</text>
 </a>
 </g>
 </g>
 <!-- mov_16_startstopclean&#45;&gt;mov_25_clean2sblunge -->
 <g id="edge15" class="edge">
 <title>mov_16_startstopclean&#45;&gt;mov_25_clean2sblunge</title>
-<path fill="none" stroke="black" d="M1542.93,-1418.92C1533.67,-1415.92 1524.15,-1413.15 1515,-1411 1450.49,-1395.86 1267.89,-1419.72 1219,-1375 1174.95,-1334.7 1191,-1303.33 1191,-1243.62 1191,-1243.62 1191,-1243.62 1191,-1074 1191,-1003.62 1170.72,-986.72 1136,-925.5 1130.56,-915.91 1123.44,-906.26 1116.55,-897.85"/>
-<polygon fill="black" stroke="black" points="1119.39,-895.79 1110.25,-890.43 1114.06,-900.32 1119.39,-895.79"/>
+<path fill="none" stroke="black" d="M1542.93,-1418.92C1533.67,-1415.92 1524.15,-1413.15 1515,-1411 1450.49,-1395.86 1268.05,-1419.55 1219,-1375 1174.73,-1334.8 1190,-1303.42 1190,-1243.62 1190,-1243.62 1190,-1243.62 1190,-1074 1190,-1005.65 1145.21,-935.41 1117.47,-898.46"/>
+<polygon fill="black" stroke="black" points="1120.27,-896.37 1111.4,-890.58 1114.73,-900.64 1120.27,-896.37"/>
 </g>
 <!-- mov_59_halfsnatchdown -->
 <g id="node64" class="node">
@@ -687,18 +687,18 @@
 <g id="node50" class="node">
 <title>mov_44_pushpress</title>
 <g id="a_node50"><a xlink:href="https://www.youtube.com/watch?v=KTDVl0Lkdc4&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=49" xlink:title="{{44|Push Press}}">
-<path fill="#ffff99" stroke="#b15928" d="M1066.12,-1224.62C1066.12,-1224.62 1149.88,-1224.62 1149.88,-1224.62 1155.88,-1224.62 1161.88,-1230.62 1161.88,-1236.62 1161.88,-1236.62 1161.88,-1248.62 1161.88,-1248.62 1161.88,-1254.62 1155.88,-1260.62 1149.88,-1260.62 1149.88,-1260.62 1066.12,-1260.62 1066.12,-1260.62 1060.12,-1260.62 1054.12,-1254.62 1054.12,-1248.62 1054.12,-1248.62 1054.12,-1236.62 1054.12,-1236.62 1054.12,-1230.62 1060.12,-1224.62 1066.12,-1224.62"/>
-<text text-anchor="middle" x="1068.88" y="-1237.33" font-family="Times New Roman,serif" font-size="14.00">44</text>
-<polyline fill="none" stroke="#b15928" points="1083.62,-1224.88 1083.62,-1260.62"/>
-<text text-anchor="middle" x="1122.75" y="-1237.33" font-family="Times New Roman,serif" font-size="14.00">Push Press</text>
+<path fill="#ffff99" stroke="#b15928" d="M1065.12,-1224.62C1065.12,-1224.62 1148.88,-1224.62 1148.88,-1224.62 1154.88,-1224.62 1160.88,-1230.62 1160.88,-1236.62 1160.88,-1236.62 1160.88,-1248.62 1160.88,-1248.62 1160.88,-1254.62 1154.88,-1260.62 1148.88,-1260.62 1148.88,-1260.62 1065.12,-1260.62 1065.12,-1260.62 1059.12,-1260.62 1053.12,-1254.62 1053.12,-1248.62 1053.12,-1248.62 1053.12,-1236.62 1053.12,-1236.62 1053.12,-1230.62 1059.12,-1224.62 1065.12,-1224.62"/>
+<text text-anchor="middle" x="1067.88" y="-1237.33" font-family="Times New Roman,serif" font-size="14.00">44</text>
+<polyline fill="none" stroke="#b15928" points="1082.62,-1224.88 1082.62,-1260.62"/>
+<text text-anchor="middle" x="1121.75" y="-1237.33" font-family="Times New Roman,serif" font-size="14.00">Push Press</text>
 </a>
 </g>
 </g>
 <!-- mov_19_startstopcap&#45;&gt;mov_44_pushpress -->
 <g id="edge57" class="edge">
 <title>mov_19_startstopcap&#45;&gt;mov_44_pushpress</title>
-<path fill="none" stroke="black" d="M1238.57,-1310.79C1210.52,-1296.36 1177.78,-1279.52 1152.11,-1266.31"/>
-<polygon fill="black" stroke="black" points="1153.77,-1263.23 1143.27,-1261.77 1150.56,-1269.46 1153.77,-1263.23"/>
+<path fill="none" stroke="black" d="M1238.25,-1310.79C1210.05,-1296.36 1177.15,-1279.52 1151.34,-1266.31"/>
+<polygon fill="black" stroke="black" points="1152.95,-1263.21 1142.45,-1261.77 1149.76,-1269.44 1152.95,-1263.21"/>
 </g>
 <!-- mov_65_dblcap -->
 <g id="node70" class="node">
@@ -819,8 +819,8 @@
 <!-- mov_23_racksquat&#45;&gt;mov_24_racklunge -->
 <g id="edge14" class="edge">
 <title>mov_23_racksquat&#45;&gt;mov_24_racklunge</title>
-<path fill="none" stroke="black" d="M883.36,-1324.44C865.5,-1316.32 843.08,-1307.43 822,-1302.75 760.85,-1289.18 302.17,-1320.12 259,-1274.75 239.32,-1254.06 242.07,-1233.49 259,-1210.5 404.44,-1013.01 544.4,-1089.02 786,-1046.75 824.78,-1039.96 926.7,-1054 963,-1038.75 984.15,-1029.87 1003.31,-1013.34 1018.14,-997.59"/>
-<polygon fill="black" stroke="black" points="1020.36,-1000.35 1024.48,-990.59 1015.17,-995.65 1020.36,-1000.35"/>
+<path fill="none" stroke="black" d="M883.36,-1324.44C865.5,-1316.32 843.08,-1307.43 822,-1302.75 760.85,-1289.18 302.17,-1320.12 259,-1274.75 239.32,-1254.06 242.73,-1233.97 259,-1210.5 377.16,-1040.04 492.49,-1086.78 696,-1046.75 725.12,-1041.02 935.55,-1050.03 963,-1038.75 984.22,-1030.03 1003.38,-1013.52 1018.21,-997.74"/>
+<polygon fill="black" stroke="black" points="1020.44,-1000.49 1024.54,-990.73 1015.24,-995.8 1020.44,-1000.49"/>
 </g>
 <!-- mov_47_racksquatpickup -->
 <g id="node52" class="node">
@@ -856,31 +856,31 @@
 <!-- mov_23_racksquat&#45;&gt;mov_48_thruster -->
 <g id="edge63" class="edge">
 <title>mov_23_racksquat&#45;&gt;mov_48_thruster</title>
-<path fill="none" stroke="black" d="M945.56,-1324.41C963.79,-1312 987.47,-1294.13 1005,-1274.75 1027.56,-1249.8 1026.08,-1238.31 1045,-1210.5 1052.21,-1199.9 1060.53,-1188.51 1067.91,-1178.65"/>
-<polygon fill="black" stroke="black" points="1070.49,-1181.04 1073.73,-1170.95 1064.91,-1176.82 1070.49,-1181.04"/>
+<path fill="none" stroke="black" d="M945.63,-1324.48C963.89,-1312.09 987.58,-1294.23 1005,-1274.75 1027.27,-1249.85 1025.21,-1238.12 1044,-1210.5 1051.22,-1199.89 1059.63,-1188.57 1067.16,-1178.77"/>
+<polygon fill="black" stroke="black" points="1069.74,-1181.16 1073.11,-1171.12 1064.21,-1176.87 1069.74,-1181.16"/>
 </g>
 <!-- mov_24_racklunge&#45;&gt;mov_25_clean2sblunge -->
 <g id="edge33" class="edge">
 <title>mov_24_racklunge&#45;&gt;mov_25_clean2sblunge</title>
-<path fill="none" stroke="black" d="M1065.13,-925.59C1069.62,-916.97 1074.45,-907.67 1078.82,-899.28"/>
-<polygon fill="black" stroke="black" points="1081.82,-901.09 1083.33,-890.6 1075.61,-897.86 1081.82,-901.09"/>
+<path fill="none" stroke="black" d="M1066.23,-925.59C1071.02,-916.97 1076.19,-907.67 1080.85,-899.28"/>
+<polygon fill="black" stroke="black" points="1083.89,-901.02 1085.68,-890.58 1077.77,-897.62 1083.89,-901.02"/>
 </g>
 <!-- mov_26_halfkneelclean -->
 <g id="node32" class="node">
 <title>mov_26_halfkneelclean</title>
 <g id="a_node32"><a xlink:href="https://www.youtube.com/watch?v=KTDVl0Lkdc4&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=26" xlink:title="{{26|Half&#45;Kneeling Clean}}">
-<path fill="#ffff99" stroke="#b15928" d="M1026.75,-780C1026.75,-780 1159.25,-780 1159.25,-780 1165.25,-780 1171.25,-786 1171.25,-792 1171.25,-792 1171.25,-804 1171.25,-804 1171.25,-810 1165.25,-816 1159.25,-816 1159.25,-816 1026.75,-816 1026.75,-816 1020.75,-816 1014.75,-810 1014.75,-804 1014.75,-804 1014.75,-792 1014.75,-792 1014.75,-786 1020.75,-780 1026.75,-780"/>
-<text text-anchor="middle" x="1029.5" y="-792.7" font-family="Times New Roman,serif" font-size="14.00">26</text>
-<polyline fill="none" stroke="#b15928" points="1044.25,-780.25 1044.25,-816"/>
-<text text-anchor="middle" x="1107.75" y="-792.7" font-family="Times New Roman,serif" font-size="14.00">Half&#45;Kneeling Clean</text>
+<path fill="#ffff99" stroke="#b15928" d="M1029.75,-780C1029.75,-780 1162.25,-780 1162.25,-780 1168.25,-780 1174.25,-786 1174.25,-792 1174.25,-792 1174.25,-804 1174.25,-804 1174.25,-810 1168.25,-816 1162.25,-816 1162.25,-816 1029.75,-816 1029.75,-816 1023.75,-816 1017.75,-810 1017.75,-804 1017.75,-804 1017.75,-792 1017.75,-792 1017.75,-786 1023.75,-780 1029.75,-780"/>
+<text text-anchor="middle" x="1032.5" y="-792.7" font-family="Times New Roman,serif" font-size="14.00">26</text>
+<polyline fill="none" stroke="#b15928" points="1047.25,-780.25 1047.25,-816"/>
+<text text-anchor="middle" x="1110.75" y="-792.7" font-family="Times New Roman,serif" font-size="14.00">Half&#45;Kneeling Clean</text>
 </a>
 </g>
 </g>
 <!-- mov_25_clean2sblunge&#45;&gt;mov_26_halfkneelclean -->
 <g id="edge34" class="edge">
 <title>mov_25_clean2sblunge&#45;&gt;mov_26_halfkneelclean</title>
-<path fill="none" stroke="black" d="M1093,-852.81C1093,-845.23 1093,-836.1 1093,-827.54"/>
-<polygon fill="black" stroke="black" points="1096.5,-827.54 1093,-817.54 1089.5,-827.54 1096.5,-827.54"/>
+<path fill="none" stroke="black" d="M1096,-852.81C1096,-845.23 1096,-836.1 1096,-827.54"/>
+<polygon fill="black" stroke="black" points="1099.5,-827.54 1096,-817.54 1092.5,-827.54 1099.5,-827.54"/>
 </g>
 <!-- mov_27_cleansblungeclean -->
 <g id="node33" class="node">
@@ -897,14 +897,14 @@
 <!-- mov_26_halfkneelclean&#45;&gt;mov_27_cleansblungeclean -->
 <g id="edge35" class="edge">
 <title>mov_26_halfkneelclean&#45;&gt;mov_27_cleansblungeclean</title>
-<path fill="none" stroke="black" d="M1079.93,-779.59C1060.79,-754.08 1024.93,-706.29 1002.05,-675.8"/>
-<polygon fill="black" stroke="black" points="1005.1,-674.04 996.3,-668.14 999.51,-678.24 1005.1,-674.04"/>
+<path fill="none" stroke="black" d="M1082.58,-779.59C1062.93,-754.08 1026.11,-706.29 1002.61,-675.8"/>
+<polygon fill="black" stroke="black" points="1005.58,-673.92 996.7,-668.13 1000.03,-678.19 1005.58,-673.92"/>
 </g>
 <!-- mov_26_halfkneelclean&#45;&gt;mov_29_halfkneelcap -->
 <g id="edge36" class="edge">
 <title>mov_26_halfkneelclean&#45;&gt;mov_29_halfkneelcap</title>
-<path fill="none" stroke="black" d="M1107.93,-779.76C1115.1,-771.48 1123.87,-761.35 1131.95,-752.03"/>
-<polygon fill="black" stroke="black" points="1134.51,-754.41 1138.41,-744.56 1129.22,-749.83 1134.51,-754.41"/>
+<path fill="none" stroke="black" d="M1110.22,-779.76C1117.05,-771.48 1125.4,-761.35 1133.09,-752.03"/>
+<polygon fill="black" stroke="black" points="1135.57,-754.52 1139.23,-744.58 1130.17,-750.07 1135.57,-754.52"/>
 </g>
 <!-- mov_35_cap2ohsblunge -->
 <g id="node41" class="node">
@@ -1228,8 +1228,8 @@
 <!-- mov_44_pushpress&#45;&gt;mov_48_thruster -->
 <g id="edge64" class="edge">
 <title>mov_44_pushpress&#45;&gt;mov_48_thruster</title>
-<path fill="none" stroke="black" d="M1104.14,-1224.44C1101.37,-1212.07 1097.56,-1195.1 1094.34,-1180.75"/>
-<polygon fill="black" stroke="black" points="1097.85,-1180.4 1092.24,-1171.41 1091.02,-1181.94 1097.85,-1180.4"/>
+<path fill="none" stroke="black" d="M1103.34,-1224.44C1100.72,-1212.19 1097.15,-1195.43 1094.11,-1181.17"/>
+<polygon fill="black" stroke="black" points="1097.54,-1180.47 1092.03,-1171.42 1090.69,-1181.93 1097.54,-1180.47"/>
 </g>
 <!-- mov_45_gobsquatcurl&#45;&gt;mov_39_boxsquat2boat -->
 <g id="edge58" class="edge">
