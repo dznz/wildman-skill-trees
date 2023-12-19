@@ -1,3 +1,4 @@
+@startdot kb_progression_2_tgu
 digraph kb_progression {
 
   label=<
@@ -114,3 +115,4 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
    >];
   }
 }
+@enddot

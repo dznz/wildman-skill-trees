@@ -1,3 +1,4 @@
+@startdot kb_progression_3
 digraph kb_progression {
 
   label=<
@@ -106,3 +107,4 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
    >];
   }
 }
+@enddot

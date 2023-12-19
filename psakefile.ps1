@@ -32,14 +32,17 @@ Task CompileHeavyClub {
 
 Task CompileKettlebell {
   $KBRoot = (Join-Path $SrcRoot "kb")
-  dot -T $outFormat (Join-Path $KBRoot "kb_progression_1.gv") -o (Join-Path $DistDir "kb_progression_1.$outFormat")
-  dot -T $outFormat (Join-Path $KBRoot "kb_progression_2_tgu.gv") -o (Join-Path $DistDir "kb_progression_2_tgu.$outFormat")
-  dot -T $outFormat (Join-Path $KBRoot "kb_progression_3.gv") -o (Join-Path $DistDir "kb_progression_3.$outFormat")
-  dot -T $outFormat (Join-Path $KBRoot "kb_progression_4.gv") -o (Join-Path $DistDir "kb_progression_4.$outFormat")
-  
-  Puml -SrcFilePath (Join-Path $KBRoot "kb_progression_ALL.puml") `
-       -OutputDirPath $DistDir `
-       -OutputFormat $outFormat
+  $PumlFiles = "kb_progression_1.puml",
+               "kb_progression_2_tgu.puml",
+               "kb_progression_3.puml",
+               "kb_progression_4.puml",
+               "kb_progression_ALL.puml"
+  foreach ($SrcFile in $PumlFiles) {
+    Write-Host "Rendering $SrcFile"
+    Puml -SrcFilePath (Join-Path $KBRoot $SrcFile) `
+          -OutputDirPath $DistDir `
+          -OutputFormat $outFormat
+  }
 }
 
 Task CompileMace {
