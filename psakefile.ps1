@@ -3,7 +3,7 @@ Include ".\build_utils.ps1"
 Properties {
   $DistDir = (Join-Path $PSScriptRoot "dist")
   $SrcRoot = (Join-Path $PSScriptRoot "src")
-  $outFormat = "svg"
+  [string[]] $OutputFormats = ,"svg"
 }
 
 Task default -Depends Full
@@ -26,7 +26,7 @@ Task CompileHeavyClub {
     Write-Host "Rendering $SrcFile"
     Puml -SrcFilePath (Join-Path $HCRoot $SrcFile) `
          -OutputDirPath $DistDir `
-         -OutputFormat $outFormat
+         -OutputFormatList $OutputFormats
   }
 }
 
@@ -41,16 +41,16 @@ Task CompileKettlebell {
     Write-Host "Rendering $SrcFile"
     Puml -SrcFilePath (Join-Path $KBRoot $SrcFile) `
           -OutputDirPath $DistDir `
-          -OutputFormat $outFormat
+          -OutputFormatList $OutputFormats
   }
 }
 
 Task CompileMace {
   $MaceRoot = (Join-Path $SrcRoot "mace")
-  
+
   Puml -SrcFilePath (Join-Path $MaceRoot "mace_progression_ALL.puml") `
        -OutputDirPath $DistDir `
-       -OutputFormat $outFormat
+       -OutputFormatList $OutputFormats
 }
 
 Task Clean {

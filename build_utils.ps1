@@ -25,10 +25,11 @@ function Puml {
       # Output file format
       [Parameter(Position=2,
       HelpMessage="One of svg, png")]
-      [string]
-      $OutputFormat = "svg"
+      [string[]]
+      $OutputFormatList = @("svg")
     )
-  
-    $cmd = "plantuml -t$OutputFormat -o $OutputDirPath $SrcFilePath"
-    Invoke-Expression $cmd
+    foreach ($format in $OutputFormatList) {
+        $cmd = "plantuml -t$format -o $OutputDirPath $SrcFilePath"
+        Invoke-Expression $cmd
+    }
 }
