@@ -20,15 +20,14 @@ Task CompileHeavyClub {
   $PumlFiles = "hc_2h_progression_1.puml",
                "hc_2h_progression_2.puml",
                "hc_2h_progression_ALL.puml",
-               "hc_2h_progression_ALT.puml"
+               "hc_2h_progression_ALT.puml",
+               "hc_sa_progression.puml"
   foreach ($SrcFile in $PumlFiles) {
     Write-Host "Rendering $SrcFile"
     Puml -SrcFilePath (Join-Path $HCRoot $SrcFile) `
          -OutputDirPath $DistDir `
          -OutputFormat $outFormat
   }
-  
-  dot -T $outFormat (Join-Path $HCRoot "hc_sa_progression.gv") -o (Join-Path $DistDir "hc_sa_progression.$outFormat")
 }
 
 Task CompileKettlebell {

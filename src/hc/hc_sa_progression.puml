@@ -1,4 +1,5 @@
-digraph kb_progression {
+@startdot hc_sa_progression
+digraph HCSA {
 
   label=<
 <B>Single Arm Heavy Club Skill Progression</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
@@ -115,3 +116,4 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_03_outcircle -> mov_21_outcirclesc;
   mov_17_millprep -> mov_21_outcirclesc;
 }
+@enddot
