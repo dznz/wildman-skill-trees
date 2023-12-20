@@ -140,6 +140,19 @@ I'm experimenting with an alternative view of the full 2HHC graph with the follo
 
 ![Tree of two-hand heavy club drills, arranged to highlight sequence.](/dist/hc_2h_progression_ALT.svg)
 
+**Bootstrap Program (Experimental)**
+
+Using the skill progression sequence, I've built an experimental program that one could use to start from scratch with heavy clubs and develop confidence as they learn increasingly complex skills. The idea is to end the program ready to begin something like MW's Mill Squat program or the Wildfan Free 2H club program.
+
+Caveats and Disclaimers:
+
+- This is currently a WIP and being actively tested. It may have major flaws and need drastic changes.
+- No warranty, express or implied, is offered by yours truly
+
+That said, guinea pigs are more than welcome to assist in proving out the concept with me.
+
+[`/src/hc/2hhc_bootstrap_program.xlsx`](/src/hc/2hhc_bootstrap_program.xlsx)
+
 ### Single-Arm Heavy Club Skill Progression ###
 
 Single-arm Heavy Club is generally developed *after* two-handed heavy club so that the athlete learns to rotate their body correctly. As such, the precursor two-handed skills are included in green to indicate how single-arm heavy club proceeds from them.
