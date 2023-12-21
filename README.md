@@ -2,25 +2,27 @@
 
 How to learn Kettlebells, Clubs, and Maces the Wildman way, visualised.
 
-[Mark Wildman][4] is the best online coach I know, and has shared vast amounts of his knowledge and experience with Kettlebells, Clubs and Maces via [YouTube][5] and [Instagram][6]. In particular, he has shared his personal approach to teaching these tools, and building towards complex movements and skills.
+[Mark Wildman][4] is the best online coach I know, and has shared vast amounts of his knowledge and experience with Kettlebells, Clubs and Maces via [YouTube][MWYT] and [Instagram][MWIG]. In particular, he has shared his personal approach to teaching these tools, and building towards complex movements and skills.
 
 This is my humble attempt to coalesce this semi-implicit knowledge into structures that fit my brain. This can be considered a fan work, in that these diagrams contain as little innovation or deviation from Wildman's guidance as possible. They are shared in the hopes that they might also be useful to you.
 
 [4]: https://www.wildmanathletica.com/
-[5]: https://www.youtube.com/@MarkWildman
-[6]: https://www.instagram.com/wildmanathletica/
+[MWYT]: https://www.youtube.com/@MarkWildman
+[MWIG]: https://www.instagram.com/wildmanathletica/
 
 ### Features
 
 - Skill progressions arranged into progressive tree structure.
 - Use of GraphViz allows easy extension and remixing.
 - Includes links back to Wildman videos and playlists with full instructions.
+- Bootstrap programs for incrementally learning and practicing new skills **[Experimental!]**
 
 ### Limitations
 
 - Movement is infinitely complex, these models are not. Legibility has been preferred over strict accuracy.
 - Mark is constantly publishing new material, and these diagrams are likely to fall out of date.
 - The URL links to each video will only be present on SVG renderings.
+  You can open a downloaded SVG diagram directly in most browsers.
 
 ### Possible Uses
 
@@ -35,6 +37,9 @@ This is my humble attempt to coalesce this semi-implicit knowledge into structur
   - [Two-Handed Heavy Club Skill Progression](#two-handed-heavy-club-skill-progression)
   - [Single-Arm Heavy Club Skill Progression](#single-arm-heavy-club-skill-progression)
   - [Mace Progression](#mace-progression)
+- [Bootstrap Programs](#bootstrap-programs) - *Experimental*
+  - [Kettlebell Bootstrap Program](#kettlebell-bootstrap-program)
+  - [Two-Handed Heavy Club Bootstrap Program](#two-handed-heavy-club-bootstrap-program)
 - [Contributing](#contributing)
 
 ## The Diagrams ##
@@ -140,19 +145,6 @@ I'm experimenting with an alternative view of the full 2HHC graph with the follo
 
 ![Tree of two-hand heavy club drills, arranged to highlight sequence.](/dist/hc_2h_progression_ALT.svg)
 
-**Bootstrap Program (Experimental)**
-
-Using the skill progression sequence, I've built an experimental program that one could use to start from scratch with heavy clubs and develop confidence as they learn increasingly complex skills. The idea is to end the program ready to begin something like MW's Mill Squat program or the Wildfan Free 2H club program.
-
-Caveats and Disclaimers:
-
-- This is currently a WIP and being actively tested. It may have major flaws and need drastic changes.
-- No warranty, express or implied, is offered by yours truly
-
-That said, guinea pigs are more than welcome to assist in proving out the concept with me.
-
-[`/src/hc/2hhc_bootstrap_program.xlsx`](/src/hc/2hhc_bootstrap_program.xlsx)
-
 ### Single-Arm Heavy Club Skill Progression ###
 
 Single-arm Heavy Club is generally developed *after* two-handed heavy club so that the athlete learns to rotate their body correctly. As such, the precursor two-handed skills are included in green to indicate how single-arm heavy club proceeds from them.
@@ -175,6 +167,46 @@ This steel mace/macebell progression is a WIP, currently covering ~30 movements 
 | [`/src/mace/mace_progression_ALL.puml`](/src/mace/mace_progression_ALL.puml) |  [`/dist/mace_progression_ALL.svg`](/dist/mace_progression_ALL.svg) |
 
 ![Tree of mace drills, arranged in order of complexity.](/dist/mace_progression_ALL.svg)
+
+## Bootstrap Programs ##
+
+Using the skill progression sequences, I've built a couple of experimental programs that one could use to start from scratch with kettlebells or heavy clubs and develop confidence as one learns increasingly complex skills.
+
+The focus is not on increasing work capacity. While they are (light) real workouts, the idea is to complete the program ready to begin something like MW's Mill Squat program or the Wildfan Free 2H club program.
+
+The programs are arranged in "levels" based on consecutive blocks of the sequenced drills for each tool, and I am using the [level interlacing idea][interlace] MW presents for his Slam Ball program to approximate a progressive wave of difficulty.
+
+[interlace]: https://www.youtube.com/watch?v=YarJh0UW7-0
+
+**Caveats and Disclaimers:**
+
+- This is currently a WIP and being actively tested. The programs may have major flaws and need drastic changes.
+- No warranty, express or implied, is offered by yours truly.
+- Because this is still an experiment, only the bare minimum of formatting has been applied to the Excel spreadsheets. No manual is provided, so it might take a minute to orient yourself.
+
+That said, guinea pigs are more than welcome to assist in proving out the concept with me. If you *do* try out these ideas, please find me on the [Wildfan Discord][wildfan] and let me know how it goes!
+
+[wildfan]: https://discord.com/invite/Fv7QF6DQ4g
+
+### Kettlebell Bootstrap Program ###
+
+Because of the incremental nature of this idea, the early workouts cannot be described as "full-body", focusing instead on the core movements that might add the most to anyone's existing practice.
+
+The KB program starts its **Level 1** with warmups and the two-handed swing and then begins to alternate with **Level 2**'s introduction to the Clean and Overhead Press (as separate drills). **Level 3** introduces the combined Clean & Press and four Squat variations, allowing us to model the AB program of MW's first [Tetris of Training][ToT] video. A proposed **Level 4** would then move onto Turkish Getup preparatory movements.
+
+Rep count is used as a rough guide to track increased work volume over the program. Multiply this by weight to track work capacity.
+
+[ToT]: https://www.youtube.com/watch?v=sAcBo4H__hE
+
+Download the program as a spreadsheet here: [`/src/kb/kb_bootstrap_program.xlsx`](/src/kb/kb_bootstrap_program.xlsx)
+
+### Two-Handed Heavy Club Bootstrap Program ##
+
+The key organising idea for the heavy club program is for every workout to cover as much of seven movement families as possible: squat, side swing, clean & press, lunge, mill, swipe, and getup.
+
+Drills are performed for Time Under Tension, 30 seconds of activity followed by 30 seconds of rest, repeated for two rounds, leading to a workout of between 8 to 12 minutes.
+
+Download the program as a spreadsheet here: [`/src/hc/2hhc_bootstrap_program.xlsx`](/src/hc/2hhc_bootstrap_program.xlsx)
 
 ## Contributing ##
 
