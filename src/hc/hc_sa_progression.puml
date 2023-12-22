@@ -63,12 +63,13 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_13_inpend           [label="{{13|Inside Pendulum}}"                               URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=10"];
   mov_14_outpull          [label="{{14|Outside Pullover}|+ EXT ROTATION}"               URL="https://www.youtube.com/watch?v=sJ5XCgdCMx8&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=14"];
   mov_15_inpull           [label="{{15|Inside Pullover}|+ INT ROTATION}"                URL="https://www.youtube.com/watch?v=sJ5XCgdCMx8&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=15"];
-  mov_16_altpend          [label="{{16|Alternating Pendulum}}"                          URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=16"];
+  mov_16_altpend          [label="{{16|Alternating Pendulum}}"                          URL="https://www.youtube.com/watch?v=eIkqXJ5d7V4"];
   mov_17_millprep         [label="{{17|Mill Prep}}"                                     URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=17"];
   mov_18_alt180pull       [label="{{18|Alternating 180 Degree\nPullover}}"              URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=18"];
   mov_19_mill             [label="{{19|Mill}}"                                          URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=19"];
   mov_20_revmill          [label="{{20|Reverse Mill}}"                                  URL="https://www.youtube.com/watch?v=I26O1ct_hik&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=20"];
   mov_21_outcirclesc      [label="{{21|Outside Circle\nShield Cast}|ORDER POS IN MILL}" URL="https://www.youtube.com/watch?v=NdJlzFTbQwo&list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&index=21"]
+  mov_22_outpendoutpull   [label="{{22|Outside Pendulum\nOutside Pullover}}"             URL="https://www.youtube.com/watch?v=b0Ztc-54C_Y"]
 
   // external skill links
   ext_2h_s2s -> ext_2h_sideswingl2h -> ext_2h_s2srockit;
@@ -112,8 +113,9 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_11_altcircle -> mov_19_mill;
   mov_11_altcircle -> mov_20_revmill;
   mov_18_alt180pull -> mov_20_revmill;
-  mov_11_altcircle -> mov_16_altpend;
   mov_03_outcircle -> mov_21_outcirclesc;
   mov_17_millprep -> mov_21_outcirclesc;
+  {mov_12_outpend, mov_14_outpull} -> mov_22_outpendoutpull;
+
 }
 @enddot
