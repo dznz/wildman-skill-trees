@@ -120,11 +120,11 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_69_snatchpress        [label="{{69|Snatch Press}}"                 URL="https://www.youtube.com/watch?v=IzFPa_Q1yHM&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=67"];
   mov_70_kneelsnatchup      [label="{{70|Half-Kneeling Snatch Up}}"      URL="https://www.youtube.com/watch?v=1_UrK5SopL4"];
 
-  mov_71_deaddblclean       [label="{{71|Dead Stop\nDouble Clean}}"           URL="https://www.youtube.com/watch?v=22bKQqMqAQY"];
-  mov_72_deck               [label="{{72|Deck Squat}}"                        URL="https://www.youtube.com/watch?v=vUJ3sZVwZ4Y"];
-  mov_73_2hsbldl            [label="{{73|Two Hand Single Bent Leg Deadlift}}" URL="https://www.youtube.com/watch?v=-RD1qqe7P8M"];
-  mov_74_dblhangclean2squat [label="{{74|Double Hang Clean\nTo Squat}}"       URL="https://www.youtube.com/watch?v=SdPEkv56Lt8"];
-
+  mov_71_deaddblclean       [label="{{71|Dead Stop\nDouble Clean}}"                URL="https://www.youtube.com/watch?v=22bKQqMqAQY"];
+  mov_72_deck               [label="{{72|Deck Squat}}"                             URL="https://www.youtube.com/watch?v=vUJ3sZVwZ4Y"];
+  mov_73_2hsbldl            [label="{{73|Two Hand Single\nBent Leg Deadlift}}"     URL="https://www.youtube.com/watch?v=-RD1qqe7P8M"];
+  mov_74_dblhangclean2squat [label="{{74|Double Hang Clean\nTo Squat}}"            URL="https://www.youtube.com/watch?v=SdPEkv56Lt8"];
+  mov_75_2hssldl            [label="{{75|Two Hand Single\nStraight Leg Deadlift}}" URL="https://www.youtube.com/watch?v=tMt2hzfFGzo"];
 
   // Next skills
   mov_24_racklunge [label="{{24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
@@ -277,6 +277,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   // Ungrouped drills
   mov_56_suitcasedl -> mov_57_dblsuitcase;
   mov_56_suitcasedl -> mov_73_2hsbldl;
+  mov_73_2hsbldl -> mov_75_2hssldl;
 
   subgraph cluster_double {
     label="Doubles"

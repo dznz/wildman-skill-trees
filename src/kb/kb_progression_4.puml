@@ -51,8 +51,9 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_70_kneelsnatchup      [label="{{70|Half-Kneeling Snatch Up}}"           URL="https://www.youtube.com/watch?v=1_UrK5SopL4"];
   mov_71_deaddblclean       [label="{{71|Dead Stop\nDouble Clean}}"           URL="https://www.youtube.com/watch?v=22bKQqMqAQY"];
   // 72|Deck Squat is in part 3
-  mov_73_2hsbldl            [label="{{73|Two Hand Single Bent Leg Deadlift}}" URL="https://www.youtube.com/watch?v=-RD1qqe7P8M"];
-  mov_74_dblhangclean2squat [label="{{74|Double Hang Clean\nTo Squat}}"       URL="https://www.youtube.com/watch?v=SdPEkv56Lt8"];
+  mov_73_2hsbldl            [label="{{73|Two Hand Single\nBent Leg Deadlift}}"     URL="https://www.youtube.com/watch?v=-RD1qqe7P8M"];
+  mov_74_dblhangclean2squat [label="{{74|Double Hang Clean\nTo Squat}}"            URL="https://www.youtube.com/watch?v=SdPEkv56Lt8"];
+  mov_75_2hssldl            [label="{{75|Two Hand Single\nStraight Leg Deadlift}}" URL="https://www.youtube.com/watch?v=tMt2hzfFGzo"];
 
   // Precursor dependencies
   ext_hc_dblswing -> ext_hc_dblrockit;
@@ -72,6 +73,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   // Ungrouped drills
   mov_56_suitcasedl -> mov_57_dblsuitcase;
   mov_56_suitcasedl -> mov_73_2hsbldl;
+  mov_73_2hsbldl -> mov_75_2hssldl;
 
   subgraph cluster_double {
     label="Doubles"
