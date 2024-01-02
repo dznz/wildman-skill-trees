@@ -54,6 +54,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_73_2hsbldl            [label="{{73|Two Hand Single\nBent Leg Deadlift}}"     URL="https://www.youtube.com/watch?v=-RD1qqe7P8M"];
   mov_74_dblhangclean2squat [label="{{74|Double Hang Clean\nTo Squat}}"            URL="https://www.youtube.com/watch?v=SdPEkv56Lt8"];
   mov_75_2hssldl            [label="{{75|Two Hand Single\nStraight Leg Deadlift}}" URL="https://www.youtube.com/watch?v=tMt2hzfFGzo"];
+  mov_76_dblhangcap         [label="{{76|Double Dead Hang\nClean & Press}}"        URL="https://www.youtube.com/watch?v=ieDA4V9WGNQ"];
 
   // Precursor dependencies
   ext_hc_dblswing -> ext_hc_dblrockit;
@@ -87,6 +88,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     mov_58_dblsumodl -> mov_60_dblswing;
     mov_60_dblswing -> mov_64_dbloutswing;
     mov_68_dblclean2squat -> mov_74_dblhangclean2squat;
+    mov_65_dblcap -> mov_76_dblhangcap;
   }
 
   subgraph cluster_snatch {
