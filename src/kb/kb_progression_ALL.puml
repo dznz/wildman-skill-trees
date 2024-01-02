@@ -1,6 +1,6 @@
 @startuml
 digraph kb_progression {
-  
+  // Playlist: https://www.youtube.com/watch?list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA
   label=<
 <B>Kettlebell Basic Skill Progression - ALL</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
 Diagram by dznz based on Mark Wildman's teachings.<BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
