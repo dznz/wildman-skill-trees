@@ -125,12 +125,6 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_73_2hsbldl            [label="{{73|Two Hand Single\nBent Leg Deadlift}}"     URL="https://www.youtube.com/watch?v=-RD1qqe7P8M"];
   mov_74_dblhangclean2squat [label="{{74|Double Hang Clean\nTo Squat}}"            URL="https://www.youtube.com/watch?v=SdPEkv56Lt8"];
   mov_75_2hssldl            [label="{{75|Two Hand Single\nStraight Leg Deadlift}}" URL="https://www.youtube.com/watch?v=tMt2hzfFGzo"];
-
-  // Next skills
-  mov_24_racklunge [label="{{24|Rack Opposite Leg\nStep-Back Lunge}|VERTICAL SPINE}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=24"]
-  mov_25_clean2sblunge [label="{{25|Clean Step-Back Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=25"]
-  mov_26_halfkneelclean [label="{{26|Half-Kneeling Clean}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=26"]
-  mov_29_halfkneelcap [label="{{29|Half-Kneeling\nClean & Press}}" URL="https://www.youtube.com/watch?v=KTDVl0Lkdc4&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=29"]
   mov_76_dblhangcap         [label="{{76|Double Dead Hang\nClean & Press}}"        URL="https://www.youtube.com/watch?v=ieDA4V9WGNQ"];
 
   mov_01_deadlift -> mov_02_swing;
