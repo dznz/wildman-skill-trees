@@ -41,7 +41,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     // Getups
     mov_31_altshinbox; mov_33_altshinboxfrpress; mov_26_fbpull; mov_27_fbpullsit; mov_29_fbpullsitpress
     // Squat
-    mov_32_incirclesquat; mov_34_outcirclesquat; mov_36_squatpress
+    mov_32_incirclesquat; mov_34_outcirclesquat; mov_36_squatpress; mov_39_pullsquat
     // Lunge
     mov_23_kneelsc; mov_25_kneelbackswing; mov_24_sblungepull; mov_28_sblungepullbot; mov_30_sbfrontpress; mov_35_sblungepullsbpress;
   }
@@ -105,6 +105,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_36_squatpress         [label="{{36|Squat Press}}"                                         URL="https://www.youtube.com/watch?v=6p1niExqXSA"]
   mov_37_cap                [label="{{37|Clean & Press}}"                                       URL="https://www.youtube.com/watch?v=6kpEYglMJ1c"]
   mov_38_millprep           [label="{{38|Mill Prep}}"                                           URL="https://www.youtube.com/watch?v=G_OXuFs2bRs"]
+  mov_39_pullsquat          [label="{{39|Pullover Squat}}"                                      URL="https://www.youtube.com/watch?v=3yf3VO2sd-4"];
 
   // Unsequenced
   ' mov_mill                   [label="{{|Mill}}"                            URL="https://www.youtube.com/watch?v=iFtaPBDwG7w"]
@@ -198,6 +199,7 @@ subgraph cluster_squat {
   mov_10_squat -> mov_22_scsquat;
   mov_10_squat -> mov_32_incirclesquat;
   mov_10_squat -> mov_36_squatpress;
+  mov_22_scsquat -> mov_39_pullsquat;
 }
 
 subgraph cluster_lunge {

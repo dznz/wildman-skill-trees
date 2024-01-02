@@ -85,7 +85,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     mov_36_squatpress         [label="{{36|Squat Press}}"                                         URL="https://www.youtube.com/watch?v=6p1niExqXSA"]
     mov_37_cap                [label="{{37|Clean & Press}}"                                       URL="https://www.youtube.com/watch?v=6kpEYglMJ1c"]
     mov_38_millprep           [label="{{38|Mill Prep}}"                                           URL="https://www.youtube.com/watch?v=G_OXuFs2bRs"]
-
+    mov_39_pullsquat          [label="{{39|Pullover Squat}}"                                      URL="https://www.youtube.com/watch?v=3yf3VO2sd-4"];
   }
 
   // Prerequisite skills
@@ -108,6 +108,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_04_deadclean -> mov_05_insidecircle;
   mov_08_backpossidetoside -> mov_25_kneelbackswing;
   mov_20_3csc -> mov_23_kneelsc
+  mov_07_pullover -> mov_39_pullsquat;
 
 subgraph custer_sideswing {
   label="Sideswing"
@@ -154,6 +155,7 @@ subgraph custer_squat {
   mov_10_squat -> mov_22_scsquat;
   mov_10_squat -> mov_32_incirclesquat;
   mov_10_squat -> mov_36_squatpress;
+  mov_10_squat -> mov_39_pullsquat;
 }
 
 subgraph custer_lunge {
