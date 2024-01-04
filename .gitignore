@@ -1,2 +1,4 @@
 # LibreOffice Calc lock file
 .~lock*
+# VSCode settings
+.vscode
