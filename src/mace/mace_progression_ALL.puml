@@ -61,14 +61,14 @@ mov_17_saoutcircle            [label="{{17  |Single arm\noutside circle}}"      
 mov_18_saaltcircle            [label="{{18  |Single arm\nalternating circles}}"                      URL="https://www.youtube.com/watch?v=XWIFyifqSr8" ]
 mov_19_incircle2altcoin       [label="{{19  |Inside circle to\nalternate hand coin flip}}"           URL="https://www.youtube.com/watch?v=opgqoNcD1Ds" ]
 mov_20_outcircle2altcoin      [label="{{20  |Outside circle to\nalternate hand coin flip}}"          URL="https://www.youtube.com/watch?v=qX0nE-3VMN0" ]
-mov_21_altcirclewinandoutcoin [label="{{21  |Alt circle with inside and outside coin flip}}"         URL="https://www.youtube.com/watch?v=as46Zm9oibE" ]
+mov_21_altcirclewinandoutcoin [label="{{21  |Alt circle with\ninside and outside coin flip}}"         URL="https://www.youtube.com/watch?v=as46Zm9oibE" ]
 mov_22_incircle2sameflip      [label="{{22  |Inside circle to\nsame hand flip catch}}"               URL="https://www.youtube.com/watch?v=xlClTZRbmc0" ]
 mov_23_outcircle2sameflip     [label="{{23  |Outside circle to\nsame side flip catch}}"              URL="https://www.youtube.com/watch?v=UwR4uFqvUyY" ]
-mov_241_altcircle2sameflip    [label="{{24-1|Alt circle with same side flip catch}}"                 URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
+mov_241_altcircle2sameflip    [label="{{24-1|Alt circle with\nsame side flip catch}}"                 URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
 mov_242_outflip               [label="{{24-2|Outside flip catch balance}}"                           URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
 
 mov_243_inflip                [label="{{24-3|Inside flip catch balance}}"                                URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
-mov_25_cincirclewaltnunchuck  [label="{{25  |Continuous inside circle with alt hand nunchuck flip}}"     URL="https://www.youtube.com/watch?v=rCgrNJLsrBM" ]
+mov_25_cincirclewaltnunchuck  [label="{{25  |Continuous inside circle with\nalt hand nunchuck flip}}"     URL="https://www.youtube.com/watch?v=rCgrNJLsrBM" ]
 mov_26_coutcirclewaltflip     [label="{{26  |Continous outside circle with\nalternate hand flip catch}}" URL="https://www.youtube.com/watch?v=T5lfsHi1rDY" ]
 mov_27_inflip180pull          [label="{{27  |Inside flip catch mill with\nsword grip across the top}}"   URL="https://www.youtube.com/watch?v=uFsPwnClx-M" ]
 mov_28_outflipmill            [label="{{28  |Outside flip catch mill\naka flip catch reverse mill}}"     URL="https://www.youtube.com/watch?v=jKbelC2dZVo" ];

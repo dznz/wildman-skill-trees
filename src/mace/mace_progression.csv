@@ -24,13 +24,13 @@ M-17,mov_17_saoutcircle,Single arm\noutside circle,https://www.youtube.com/watch
 M-18,mov_18_saaltcircle,Single arm\nalternating circles,https://www.youtube.com/watch?v=XWIFyifqSr8,4,(Left/Right) * (Technical/Performance),LF,1,N
 M-19,mov_19_incircle2altcoin,Inside circle to\nalternate hand coin flip,https://www.youtube.com/watch?v=opgqoNcD1Ds,2,Left/Right,L,1,S
 M-20,mov_20_outcircle2altcoin,Outside circle to\nalternate hand coin flip,https://www.youtube.com/watch?v=qX0nE-3VMN0,2,Left/Right,L,1,S
-M-21,mov_21_altcirclewinandoutcoin,Alt circle with inside and outside coin flip,https://www.youtube.com/watch?v=as46Zm9oibE,1,,,1,N
+M-21,mov_21_altcirclewinandoutcoin,Alt circle with\ninside and outside coin flip,https://www.youtube.com/watch?v=as46Zm9oibE,1,,,1,N
 M-22,mov_22_incircle2sameflip,Inside circle to\nsame hand flip catch,https://www.youtube.com/watch?v=xlClTZRbmc0,2,Left/Right,L,1,S
 M-23,mov_23_outcircle2sameflip,Outside circle to\nsame side flip catch,https://www.youtube.com/watch?v=UwR4uFqvUyY,2,Left/Right,L,1,S
-M-24-1,mov_241_altcircle2sameflip,Alt circle with same side flip catch,https://www.youtube.com/watch?v=T5x3xsfHqs8,2,Left/Right,L,1,N
+M-24-1,mov_241_altcircle2sameflip,Alt circle with\nsame side flip catch,https://www.youtube.com/watch?v=T5x3xsfHqs8,2,Left/Right,L,1,N
 M-24-2,mov_242_outflip,Outside flip catch balance,https://www.youtube.com/watch?v=T5x3xsfHqs8,2,Left/Right,L,1,S
 M-24-3,mov_243_inflip,Inside flip catch balance,https://www.youtube.com/watch?v=T5x3xsfHqs8,2,Left/Right,L,1,S
-M-25,mov_25_cincirclewaltnunchuck,Continuous inside circle with alt hand nunchuck flip,https://www.youtube.com/watch?v=rCgrNJLsrBM,2,Left/Right,L,1,N
+M-25,mov_25_cincirclewaltnunchuck,Continuous inside circle with\nalt hand nunchuck flip,https://www.youtube.com/watch?v=rCgrNJLsrBM,2,Left/Right,L,1,N
 M-26,mov_26_coutcirclewaltflip,Continous outside circle with\nalternate hand flip catch,https://www.youtube.com/watch?v=T5lfsHi1rDY,4,Left/Right * (Let go/Don't let go),L,1,N
 M-27,mov_27_inflip180pull,Inside flip catch mill with\nsword grip across the top,https://www.youtube.com/watch?v=uFsPwnClx-M,2,Left/Right,L,1,N
 M-28,mov_28_outflipmill,Outside flip catch mill\naka flip catch reverse mill,https://www.youtube.com/watch?v=jKbelC2dZVo,2,Left/Right,L,1,N
