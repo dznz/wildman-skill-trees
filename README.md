@@ -16,6 +16,7 @@ This is my humble attempt to coalesce this semi-implicit knowledge into structur
 - Use of GraphViz allows easy extension and remixing.
 - Includes links back to Wildman videos and playlists with full instructions.
 - Bootstrap programs for incrementally learning and practicing new skills **[Experimental!]**
+- Full CSV lists of sequences, useful for your own experiments
 
 ### Limitations
 
@@ -40,6 +41,7 @@ This is my humble attempt to coalesce this semi-implicit knowledge into structur
 - [Bootstrap Programs](#bootstrap-programs) - *Experimental*
   - [Kettlebell Bootstrap Program](#kettlebell-bootstrap-program)
   - [Two-Handed Heavy Club Bootstrap Program](#two-handed-heavy-club-bootstrap-program)
+- [Sequence Lists](#sequence-lists)
 - [Contributing](#contributing)
 
 ## The Diagrams ##
@@ -208,6 +210,27 @@ The key organising idea for the heavy club program is for every workout to cover
 Drills are performed for Time Under Tension, 30 seconds of activity followed by 30 seconds of rest, repeated for two rounds, leading to a workout of between 8 to 12 minutes.
 
 Download the program as a spreadsheet here: [`/src/hc/2hhc_bootstrap_program.xlsx`](/src/hc/2hhc_bootstrap_program.xlsx)
+
+## Sequence Lists ##
+
+In order to keep track of the totality of the movements, I have created structured lists that one could import as a spreadsheet or use in a script or... whatever. I offer this - as-is - as a kind of bonus feature for other nerds who might want to build upon my work.
+
+Each row contains, at a minimum:
+- `ID` - index ID of the movement e.g. `2HHC-25`
+- `Graph_Name` - Programmatic handle e.g. `mov_25_mill`
+- `Label` - Text label (with line breaks)
+- `URL` - This may contain standalone or playlist links but by default should be standalone.
+
+Some contain additional fields that may or may not be useful to you. These are easy to strip using Excel or Libre Calc.
+
+| Sequence | File |
+|------- | --- | 
+| Kettlebell | [`/src/kb/kb_progression.csv`](/src/kb/kb_progression.csv) |
+| Two-handed Heavy Club |  [`/src/hc/hc_2h_progression.csv`](/src/hc/hc_2h_progression.csv) |
+| Single-arm Heavy Club | *Does not exist, sorry!*|
+| Mace | [`/src/mace/mace_progression.csv`](/src/mace/mace_progression.csv) |
+
+If you use these for your own project, do let me know!
 
 ## Contributing ##
 
