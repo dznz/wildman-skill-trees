@@ -72,7 +72,8 @@ mov_25_cincirclewaltnunchuck  [label="{{25  |Continuous inside circle with\nalt 
 mov_26_coutcirclewaltflip     [label="{{26  |Continous outside circle with\nalternate hand flip catch}}" URL="https://www.youtube.com/watch?v=T5lfsHi1rDY" ]
 mov_27_inflip180pull          [label="{{27  |Inside flip catch mill with\nsword grip across the top}}"   URL="https://www.youtube.com/watch?v=uFsPwnClx-M" ]
 mov_28_outflipmill            [label="{{28  |Outside flip catch mill\naka flip catch reverse mill}}"     URL="https://www.youtube.com/watch?v=jKbelC2dZVo" ];
-mov_29_inmillwflip            [label="{{29  |Inside mill with\nflip catch hand change}}",                URL="https://www.youtube.com/watch?v=Hmk80iWQHjM" ];
+mov_29_inmillwflip            [label="{{29  |Inside mill with\nflip catch hand change}}"                 URL="https://www.youtube.com/watch?v=Hmk80iWQHjM" ];
+mov_30_outmillwflip           [label="{{30  |Outside mill with\nflip catch hand change}}"                URL="https://www.youtube.com/watch?v=aIxKwvzj9Hk" ];
 
 // LAYOUT HACKS
 
@@ -109,13 +110,13 @@ mov_29_inmillwflip            [label="{{29  |Inside mill with\nflip catch hand c
     mov_19_incircle2altcoin -> mov_25_cincirclewaltnunchuck
     mov_23_outcircle2sameflip -> mov_26_coutcirclewaltflip
     mov_22_incircle2sameflip -> mov_27_inflip180pull
-    mov_23_outcircle2sameflip -> mov_28_outflipmill
+    {mov_23_outcircle2sameflip, mov_27_inflip180pull} -> mov_28_outflipmill
     mov_27_inflip180pull -> mov_29_inmillwflip
+    {mov_28_outflipmill, mov_29_inmillwflip} -> mov_30_outmillwflip
 
     {rank=same; ext_180pull; mov_16_saincircle}
     {rank=same; mov_17_saoutcircle; mov_19_incircle2altcoin}
     {rank=same; mov_21_altcirclewinandoutcoin; mov_22_incircle2sameflip; mov_23_outcircle2sameflip}
-    {rank=same; mov_242_outflip; mov_23_outcircle2sameflip}
   }
 
 
