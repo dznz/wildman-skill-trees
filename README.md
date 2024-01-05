@@ -159,8 +159,9 @@ Single-arm Heavy Club is generally developed *after* two-handed heavy club so th
 
 This steel mace/macebell progression is a WIP, currently covering ~30 movements of a listed 107. Because this was the first attempt at sequencing that MW put out, it's a bit different from the rest:
 
-- Many videos cover multiple variations on a movement
+- Many videos cover multiple variations on a movement; in these cases we use XX-X to indicate index + variation.
 - The focus rapidly moves to building complex, integrated movements
+- Both single hand and two-handed movements are covered in the same sequence
 
 | Source | SVG |
 |------- | --- | 
