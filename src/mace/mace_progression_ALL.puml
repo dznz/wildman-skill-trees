@@ -74,6 +74,7 @@ mov_27_inflip180pull          [label="{{27  |Inside flip catch mill with\nsword 
 mov_28_outflipmill            [label="{{28  |Outside flip catch mill\naka flip catch reverse mill}}"     URL="https://www.youtube.com/watch?v=jKbelC2dZVo" ];
 mov_29_inmillwflip            [label="{{29  |Inside mill with\nflip catch hand change}}"                 URL="https://www.youtube.com/watch?v=Hmk80iWQHjM" ];
 mov_30_outmillwflip           [label="{{30  |Outside mill with\nflip catch hand change}}"                URL="https://www.youtube.com/watch?v=aIxKwvzj9Hk" ];
+mov_31_frcircle               [label="{{31  |Symmetrical stance\nFront Circles}}"                        URL="https://www.youtube.com/watch?v=ULozVN0nz_U" ];
 
 // LAYOUT HACKS
 
@@ -113,6 +114,8 @@ mov_30_outmillwflip           [label="{{30  |Outside mill with\nflip catch hand 
     {mov_23_outcircle2sameflip, mov_27_inflip180pull} -> mov_28_outflipmill
     mov_27_inflip180pull -> mov_29_inmillwflip
     {mov_28_outflipmill, mov_29_inmillwflip} -> mov_30_outmillwflip
+
+    mov_16_saincircle -> mov_31_frcircle;
 
     {rank=same; ext_180pull; mov_16_saincircle}
     {rank=same; mov_17_saoutcircle; mov_19_incircle2altcoin}
