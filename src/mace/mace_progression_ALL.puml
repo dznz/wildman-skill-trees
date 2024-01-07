@@ -35,7 +35,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
 
   subgraph isolated {
     node [color=4, fillcolor=3]
-    mov_01_360, mov_031_prayer, mov_041_barbell, mov_061_uppercut, mov_07_invs2sswing, mov_081_lowblockspin, mov_101_martialspin, mov_102_samartialspin, mov_14_barpress2sq
+    mov_01_360, mov_031_prayer, mov_041_barbell, mov_061_uppercut, mov_07_invs2sswing, mov_081_lowblockspin, mov_101_martialspin, mov_102_samartialspin, mov_14_barpress2sq,mov_35_waralt360
     mov_051_sabackswing, mov_052_backswing, mov_11_paddlerow2upblock, mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle
   }
 
@@ -83,7 +83,8 @@ mov_31_frcircle               [label="{{31  |Symmetrical stance\nFront Circles}}
 mov_32_bkcircle               [label="{{32  |Backward Circle}}"                                          URL="https://www.youtube.com/watch?v=KSja97kaEHY" ];
 mov_33_warfrcircle            [label="{{33  |Warrior Stance\nFront circle}}"                             URL="https://www.youtube.com/watch?v=-4GMydVrlSk" ];
 
-mov_34_altfrbkcircle          [label="{{34  |Alternating front to\nback circles}}" URL="https://www.youtube.com/watch?v=MsrcRGT0YzA" ];
+mov_34_altfrbkcircle          [label="{{34  |Alternating front to\nback circles}}"          URL="https://www.youtube.com/watch?v=MsrcRGT0YzA" ];
+mov_35_waralt360              [label="{{35  |Warrior stance\nalternating 360 / Gama cast}}" URL="https://www.youtube.com/watch?v=IgJXJy3zPGk" ];
 
 // LAYOUT HACKS
 
@@ -166,6 +167,8 @@ mov_34_altfrbkcircle          [label="{{34  |Alternating front to\nback circles}
     mov_032_pray2360 -> mov_13_pray23602sq
     mov_041_barbell -> mov_14_barpress2sq
     mov_042_barbell2360 -> mov_15_3602bar2sq
+
+    mov_02_alt360 -> mov_35_waralt360
 
     {rank=same; mov_01_360; mov_031_prayer; mov_041_barbell}
     {rank=same; mov_051_sabackswing; mov_061_uppercut; mov_07_invs2sswing; mov_081_lowblockspin}
