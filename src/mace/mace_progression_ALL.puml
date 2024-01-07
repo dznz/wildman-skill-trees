@@ -33,7 +33,12 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     ext_order -> {ext_sq; ext_180pull}
   }
 
-  
+  subgraph isolated {
+    node [color=4, fillcolor=3]
+    mov_01_360, mov_031_prayer, mov_041_barbell, mov_061_uppercut, mov_07_invs2sswing, mov_081_lowblockspin, mov_101_martialspin, mov_102_samartialspin, mov_14_barpress2sq
+    mov_051_sabackswing, mov_052_backswing, mov_11_paddlerow2upblock, mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle
+  }
+
 mov_01_360                    [label="{{01  |360}}"                                                  URL="https://www.youtube.com/watch?v=TyZ8iYv6Ip0" ]
 mov_02_alt360                 [label="{{02  |Alternating 360\n(Gama Cast/10 to 2)}}"                 URL="https://www.youtube.com/watch?v=ccifkBh2JSI" ]
 mov_031_prayer                [label="{{03-1|Prayer transition}}"                                    URL="https://www.youtube.com/watch?v=0fjn0vidH2M" ]
@@ -181,7 +186,11 @@ mov_34_altfrbkcircle          [label="{{34  |Alternating front to\nback circles}
       <TD BGCOLOR="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
      </TR>
      <TR>
-      <TD>Drills</TD>
+      <TD>Isolated Drills</TD>
+      <TD BGCOLOR="3"></TD>
+     </TR>
+     <TR>
+      <TD>Integrated Drills</TD>
       <TD BGCOLOR="11"></TD>
      </TR>
      <TR>
