@@ -78,6 +78,8 @@ mov_31_frcircle               [label="{{31  |Symmetrical stance\nFront Circles}}
 mov_32_bkcircle               [label="{{32  |Backward Circle}}"                                          URL="https://www.youtube.com/watch?v=KSja97kaEHY" ];
 mov_33_warfrcircle            [label="{{33  |Warrior Stance\nFront circle}}"                             URL="https://www.youtube.com/watch?v=-4GMydVrlSk" ];
 
+mov_34_altfrbkcircle          [label="{{34  |Alternating front to\nback circles}}" URL="https://www.youtube.com/watch?v=MsrcRGT0YzA" ];
+
 // LAYOUT HACKS
 
   {
@@ -117,8 +119,13 @@ mov_33_warfrcircle            [label="{{33  |Warrior Stance\nFront circle}}"    
     mov_27_inflip180pull -> mov_29_inmillwflip
     {mov_28_outflipmill, mov_29_inmillwflip} -> mov_30_outmillwflip
 
-    mov_16_saincircle -> mov_31_frcircle;
-    {mov_31_frcircle, mov_17_saoutcircle} -> mov_32_bkcircle -> mov_33_warfrcircle;
+    subgraph custer_frbk {
+      label="Front & Back Circles"
+      mov_16_saincircle -> mov_31_frcircle -> mov_32_bkcircle -> mov_34_altfrbkcircle;
+      mov_17_saoutcircle -> mov_32_bkcircle;
+      mov_31_frcircle -> mov_34_altfrbkcircle;
+      mov_32_bkcircle -> mov_33_warfrcircle
+    }
 
     {rank=same; ext_180pull; mov_16_saincircle}
     {rank=same; mov_17_saoutcircle; mov_19_incircle2altcoin}
