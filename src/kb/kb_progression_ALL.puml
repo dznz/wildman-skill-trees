@@ -1,4 +1,4 @@
-@startuml
+@startdot kb_progression_ALL
 digraph kb_progression {
   // Playlist: https://www.youtube.com/watch?list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA
   label=<
@@ -327,4 +327,4 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
    >];
   }
 }
-@enduml
+@enddot
