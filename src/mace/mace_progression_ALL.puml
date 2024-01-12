@@ -88,6 +88,7 @@ mov_35_waralt360              [label="{{35  |Warrior stance\nalternating 360 / G
 mov_36_warbkcircle            [label="{{36  |Warrior stance\nbackward circle}}"                               URL="https://www.youtube.com/watch?v=ZfGdlIsWKXQ" ];
 mov_37_waraltcircle           [label="{{37  |Warrior stance\nalternating circles}}"                           URL="https://www.youtube.com/watch?v=h_wcGKGlCus" ];
 mov_38_war180pull             [label="{{38  |Warrior stance\n180 degree rotating pullover\nfrom sword grip}}" URL="https://www.youtube.com/watch?v=P5lbQmeVZn8" ];
+mov_39_warfrcircleflip        [label="{{Warrior stance\nfront circle flip catch}}"                            URL="https://www.youtube.com/watch?v=8hvIwt9EshQ" ];
 
 // LAYOUT HACKS
 
@@ -133,11 +134,18 @@ mov_38_war180pull             [label="{{38  |Warrior stance\n180 degree rotating
       mov_16_saincircle -> mov_31_frcircle -> mov_32_bkcircle -> mov_34_altfrbkcircle;
       mov_17_saoutcircle -> mov_32_bkcircle;
       mov_31_frcircle -> mov_34_altfrbkcircle;
-      mov_32_bkcircle -> mov_33_warfrcircle
+    }
+    mov_32_bkcircle -> mov_33_warfrcircle
+
+    subgraph custer_war {
+      label="Warrior stance"
       mov_33_warfrcircle -> mov_36_warbkcircle -> mov_37_waraltcircle;
       mov_33_warfrcircle -> mov_37_waraltcircle;
+      mov_37_waraltcircle -> mov_39_warfrcircleflip
+      mov_38_war180pull
     }
     ext_180pull -> mov_38_war180pull
+    mov_22_incircle2sameflip -> mov_39_warfrcircleflip
 
     {rank=same; ext_180pull; mov_16_saincircle}
     {rank=same; mov_17_saoutcircle; mov_19_incircle2altcoin}
