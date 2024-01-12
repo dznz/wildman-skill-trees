@@ -85,6 +85,7 @@ mov_33_warfrcircle            [label="{{33  |Warrior Stance\nFront circle}}"    
 
 mov_34_altfrbkcircle          [label="{{34  |Alternating front to\nback circles}}"          URL="https://www.youtube.com/watch?v=MsrcRGT0YzA" ];
 mov_35_waralt360              [label="{{35  |Warrior stance\nalternating 360 / Gama cast}}" URL="https://www.youtube.com/watch?v=IgJXJy3zPGk" ];
+mov_36_warbkcircle            [label="{{36  |Warrior stance\nbackward circle}}"             URL="https://www.youtube.com/watch?v=ZfGdlIsWKXQ" ];
 
 // LAYOUT HACKS
 
@@ -131,6 +132,7 @@ mov_35_waralt360              [label="{{35  |Warrior stance\nalternating 360 / G
       mov_17_saoutcircle -> mov_32_bkcircle;
       mov_31_frcircle -> mov_34_altfrbkcircle;
       mov_32_bkcircle -> mov_33_warfrcircle
+      mov_33_warfrcircle -> mov_36_warbkcircle
     }
 
     {rank=same; ext_180pull; mov_16_saincircle}
