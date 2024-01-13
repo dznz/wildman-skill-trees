@@ -92,6 +92,7 @@ mov_39_warfrcircleflip        [label="{{39  |Warrior stance\nfront circle flip c
 mov_40_warbkcircleflip        [label="{{40  |Warrior stance\nbackward circle to\nflip catch}}"                URL="https://www.youtube.com/watch?v=Eb5Ci22BqmI" ];
 mov_41_warfwdmill             [label="{{41  |Warrior stance\nforward mill}}"                                  URL="https://www.youtube.com/watch?v=ydXgS363htk" ];
 mov_42_warbwdmill             [label="{{42  |Warrior stance\nbackward mill}}"                                 URL="https://www.youtube.com/watch?v=HaQqkf-cSHE" ];
+mov_43_sifpivotwincircle      [label="{{43  |Step in front pivot with\ninside circle}}"                       URL="https://www.youtube.com/watch?v=i2Zj4t-uIB8" ];
 
 // LAYOUT HACKS
 
@@ -153,6 +154,8 @@ mov_42_warbwdmill             [label="{{42  |Warrior stance\nbackward mill}}"   
     mov_23_outcircle2sameflip -> mov_40_warbkcircleflip
     mov_27_inflip180pull -> mov_41_warfwdmill
     mov_28_outflipmill -> mov_42_warbwdmill
+
+    mov_16_saincircle -> mov_43_sifpivotwincircle
 
     {rank=same; ext_180pull; mov_16_saincircle}
     {rank=same; mov_17_saoutcircle; mov_19_incircle2altcoin}
