@@ -1,0 +1,124 @@
+@startdot mace_warrior_subsequence
+digraph mace_warrior_subsequence {
+  
+  label=<
+<B>Mace Warrior Stance Subsequence</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Diagram by dznz based on Mark Wildman's teachings.<BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Source: <B>https://github.com/dznz/wildman-skill-trees</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+More by Mark Wildman - <B>https://www.wildmanathletica.com</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+<I>
+© 2023. This work is openly licensed with CC BY-NC-SA 4.0<BR ALIGN="RIGHT"/>
+http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
+</I>
+  >
+  graph [labeljust=r]
+  graph [fontname="Helvetica,Arial,sans-serif"]
+
+  node [colorscheme="paired12"]
+  node [shape=record]
+  node [style="rounded,filled"]
+  node [color=12, fillcolor=11]
+
+  subgraph aux {
+    node [color=10, fillcolor=9]
+    
+  }
+
+  subgraph ext {
+    node [color=2, fillcolor=1]
+    ext_180pull [label="180 Degree Pullover"]
+    mov_02_alt360
+    mov_31_frcircle, mov_32_bkcircle
+    mov_22_incircle2sameflip
+    mov_23_outcircle2sameflip
+    mov_23_outcircle2sameflip     [label="{{23  |Outside circle to\nsame side flip catch}}"                URL="https://www.youtube.com/watch?v=UwR4uFqvUyY" ]
+    mov_27_inflip180pull          [label="{{27  |Inside flip catch mill with\nsword grip across the top}}" URL="https://www.youtube.com/watch?v=uFsPwnClx-M" ]
+    mov_28_outflipmill            [label="{{28  |Outside flip catch mill\naka flip catch reverse mill}}"   URL="https://www.youtube.com/watch?v=jKbelC2dZVo" ];
+  }
+
+  subgraph isolated {
+    node [color=4, fillcolor=3]
+    mov_33_warfrcircle, mov_36_warbkcircle
+  }
+
+mov_02_alt360                 [label="{{02  |Alternating 360\n(Gama Cast/10 to 2)}}"                   URL="https://www.youtube.com/watch?v=ccifkBh2JSI" ]
+mov_22_incircle2sameflip      [label="{{22  |Inside circle to\nsame hand flip catch}}"                 URL="https://www.youtube.com/watch?v=xlClTZRbmc0" ]
+mov_31_frcircle               [label="{{31  |Symmetrical stance\nFront Circles}}"                      URL="https://www.youtube.com/watch?v=ULozVN0nz_U" ];
+mov_32_bkcircle               [label="{{32  |Backward Circle}}"                                        URL="https://www.youtube.com/watch?v=KSja97kaEHY" ];
+mov_33_warfrcircle            [label="{{33  |Warrior Stance\nFront circle}}"                           URL="https://www.youtube.com/watch?v=-4GMydVrlSk" ];
+
+mov_35_waralt360              [label="{{35  |Warrior stance\nalternating 360 / Gama cast}}"                   URL="https://www.youtube.com/watch?v=IgJXJy3zPGk" ];
+mov_36_warbkcircle            [label="{{36  |Warrior stance\nbackward circle}}"                               URL="https://www.youtube.com/watch?v=ZfGdlIsWKXQ" ];
+mov_37_waraltcircle           [label="{{37  |Warrior stance\nalternating circles}}"                           URL="https://www.youtube.com/watch?v=h_wcGKGlCus" ];
+mov_38_war180pull             [label="{{38  |Warrior stance\n180 degree rotating pullover\nfrom sword grip}}" URL="https://www.youtube.com/watch?v=P5lbQmeVZn8" ];
+mov_39_warfrcircleflip        [label="{{39  |Warrior stance\nfront circle flip catch}}"                       URL="https://www.youtube.com/watch?v=8hvIwt9EshQ" ];
+mov_40_warbkcircleflip        [label="{{40  |Warrior stance\nbackward circle to\nflip catch}}"                URL="https://www.youtube.com/watch?v=Eb5Ci22BqmI" ];
+mov_41_warfwdmill             [label="{{41  |Warrior stance\nforward mill}}"                                  URL="https://www.youtube.com/watch?v=ydXgS363htk" ];
+mov_42_warbwdmill             [label="{{42  |Warrior stance\nbackward mill}}"                                 URL="https://www.youtube.com/watch?v=HaQqkf-cSHE" ];
+
+// LAYOUT HACKS
+
+  {
+    node [style=invis]
+    edge [style=invis]
+    
+    mov_15_3602bar2sq -> lay_end2h -> mov_16_saincircle
+  }
+
+  {rank=same;ext_180pull,mov_02_alt360}
+
+// GRAPH
+
+  // Precursor
+  mov_02_alt360 -> mov_35_waralt360
+  ext_180pull -> mov_27_inflip180pull
+
+  // Circles
+  mov_22_incircle2sameflip -> mov_27_inflip180pull
+  {mov_23_outcircle2sameflip, mov_27_inflip180pull} -> mov_28_outflipmill
+  {mov_31_frcircle -> mov_32_bkcircle} -> mov_33_warfrcircle
+
+  subgraph cluster_war {
+      label="Warrior stance"
+      mov_33_warfrcircle -> mov_36_warbkcircle -> mov_37_waraltcircle;
+      mov_33_warfrcircle -> mov_37_waraltcircle;
+      mov_37_waraltcircle -> mov_39_warfrcircleflip -> mov_40_warbkcircleflip
+      {mov_38_war180pull,mov_39_warfrcircleflip} -> mov_41_warfwdmill
+      {mov_41_warfwdmill,mov_40_warbkcircleflip} -> mov_42_warbwdmill
+      mov_35_waralt360
+  }
+  ext_180pull -> mov_38_war180pull
+  mov_22_incircle2sameflip -> mov_39_warfrcircleflip
+  mov_23_outcircle2sameflip -> mov_40_warbkcircleflip
+  mov_27_inflip180pull -> mov_41_warfwdmill
+  mov_28_outflipmill -> mov_42_warbwdmill
+
+// LEGEND
+
+  { rank = sink;
+    Legend [shape=none, margin=0, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+     <TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+     <TR>
+      <TD>Prerequisites and next steps</TD>
+      <TD BGCOLOR="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+     </TR>
+     <TR>
+      <TD>Isolated Drills</TD>
+      <TD BGCOLOR="3"></TD>
+     </TR>
+     <TR>
+      <TD>Integrated Drills</TD>
+      <TD BGCOLOR="11"></TD>
+     </TR>
+     <TR>
+      <TD>Learning drills</TD>
+      <TD BGCOLOR="9"></TD>
+     </TR>
+    </TABLE>
+   >];
+  }
+}
+@enddot

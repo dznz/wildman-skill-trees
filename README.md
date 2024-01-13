@@ -171,6 +171,16 @@ This steel mace/macebell progression is a WIP, currently covering ~30 movements 
 
 ![Tree of mace drills, arranged in order of complexity.](/dist/mace_progression_ALL.svg)
 
+**Warrior Stance Sub-Sequence**
+
+As and experiment, I've broken out the warrior stance mace movements into their own sub-sequence in order make this particular set more legible.
+
+| Source | SVG |
+|------- | --- | 
+| [`/src/mace/mace_warrior_subsequence.puml`](/src/mace/mace_warrior_subsequence.puml) |  [`/dist/mace_warrior_subsequence.svg`](/dist/mace_warrior_subsequence.svg) |
+
+![Tree of mace drills related to warrior stance.](/dist/mace_warrior_subsequence.svg)
+
 ## Bootstrap Programs ##
 
 Using the skill progression sequences, I've built a couple of experimental programs that one could use to start from scratch with kettlebells or heavy clubs and develop confidence as one learns increasingly complex skills.

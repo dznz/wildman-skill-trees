@@ -47,10 +47,14 @@ Task CompileKettlebell {
 
 Task CompileMace {
   $MaceRoot = (Join-Path $SrcRoot "mace")
-
-  Puml -SrcFilePath (Join-Path $MaceRoot "mace_progression_ALL.puml") `
-       -OutputDirPath $DistDir `
-       -OutputFormatList $OutputFormats
+  $PumlFiles = "mace_progression_ALL.puml",
+               "mace_warrior_subsequence.puml"
+  foreach ($SrcFile in $PumlFiles) {
+    Write-Host "Rendering $SrcFile"
+    Puml -SrcFilePath (Join-Path $MaceRoot $SrcFile) `
+        -OutputDirPath $DistDir `
+        -OutputFormatList $OutputFormats
+  }
 }
 
 Task Clean {
