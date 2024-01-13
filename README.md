@@ -177,9 +177,9 @@ Once stance changes are added, the single-arm movements start to warrant their o
 
 | Source | SVG |
 |------- | --- | 
-| [`/src/mace/mace_sa_progression.puml`](/src/mace/mace_sa_progression.puml) |  [`/dist/mace_sa_progression.svg`](/dist/mace_sa_progression.svg) |
+| [`/src/mace/mace_progression_sa.puml`](/src/mace/mace_progression_sa.puml) |  [`/dist/mace_progression_sa.svg`](/dist/mace_progression_sa.svg) |
 
-![Tree of single-arm mace drills, arranged in order of complexity.](/dist/mace_sa_progression.svg)
+![Tree of single-arm mace drills, arranged in order of complexity.](/dist/mace_progression_sa.svg)
 
 **Warrior Stance Sub-Sequence**
 

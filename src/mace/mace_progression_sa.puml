@@ -1,8 +1,8 @@
-@startdot mace_sa_progression
-digraph mace_sa_progression {
+@startdot mace_progression_sa
+digraph mace_progression_sa {
   
   label=<
-<B>Mace Skill Progression - ALL</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+<B>Mace Skill Progression - Single-Arm</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
 Diagram by dznz based on Mark Wildman's teachings.<BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
 Source: <B>https://github.com/dznz/wildman-skill-trees</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
 More by Mark Wildman - <B>https://www.wildmanathletica.com</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
