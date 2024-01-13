@@ -171,6 +171,16 @@ This steel mace/macebell progression is a WIP, currently covering ~30 movements 
 
 ![Tree of mace drills, arranged in order of complexity.](/dist/mace_progression_ALL.svg)
 
+**Single Arm**
+
+Once stance changes are added, the single-arm movements start to warrant their own diagram. Here we are experimenting with grouping by non-standing stance - it makes the diagram less pretty but maybe helps with clarity.
+
+| Source | SVG |
+|------- | --- | 
+| [`/src/mace/mace_sa_progression.puml`](/src/mace/mace_sa_progression.puml) |  [`/dist/mace_sa_progression.svg`](/dist/mace_sa_progression.svg) |
+
+![Tree of single-arm mace drills, arranged in order of complexity.](/dist/mace_sa_progression.svg)
+
 **Warrior Stance Sub-Sequence**
 
 As and experiment, I've broken out the warrior stance mace movements into their own sub-sequence in order make this particular set more legible.

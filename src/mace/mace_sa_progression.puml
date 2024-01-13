@@ -1,0 +1,189 @@
+@startdot mace_sa_progression
+digraph mace_sa_progression {
+  
+  label=<
+<B>Mace Skill Progression - ALL</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Diagram by dznz based on Mark Wildman's teachings.<BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+Source: <B>https://github.com/dznz/wildman-skill-trees</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+More by Mark Wildman - <B>https://www.wildmanathletica.com</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
+<I>
+© 2023. This work is openly licensed with CC BY-NC-SA 4.0<BR ALIGN="RIGHT"/>
+http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
+</I>
+  >
+  graph [labeljust=r]
+  graph [fontname="Helvetica,Arial,sans-serif"]
+
+  node [colorscheme="paired12"]
+  node [shape=record]
+  node [style="rounded,filled"]
+  node [color=12, fillcolor=11]
+
+  subgraph aux {
+    node [color=10, fillcolor=9]
+    mov_242_outflip; mov_243_inflip
+  }
+
+  subgraph ext {
+    node [color=2, fillcolor=1]
+    ext_180pull [label="180 Degree Pullover"]
+  }
+
+  subgraph isolated {
+    node [color=4, fillcolor=3]
+    mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle
+  }
+
+mov_16_saincircle             [label="{{16  |Single arm\ninside circle}}"                     URL="https://www.youtube.com/watch?v=MSt1cYAiLzI" ]
+mov_17_saoutcircle            [label="{{17  |Single arm\noutside circle}}"                    URL="https://www.youtube.com/watch?v=ZuaKcM41dP4" ]
+mov_18_saaltcircle            [label="{{18  |Single arm\nalternating circles}}"               URL="https://www.youtube.com/watch?v=XWIFyifqSr8" ]
+mov_19_incircle2altcoin       [label="{{19  |Inside circle to\nalternate hand coin flip}}"    URL="https://www.youtube.com/watch?v=opgqoNcD1Ds" ]
+mov_20_outcircle2altcoin      [label="{{20  |Outside circle to\nalternate hand coin flip}}"   URL="https://www.youtube.com/watch?v=qX0nE-3VMN0" ]
+mov_21_altcirclewinandoutcoin [label="{{21  |Alt circle with\ninside and outside coin flip}}" URL="https://www.youtube.com/watch?v=as46Zm9oibE" ]
+mov_22_incircle2sameflip      [label="{{22  |Inside circle to\nsame hand flip catch}}"        URL="https://www.youtube.com/watch?v=xlClTZRbmc0" ]
+mov_23_outcircle2sameflip     [label="{{23  |Outside circle to\nsame side flip catch}}"       URL="https://www.youtube.com/watch?v=UwR4uFqvUyY" ]
+mov_241_altcircle2sameflip    [label="{{24-1|Alt circle with\nsame side flip catch}}"         URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
+mov_242_outflip               [label="{{24-2|Outside flip catch balance}}"                    URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
+
+mov_243_inflip                [label="{{24-3|Inside flip catch balance}}"                                URL="https://www.youtube.com/watch?v=T5x3xsfHqs8" ]
+mov_25_cincirclewaltnunchuck  [label="{{25  |Continuous inside circle with\nalt hand nunchuck flip}}"    URL="https://www.youtube.com/watch?v=rCgrNJLsrBM" ]
+mov_26_coutcirclewaltflip     [label="{{26  |Continous outside circle with\nalternate hand flip catch}}" URL="https://www.youtube.com/watch?v=T5lfsHi1rDY" ]
+mov_27_inflip180pull          [label="{{27  |Inside flip catch mill with\nsword grip across the top}}"   URL="https://www.youtube.com/watch?v=uFsPwnClx-M" ]
+mov_28_outflipmill            [label="{{28  |Outside flip catch mill\naka flip catch reverse mill}}"     URL="https://www.youtube.com/watch?v=jKbelC2dZVo" ];
+mov_29_inmillwflip            [label="{{29  |Inside mill with\nflip catch hand change}}"                 URL="https://www.youtube.com/watch?v=Hmk80iWQHjM" ];
+mov_30_outmillwflip           [label="{{30  |Outside mill with\nflip catch hand change}}"                URL="https://www.youtube.com/watch?v=aIxKwvzj9Hk" ];
+mov_31_frcircle               [label="{{31  |Symmetrical stance\nFront Circles}}"                        URL="https://www.youtube.com/watch?v=ULozVN0nz_U" ];
+mov_32_bkcircle               [label="{{32  |Backward Circle}}"                                          URL="https://www.youtube.com/watch?v=KSja97kaEHY" ];
+mov_33_warfrcircle            [label="{{33  |Warrior Stance\nFront circle}}"                             URL="https://www.youtube.com/watch?v=-4GMydVrlSk" ];
+
+mov_34_altfrbkcircle          [label="{{34  |Alternating front to\nback circles}}"                            URL="https://www.youtube.com/watch?v=MsrcRGT0YzA" ];
+
+mov_36_warbkcircle            [label="{{36  |Warrior stance\nbackward circle}}"                               URL="https://www.youtube.com/watch?v=ZfGdlIsWKXQ" ];
+mov_37_waraltcircle           [label="{{37  |Warrior stance\nalternating circles}}"                           URL="https://www.youtube.com/watch?v=h_wcGKGlCus" ];
+mov_38_war180pull             [label="{{38  |Warrior stance\n180 degree rotating pullover\nfrom sword grip}}" URL="https://www.youtube.com/watch?v=P5lbQmeVZn8" ];
+mov_39_warfrcircleflip        [label="{{39  |Warrior stance\nfront circle flip catch}}"                       URL="https://www.youtube.com/watch?v=8hvIwt9EshQ" ];
+mov_40_warbkcircleflip        [label="{{40  |Warrior stance\nbackward circle to\nflip catch}}"                URL="https://www.youtube.com/watch?v=Eb5Ci22BqmI" ];
+mov_41_warfwdmill             [label="{{41  |Warrior stance\nforward mill}}"                                  URL="https://www.youtube.com/watch?v=ydXgS363htk" ];
+mov_42_warbwdmill             [label="{{42  |Warrior stance\nbackward mill}}"                                 URL="https://www.youtube.com/watch?v=HaQqkf-cSHE" ];
+mov_43_sifpivotwincircle      [label="{{43  |Step in front pivot with\ninside circle}}"                       URL="https://www.youtube.com/watch?v=i2Zj4t-uIB8" ];
+
+mov_44_sifpivotwoutcircle      [label="{{44  |Forward pivot step with\noutside circle}}"                                      URL="https://www.youtube.com/watch?v=VqW8JavN1g4" ];
+mov_45_sifpivotwflip           [label="{{45  |Inside stepping pivot with\ncoin flip and nunchuck return}}"                    URL="https://www.youtube.com/watch?v=vU-BHGVejhs" ];
+mov_46_sifpivotwoutcircleflip  [label="{{46  |Inside stepping pivot with\noutside circle coin flip}}"                         URL="https://www.youtube.com/watch?v=YSHMJu7VWkg" ];
+mov_47_sifpivotwincircleout180 [label="{{47  |Inside front step pivot with\ninside circle and\noutside 180 degree mill top}}" URL="https://www.youtube.com/watch?v=zuen0CLdwMU" ];
+
+
+    // Precursor
+    ext_180pull -> mov_27_inflip180pull
+
+    // Core standing movements
+    subgraph custer_symmetric {
+      label="Isolated symmetric stance"
+      mov_16_saincircle -> mov_17_saoutcircle;
+      mov_16_saincircle -> mov_19_incircle2altcoin
+      mov_17_saoutcircle -> mov_20_outcircle2altcoin
+      mov_16_saincircle -> mov_22_incircle2sameflip
+      mov_17_saoutcircle -> mov_23_outcircle2sameflip
+    }
+    // Connections from isolated symmetric to integrated
+    mov_17_saoutcircle -> mov_18_saaltcircle;
+    mov_19_incircle2altcoin -> mov_25_cincirclewaltnunchuck
+    mov_23_outcircle2sameflip -> mov_26_coutcirclewaltflip
+    mov_20_outcircle2altcoin -> mov_21_altcirclewinandoutcoin
+    mov_23_outcircle2sameflip -> mov_241_altcircle2sameflip
+    mov_22_incircle2sameflip -> mov_27_inflip180pull
+    mov_23_outcircle2sameflip -> mov_28_outflipmill
+    subgraph custer_symmetric2 {
+      label="Integrated symmetric stance"
+      mov_26_coutcirclewaltflip
+      mov_25_cincirclewaltnunchuck
+      mov_18_saaltcircle -> mov_21_altcirclewinandoutcoin
+      {mov_242_outflip; mov_243_inflip} -> mov_241_altcircle2sameflip;
+      mov_18_saaltcircle -> mov_241_altcircle2sameflip
+      mov_27_inflip180pull -> mov_29_inmillwflip
+      mov_27_inflip180pull -> mov_28_outflipmill
+      {mov_28_outflipmill, mov_29_inmillwflip} -> mov_30_outmillwflip
+    }
+
+    // Precursor to warrior stance
+    subgraph custer_frbk {
+      label="Front & Back Circles"
+      mov_16_saincircle -> mov_31_frcircle -> mov_32_bkcircle -> mov_34_altfrbkcircle;
+      mov_17_saoutcircle -> mov_32_bkcircle;
+      mov_31_frcircle -> mov_34_altfrbkcircle;
+    }
+    mov_32_bkcircle -> mov_33_warfrcircle
+
+    subgraph cluster_war {
+      label="Warrior stance"
+      mov_33_warfrcircle -> mov_36_warbkcircle -> mov_37_waraltcircle;
+      mov_33_warfrcircle -> mov_37_waraltcircle;
+      mov_37_waraltcircle -> mov_39_warfrcircleflip -> mov_40_warbkcircleflip
+      {mov_38_war180pull,mov_39_warfrcircleflip} -> mov_41_warfwdmill
+      {mov_41_warfwdmill,mov_40_warbkcircleflip} -> mov_42_warbwdmill
+    }
+    ext_180pull -> mov_38_war180pull
+    mov_22_incircle2sameflip -> mov_39_warfrcircleflip
+    mov_23_outcircle2sameflip -> mov_40_warbkcircleflip
+    mov_27_inflip180pull -> mov_41_warfwdmill
+    mov_28_outflipmill -> mov_42_warbwdmill
+
+    mov_16_saincircle -> mov_43_sifpivotwincircle
+    mov_17_saoutcircle -> mov_44_sifpivotwoutcircle
+    mov_27_inflip180pull -> mov_47_sifpivotwincircleout180
+    subgraph cluster_sifpivot {
+      label="Step in front pivot"
+      mov_43_sifpivotwincircle -> mov_44_sifpivotwoutcircle
+      mov_43_sifpivotwincircle -> mov_45_sifpivotwflip
+      mov_44_sifpivotwoutcircle -> mov_46_sifpivotwoutcircleflip
+      mov_45_sifpivotwflip -> mov_46_sifpivotwoutcircleflip
+      mov_46_sifpivotwoutcircleflip -> mov_47_sifpivotwincircleout180
+    }
+    {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
+  
+
+
+  
+
+
+
+// LAYOUT HACKS
+
+  {
+    node [style=invis]
+    edge [style=invis]
+    
+    mov_15_3602bar2sq -> lay_end2h -> mov_16_saincircle
+  }
+
+  
+
+// END LAYOUT HACKS
+
+  { rank = sink;
+    Legend [shape=none, margin=0, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+     <TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+     <TR>
+      <TD>Prerequisites and next steps</TD>
+      <TD BGCOLOR="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+     </TR>
+     <TR>
+      <TD>Isolated Drills</TD>
+      <TD BGCOLOR="3"></TD>
+     </TR>
+     <TR>
+      <TD>Integrated Drills</TD>
+      <TD BGCOLOR="11"></TD>
+     </TR>
+     <TR>
+      <TD>Learning drills</TD>
+      <TD BGCOLOR="9"></TD>
+     </TR>
+    </TABLE>
+   >];
+  }
+}
+@enddot
