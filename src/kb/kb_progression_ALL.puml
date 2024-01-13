@@ -127,6 +127,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_75_2hssldl            [label="{{75|Two Hand Single\nStraight Leg Deadlift}}"            URL="https://www.youtube.com/watch?v=tMt2hzfFGzo"];
   mov_76_dblhangcap         [label="{{76|Double Dead Hang\nClean & Press}}"                   URL="https://www.youtube.com/watch?v=ieDA4V9WGNQ"];
   mov_77_shsldl             [label="{{77|Single Hand\nSingle Leg Deadlift}|ONE-SIDE BALANCE}" URL="https://www.youtube.com/watch?v=1K4hgXfUinU"];
+  mov_78_dblcleansqpress    [label="{{78|Double Clean Squat Press}}"                            URL="https://www.youtube.com/watch?v=fWPDPBliCEk"]
 
   mov_01_deadlift -> mov_02_swing;
   mov_01_deadlift -> mov_03_atw;
@@ -292,6 +293,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     mov_60_dblswing -> mov_64_dbloutswing;
     mov_68_dblclean2squat -> mov_74_dblhangclean2squat;
     mov_65_dblcap -> mov_76_dblhangcap;
+    mov_68_dblclean2squat -> mov_78_dblcleansqpress;
   }
 
   subgraph cluster_snatch {
