@@ -27,6 +27,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   subgraph ext {
     node [color=2, fillcolor=1]
     ext_180pull [label="180 Degree Pullover"]
+    ext_frswingclean [label="Front swing clean"]
   }
 
   subgraph isolated {
@@ -71,6 +72,7 @@ mov_44_sifpivotwoutcircle      [label="{{44  |Forward pivot step with\noutside c
 mov_45_sifpivotwflip           [label="{{45  |Inside stepping pivot with\ncoin flip and nunchuck return}}"                    URL="https://www.youtube.com/watch?v=vU-BHGVejhs" ];
 mov_46_sifpivotwoutcircleflip  [label="{{46  |Inside stepping pivot with\noutside circle coin flip}}"                         URL="https://www.youtube.com/watch?v=YSHMJu7VWkg" ];
 mov_47_sifpivotwincircleout180 [label="{{47  |Inside front step pivot with\ninside circle and\noutside 180 degree mill top}}" URL="https://www.youtube.com/watch?v=zuen0CLdwMU" ];
+mov_48_frspear                 [label="{{48  |Front spear catch}}"                                                            URL="https://www.youtube.com/watch?v=hwQlmjHQsrg" ];
 
 
     // Precursor
@@ -139,6 +141,8 @@ mov_47_sifpivotwincircleout180 [label="{{47  |Inside front step pivot with\ninsi
       mov_45_sifpivotwflip -> mov_46_sifpivotwoutcircleflip
       mov_46_sifpivotwoutcircleflip -> mov_47_sifpivotwincircleout180
     }
+    ext_frswingclean -> mov_48_frspear
+    
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
   
 
