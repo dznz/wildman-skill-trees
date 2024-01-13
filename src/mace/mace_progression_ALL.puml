@@ -94,21 +94,12 @@ mov_41_warfwdmill             [label="{{41  |Warrior stance\nforward mill}}"    
 mov_42_warbwdmill             [label="{{42  |Warrior stance\nbackward mill}}"                                 URL="https://www.youtube.com/watch?v=HaQqkf-cSHE" ];
 mov_43_sifpivotwincircle      [label="{{43  |Step in front pivot with\ninside circle}}"                       URL="https://www.youtube.com/watch?v=i2Zj4t-uIB8" ];
 
-mov_44_sifpivotwoutcircle     [label="{{44  |Forward pivot step with\noutside circle}}"                   URL="https://www.youtube.com/watch?v=VqW8JavN1g4" ];
-mov_45_sifpivotwflip          [label="{{45  |Inside stepping pivot with\ncoin flip and nunchuck return}}" URL="https://www.youtube.com/watch?v=vU-BHGVejhs" ];
+mov_44_sifpivotwoutcircle      [label="{{44  |Forward pivot step with\noutside circle}}"                                      URL="https://www.youtube.com/watch?v=VqW8JavN1g4" ];
+mov_45_sifpivotwflip           [label="{{45  |Inside stepping pivot with\ncoin flip and nunchuck return}}"                    URL="https://www.youtube.com/watch?v=vU-BHGVejhs" ];
+mov_46_sifpivotwoutcircleflip  [label="{{46  |Inside stepping pivot with\noutside circle coin flip}}"                         URL="https://www.youtube.com/watch?v=YSHMJu7VWkg" ];
+mov_47_sifpivotwincircleout180 [label="{{47  |Inside front step pivot with\ninside circle and\noutside 180 degree mill top}}" URL="https://www.youtube.com/watch?v=zuen0CLdwMU" ];
 
-// LAYOUT HACKS
 
-  {
-    node [style=invis]
-    edge [style=invis]
-    
-    mov_15_3602bar2sq -> lay_end2h -> mov_16_saincircle
-  }
-
-  
-
-// END LAYOUT HACKS
 
 // Ungrouped arrows
 
@@ -117,25 +108,37 @@ mov_45_sifpivotwflip          [label="{{45  |Inside stepping pivot with\ncoin fl
 
     // Precursor
     ext_180pull -> mov_27_inflip180pull
-    
-    // Circles
-    mov_16_saincircle -> mov_17_saoutcircle -> mov_18_saaltcircle;
-    mov_16_saincircle -> mov_19_incircle2altcoin
-    mov_17_saoutcircle -> mov_20_outcircle2altcoin
-    {mov_20_outcircle2altcoin; mov_18_saaltcircle} -> mov_21_altcirclewinandoutcoin
 
-    mov_16_saincircle -> mov_22_incircle2sameflip
-    mov_17_saoutcircle -> mov_23_outcircle2sameflip
-    {mov_242_outflip; mov_243_inflip} -> mov_241_altcircle2sameflip;
-    {mov_23_outcircle2sameflip; mov_18_saaltcircle} -> mov_241_altcircle2sameflip
-
+    // Core standing movements
+    subgraph custer_symmetric {
+      label="Isolated symmetric stance"
+      mov_16_saincircle -> mov_17_saoutcircle;
+      mov_16_saincircle -> mov_19_incircle2altcoin
+      mov_17_saoutcircle -> mov_20_outcircle2altcoin
+      mov_16_saincircle -> mov_22_incircle2sameflip
+      mov_17_saoutcircle -> mov_23_outcircle2sameflip
+    }
+    // Connections from isolated symmetric to integrated
+    mov_17_saoutcircle -> mov_18_saaltcircle;
     mov_19_incircle2altcoin -> mov_25_cincirclewaltnunchuck
     mov_23_outcircle2sameflip -> mov_26_coutcirclewaltflip
+    mov_20_outcircle2altcoin -> mov_21_altcirclewinandoutcoin
+    mov_23_outcircle2sameflip -> mov_241_altcircle2sameflip
     mov_22_incircle2sameflip -> mov_27_inflip180pull
-    {mov_23_outcircle2sameflip, mov_27_inflip180pull} -> mov_28_outflipmill
-    mov_27_inflip180pull -> mov_29_inmillwflip
-    {mov_28_outflipmill, mov_29_inmillwflip} -> mov_30_outmillwflip
+    mov_23_outcircle2sameflip -> mov_28_outflipmill
+    subgraph custer_symmetric2 {
+      label="Integrated symmetric stance"
+      mov_26_coutcirclewaltflip
+      mov_25_cincirclewaltnunchuck
+      mov_18_saaltcircle -> mov_21_altcirclewinandoutcoin
+      {mov_242_outflip; mov_243_inflip} -> mov_241_altcircle2sameflip;
+      mov_18_saaltcircle -> mov_241_altcircle2sameflip
+      mov_27_inflip180pull -> mov_29_inmillwflip
+      mov_27_inflip180pull -> mov_28_outflipmill
+      {mov_28_outflipmill, mov_29_inmillwflip} -> mov_30_outmillwflip
+    }
 
+    // Precursor to warrior stance
     subgraph custer_frbk {
       label="Front & Back Circles"
       mov_16_saincircle -> mov_31_frcircle -> mov_32_bkcircle -> mov_34_altfrbkcircle;
@@ -160,15 +163,16 @@ mov_45_sifpivotwflip          [label="{{45  |Inside stepping pivot with\ncoin fl
 
     mov_16_saincircle -> mov_43_sifpivotwincircle
     mov_17_saoutcircle -> mov_44_sifpivotwoutcircle
+    mov_27_inflip180pull -> mov_47_sifpivotwincircleout180
     subgraph custer_sifpivot {
       label="Step in front pivot"
       mov_43_sifpivotwincircle -> mov_44_sifpivotwoutcircle
       mov_43_sifpivotwincircle -> mov_45_sifpivotwflip
+      mov_44_sifpivotwoutcircle -> mov_46_sifpivotwoutcircleflip
+      mov_45_sifpivotwflip -> mov_46_sifpivotwoutcircleflip
+      mov_46_sifpivotwoutcircleflip -> mov_47_sifpivotwincircleout180
     }
-
-    {rank=same; ext_180pull; mov_16_saincircle}
-    {rank=same; mov_17_saoutcircle; mov_19_incircle2altcoin}
-    {rank=same; mov_21_altcirclewinandoutcoin; mov_22_incircle2sameflip; mov_23_outcircle2sameflip}
+    {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
   }
 
 
@@ -210,6 +214,18 @@ mov_45_sifpivotwflip          [label="{{45  |Inside stepping pivot with\ncoin fl
     {rank=same; mov_13_pray23602sq; mov_14_barpress2sq}
   }
 
+// LAYOUT HACKS
+
+  {
+    node [style=invis]
+    edge [style=invis]
+    
+    mov_15_3602bar2sq -> lay_end2h -> mov_16_saincircle
+  }
+
+  
+
+// END LAYOUT HACKS
 
   { rank = sink;
     Legend [shape=none, margin=0, label=<
