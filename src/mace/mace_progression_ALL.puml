@@ -88,8 +88,9 @@ mov_35_waralt360              [label="{{35  |Warrior stance\nalternating 360 / G
 mov_36_warbkcircle            [label="{{36  |Warrior stance\nbackward circle}}"                               URL="https://www.youtube.com/watch?v=ZfGdlIsWKXQ" ];
 mov_37_waraltcircle           [label="{{37  |Warrior stance\nalternating circles}}"                           URL="https://www.youtube.com/watch?v=h_wcGKGlCus" ];
 mov_38_war180pull             [label="{{38  |Warrior stance\n180 degree rotating pullover\nfrom sword grip}}" URL="https://www.youtube.com/watch?v=P5lbQmeVZn8" ];
-mov_39_warfrcircleflip        [label="{{39  |Warrior stance\nfront circle flip catch}}"                            URL="https://www.youtube.com/watch?v=8hvIwt9EshQ" ];
-mov_40_warbkcircleflip        [label="{{40  |Warrior stance\nbackward circle to\nflip catch}}"                     URL="https://www.youtube.com/watch?v=Eb5Ci22BqmI" ];
+mov_39_warfrcircleflip        [label="{{39  |Warrior stance\nfront circle flip catch}}"                       URL="https://www.youtube.com/watch?v=8hvIwt9EshQ" ];
+mov_40_warbkcircleflip        [label="{{40  |Warrior stance\nbackward circle to\nflip catch}}"                URL="https://www.youtube.com/watch?v=Eb5Ci22BqmI" ];
+mov_41_warfwdmill             [label="{{41  |Warrior stance\nforward mill}}"                                  URL="https://www.youtube.com/watch?v=ydXgS363htk" ];
 
 // LAYOUT HACKS
 
@@ -143,11 +144,12 @@ mov_40_warbkcircleflip        [label="{{40  |Warrior stance\nbackward circle to\
       mov_33_warfrcircle -> mov_36_warbkcircle -> mov_37_waraltcircle;
       mov_33_warfrcircle -> mov_37_waraltcircle;
       mov_37_waraltcircle -> mov_39_warfrcircleflip -> mov_40_warbkcircleflip
-      mov_38_war180pull
+      {mov_38_war180pull,mov_39_warfrcircleflip} -> mov_41_warfwdmill
     }
     ext_180pull -> mov_38_war180pull
     mov_22_incircle2sameflip -> mov_39_warfrcircleflip
     mov_23_outcircle2sameflip -> mov_40_warbkcircleflip
+    mov_27_inflip180pull -> mov_41_warfwdmill
 
     {rank=same; ext_180pull; mov_16_saincircle}
     {rank=same; mov_17_saoutcircle; mov_19_incircle2altcoin}
