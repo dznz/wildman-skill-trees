@@ -27,8 +27,10 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
 
   subgraph ext {
     node [color=2, fillcolor=1]
+    ext_saorder [label="Single-arm\nOrder Position"]
     ext_180pull [label="180 Degree Pullover"]
     ext_frswingclean [label="Front swing clean"]
+    ext_saorder -> ext_180pull
   }
 
   subgraph isolated {

@@ -29,10 +29,12 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   subgraph ext {
     node [color=2, fillcolor=1]
     ext_sq [label="Balance Squat"]
-    ext_order [label="Order Position"]
+    ext_2horder [label="Two-hand\nOrder Position"]
+    ext_saorder [label="Single-arm\nOrder Position"]
     ext_180pull [label="180 Degree Pullover"]
     ext_frswingclean [label="Front swing clean"]
-    ext_order -> {ext_sq; ext_180pull}
+    ext_2horder -> ext_sq
+    ext_2horder -> ext_saorder -> ext_180pull
   }
 
   subgraph isolated {
@@ -114,6 +116,7 @@ mov_52_altxbodspear            [label="{{52  |Cross-body\nspear catch\nalternati
     label="Single-Arm"
 
     // Precursor
+    ext_saorder
     ext_180pull -> mov_27_inflip180pull
 
     // Core standing movements
@@ -195,7 +198,7 @@ mov_52_altxbodspear            [label="{{52  |Cross-body\nspear catch\nalternati
     label="2H"
     // Precursor
     ext_sq -> {mov_13_pray23602sq;mov_14_barpress2sq;mov_15_3602bar2sq}
-    ext_order -> {mov_01_360; mov_031_prayer; mov_041_barbell}
+    ext_2horder -> {mov_01_360; mov_031_prayer; mov_041_barbell}
 
     mov_01_360 -> {mov_02_alt360;mov_032_pray2360;mov_042_barbell2360;mov_062_uppercut2360}
     mov_031_prayer -> mov_032_pray2360;
