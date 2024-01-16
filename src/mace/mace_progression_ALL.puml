@@ -23,6 +23,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     node [color=10, fillcolor=9]
     mov_051_sabackswing; mov_052_backswing
     mov_242_outflip; mov_243_inflip
+    mov_50_f2bxbodhipull
   }
 
   subgraph ext {
@@ -101,6 +102,7 @@ mov_46_sifpivotwoutcircleflip  [label="{{46  |Inside stepping pivot with\noutsid
 mov_47_sifpivotwincircleout180 [label="{{47  |Inside front step pivot with\ninside circle and\noutside 180 degree mill top}}" URL="https://www.youtube.com/watch?v=zuen0CLdwMU" ];
 mov_48_frspear                 [label="{{48  |Front spear catch}}"                                                            URL="https://www.youtube.com/watch?v=hwQlmjHQsrg" ];
 mov_49_frspearwchange          [label="{{49  |Front spear catch with\ndescending side change}}"                               URL="https://www.youtube.com/watch?v=xzPiZZV2K4E" ];
+mov_50_f2bxbodhipull           [label="{{50  |Front to back\ncross-body high pull}}"                                          URL="https://www.youtube.com/watch?v=AoUxg7QE-xU" ];
 
 
 
@@ -175,7 +177,7 @@ mov_49_frspearwchange          [label="{{49  |Front spear catch with\ndescending
       mov_45_sifpivotwflip -> mov_46_sifpivotwoutcircleflip
       mov_46_sifpivotwoutcircleflip -> mov_47_sifpivotwincircleout180
     }
-    ext_frswingclean -> mov_48_frspear -> mov_49_frspearwchange
+    ext_frswingclean -> mov_48_frspear -> mov_49_frspearwchange -> mov_50_f2bxbodhipull
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
   }
 
