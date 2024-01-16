@@ -82,7 +82,8 @@ mov_51_xbodspear               [label="{{51  |Cross-body\nspear catch isolations
 mov_52_altxbodspear            [label="{{52  |Cross-body\nspear catch\nalternating sides}}"                                   URL="https://www.youtube.com/watch?v=-Z8YfWYfepQ" ];
 mov_53_outswordflair           [label="{{53  |Outside sword flair}}"                                                          URL="https://www.youtube.com/watch?v=HxItsGvz-e4" ];
 
-mov_54_inswordflair            [label="{{54  |Inside tip away\nsword flair}}" URL="https://www.youtube.com/watch?v=8I7KaLuNaEs" ];
+mov_54_inswordflair            [label="{{54  |Inside tip away\nsword flair}}"                   URL="https://www.youtube.com/watch?v=8I7KaLuNaEs" ];
+mov_55_out180pullwflair        [label="{{55  |Outside\n180 degree pullover with\nsword flair}}" URL="https://www.youtube.com/watch?v=hh3393-eXrs" ];
 
     // Precursor
     ext_180pull -> mov_27_inflip180pull
@@ -155,6 +156,8 @@ mov_54_inswordflair            [label="{{54  |Inside tip away\nsword flair}}" UR
       label="Spear catch"
       ext_frswingclean -> mov_48_frspear -> mov_49_frspearwchange -> mov_50_f2bxbodhipull -> mov_51_xbodspear -> mov_52_altxbodspear
     }
+
+    {ext_180pull, mov_53_outswordflair} -> mov_55_out180pullwflair
     
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
   
