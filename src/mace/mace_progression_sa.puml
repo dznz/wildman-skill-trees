@@ -89,6 +89,7 @@ mov_56_in180pullwflair         [label="{{56  |Inside\n180 degree pullover with\n
 mov_57_alt180pullwflair        [label="{{57  |Inside & outside\n180 degree pullover with\nsword flairs}}" URL="https://www.youtube.com/watch?v=XriSUPQ4Ql4" ];
 mov_58_outswordmillwflair      [label="{{58  |Outside sword grip mill with\ntip-away sword flair}}"       URL="https://www.youtube.com/watch?v=bKldH_In6SI" ];
 mov_59_inswordmillwflair       [label="{{59  |Inside sword grip mill with\ninside sword flair}}"          URL="https://www.youtube.com/watch?v=uMLwGxhbt2Y" ];
+mov_60_altswordmillwflair      [label="{{60  |Alternating\nsword grip mill with\nsword flairs}}"          URL="https://www.youtube.com/watch?v=_GBln0VGekg" ];
 
     // Precursor
     ext_180pull -> mov_27_inflip180pull
@@ -158,7 +159,7 @@ mov_59_inswordmillwflair       [label="{{59  |Inside sword grip mill with\ninsid
       mov_45_sifpivotwflip -> mov_46_sifpivotwoutcircleflip
       mov_46_sifpivotwoutcircleflip -> mov_47_sifpivotwincircleout180
     }
-    subgraph cluster_spear {
+    subgraph custer_spear {
       label="Spear catch"
       ext_frswingclean -> mov_48_frspear -> mov_49_frspearwchange -> mov_50_f2bxbodhipull -> mov_51_xbodspear -> mov_52_altxbodspear
     }
@@ -168,6 +169,7 @@ mov_59_inswordmillwflair       [label="{{59  |Inside sword grip mill with\ninsid
     {mov_55_out180pullwflair, mov_56_in180pullwflair} -> mov_57_alt180pullwflair
     {mov_28_outflipmill, mov_55_out180pullwflair} -> mov_58_outswordmillwflair
     {mov_27_inflip180pull, mov_56_in180pullwflair, mov_58_outswordmillwflair} -> mov_59_inswordmillwflair
+    {ext_altmill, mov_57_alt180pullwflair, mov_59_inswordmillwflair} -> mov_60_altswordmillwflair
     
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
   
