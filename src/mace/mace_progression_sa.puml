@@ -35,7 +35,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
 
   subgraph isolated {
     node [color=4, fillcolor=3]
-    mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle, mov_48_frspear, mov_51_xbodspear, mov_53_outswordflair
+    mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle, mov_48_frspear, mov_51_xbodspear, mov_53_outswordflair, mov_54_inswordflair
   }
 
 mov_16_saincircle             [label="{{16  |Single arm\ninside circle}}"                     URL="https://www.youtube.com/watch?v=MSt1cYAiLzI" ]
@@ -82,10 +82,11 @@ mov_51_xbodspear               [label="{{51  |Cross-body\nspear catch isolations
 mov_52_altxbodspear            [label="{{52  |Cross-body\nspear catch\nalternating sides}}"                                   URL="https://www.youtube.com/watch?v=-Z8YfWYfepQ" ];
 mov_53_outswordflair           [label="{{53  |Outside sword flair}}"                                                          URL="https://www.youtube.com/watch?v=HxItsGvz-e4" ];
 
+mov_54_inswordflair            [label="{{54  |Inside tip away\nsword flair}}" URL="https://www.youtube.com/watch?v=8I7KaLuNaEs" ];
 
     // Precursor
     ext_180pull -> mov_27_inflip180pull
-    ext_saorder -> mov_53_outswordflair
+    ext_saorder -> mov_53_outswordflair -> mov_54_inswordflair
 
     // Core standing movements
     subgraph custer_symmetric {

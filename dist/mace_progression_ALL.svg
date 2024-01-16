@@ -18,15 +18,15 @@
 <text text-anchor="start" x="1259" y="-33.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">© 2023. This work is openly licensed with CC BY&#45;NC&#45;SA 4.0</text>
 <text text-anchor="start" x="1327.25" y="-19.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">http://creativecommons.org/licenses/by&#45;nc&#45;sa/4.0/</text>
 <text text-anchor="start" x="1451" y="-5.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00"> &#160;</text>
-<g id="clust16" class="cluster">
-<title>cluster_2h</title>
-<polygon fill="none" stroke="black" points="119,-1068.75 119,-1601.75 1252,-1601.75 1252,-1068.75 119,-1068.75"/>
-<text text-anchor="middle" x="1235" y="-1584.45" font-family="Helvetica,Arial,sans-serif" font-size="14.00">2H</text>
-</g>
 <g id="clust4" class="cluster">
 <title>cluster_sa</title>
 <polygon fill="none" stroke="black" points="8,-170 8,-995.75 1417,-995.75 1417,-170 8,-170"/>
 <text text-anchor="middle" x="1373.75" y="-978.45" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Single&#45;Arm</text>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_2h</title>
+<polygon fill="none" stroke="black" points="119,-1068.75 119,-1601.75 1252,-1601.75 1252,-1068.75 119,-1068.75"/>
+<text text-anchor="middle" x="1235" y="-1584.45" font-family="Helvetica,Arial,sans-serif" font-size="14.00">2H</text>
 </g>
 <!-- mov_051_sabackswing -->
 <g id="node1" class="node">
@@ -52,7 +52,7 @@
 </g>
 </g>
 <!-- mov_052_backswing&#45;&gt;mov_051_sabackswing -->
-<g id="edge79" class="edge">
+<g id="edge80" class="edge">
 <title>mov_052_backswing&#45;&gt;mov_051_sabackswing</title>
 <path fill="none" stroke="black" d="M631.23,-1381.22C631.34,-1373.27 631.47,-1363.6 631.59,-1354.48"/>
 <polygon fill="black" stroke="black" points="635.09,-1354.58 631.72,-1344.53 628.09,-1354.48 635.09,-1354.58"/>
@@ -61,57 +61,57 @@
 <g id="node3" class="node">
 <title>mov_242_outflip</title>
 <g id="a_node3"><a xlink:href="https://www.youtube.com/watch?v=T5x3xsfHqs8" xlink:title="{{24&#45;2|Outside flip catch balance}}">
-<path fill="#cab2d6" stroke="#6a3d9a" d="M512.25,-533.5C512.25,-533.5 689.75,-533.5 689.75,-533.5 695.75,-533.5 701.75,-539.5 701.75,-545.5 701.75,-545.5 701.75,-557.5 701.75,-557.5 701.75,-563.5 695.75,-569.5 689.75,-569.5 689.75,-569.5 512.25,-569.5 512.25,-569.5 506.25,-569.5 500.25,-563.5 500.25,-557.5 500.25,-557.5 500.25,-545.5 500.25,-545.5 500.25,-539.5 506.25,-533.5 512.25,-533.5"/>
-<text text-anchor="middle" x="520.62" y="-546.2" font-family="Times New Roman,serif" font-size="14.00">24&#45;2</text>
-<polyline fill="none" stroke="#6a3d9a" points="541,-533.75 541,-569.5"/>
-<text text-anchor="middle" x="621.38" y="-546.2" font-family="Times New Roman,serif" font-size="14.00">Outside flip catch balance</text>
+<path fill="#cab2d6" stroke="#6a3d9a" d="M302.25,-533.5C302.25,-533.5 479.75,-533.5 479.75,-533.5 485.75,-533.5 491.75,-539.5 491.75,-545.5 491.75,-545.5 491.75,-557.5 491.75,-557.5 491.75,-563.5 485.75,-569.5 479.75,-569.5 479.75,-569.5 302.25,-569.5 302.25,-569.5 296.25,-569.5 290.25,-563.5 290.25,-557.5 290.25,-557.5 290.25,-545.5 290.25,-545.5 290.25,-539.5 296.25,-533.5 302.25,-533.5"/>
+<text text-anchor="middle" x="310.62" y="-546.2" font-family="Times New Roman,serif" font-size="14.00">24&#45;2</text>
+<polyline fill="none" stroke="#6a3d9a" points="331,-533.75 331,-569.5"/>
+<text text-anchor="middle" x="411.38" y="-546.2" font-family="Times New Roman,serif" font-size="14.00">Outside flip catch balance</text>
 </a>
 </g>
 </g>
 <!-- mov_241_altcircle2sameflip -->
-<g id="node45" class="node">
+<g id="node46" class="node">
 <title>mov_241_altcircle2sameflip</title>
-<g id="a_node45"><a xlink:href="https://www.youtube.com/watch?v=T5x3xsfHqs8" xlink:title="{{24&#45;1|Alt circle with\nsame side flip catch}}">
-<path fill="#ffff99" stroke="#b15928" d="M498.5,-447.38C498.5,-447.38 641.5,-447.38 641.5,-447.38 647.5,-447.38 653.5,-453.38 653.5,-459.38 653.5,-459.38 653.5,-474.88 653.5,-474.88 653.5,-480.88 647.5,-486.88 641.5,-486.88 641.5,-486.88 498.5,-486.88 498.5,-486.88 492.5,-486.88 486.5,-480.88 486.5,-474.88 486.5,-474.88 486.5,-459.38 486.5,-459.38 486.5,-453.38 492.5,-447.38 498.5,-447.38"/>
-<text text-anchor="middle" x="506.88" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">24&#45;1</text>
-<polyline fill="none" stroke="#b15928" points="527.25,-447.38 527.25,-486.88"/>
-<text text-anchor="middle" x="590.38" y="-469.57" font-family="Times New Roman,serif" font-size="14.00">Alt circle with</text>
-<text text-anchor="middle" x="590.38" y="-453.82" font-family="Times New Roman,serif" font-size="14.00">same side flip catch</text>
+<g id="a_node46"><a xlink:href="https://www.youtube.com/watch?v=T5x3xsfHqs8" xlink:title="{{24&#45;1|Alt circle with\nsame side flip catch}}">
+<path fill="#ffff99" stroke="#b15928" d="M481.5,-447.38C481.5,-447.38 624.5,-447.38 624.5,-447.38 630.5,-447.38 636.5,-453.38 636.5,-459.38 636.5,-459.38 636.5,-474.88 636.5,-474.88 636.5,-480.88 630.5,-486.88 624.5,-486.88 624.5,-486.88 481.5,-486.88 481.5,-486.88 475.5,-486.88 469.5,-480.88 469.5,-474.88 469.5,-474.88 469.5,-459.38 469.5,-459.38 469.5,-453.38 475.5,-447.38 481.5,-447.38"/>
+<text text-anchor="middle" x="489.88" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">24&#45;1</text>
+<polyline fill="none" stroke="#b15928" points="510.25,-447.38 510.25,-486.88"/>
+<text text-anchor="middle" x="573.38" y="-469.57" font-family="Times New Roman,serif" font-size="14.00">Alt circle with</text>
+<text text-anchor="middle" x="573.38" y="-453.82" font-family="Times New Roman,serif" font-size="14.00">same side flip catch</text>
 </a>
 </g>
 </g>
 <!-- mov_242_outflip&#45;&gt;mov_241_altcircle2sameflip -->
-<g id="edge19" class="edge">
+<g id="edge20" class="edge">
 <title>mov_242_outflip&#45;&gt;mov_241_altcircle2sameflip</title>
-<path fill="none" stroke="black" d="M594.43,-533.03C590.6,-522.87 585.68,-509.78 581.25,-498.02"/>
-<polygon fill="black" stroke="black" points="584.55,-496.84 577.75,-488.71 577.99,-499.3 584.55,-496.84"/>
+<path fill="none" stroke="black" d="M425.36,-533.03C448.54,-521.24 479.46,-505.52 505.06,-492.5"/>
+<polygon fill="black" stroke="black" points="506.62,-495.63 513.95,-487.98 503.45,-489.39 506.62,-495.63"/>
 </g>
 <!-- mov_243_inflip -->
 <g id="node4" class="node">
 <title>mov_243_inflip</title>
 <g id="a_node4"><a xlink:href="https://www.youtube.com/watch?v=T5x3xsfHqs8" xlink:title="{{24&#45;3|Inside flip catch balance}}">
-<path fill="#cab2d6" stroke="#6a3d9a" d="M302.12,-533.5C302.12,-533.5 469.88,-533.5 469.88,-533.5 475.88,-533.5 481.88,-539.5 481.88,-545.5 481.88,-545.5 481.88,-557.5 481.88,-557.5 481.88,-563.5 475.88,-569.5 469.88,-569.5 469.88,-569.5 302.12,-569.5 302.12,-569.5 296.12,-569.5 290.12,-563.5 290.12,-557.5 290.12,-557.5 290.12,-545.5 290.12,-545.5 290.12,-539.5 296.12,-533.5 302.12,-533.5"/>
-<text text-anchor="middle" x="310.5" y="-546.2" font-family="Times New Roman,serif" font-size="14.00">24&#45;3</text>
-<polyline fill="none" stroke="#6a3d9a" points="330.88,-533.75 330.88,-569.5"/>
-<text text-anchor="middle" x="406.38" y="-546.2" font-family="Times New Roman,serif" font-size="14.00">Inside flip catch balance</text>
+<path fill="#cab2d6" stroke="#6a3d9a" d="M522.12,-533.5C522.12,-533.5 689.88,-533.5 689.88,-533.5 695.88,-533.5 701.88,-539.5 701.88,-545.5 701.88,-545.5 701.88,-557.5 701.88,-557.5 701.88,-563.5 695.88,-569.5 689.88,-569.5 689.88,-569.5 522.12,-569.5 522.12,-569.5 516.12,-569.5 510.12,-563.5 510.12,-557.5 510.12,-557.5 510.12,-545.5 510.12,-545.5 510.12,-539.5 516.12,-533.5 522.12,-533.5"/>
+<text text-anchor="middle" x="530.5" y="-546.2" font-family="Times New Roman,serif" font-size="14.00">24&#45;3</text>
+<polyline fill="none" stroke="#6a3d9a" points="550.88,-533.75 550.88,-569.5"/>
+<text text-anchor="middle" x="626.38" y="-546.2" font-family="Times New Roman,serif" font-size="14.00">Inside flip catch balance</text>
 </a>
 </g>
 </g>
 <!-- mov_243_inflip&#45;&gt;mov_241_altcircle2sameflip -->
-<g id="edge20" class="edge">
+<g id="edge21" class="edge">
 <title>mov_243_inflip&#45;&gt;mov_241_altcircle2sameflip</title>
-<path fill="none" stroke="black" d="M425.02,-533.03C451.7,-521.08 487.41,-505.1 516.7,-491.99"/>
-<polygon fill="black" stroke="black" points="518.1,-495.19 525.8,-487.91 515.24,-488.81 518.1,-495.19"/>
+<path fill="none" stroke="black" d="M594.76,-533.03C588.02,-522.55 579.28,-508.97 571.54,-496.93"/>
+<polygon fill="black" stroke="black" points="574.51,-495.08 566.15,-488.57 568.62,-498.87 574.51,-495.08"/>
 </g>
 <!-- mov_50_f2bxbodhipull -->
 <g id="node5" class="node">
 <title>mov_50_f2bxbodhipull</title>
 <g id="a_node5"><a xlink:href="https://www.youtube.com/watch?v=AoUxg7QE-xU" xlink:title="{{50 &#160;|Front to back\ncross&#45;body high pull}}">
-<path fill="#cab2d6" stroke="#6a3d9a" d="M1132.5,-608.25C1132.5,-608.25 1269.5,-608.25 1269.5,-608.25 1275.5,-608.25 1281.5,-614.25 1281.5,-620.25 1281.5,-620.25 1281.5,-635.75 1281.5,-635.75 1281.5,-641.75 1275.5,-647.75 1269.5,-647.75 1269.5,-647.75 1132.5,-647.75 1132.5,-647.75 1126.5,-647.75 1120.5,-641.75 1120.5,-635.75 1120.5,-635.75 1120.5,-620.25 1120.5,-620.25 1120.5,-614.25 1126.5,-608.25 1132.5,-608.25"/>
-<text text-anchor="middle" x="1135.25" y="-622.58" font-family="Times New Roman,serif" font-size="14.00">50</text>
-<polyline fill="none" stroke="#6a3d9a" points="1150,-608.25 1150,-647.75"/>
-<text text-anchor="middle" x="1215.75" y="-630.45" font-family="Times New Roman,serif" font-size="14.00">Front to back</text>
-<text text-anchor="middle" x="1215.75" y="-614.7" font-family="Times New Roman,serif" font-size="14.00">cross&#45;body high pull</text>
+<path fill="#cab2d6" stroke="#6a3d9a" d="M1141.5,-608.25C1141.5,-608.25 1278.5,-608.25 1278.5,-608.25 1284.5,-608.25 1290.5,-614.25 1290.5,-620.25 1290.5,-620.25 1290.5,-635.75 1290.5,-635.75 1290.5,-641.75 1284.5,-647.75 1278.5,-647.75 1278.5,-647.75 1141.5,-647.75 1141.5,-647.75 1135.5,-647.75 1129.5,-641.75 1129.5,-635.75 1129.5,-635.75 1129.5,-620.25 1129.5,-620.25 1129.5,-614.25 1135.5,-608.25 1141.5,-608.25"/>
+<text text-anchor="middle" x="1144.25" y="-622.58" font-family="Times New Roman,serif" font-size="14.00">50</text>
+<polyline fill="none" stroke="#6a3d9a" points="1159,-608.25 1159,-647.75"/>
+<text text-anchor="middle" x="1224.75" y="-630.45" font-family="Times New Roman,serif" font-size="14.00">Front to back</text>
+<text text-anchor="middle" x="1224.75" y="-614.7" font-family="Times New Roman,serif" font-size="14.00">cross&#45;body high pull</text>
 </a>
 </g>
 </g>
@@ -119,19 +119,19 @@
 <g id="node33" class="node">
 <title>mov_51_xbodspear</title>
 <g id="a_node33"><a xlink:href="https://www.youtube.com/watch?v=VkwN58PBBSs" xlink:title="{{51 &#160;|Cross&#45;body\nspear catch isolations}}">
-<path fill="#b2df8a" stroke="#33a02c" d="M1010.25,-531.75C1010.25,-531.75 1151.75,-531.75 1151.75,-531.75 1157.75,-531.75 1163.75,-537.75 1163.75,-543.75 1163.75,-543.75 1163.75,-559.25 1163.75,-559.25 1163.75,-565.25 1157.75,-571.25 1151.75,-571.25 1151.75,-571.25 1010.25,-571.25 1010.25,-571.25 1004.25,-571.25 998.25,-565.25 998.25,-559.25 998.25,-559.25 998.25,-543.75 998.25,-543.75 998.25,-537.75 1004.25,-531.75 1010.25,-531.75"/>
-<text text-anchor="middle" x="1013" y="-546.08" font-family="Times New Roman,serif" font-size="14.00">51</text>
-<polyline fill="none" stroke="#33a02c" points="1027.75,-531.75 1027.75,-571.25"/>
-<text text-anchor="middle" x="1095.75" y="-553.95" font-family="Times New Roman,serif" font-size="14.00">Cross&#45;body</text>
-<text text-anchor="middle" x="1095.75" y="-538.2" font-family="Times New Roman,serif" font-size="14.00">spear catch isolations</text>
+<path fill="#b2df8a" stroke="#33a02c" d="M1029.25,-531.75C1029.25,-531.75 1170.75,-531.75 1170.75,-531.75 1176.75,-531.75 1182.75,-537.75 1182.75,-543.75 1182.75,-543.75 1182.75,-559.25 1182.75,-559.25 1182.75,-565.25 1176.75,-571.25 1170.75,-571.25 1170.75,-571.25 1029.25,-571.25 1029.25,-571.25 1023.25,-571.25 1017.25,-565.25 1017.25,-559.25 1017.25,-559.25 1017.25,-543.75 1017.25,-543.75 1017.25,-537.75 1023.25,-531.75 1029.25,-531.75"/>
+<text text-anchor="middle" x="1032" y="-546.08" font-family="Times New Roman,serif" font-size="14.00">51</text>
+<polyline fill="none" stroke="#33a02c" points="1046.75,-531.75 1046.75,-571.25"/>
+<text text-anchor="middle" x="1114.75" y="-553.95" font-family="Times New Roman,serif" font-size="14.00">Cross&#45;body</text>
+<text text-anchor="middle" x="1114.75" y="-538.2" font-family="Times New Roman,serif" font-size="14.00">spear catch isolations</text>
 </a>
 </g>
 </g>
 <!-- mov_50_f2bxbodhipull&#45;&gt;mov_51_xbodspear -->
-<g id="edge57" class="edge">
+<g id="edge58" class="edge">
 <title>mov_50_f2bxbodhipull&#45;&gt;mov_51_xbodspear</title>
-<path fill="none" stroke="black" d="M1170.1,-607.81C1155.26,-598.6 1137.29,-587.45 1121.39,-577.57"/>
-<polygon fill="black" stroke="black" points="1123.43,-574.72 1113.08,-572.42 1119.73,-580.67 1123.43,-574.72"/>
+<path fill="none" stroke="black" d="M1181.67,-607.81C1168.2,-598.69 1151.91,-587.66 1137.43,-577.85"/>
+<polygon fill="black" stroke="black" points="1139.73,-575.18 1129.48,-572.47 1135.8,-580.97 1139.73,-575.18"/>
 </g>
 <!-- ext_sq -->
 <g id="node6" class="node">
@@ -152,15 +152,15 @@
 </g>
 </g>
 <!-- ext_sq&#45;&gt;mov_14_barpress2sq -->
-<g id="edge59" class="edge">
+<g id="edge60" class="edge">
 <title>ext_sq&#45;&gt;mov_14_barpress2sq</title>
 <path fill="none" stroke="black" d="M1102.83,-1153.51C1111.07,-1145.06 1121.2,-1134.68 1130.45,-1125.2"/>
 <polygon fill="black" stroke="black" points="1132.76,-1127.85 1137.24,-1118.25 1127.75,-1122.96 1132.76,-1127.85"/>
 </g>
 <!-- mov_13_pray23602sq -->
-<g id="node41" class="node">
+<g id="node42" class="node">
 <title>mov_13_pray23602sq</title>
-<g id="a_node41"><a xlink:href="https://www.youtube.com/watch?v=2yUz84zdBlk" xlink:title="{{13 &#160;|Horizontal prayer transition to 360 to squat}}">
+<g id="a_node42"><a xlink:href="https://www.youtube.com/watch?v=2yUz84zdBlk" xlink:title="{{13 &#160;|Horizontal prayer transition to 360 to squat}}">
 <path fill="#ffff99" stroke="#b15928" d="M584.62,-1079C584.62,-1079 845.38,-1079 845.38,-1079 851.38,-1079 857.38,-1085 857.38,-1091 857.38,-1091 857.38,-1103 857.38,-1103 857.38,-1109 851.38,-1115 845.38,-1115 845.38,-1115 584.62,-1115 584.62,-1115 578.62,-1115 572.62,-1109 572.62,-1103 572.62,-1103 572.62,-1091 572.62,-1091 572.62,-1085 578.62,-1079 584.62,-1079"/>
 <text text-anchor="middle" x="587.38" y="-1091.7" font-family="Times New Roman,serif" font-size="14.00">13</text>
 <polyline fill="none" stroke="#b15928" points="602.12,-1079.25 602.12,-1115"/>
@@ -169,15 +169,15 @@
 </g>
 </g>
 <!-- ext_sq&#45;&gt;mov_13_pray23602sq -->
-<g id="edge60" class="edge">
+<g id="edge61" class="edge">
 <title>ext_sq&#45;&gt;mov_13_pray23602sq</title>
 <path fill="none" stroke="black" d="M1037.88,-1161.31C981.75,-1150.31 887.43,-1131.81 815.19,-1117.65"/>
 <polygon fill="black" stroke="black" points="816.21,-1114.28 805.73,-1115.79 814.87,-1121.15 816.21,-1114.28"/>
 </g>
 <!-- mov_15_3602bar2sq -->
-<g id="node42" class="node">
+<g id="node43" class="node">
 <title>mov_15_3602bar2sq</title>
-<g id="a_node42"><a xlink:href="https://www.youtube.com/watch?v=S6LDBK1o48U" xlink:title="{{15 &#160;|360 to barbell transition\nto squat}}">
+<g id="a_node43"><a xlink:href="https://www.youtube.com/watch?v=S6LDBK1o48U" xlink:title="{{15 &#160;|360 to barbell transition\nto squat}}">
 <path fill="#ffff99" stroke="#b15928" d="M887.62,-1077.25C887.62,-1077.25 1040.38,-1077.25 1040.38,-1077.25 1046.38,-1077.25 1052.38,-1083.25 1052.38,-1089.25 1052.38,-1089.25 1052.38,-1104.75 1052.38,-1104.75 1052.38,-1110.75 1046.38,-1116.75 1040.38,-1116.75 1040.38,-1116.75 887.62,-1116.75 887.62,-1116.75 881.62,-1116.75 875.62,-1110.75 875.62,-1104.75 875.62,-1104.75 875.62,-1089.25 875.62,-1089.25 875.62,-1083.25 881.62,-1077.25 887.62,-1077.25"/>
 <text text-anchor="middle" x="890.38" y="-1091.58" font-family="Times New Roman,serif" font-size="14.00">15</text>
 <polyline fill="none" stroke="#b15928" points="905.12,-1077.25 905.12,-1116.75"/>
@@ -187,7 +187,7 @@
 </g>
 </g>
 <!-- ext_sq&#45;&gt;mov_15_3602bar2sq -->
-<g id="edge61" class="edge">
+<g id="edge62" class="edge">
 <title>ext_sq&#45;&gt;mov_15_3602bar2sq</title>
 <path fill="none" stroke="black" d="M1056.78,-1153.32C1041.46,-1144.19 1022.42,-1132.84 1005.59,-1122.8"/>
 <polygon fill="black" stroke="black" points="1007.66,-1119.96 997.28,-1117.85 1004.08,-1125.97 1007.66,-1119.96"/>
@@ -208,15 +208,15 @@
 <!-- ext_saorder -->
 <g id="node8" class="node">
 <title>ext_saorder</title>
-<path fill="#a6cee3" stroke="#1f78b4" d="M1272.75,-531.75C1272.75,-531.75 1347.25,-531.75 1347.25,-531.75 1353.25,-531.75 1359.25,-537.75 1359.25,-543.75 1359.25,-543.75 1359.25,-559.25 1359.25,-559.25 1359.25,-565.25 1353.25,-571.25 1347.25,-571.25 1347.25,-571.25 1272.75,-571.25 1272.75,-571.25 1266.75,-571.25 1260.75,-565.25 1260.75,-559.25 1260.75,-559.25 1260.75,-543.75 1260.75,-543.75 1260.75,-537.75 1266.75,-531.75 1272.75,-531.75"/>
-<text text-anchor="middle" x="1310" y="-553.95" font-family="Times New Roman,serif" font-size="14.00">Single&#45;arm</text>
-<text text-anchor="middle" x="1310" y="-538.2" font-family="Times New Roman,serif" font-size="14.00">Order Position</text>
+<path fill="#a6cee3" stroke="#1f78b4" d="M1283.75,-531.75C1283.75,-531.75 1358.25,-531.75 1358.25,-531.75 1364.25,-531.75 1370.25,-537.75 1370.25,-543.75 1370.25,-543.75 1370.25,-559.25 1370.25,-559.25 1370.25,-565.25 1364.25,-571.25 1358.25,-571.25 1358.25,-571.25 1283.75,-571.25 1283.75,-571.25 1277.75,-571.25 1271.75,-565.25 1271.75,-559.25 1271.75,-559.25 1271.75,-543.75 1271.75,-543.75 1271.75,-537.75 1277.75,-531.75 1283.75,-531.75"/>
+<text text-anchor="middle" x="1321" y="-553.95" font-family="Times New Roman,serif" font-size="14.00">Single&#45;arm</text>
+<text text-anchor="middle" x="1321" y="-538.2" font-family="Times New Roman,serif" font-size="14.00">Order Position</text>
 </g>
 <!-- ext_2horder&#45;&gt;ext_saorder -->
 <g id="edge2" class="edge">
 <title>ext_2horder&#45;&gt;ext_saorder</title>
-<path fill="none" stroke="black" d="M1198.51,-1544.73C1280.85,-1536.31 1437,-1506.39 1437,-1400.5 1437,-1400.5 1437,-1400.5 1437,-703.5 1437,-649.18 1388.28,-604.22 1351.19,-577.87"/>
-<polygon fill="black" stroke="black" points="1353.52,-575.22 1343.29,-572.43 1349.55,-580.99 1353.52,-575.22"/>
+<path fill="none" stroke="black" d="M1198.51,-1544.73C1280.85,-1536.31 1437,-1506.39 1437,-1400.5 1437,-1400.5 1437,-1400.5 1437,-703.5 1437,-650.85 1392.1,-605.27 1358.17,-578.33"/>
+<polygon fill="black" stroke="black" points="1360.64,-575.81 1350.58,-572.49 1356.37,-581.36 1360.64,-575.81"/>
 </g>
 <!-- mov_01_360 -->
 <g id="node11" class="node">
@@ -230,7 +230,7 @@
 </g>
 </g>
 <!-- ext_2horder&#45;&gt;mov_01_360 -->
-<g id="edge62" class="edge">
+<g id="edge63" class="edge">
 <title>ext_2horder&#45;&gt;mov_01_360</title>
 <path fill="none" stroke="black" d="M1099.5,-1538.86C1022.1,-1524.57 873.64,-1497.16 799.47,-1483.46"/>
 <polygon fill="black" stroke="black" points="800.18,-1480.03 789.71,-1481.66 798.91,-1486.92 800.18,-1480.03"/>
@@ -247,7 +247,7 @@
 </g>
 </g>
 <!-- ext_2horder&#45;&gt;mov_031_prayer -->
-<g id="edge63" class="edge">
+<g id="edge64" class="edge">
 <title>ext_2horder&#45;&gt;mov_031_prayer</title>
 <path fill="none" stroke="black" d="M1099.3,-1542.8C981.81,-1530.5 685.87,-1499.52 539.16,-1484.16"/>
 <polygon fill="black" stroke="black" points="539.82,-1480.71 529.51,-1483.15 539.09,-1487.68 539.82,-1480.71"/>
@@ -264,7 +264,7 @@
 </g>
 </g>
 <!-- ext_2horder&#45;&gt;mov_041_barbell -->
-<g id="edge64" class="edge">
+<g id="edge65" class="edge">
 <title>ext_2horder&#45;&gt;mov_041_barbell</title>
 <path fill="none" stroke="black" d="M1149,-1528.89C1149,-1521.22 1149,-1512.22 1149,-1503.8"/>
 <polygon fill="black" stroke="black" points="1152.5,-1504.01 1149,-1494.01 1145.5,-1504.01 1152.5,-1504.01"/>
@@ -272,68 +272,68 @@
 <!-- ext_180pull -->
 <g id="node9" class="node">
 <title>ext_180pull</title>
-<path fill="#a6cee3" stroke="#1f78b4" d="M1087.75,-449.12C1087.75,-449.12 1192.25,-449.12 1192.25,-449.12 1198.25,-449.12 1204.25,-455.12 1204.25,-461.12 1204.25,-461.12 1204.25,-473.12 1204.25,-473.12 1204.25,-479.12 1198.25,-485.12 1192.25,-485.12 1192.25,-485.12 1087.75,-485.12 1087.75,-485.12 1081.75,-485.12 1075.75,-479.12 1075.75,-473.12 1075.75,-473.12 1075.75,-461.12 1075.75,-461.12 1075.75,-455.12 1081.75,-449.12 1087.75,-449.12"/>
-<text text-anchor="middle" x="1140" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">180 Degree Pullover</text>
+<path fill="#a6cee3" stroke="#1f78b4" d="M1098.75,-449.12C1098.75,-449.12 1203.25,-449.12 1203.25,-449.12 1209.25,-449.12 1215.25,-455.12 1215.25,-461.12 1215.25,-461.12 1215.25,-473.12 1215.25,-473.12 1215.25,-479.12 1209.25,-485.12 1203.25,-485.12 1203.25,-485.12 1098.75,-485.12 1098.75,-485.12 1092.75,-485.12 1086.75,-479.12 1086.75,-473.12 1086.75,-473.12 1086.75,-461.12 1086.75,-461.12 1086.75,-455.12 1092.75,-449.12 1098.75,-449.12"/>
+<text text-anchor="middle" x="1151" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">180 Degree Pullover</text>
 </g>
 <!-- ext_saorder&#45;&gt;ext_180pull -->
 <g id="edge3" class="edge">
 <title>ext_saorder&#45;&gt;ext_180pull</title>
-<path fill="none" stroke="black" d="M1270.57,-531.39C1245.37,-519.18 1212.59,-503.3 1186.18,-490.5"/>
-<polygon fill="black" stroke="black" points="1187.91,-487.45 1177.39,-486.24 1184.86,-493.75 1187.91,-487.45"/>
+<path fill="none" stroke="black" d="M1281.57,-531.39C1256.37,-519.18 1223.59,-503.3 1197.18,-490.5"/>
+<polygon fill="black" stroke="black" points="1198.91,-487.45 1188.39,-486.24 1195.86,-493.75 1198.91,-487.45"/>
 </g>
 <!-- mov_53_outswordflair -->
 <g id="node34" class="node">
 <title>mov_53_outswordflair</title>
 <g id="a_node34"><a xlink:href="https://www.youtube.com/watch?v=HxItsGvz-e4" xlink:title="{{53 &#160;|Outside sword flair}}">
-<path fill="#b2df8a" stroke="#33a02c" d="M1245.62,-449.12C1245.62,-449.12 1374.38,-449.12 1374.38,-449.12 1380.38,-449.12 1386.38,-455.12 1386.38,-461.12 1386.38,-461.12 1386.38,-473.12 1386.38,-473.12 1386.38,-479.12 1380.38,-485.12 1374.38,-485.12 1374.38,-485.12 1245.62,-485.12 1245.62,-485.12 1239.62,-485.12 1233.62,-479.12 1233.62,-473.12 1233.62,-473.12 1233.62,-461.12 1233.62,-461.12 1233.62,-455.12 1239.62,-449.12 1245.62,-449.12"/>
-<text text-anchor="middle" x="1248.38" y="-461.82" font-family="Times New Roman,serif" font-size="14.00">53</text>
-<polyline fill="none" stroke="#33a02c" points="1263.12,-449.38 1263.12,-485.12"/>
-<text text-anchor="middle" x="1324.75" y="-461.82" font-family="Times New Roman,serif" font-size="14.00">Outside sword flair</text>
+<path fill="#b2df8a" stroke="#33a02c" d="M1256.62,-449.12C1256.62,-449.12 1385.38,-449.12 1385.38,-449.12 1391.38,-449.12 1397.38,-455.12 1397.38,-461.12 1397.38,-461.12 1397.38,-473.12 1397.38,-473.12 1397.38,-479.12 1391.38,-485.12 1385.38,-485.12 1385.38,-485.12 1256.62,-485.12 1256.62,-485.12 1250.62,-485.12 1244.62,-479.12 1244.62,-473.12 1244.62,-473.12 1244.62,-461.12 1244.62,-461.12 1244.62,-455.12 1250.62,-449.12 1256.62,-449.12"/>
+<text text-anchor="middle" x="1259.38" y="-461.82" font-family="Times New Roman,serif" font-size="14.00">53</text>
+<polyline fill="none" stroke="#33a02c" points="1274.12,-449.38 1274.12,-485.12"/>
+<text text-anchor="middle" x="1335.75" y="-461.82" font-family="Times New Roman,serif" font-size="14.00">Outside sword flair</text>
 </a>
 </g>
 </g>
 <!-- ext_saorder&#45;&gt;mov_53_outswordflair -->
 <g id="edge4" class="edge">
 <title>ext_saorder&#45;&gt;mov_53_outswordflair</title>
-<path fill="none" stroke="black" d="M1310,-531.39C1310,-521.09 1310,-508.18 1310,-496.71"/>
-<polygon fill="black" stroke="black" points="1313.5,-496.96 1310,-486.96 1306.5,-496.96 1313.5,-496.96"/>
+<path fill="none" stroke="black" d="M1321,-531.39C1321,-521.09 1321,-508.18 1321,-496.71"/>
+<polygon fill="black" stroke="black" points="1324.5,-496.96 1321,-486.96 1317.5,-496.96 1324.5,-496.96"/>
 </g>
 <!-- mov_27_inflip180pull -->
-<g id="node48" class="node">
+<g id="node49" class="node">
 <title>mov_27_inflip180pull</title>
-<g id="a_node48"><a xlink:href="https://www.youtube.com/watch?v=uFsPwnClx-M" xlink:title="{{27 &#160;|Inside flip catch mill with\nsword grip across the top}}">
-<path fill="#ffff99" stroke="#b15928" d="M545.25,-355.12C545.25,-355.12 710.75,-355.12 710.75,-355.12 716.75,-355.12 722.75,-361.12 722.75,-367.12 722.75,-367.12 722.75,-382.62 722.75,-382.62 722.75,-388.62 716.75,-394.62 710.75,-394.62 710.75,-394.62 545.25,-394.62 545.25,-394.62 539.25,-394.62 533.25,-388.62 533.25,-382.62 533.25,-382.62 533.25,-367.12 533.25,-367.12 533.25,-361.12 539.25,-355.12 545.25,-355.12"/>
-<text text-anchor="middle" x="548" y="-369.45" font-family="Times New Roman,serif" font-size="14.00">27</text>
-<polyline fill="none" stroke="#b15928" points="562.75,-355.12 562.75,-394.62"/>
-<text text-anchor="middle" x="642.75" y="-377.32" font-family="Times New Roman,serif" font-size="14.00">Inside flip catch mill with</text>
-<text text-anchor="middle" x="642.75" y="-361.57" font-family="Times New Roman,serif" font-size="14.00">sword grip across the top</text>
+<g id="a_node49"><a xlink:href="https://www.youtube.com/watch?v=uFsPwnClx-M" xlink:title="{{27 &#160;|Inside flip catch mill with\nsword grip across the top}}">
+<path fill="#ffff99" stroke="#b15928" d="M522.25,-355.12C522.25,-355.12 687.75,-355.12 687.75,-355.12 693.75,-355.12 699.75,-361.12 699.75,-367.12 699.75,-367.12 699.75,-382.62 699.75,-382.62 699.75,-388.62 693.75,-394.62 687.75,-394.62 687.75,-394.62 522.25,-394.62 522.25,-394.62 516.25,-394.62 510.25,-388.62 510.25,-382.62 510.25,-382.62 510.25,-367.12 510.25,-367.12 510.25,-361.12 516.25,-355.12 522.25,-355.12"/>
+<text text-anchor="middle" x="525" y="-369.45" font-family="Times New Roman,serif" font-size="14.00">27</text>
+<polyline fill="none" stroke="#b15928" points="539.75,-355.12 539.75,-394.62"/>
+<text text-anchor="middle" x="619.75" y="-377.32" font-family="Times New Roman,serif" font-size="14.00">Inside flip catch mill with</text>
+<text text-anchor="middle" x="619.75" y="-361.57" font-family="Times New Roman,serif" font-size="14.00">sword grip across the top</text>
 </a>
 </g>
 </g>
 <!-- ext_180pull&#45;&gt;mov_27_inflip180pull -->
-<g id="edge5" class="edge">
+<g id="edge6" class="edge">
 <title>ext_180pull&#45;&gt;mov_27_inflip180pull</title>
-<path fill="none" stroke="black" d="M1097.64,-448.65C1087.71,-445.05 1077.09,-441.57 1067,-439 955.19,-410.53 823.87,-393.77 734.18,-384.75"/>
-<polygon fill="black" stroke="black" points="734.71,-381.29 724.41,-383.79 734.02,-388.25 734.71,-381.29"/>
+<path fill="none" stroke="black" d="M1109.04,-448.72C1099.01,-445.06 1088.23,-441.55 1078,-439 954.08,-408.12 807.9,-391.54 711.2,-383.24"/>
+<polygon fill="black" stroke="black" points="711.71,-379.77 701.46,-382.42 711.13,-386.74 711.71,-379.77"/>
 </g>
 <!-- mov_38_war180pull -->
-<g id="node54" class="node">
+<g id="node55" class="node">
 <title>mov_38_war180pull</title>
-<g id="a_node54"><a xlink:href="https://www.youtube.com/watch?v=P5lbQmeVZn8" xlink:title="{{38 &#160;|Warrior stance\n180 degree rotating pullover\nfrom sword grip}}">
-<path fill="#ffff99" stroke="#b15928" d="M258.62,-347.25C258.62,-347.25 435.38,-347.25 435.38,-347.25 441.38,-347.25 447.38,-353.25 447.38,-359.25 447.38,-359.25 447.38,-390.5 447.38,-390.5 447.38,-396.5 441.38,-402.5 435.38,-402.5 435.38,-402.5 258.62,-402.5 258.62,-402.5 252.62,-402.5 246.62,-396.5 246.62,-390.5 246.62,-390.5 246.62,-359.25 246.62,-359.25 246.62,-353.25 252.62,-347.25 258.62,-347.25"/>
-<text text-anchor="middle" x="261.38" y="-369.45" font-family="Times New Roman,serif" font-size="14.00">38</text>
-<polyline fill="none" stroke="#b15928" points="276.12,-347.25 276.12,-402.5"/>
-<text text-anchor="middle" x="361.75" y="-385.2" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
-<text text-anchor="middle" x="361.75" y="-369.45" font-family="Times New Roman,serif" font-size="14.00">180 degree rotating pullover</text>
-<text text-anchor="middle" x="361.75" y="-353.7" font-family="Times New Roman,serif" font-size="14.00">from sword grip</text>
+<g id="a_node55"><a xlink:href="https://www.youtube.com/watch?v=P5lbQmeVZn8" xlink:title="{{38 &#160;|Warrior stance\n180 degree rotating pullover\nfrom sword grip}}">
+<path fill="#ffff99" stroke="#b15928" d="M241.62,-347.25C241.62,-347.25 418.38,-347.25 418.38,-347.25 424.38,-347.25 430.38,-353.25 430.38,-359.25 430.38,-359.25 430.38,-390.5 430.38,-390.5 430.38,-396.5 424.38,-402.5 418.38,-402.5 418.38,-402.5 241.62,-402.5 241.62,-402.5 235.62,-402.5 229.62,-396.5 229.62,-390.5 229.62,-390.5 229.62,-359.25 229.62,-359.25 229.62,-353.25 235.62,-347.25 241.62,-347.25"/>
+<text text-anchor="middle" x="244.38" y="-369.45" font-family="Times New Roman,serif" font-size="14.00">38</text>
+<polyline fill="none" stroke="#b15928" points="259.12,-347.25 259.12,-402.5"/>
+<text text-anchor="middle" x="344.75" y="-385.2" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
+<text text-anchor="middle" x="344.75" y="-369.45" font-family="Times New Roman,serif" font-size="14.00">180 degree rotating pullover</text>
+<text text-anchor="middle" x="344.75" y="-353.7" font-family="Times New Roman,serif" font-size="14.00">from sword grip</text>
 </a>
 </g>
 </g>
 <!-- ext_180pull&#45;&gt;mov_38_war180pull -->
-<g id="edge41" class="edge">
+<g id="edge42" class="edge">
 <title>ext_180pull&#45;&gt;mov_38_war180pull</title>
-<path fill="none" stroke="black" d="M1099.31,-448.64C1088.95,-444.85 1077.71,-441.29 1067,-439 830.5,-388.35 764.42,-429.34 524,-403 502.82,-400.68 480.29,-397.66 458.65,-394.47"/>
-<polygon fill="black" stroke="black" points="459.33,-391.04 448.92,-393.02 458.3,-397.96 459.33,-391.04"/>
+<path fill="none" stroke="black" d="M1110.7,-448.75C1100.23,-444.91 1088.85,-441.3 1078,-439 826.65,-385.68 756.4,-431.16 501,-403 481.8,-400.88 461.47,-398.12 441.79,-395.17"/>
+<polygon fill="black" stroke="black" points="442.51,-391.74 432.1,-393.69 441.46,-398.66 442.51,-391.74"/>
 </g>
 <!-- ext_frswingclean -->
 <g id="node10" class="node">
@@ -353,21 +353,21 @@
 </g>
 </g>
 <!-- ext_frswingclean&#45;&gt;mov_48_frspear -->
-<g id="edge54" class="edge">
+<g id="edge55" class="edge">
 <title>ext_frswingclean&#45;&gt;mov_48_frspear</title>
 <path fill="none" stroke="black" d="M1320,-924.7C1320,-906 1320,-875.87 1320,-853.58"/>
 <polygon fill="black" stroke="black" points="1323.5,-853.64 1320,-843.64 1316.5,-853.64 1323.5,-853.64"/>
 </g>
 <!-- mov_01_360&#45;&gt;mov_052_backswing -->
-<g id="edge78" class="edge">
+<g id="edge79" class="edge">
 <title>mov_01_360&#45;&gt;mov_052_backswing</title>
 <path fill="none" stroke="black" d="M725.3,-1455.82C708.73,-1446.11 687.9,-1433.88 670.03,-1423.4"/>
 <polygon fill="black" stroke="black" points="672.16,-1420.59 661.76,-1418.55 668.62,-1426.63 672.16,-1420.59"/>
 </g>
 <!-- mov_02_alt360 -->
-<g id="node35" class="node">
+<g id="node36" class="node">
 <title>mov_02_alt360</title>
-<g id="a_node35"><a xlink:href="https://www.youtube.com/watch?v=ccifkBh2JSI" xlink:title="{{02 &#160;|Alternating 360\n(Gama Cast/10 to 2)}}">
+<g id="a_node36"><a xlink:href="https://www.youtube.com/watch?v=ccifkBh2JSI" xlink:title="{{02 &#160;|Alternating 360\n(Gama Cast/10 to 2)}}">
 <path fill="#ffff99" stroke="#b15928" d="M786.25,-1379.75C786.25,-1379.75 921.75,-1379.75 921.75,-1379.75 927.75,-1379.75 933.75,-1385.75 933.75,-1391.75 933.75,-1391.75 933.75,-1407.25 933.75,-1407.25 933.75,-1413.25 927.75,-1419.25 921.75,-1419.25 921.75,-1419.25 786.25,-1419.25 786.25,-1419.25 780.25,-1419.25 774.25,-1413.25 774.25,-1407.25 774.25,-1407.25 774.25,-1391.75 774.25,-1391.75 774.25,-1385.75 780.25,-1379.75 786.25,-1379.75"/>
 <text text-anchor="middle" x="789" y="-1394.08" font-family="Times New Roman,serif" font-size="14.00">02</text>
 <polyline fill="none" stroke="#b15928" points="803.75,-1379.75 803.75,-1419.25"/>
@@ -377,15 +377,15 @@
 </g>
 </g>
 <!-- mov_01_360&#45;&gt;mov_02_alt360 -->
-<g id="edge65" class="edge">
+<g id="edge66" class="edge">
 <title>mov_01_360&#45;&gt;mov_02_alt360</title>
 <path fill="none" stroke="black" d="M778.71,-1455.82C790.8,-1446.94 805.73,-1435.97 819.1,-1426.15"/>
 <polygon fill="black" stroke="black" points="820.84,-1429.21 826.83,-1420.47 816.7,-1423.57 820.84,-1429.21"/>
 </g>
 <!-- mov_032_pray2360 -->
-<g id="node36" class="node">
+<g id="node37" class="node">
 <title>mov_032_pray2360</title>
-<g id="a_node36"><a xlink:href="https://www.youtube.com/watch?v=0fjn0vidH2M" xlink:title="{{03&#45;2|Prayer transition\nto 360}}">
+<g id="a_node37"><a xlink:href="https://www.youtube.com/watch?v=0fjn0vidH2M" xlink:title="{{03&#45;2|Prayer transition\nto 360}}">
 <path fill="#ffff99" stroke="#b15928" d="M392.25,-1379.75C392.25,-1379.75 515.75,-1379.75 515.75,-1379.75 521.75,-1379.75 527.75,-1385.75 527.75,-1391.75 527.75,-1391.75 527.75,-1407.25 527.75,-1407.25 527.75,-1413.25 521.75,-1419.25 515.75,-1419.25 515.75,-1419.25 392.25,-1419.25 392.25,-1419.25 386.25,-1419.25 380.25,-1413.25 380.25,-1407.25 380.25,-1407.25 380.25,-1391.75 380.25,-1391.75 380.25,-1385.75 386.25,-1379.75 392.25,-1379.75"/>
 <text text-anchor="middle" x="400.62" y="-1394.08" font-family="Times New Roman,serif" font-size="14.00">03&#45;2</text>
 <polyline fill="none" stroke="#b15928" points="421,-1379.75 421,-1419.25"/>
@@ -395,15 +395,15 @@
 </g>
 </g>
 <!-- mov_01_360&#45;&gt;mov_032_pray2360 -->
-<g id="edge66" class="edge">
+<g id="edge67" class="edge">
 <title>mov_01_360&#45;&gt;mov_032_pray2360</title>
 <path fill="none" stroke="black" d="M721.64,-1465.19C677.98,-1454.63 599.89,-1435.76 539.3,-1421.12"/>
 <polygon fill="black" stroke="black" points="540.21,-1417.74 529.67,-1418.79 538.57,-1424.54 540.21,-1417.74"/>
 </g>
 <!-- mov_042_barbell2360 -->
-<g id="node37" class="node">
+<g id="node38" class="node">
 <title>mov_042_barbell2360</title>
-<g id="a_node37"><a xlink:href="https://www.youtube.com/watch?v=WQjHBHoC-MQ" xlink:title="{{04&#45;2|Barbell transition to 360}}">
+<g id="a_node38"><a xlink:href="https://www.youtube.com/watch?v=WQjHBHoC-MQ" xlink:title="{{04&#45;2|Barbell transition to 360}}">
 <path fill="#ffff99" stroke="#b15928" d="M964.25,-1381.5C964.25,-1381.5 1129.75,-1381.5 1129.75,-1381.5 1135.75,-1381.5 1141.75,-1387.5 1141.75,-1393.5 1141.75,-1393.5 1141.75,-1405.5 1141.75,-1405.5 1141.75,-1411.5 1135.75,-1417.5 1129.75,-1417.5 1129.75,-1417.5 964.25,-1417.5 964.25,-1417.5 958.25,-1417.5 952.25,-1411.5 952.25,-1405.5 952.25,-1405.5 952.25,-1393.5 952.25,-1393.5 952.25,-1387.5 958.25,-1381.5 964.25,-1381.5"/>
 <text text-anchor="middle" x="972.62" y="-1394.2" font-family="Times New Roman,serif" font-size="14.00">04&#45;2</text>
 <polyline fill="none" stroke="#b15928" points="993,-1381.75 993,-1417.5"/>
@@ -412,15 +412,15 @@
 </g>
 </g>
 <!-- mov_01_360&#45;&gt;mov_042_barbell2360 -->
-<g id="edge67" class="edge">
+<g id="edge68" class="edge">
 <title>mov_01_360&#45;&gt;mov_042_barbell2360</title>
 <path fill="none" stroke="black" d="M788.21,-1464.98C831.11,-1454.29 907.23,-1435.32 965.85,-1420.72"/>
 <polygon fill="black" stroke="black" points="966.63,-1424.13 975.48,-1418.32 964.93,-1417.34 966.63,-1424.13"/>
 </g>
 <!-- mov_062_uppercut2360 -->
-<g id="node38" class="node">
+<g id="node39" class="node">
 <title>mov_062_uppercut2360</title>
-<g id="a_node38"><a xlink:href="https://www.youtube.com/watch?v=ULFal2-zDt0" xlink:title="{{06&#45;2|90 degree pivot uppercut to 360}}">
+<g id="a_node39"><a xlink:href="https://www.youtube.com/watch?v=ULFal2-zDt0" xlink:title="{{06&#45;2|90 degree pivot uppercut to 360}}">
 <path fill="#ffff99" stroke="#b15928" d="M980.38,-1228.5C980.38,-1228.5 1191.62,-1228.5 1191.62,-1228.5 1197.62,-1228.5 1203.62,-1234.5 1203.62,-1240.5 1203.62,-1240.5 1203.62,-1252.5 1203.62,-1252.5 1203.62,-1258.5 1197.62,-1264.5 1191.62,-1264.5 1191.62,-1264.5 980.38,-1264.5 980.38,-1264.5 974.38,-1264.5 968.38,-1258.5 968.38,-1252.5 968.38,-1252.5 968.38,-1240.5 968.38,-1240.5 968.38,-1234.5 974.38,-1228.5 980.38,-1228.5"/>
 <text text-anchor="middle" x="988.75" y="-1241.2" font-family="Times New Roman,serif" font-size="14.00">06&#45;2</text>
 <polyline fill="none" stroke="#b15928" points="1009.12,-1228.75 1009.12,-1264.5"/>
@@ -429,15 +429,15 @@
 </g>
 </g>
 <!-- mov_01_360&#45;&gt;mov_062_uppercut2360 -->
-<g id="edge68" class="edge">
+<g id="edge69" class="edge">
 <title>mov_01_360&#45;&gt;mov_062_uppercut2360</title>
 <path fill="none" stroke="black" d="M753.41,-1455.81C750.28,-1416.94 745.19,-1324.91 765,-1302.75 778.22,-1287.96 873.36,-1272.79 956.67,-1262.09"/>
 <polygon fill="black" stroke="black" points="957.09,-1265.57 966.57,-1260.84 956.21,-1258.62 957.09,-1265.57"/>
 </g>
 <!-- mov_09_lowblockspinw360 -->
-<g id="node40" class="node">
+<g id="node41" class="node">
 <title>mov_09_lowblockspinw360</title>
-<g id="a_node40"><a xlink:href="https://www.youtube.com/watch?v=GXMSVSDtJVc" xlink:title="{{09 &#160;|Low block spin with\n360 transition}}">
+<g id="a_node41"><a xlink:href="https://www.youtube.com/watch?v=GXMSVSDtJVc" xlink:title="{{09 &#160;|Low block spin with\n360 transition}}">
 <path fill="#ffff99" stroke="#b15928" d="M722.88,-1226.75C722.88,-1226.75 859.12,-1226.75 859.12,-1226.75 865.12,-1226.75 871.12,-1232.75 871.12,-1238.75 871.12,-1238.75 871.12,-1254.25 871.12,-1254.25 871.12,-1260.25 865.12,-1266.25 859.12,-1266.25 859.12,-1266.25 722.88,-1266.25 722.88,-1266.25 716.88,-1266.25 710.88,-1260.25 710.88,-1254.25 710.88,-1254.25 710.88,-1238.75 710.88,-1238.75 710.88,-1232.75 716.88,-1226.75 722.88,-1226.75"/>
 <text text-anchor="middle" x="725.62" y="-1241.08" font-family="Times New Roman,serif" font-size="14.00">09</text>
 <polyline fill="none" stroke="#b15928" points="740.38,-1226.75 740.38,-1266.25"/>
@@ -447,21 +447,21 @@
 </g>
 </g>
 <!-- mov_01_360&#45;&gt;mov_09_lowblockspinw360 -->
-<g id="edge77" class="edge">
+<g id="edge78" class="edge">
 <title>mov_01_360&#45;&gt;mov_09_lowblockspinw360</title>
 <path fill="none" stroke="black" d="M750.76,-1456.24C743.77,-1424.93 732.25,-1356.45 750,-1302.75 753.18,-1293.13 758.75,-1283.82 764.78,-1275.67"/>
 <polygon fill="black" stroke="black" points="767.51,-1277.87 771.01,-1267.87 762.04,-1273.5 767.51,-1277.87"/>
 </g>
 <!-- mov_031_prayer&#45;&gt;mov_032_pray2360 -->
-<g id="edge69" class="edge">
+<g id="edge70" class="edge">
 <title>mov_031_prayer&#45;&gt;mov_032_pray2360</title>
 <path fill="none" stroke="black" d="M454,-1456.01C454,-1448.5 454,-1439.47 454,-1430.89"/>
 <polygon fill="black" stroke="black" points="457.5,-1431.18 454,-1421.18 450.5,-1431.18 457.5,-1431.18"/>
 </g>
 <!-- mov_082_lowblockspinwpray -->
-<g id="node39" class="node">
+<g id="node40" class="node">
 <title>mov_082_lowblockspinwpray</title>
-<g id="a_node39"><a xlink:href="https://www.youtube.com/watch?v=fk8AG0s1-UI" xlink:title="{{08&#45;2|Low block spin with\nprayer transition}}">
+<g id="a_node40"><a xlink:href="https://www.youtube.com/watch?v=fk8AG0s1-UI" xlink:title="{{08&#45;2|Low block spin with\nprayer transition}}">
 <path fill="#ffff99" stroke="#b15928" d="M533.25,-1226.75C533.25,-1226.75 680.75,-1226.75 680.75,-1226.75 686.75,-1226.75 692.75,-1232.75 692.75,-1238.75 692.75,-1238.75 692.75,-1254.25 692.75,-1254.25 692.75,-1260.25 686.75,-1266.25 680.75,-1266.25 680.75,-1266.25 533.25,-1266.25 533.25,-1266.25 527.25,-1266.25 521.25,-1260.25 521.25,-1254.25 521.25,-1254.25 521.25,-1238.75 521.25,-1238.75 521.25,-1232.75 527.25,-1226.75 533.25,-1226.75"/>
 <text text-anchor="middle" x="541.62" y="-1241.08" font-family="Times New Roman,serif" font-size="14.00">08&#45;2</text>
 <polyline fill="none" stroke="#b15928" points="562,-1226.75 562,-1266.25"/>
@@ -471,7 +471,7 @@
 </g>
 </g>
 <!-- mov_031_prayer&#45;&gt;mov_082_lowblockspinwpray -->
-<g id="edge76" class="edge">
+<g id="edge77" class="edge">
 <title>mov_031_prayer&#45;&gt;mov_082_lowblockspinwpray</title>
 <path fill="none" stroke="black" d="M379.96,-1461.49C263.81,-1440.1 59.73,-1388.92 138,-1302.75 164.43,-1273.66 435.96,-1272.89 509.53,-1266.61"/>
 <polygon fill="black" stroke="black" points="509.79,-1270.1 519.35,-1265.53 509.03,-1263.14 509.79,-1270.1"/>
@@ -488,25 +488,25 @@
 </g>
 </g>
 <!-- mov_041_barbell&#45;&gt;mov_061_uppercut -->
-<g id="edge73" class="edge">
+<g id="edge74" class="edge">
 <title>mov_041_barbell&#45;&gt;mov_061_uppercut</title>
 <path fill="none" stroke="black" d="M1152.93,-1456.03C1156.54,-1436.72 1160.08,-1404.78 1151,-1379.25 1147.18,-1368.52 1140.3,-1358.37 1133.04,-1349.76"/>
 <polygon fill="black" stroke="black" points="1135.78,-1347.57 1126.47,-1342.51 1130.59,-1352.27 1135.78,-1347.57"/>
 </g>
 <!-- mov_041_barbell&#45;&gt;mov_14_barpress2sq -->
-<g id="edge81" class="edge">
+<g id="edge82" class="edge">
 <title>mov_041_barbell&#45;&gt;mov_14_barpress2sq</title>
 <path fill="none" stroke="black" d="M1164.33,-1455.8C1186.01,-1429.28 1223,-1376.35 1223,-1324 1223,-1324 1223,-1324 1223,-1245.5 1223,-1200.83 1197.47,-1154.67 1178.16,-1126.15"/>
 <polygon fill="black" stroke="black" points="1181.11,-1124.26 1172.51,-1118.07 1175.38,-1128.27 1181.11,-1124.26"/>
 </g>
 <!-- mov_041_barbell&#45;&gt;mov_042_barbell2360 -->
-<g id="edge70" class="edge">
+<g id="edge71" class="edge">
 <title>mov_041_barbell&#45;&gt;mov_042_barbell2360</title>
 <path fill="none" stroke="black" d="M1124.57,-1455.82C1111.32,-1446.38 1094.76,-1434.56 1080.34,-1424.28"/>
 <polygon fill="black" stroke="black" points="1082.64,-1421.62 1072.46,-1418.66 1078.57,-1427.32 1082.64,-1421.62"/>
 </g>
 <!-- mov_061_uppercut&#45;&gt;mov_062_uppercut2360 -->
-<g id="edge71" class="edge">
+<g id="edge72" class="edge">
 <title>mov_061_uppercut&#45;&gt;mov_062_uppercut2360</title>
 <path fill="none" stroke="black" d="M1101.36,-1304.72C1099.06,-1296.13 1096.21,-1285.53 1093.6,-1275.8"/>
 <polygon fill="black" stroke="black" points="1097.05,-1275.16 1091.08,-1266.41 1090.29,-1276.97 1097.05,-1275.16"/>
@@ -534,13 +534,13 @@
 </g>
 </g>
 <!-- mov_081_lowblockspin&#45;&gt;mov_082_lowblockspinwpray -->
-<g id="edge74" class="edge">
+<g id="edge75" class="edge">
 <title>mov_081_lowblockspin&#45;&gt;mov_082_lowblockspinwpray</title>
 <path fill="none" stroke="black" d="M477.62,-1304.53C500.16,-1294.6 528.7,-1282.02 553.23,-1271.2"/>
 <polygon fill="black" stroke="black" points="554.35,-1274.54 562.09,-1267.3 551.52,-1268.13 554.35,-1274.54"/>
 </g>
 <!-- mov_081_lowblockspin&#45;&gt;mov_09_lowblockspinw360 -->
-<g id="edge75" class="edge">
+<g id="edge76" class="edge">
 <title>mov_081_lowblockspin&#45;&gt;mov_09_lowblockspinw360</title>
 <path fill="none" stroke="black" d="M510.7,-1305.62C515.2,-1304.64 519.66,-1303.67 524,-1302.75 599.55,-1286.66 621.17,-1283.54 699.57,-1267.24"/>
 <polygon fill="black" stroke="black" points="699.92,-1270.74 709,-1265.28 698.49,-1263.89 699.92,-1270.74"/>
@@ -568,7 +568,7 @@
 </g>
 </g>
 <!-- mov_101_martialspin&#45;&gt;mov_102_samartialspin -->
-<g id="edge72" class="edge">
+<g id="edge73" class="edge">
 <title>mov_101_martialspin&#45;&gt;mov_102_samartialspin</title>
 <path fill="none" stroke="black" d="M422,-1228.26C422,-1220.25 422,-1210.52 422,-1201.45"/>
 <polygon fill="black" stroke="black" points="425.5,-1201.63 422,-1191.63 418.5,-1201.63 425.5,-1201.63"/>
@@ -621,7 +621,7 @@
 </g>
 </g>
 <!-- mov_16_saincircle&#45;&gt;mov_17_saoutcircle -->
-<g id="edge6" class="edge">
+<g id="edge7" class="edge">
 <title>mov_16_saincircle&#45;&gt;mov_17_saoutcircle</title>
 <path fill="none" stroke="black" d="M574.99,-927.55C539.66,-917.7 493.43,-903.44 454,-886.75 428.92,-876.14 402.12,-861.73 380.8,-849.47"/>
 <polygon fill="black" stroke="black" points="382.83,-846.6 372.42,-844.59 379.31,-852.65 382.83,-846.6"/>
@@ -639,7 +639,7 @@
 </g>
 </g>
 <!-- mov_16_saincircle&#45;&gt;mov_19_incircle2altcoin -->
-<g id="edge7" class="edge">
+<g id="edge8" class="edge">
 <title>mov_16_saincircle&#45;&gt;mov_19_incircle2altcoin</title>
 <path fill="none" stroke="black" d="M687.08,-925.53C724.24,-914.6 774.05,-899.89 818,-886.75 861.38,-873.78 909.87,-859.12 948.8,-847.32"/>
 <polygon fill="black" stroke="black" points="949.77,-850.68 958.32,-844.43 947.74,-843.98 949.77,-850.68"/>
@@ -648,19 +648,19 @@
 <g id="node26" class="node">
 <title>mov_22_incircle2sameflip</title>
 <g id="a_node26"><a xlink:href="https://www.youtube.com/watch?v=xlClTZRbmc0" xlink:title="{{22 &#160;|Inside circle to\nsame hand flip catch}}">
-<path fill="#b2df8a" stroke="#33a02c" d="M73.88,-447.38C73.88,-447.38 210.12,-447.38 210.12,-447.38 216.12,-447.38 222.12,-453.38 222.12,-459.38 222.12,-459.38 222.12,-474.88 222.12,-474.88 222.12,-480.88 216.12,-486.88 210.12,-486.88 210.12,-486.88 73.88,-486.88 73.88,-486.88 67.88,-486.88 61.88,-480.88 61.88,-474.88 61.88,-474.88 61.88,-459.38 61.88,-459.38 61.88,-453.38 67.88,-447.38 73.88,-447.38"/>
-<text text-anchor="middle" x="76.62" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">22</text>
-<polyline fill="none" stroke="#33a02c" points="91.38,-447.38 91.38,-486.88"/>
-<text text-anchor="middle" x="156.75" y="-469.57" font-family="Times New Roman,serif" font-size="14.00">Inside circle to</text>
-<text text-anchor="middle" x="156.75" y="-453.82" font-family="Times New Roman,serif" font-size="14.00">same hand flip catch</text>
+<path fill="#b2df8a" stroke="#33a02c" d="M56.88,-447.38C56.88,-447.38 193.12,-447.38 193.12,-447.38 199.12,-447.38 205.12,-453.38 205.12,-459.38 205.12,-459.38 205.12,-474.88 205.12,-474.88 205.12,-480.88 199.12,-486.88 193.12,-486.88 193.12,-486.88 56.88,-486.88 56.88,-486.88 50.88,-486.88 44.88,-480.88 44.88,-474.88 44.88,-474.88 44.88,-459.38 44.88,-459.38 44.88,-453.38 50.88,-447.38 56.88,-447.38"/>
+<text text-anchor="middle" x="59.62" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">22</text>
+<polyline fill="none" stroke="#33a02c" points="74.38,-447.38 74.38,-486.88"/>
+<text text-anchor="middle" x="139.75" y="-469.57" font-family="Times New Roman,serif" font-size="14.00">Inside circle to</text>
+<text text-anchor="middle" x="139.75" y="-453.82" font-family="Times New Roman,serif" font-size="14.00">same hand flip catch</text>
 </a>
 </g>
 </g>
 <!-- mov_16_saincircle&#45;&gt;mov_22_incircle2sameflip -->
-<g id="edge9" class="edge">
+<g id="edge10" class="edge">
 <title>mov_16_saincircle&#45;&gt;mov_22_incircle2sameflip</title>
-<path fill="none" stroke="black" d="M574.86,-940.7C502.4,-937.4 373.46,-925.96 271,-886.75 141.48,-837.19 17,-844.18 17,-705.5 17,-705.5 17,-705.5 17,-627 17,-570.38 66.64,-522.03 103.36,-494.01"/>
-<polygon fill="black" stroke="black" points="105.21,-496.99 111.16,-488.23 101.04,-491.37 105.21,-496.99"/>
+<path fill="none" stroke="black" d="M574.86,-940.7C502.4,-937.4 373.46,-925.96 271,-886.75 141.48,-837.19 17,-844.18 17,-705.5 17,-705.5 17,-705.5 17,-627 17,-573.04 60.14,-523.83 91.89,-494.91"/>
+<polygon fill="black" stroke="black" points="94.18,-497.56 99.36,-488.31 89.55,-492.31 94.18,-497.56"/>
 </g>
 <!-- mov_31_frcircle -->
 <g id="node28" class="node">
@@ -675,15 +675,15 @@
 </g>
 </g>
 <!-- mov_16_saincircle&#45;&gt;mov_31_frcircle -->
-<g id="edge26" class="edge">
+<g id="edge27" class="edge">
 <title>mov_16_saincircle&#45;&gt;mov_31_frcircle</title>
 <path fill="none" stroke="black" d="M616.18,-922.9C601.44,-903.91 578.65,-874.56 561.84,-852.89"/>
 <polygon fill="black" stroke="black" points="564.64,-850.79 555.74,-845.04 559.11,-855.08 564.64,-850.79"/>
 </g>
 <!-- mov_43_sifpivotwincircle -->
-<g id="node59" class="node">
+<g id="node60" class="node">
 <title>mov_43_sifpivotwincircle</title>
-<g id="a_node59"><a xlink:href="https://www.youtube.com/watch?v=i2Zj4t-uIB8" xlink:title="{{43 &#160;|Step in front pivot with\ninside circle}}">
+<g id="a_node60"><a xlink:href="https://www.youtube.com/watch?v=i2Zj4t-uIB8" xlink:title="{{43 &#160;|Step in front pivot with\ninside circle}}">
 <path fill="#ffff99" stroke="#b15928" d="M646.75,-804C646.75,-804 797.25,-804 797.25,-804 803.25,-804 809.25,-810 809.25,-816 809.25,-816 809.25,-831.5 809.25,-831.5 809.25,-837.5 803.25,-843.5 797.25,-843.5 797.25,-843.5 646.75,-843.5 646.75,-843.5 640.75,-843.5 634.75,-837.5 634.75,-831.5 634.75,-831.5 634.75,-816 634.75,-816 634.75,-810 640.75,-804 646.75,-804"/>
 <text text-anchor="middle" x="649.5" y="-818.33" font-family="Times New Roman,serif" font-size="14.00">43</text>
 <polyline fill="none" stroke="#b15928" points="664.25,-804 664.25,-843.5"/>
@@ -693,7 +693,7 @@
 </g>
 </g>
 <!-- mov_16_saincircle&#45;&gt;mov_43_sifpivotwincircle -->
-<g id="edge46" class="edge">
+<g id="edge47" class="edge">
 <title>mov_16_saincircle&#45;&gt;mov_43_sifpivotwincircle</title>
 <path fill="none" stroke="black" d="M645.82,-922.9C660.56,-903.91 683.35,-874.56 700.16,-852.89"/>
 <polygon fill="black" stroke="black" points="702.89,-855.08 706.26,-845.04 697.36,-850.79 702.89,-855.08"/>
@@ -711,7 +711,7 @@
 </g>
 </g>
 <!-- mov_17_saoutcircle&#45;&gt;mov_20_outcircle2altcoin -->
-<g id="edge8" class="edge">
+<g id="edge9" class="edge">
 <title>mov_17_saoutcircle&#45;&gt;mov_20_outcircle2altcoin</title>
 <path fill="none" stroke="black" d="M307.75,-803.65C273.95,-783.64 220.72,-752.12 183.74,-730.22"/>
 <polygon fill="black" stroke="black" points="185.93,-727.45 175.54,-725.36 182.36,-733.47 185.93,-727.45"/>
@@ -729,7 +729,7 @@
 </g>
 </g>
 <!-- mov_17_saoutcircle&#45;&gt;mov_23_outcircle2sameflip -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>mov_17_saoutcircle&#45;&gt;mov_23_outcircle2sameflip</title>
 <path fill="none" stroke="black" d="M279.83,-821.98C210.69,-817.46 99.97,-798.31 47,-724.75 16.62,-682.55 18.49,-651.24 47,-607.75 56.35,-593.48 70.28,-582.88 85.52,-575"/>
 <polygon fill="black" stroke="black" points="86.77,-578.28 94.33,-570.86 83.79,-571.95 86.77,-578.28"/>
@@ -746,15 +746,15 @@
 </g>
 </g>
 <!-- mov_17_saoutcircle&#45;&gt;mov_32_bkcircle -->
-<g id="edge29" class="edge">
+<g id="edge30" class="edge">
 <title>mov_17_saoutcircle&#45;&gt;mov_32_bkcircle</title>
 <path fill="none" stroke="black" d="M361.99,-803.65C385.12,-783.57 421.58,-751.9 446.8,-729.99"/>
 <polygon fill="black" stroke="black" points="448.82,-732.87 454.07,-723.67 444.23,-727.59 448.82,-732.87"/>
 </g>
 <!-- mov_18_saaltcircle -->
-<g id="node43" class="node">
+<g id="node44" class="node">
 <title>mov_18_saaltcircle</title>
-<g id="a_node43"><a xlink:href="https://www.youtube.com/watch?v=XWIFyifqSr8" xlink:title="{{18 &#160;|Single arm\nalternating circles}}">
+<g id="a_node44"><a xlink:href="https://www.youtube.com/watch?v=XWIFyifqSr8" xlink:title="{{18 &#160;|Single arm\nalternating circles}}">
 <path fill="#ffff99" stroke="#b15928" d="M258.25,-684.75C258.25,-684.75 375.75,-684.75 375.75,-684.75 381.75,-684.75 387.75,-690.75 387.75,-696.75 387.75,-696.75 387.75,-712.25 387.75,-712.25 387.75,-718.25 381.75,-724.25 375.75,-724.25 375.75,-724.25 258.25,-724.25 258.25,-724.25 252.25,-724.25 246.25,-718.25 246.25,-712.25 246.25,-712.25 246.25,-696.75 246.25,-696.75 246.25,-690.75 252.25,-684.75 258.25,-684.75"/>
 <text text-anchor="middle" x="261" y="-699.08" font-family="Times New Roman,serif" font-size="14.00">18</text>
 <polyline fill="none" stroke="#b15928" points="275.75,-684.75 275.75,-724.25"/>
@@ -764,15 +764,15 @@
 </g>
 </g>
 <!-- mov_17_saoutcircle&#45;&gt;mov_18_saaltcircle -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>mov_17_saoutcircle&#45;&gt;mov_18_saaltcircle</title>
 <path fill="none" stroke="black" d="M336.25,-803.65C332.64,-785.25 327.13,-757.14 322.93,-735.71"/>
 <polygon fill="black" stroke="black" points="326.4,-735.22 321.04,-726.08 319.53,-736.56 326.4,-735.22"/>
 </g>
 <!-- mov_44_sifpivotwoutcircle -->
-<g id="node60" class="node">
+<g id="node61" class="node">
 <title>mov_44_sifpivotwoutcircle</title>
-<g id="a_node60"><a xlink:href="https://www.youtube.com/watch?v=VqW8JavN1g4" xlink:title="{{44 &#160;|Forward pivot step with\noutside circle}}">
+<g id="a_node61"><a xlink:href="https://www.youtube.com/watch?v=VqW8JavN1g4" xlink:title="{{44 &#160;|Forward pivot step with\noutside circle}}">
 <path fill="#ffff99" stroke="#b15928" d="M594.12,-684.75C594.12,-684.75 749.88,-684.75 749.88,-684.75 755.88,-684.75 761.88,-690.75 761.88,-696.75 761.88,-696.75 761.88,-712.25 761.88,-712.25 761.88,-718.25 755.88,-724.25 749.88,-724.25 749.88,-724.25 594.12,-724.25 594.12,-724.25 588.12,-724.25 582.12,-718.25 582.12,-712.25 582.12,-712.25 582.12,-696.75 582.12,-696.75 582.12,-690.75 588.12,-684.75 594.12,-684.75"/>
 <text text-anchor="middle" x="596.88" y="-699.08" font-family="Times New Roman,serif" font-size="14.00">44</text>
 <polyline fill="none" stroke="#b15928" points="611.62,-684.75 611.62,-724.25"/>
@@ -782,15 +782,15 @@
 </g>
 </g>
 <!-- mov_17_saoutcircle&#45;&gt;mov_44_sifpivotwoutcircle -->
-<g id="edge47" class="edge">
+<g id="edge48" class="edge">
 <title>mov_17_saoutcircle&#45;&gt;mov_44_sifpivotwoutcircle</title>
 <path fill="none" stroke="black" d="M369.96,-803.75C392.39,-790.21 424.21,-772.41 454,-760.75 491.23,-746.18 533.55,-734.42 570.94,-725.56"/>
 <polygon fill="black" stroke="black" points="571.43,-729.04 580.38,-723.37 569.85,-722.22 571.43,-729.04"/>
 </g>
 <!-- mov_25_cincirclewaltnunchuck -->
-<g id="node46" class="node">
+<g id="node47" class="node">
 <title>mov_25_cincirclewaltnunchuck</title>
-<g id="a_node46"><a xlink:href="https://www.youtube.com/watch?v=rCgrNJLsrBM" xlink:title="{{25 &#160;|Continuous inside circle with\nalt hand nunchuck flip}}">
+<g id="a_node47"><a xlink:href="https://www.youtube.com/watch?v=rCgrNJLsrBM" xlink:title="{{25 &#160;|Continuous inside circle with\nalt hand nunchuck flip}}">
 <path fill="#ffff99" stroke="#b15928" d="M1018.62,-684.75C1018.62,-684.75 1201.38,-684.75 1201.38,-684.75 1207.38,-684.75 1213.38,-690.75 1213.38,-696.75 1213.38,-696.75 1213.38,-712.25 1213.38,-712.25 1213.38,-718.25 1207.38,-724.25 1201.38,-724.25 1201.38,-724.25 1018.62,-724.25 1018.62,-724.25 1012.62,-724.25 1006.62,-718.25 1006.62,-712.25 1006.62,-712.25 1006.62,-696.75 1006.62,-696.75 1006.62,-690.75 1012.62,-684.75 1018.62,-684.75"/>
 <text text-anchor="middle" x="1021.38" y="-699.08" font-family="Times New Roman,serif" font-size="14.00">25</text>
 <polyline fill="none" stroke="#b15928" points="1036.12,-684.75 1036.12,-724.25"/>
@@ -800,15 +800,15 @@
 </g>
 </g>
 <!-- mov_19_incircle2altcoin&#45;&gt;mov_25_cincirclewaltnunchuck -->
-<g id="edge12" class="edge">
+<g id="edge13" class="edge">
 <title>mov_19_incircle2altcoin&#45;&gt;mov_25_cincirclewaltnunchuck</title>
 <path fill="none" stroke="black" d="M1037.17,-803.65C1051.26,-784.66 1073.04,-755.31 1089.12,-733.64"/>
 <polygon fill="black" stroke="black" points="1091.78,-735.92 1094.93,-725.81 1086.16,-731.75 1091.78,-735.92"/>
 </g>
 <!-- mov_21_altcirclewinandoutcoin -->
-<g id="node44" class="node">
+<g id="node45" class="node">
 <title>mov_21_altcirclewinandoutcoin</title>
-<g id="a_node44"><a xlink:href="https://www.youtube.com/watch?v=as46Zm9oibE" xlink:title="{{21 &#160;|Alt circle with\ninside and outside coin flip}}">
+<g id="a_node45"><a xlink:href="https://www.youtube.com/watch?v=as46Zm9oibE" xlink:title="{{21 &#160;|Alt circle with\ninside and outside coin flip}}">
 <path fill="#ffff99" stroke="#b15928" d="M68.25,-608.25C68.25,-608.25 239.75,-608.25 239.75,-608.25 245.75,-608.25 251.75,-614.25 251.75,-620.25 251.75,-620.25 251.75,-635.75 251.75,-635.75 251.75,-641.75 245.75,-647.75 239.75,-647.75 239.75,-647.75 68.25,-647.75 68.25,-647.75 62.25,-647.75 56.25,-641.75 56.25,-635.75 56.25,-635.75 56.25,-620.25 56.25,-620.25 56.25,-614.25 62.25,-608.25 68.25,-608.25"/>
 <text text-anchor="middle" x="71" y="-622.58" font-family="Times New Roman,serif" font-size="14.00">21</text>
 <polyline fill="none" stroke="#b15928" points="85.75,-608.25 85.75,-647.75"/>
@@ -818,106 +818,106 @@
 </g>
 </g>
 <!-- mov_20_outcircle2altcoin&#45;&gt;mov_21_altcirclewinandoutcoin -->
-<g id="edge14" class="edge">
+<g id="edge15" class="edge">
 <title>mov_20_outcircle2altcoin&#45;&gt;mov_21_altcirclewinandoutcoin</title>
 <path fill="none" stroke="black" d="M145.09,-684.31C146.32,-676.67 147.77,-667.68 149.14,-659.2"/>
 <polygon fill="black" stroke="black" points="152.54,-660.04 150.68,-649.61 145.63,-658.93 152.54,-660.04"/>
 </g>
 <!-- mov_22_incircle2sameflip&#45;&gt;mov_27_inflip180pull -->
-<g id="edge16" class="edge">
+<g id="edge17" class="edge">
 <title>mov_22_incircle2sameflip&#45;&gt;mov_27_inflip180pull</title>
-<path fill="none" stroke="black" d="M201.06,-446.88C210.99,-444 221.24,-441.25 231,-439 234.58,-438.17 405.32,-411.11 521.7,-392.69"/>
-<polygon fill="black" stroke="black" points="521.96,-396.19 531.29,-391.17 520.87,-389.28 521.96,-396.19"/>
+<path fill="none" stroke="black" d="M184.06,-446.89C193.99,-444.01 204.24,-441.26 214,-439 312.67,-416.18 339.03,-419.17 439,-403 458.25,-399.89 478.75,-396.55 498.54,-393.33"/>
+<polygon fill="black" stroke="black" points="498.97,-396.8 508.27,-391.74 497.84,-389.89 498.97,-396.8"/>
 </g>
 <!-- mov_39_warfrcircleflip -->
-<g id="node55" class="node">
+<g id="node56" class="node">
 <title>mov_39_warfrcircleflip</title>
-<g id="a_node55"><a xlink:href="https://www.youtube.com/watch?v=8hvIwt9EshQ" xlink:title="{{39 &#160;|Warrior stance\nfront circle flip catch}}">
-<path fill="#ffff99" stroke="#b15928" d="M76.12,-355.12C76.12,-355.12 213.88,-355.12 213.88,-355.12 219.88,-355.12 225.88,-361.12 225.88,-367.12 225.88,-367.12 225.88,-382.62 225.88,-382.62 225.88,-388.62 219.88,-394.62 213.88,-394.62 213.88,-394.62 76.12,-394.62 76.12,-394.62 70.12,-394.62 64.12,-388.62 64.12,-382.62 64.12,-382.62 64.12,-367.12 64.12,-367.12 64.12,-361.12 70.12,-355.12 76.12,-355.12"/>
-<text text-anchor="middle" x="78.88" y="-369.45" font-family="Times New Roman,serif" font-size="14.00">39</text>
-<polyline fill="none" stroke="#b15928" points="93.62,-355.12 93.62,-394.62"/>
-<text text-anchor="middle" x="159.75" y="-377.32" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
-<text text-anchor="middle" x="159.75" y="-361.57" font-family="Times New Roman,serif" font-size="14.00">front circle flip catch</text>
+<g id="a_node56"><a xlink:href="https://www.youtube.com/watch?v=8hvIwt9EshQ" xlink:title="{{39 &#160;|Warrior stance\nfront circle flip catch}}">
+<path fill="#ffff99" stroke="#b15928" d="M59.12,-355.12C59.12,-355.12 196.88,-355.12 196.88,-355.12 202.88,-355.12 208.88,-361.12 208.88,-367.12 208.88,-367.12 208.88,-382.62 208.88,-382.62 208.88,-388.62 202.88,-394.62 196.88,-394.62 196.88,-394.62 59.12,-394.62 59.12,-394.62 53.12,-394.62 47.12,-388.62 47.12,-382.62 47.12,-382.62 47.12,-367.12 47.12,-367.12 47.12,-361.12 53.12,-355.12 59.12,-355.12"/>
+<text text-anchor="middle" x="61.88" y="-369.45" font-family="Times New Roman,serif" font-size="14.00">39</text>
+<polyline fill="none" stroke="#b15928" points="76.62,-355.12 76.62,-394.62"/>
+<text text-anchor="middle" x="142.75" y="-377.32" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
+<text text-anchor="middle" x="142.75" y="-361.57" font-family="Times New Roman,serif" font-size="14.00">front circle flip catch</text>
 </a>
 </g>
 </g>
 <!-- mov_22_incircle2sameflip&#45;&gt;mov_39_warfrcircleflip -->
-<g id="edge42" class="edge">
+<g id="edge43" class="edge">
 <title>mov_22_incircle2sameflip&#45;&gt;mov_39_warfrcircleflip</title>
-<path fill="none" stroke="black" d="M142.64,-446.99C143.03,-435.14 143.54,-419.67 143.99,-406.19"/>
-<polygon fill="black" stroke="black" points="147.48,-406.61 144.31,-396.5 140.48,-406.38 147.48,-406.61"/>
+<path fill="none" stroke="black" d="M125.64,-446.99C126.03,-435.14 126.54,-419.67 126.99,-406.19"/>
+<polygon fill="black" stroke="black" points="130.48,-406.61 127.31,-396.5 123.48,-406.38 130.48,-406.61"/>
 </g>
 <!-- mov_23_outcircle2sameflip&#45;&gt;mov_241_altcircle2sameflip -->
-<g id="edge15" class="edge">
+<g id="edge16" class="edge">
 <title>mov_23_outcircle2sameflip&#45;&gt;mov_241_altcircle2sameflip</title>
-<path fill="none" stroke="black" d="M252.26,-533.94C256.91,-533.01 261.51,-532.11 266,-531.25 357.28,-513.73 381.33,-515.67 472,-495.25 478.84,-493.71 485.91,-492 492.98,-490.2"/>
-<polygon fill="black" stroke="black" points="493.8,-493.6 502.6,-487.7 492.04,-486.83 493.8,-493.6"/>
+<path fill="none" stroke="black" d="M252.28,-534.02C256.92,-533.08 261.52,-532.15 266,-531.25 349.85,-514.49 371.72,-514.67 455,-495.25 461.71,-493.68 468.66,-491.97 475.61,-490.18"/>
+<polygon fill="black" stroke="black" points="476.25,-493.63 485.04,-487.7 474.48,-486.85 476.25,-493.63"/>
 </g>
 <!-- mov_26_coutcirclewaltflip -->
-<g id="node47" class="node">
+<g id="node48" class="node">
 <title>mov_26_coutcirclewaltflip</title>
-<g id="a_node47"><a xlink:href="https://www.youtube.com/watch?v=T5lfsHi1rDY" xlink:title="{{26 &#160;|Continous outside circle with\nalternate hand flip catch}}">
-<path fill="#ffff99" stroke="#b15928" d="M251.88,-447.38C251.88,-447.38 436.12,-447.38 436.12,-447.38 442.12,-447.38 448.12,-453.38 448.12,-459.38 448.12,-459.38 448.12,-474.88 448.12,-474.88 448.12,-480.88 442.12,-486.88 436.12,-486.88 436.12,-486.88 251.88,-486.88 251.88,-486.88 245.88,-486.88 239.88,-480.88 239.88,-474.88 239.88,-474.88 239.88,-459.38 239.88,-459.38 239.88,-453.38 245.88,-447.38 251.88,-447.38"/>
-<text text-anchor="middle" x="254.62" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">26</text>
-<polyline fill="none" stroke="#b15928" points="269.38,-447.38 269.38,-486.88"/>
-<text text-anchor="middle" x="358.75" y="-469.57" font-family="Times New Roman,serif" font-size="14.00">Continous outside circle with</text>
-<text text-anchor="middle" x="358.75" y="-453.82" font-family="Times New Roman,serif" font-size="14.00">alternate hand flip catch</text>
+<g id="a_node48"><a xlink:href="https://www.youtube.com/watch?v=T5lfsHi1rDY" xlink:title="{{26 &#160;|Continous outside circle with\nalternate hand flip catch}}">
+<path fill="#ffff99" stroke="#b15928" d="M234.88,-447.38C234.88,-447.38 419.12,-447.38 419.12,-447.38 425.12,-447.38 431.12,-453.38 431.12,-459.38 431.12,-459.38 431.12,-474.88 431.12,-474.88 431.12,-480.88 425.12,-486.88 419.12,-486.88 419.12,-486.88 234.88,-486.88 234.88,-486.88 228.88,-486.88 222.88,-480.88 222.88,-474.88 222.88,-474.88 222.88,-459.38 222.88,-459.38 222.88,-453.38 228.88,-447.38 234.88,-447.38"/>
+<text text-anchor="middle" x="237.62" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">26</text>
+<polyline fill="none" stroke="#b15928" points="252.38,-447.38 252.38,-486.88"/>
+<text text-anchor="middle" x="341.75" y="-469.57" font-family="Times New Roman,serif" font-size="14.00">Continous outside circle with</text>
+<text text-anchor="middle" x="341.75" y="-453.82" font-family="Times New Roman,serif" font-size="14.00">alternate hand flip catch</text>
 </a>
 </g>
 </g>
 <!-- mov_23_outcircle2sameflip&#45;&gt;mov_26_coutcirclewaltflip -->
-<g id="edge13" class="edge">
+<g id="edge14" class="edge">
 <title>mov_23_outcircle2sameflip&#45;&gt;mov_26_coutcirclewaltflip</title>
-<path fill="none" stroke="black" d="M213.43,-531.39C237.48,-519.74 268.44,-504.74 294.18,-492.26"/>
-<polygon fill="black" stroke="black" points="295.66,-495.44 303.13,-487.93 292.6,-489.14 295.66,-495.44"/>
+<path fill="none" stroke="black" d="M209.49,-531.39C230.94,-519.84 258.5,-505 281.55,-492.6"/>
+<polygon fill="black" stroke="black" points="282.96,-495.81 290.11,-487.99 279.65,-489.65 282.96,-495.81"/>
 </g>
 <!-- mov_28_outflipmill -->
-<g id="node49" class="node">
+<g id="node50" class="node">
 <title>mov_28_outflipmill</title>
-<g id="a_node49"><a xlink:href="https://www.youtube.com/watch?v=jKbelC2dZVo" xlink:title="{{28 &#160;|Outside flip catch mill\naka flip catch reverse mill}}">
-<path fill="#ffff99" stroke="#b15928" d="M390.75,-262.88C390.75,-262.88 553.25,-262.88 553.25,-262.88 559.25,-262.88 565.25,-268.88 565.25,-274.88 565.25,-274.88 565.25,-290.38 565.25,-290.38 565.25,-296.38 559.25,-302.38 553.25,-302.38 553.25,-302.38 390.75,-302.38 390.75,-302.38 384.75,-302.38 378.75,-296.38 378.75,-290.38 378.75,-290.38 378.75,-274.88 378.75,-274.88 378.75,-268.88 384.75,-262.88 390.75,-262.88"/>
-<text text-anchor="middle" x="393.5" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">28</text>
-<polyline fill="none" stroke="#b15928" points="408.25,-262.88 408.25,-302.38"/>
-<text text-anchor="middle" x="486.75" y="-285.07" font-family="Times New Roman,serif" font-size="14.00">Outside flip catch mill</text>
-<text text-anchor="middle" x="486.75" y="-269.32" font-family="Times New Roman,serif" font-size="14.00">aka flip catch reverse mill</text>
+<g id="a_node50"><a xlink:href="https://www.youtube.com/watch?v=jKbelC2dZVo" xlink:title="{{28 &#160;|Outside flip catch mill\naka flip catch reverse mill}}">
+<path fill="#ffff99" stroke="#b15928" d="M373.75,-262.88C373.75,-262.88 536.25,-262.88 536.25,-262.88 542.25,-262.88 548.25,-268.88 548.25,-274.88 548.25,-274.88 548.25,-290.38 548.25,-290.38 548.25,-296.38 542.25,-302.38 536.25,-302.38 536.25,-302.38 373.75,-302.38 373.75,-302.38 367.75,-302.38 361.75,-296.38 361.75,-290.38 361.75,-290.38 361.75,-274.88 361.75,-274.88 361.75,-268.88 367.75,-262.88 373.75,-262.88"/>
+<text text-anchor="middle" x="376.5" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">28</text>
+<polyline fill="none" stroke="#b15928" points="391.25,-262.88 391.25,-302.38"/>
+<text text-anchor="middle" x="469.75" y="-285.07" font-family="Times New Roman,serif" font-size="14.00">Outside flip catch mill</text>
+<text text-anchor="middle" x="469.75" y="-269.32" font-family="Times New Roman,serif" font-size="14.00">aka flip catch reverse mill</text>
 </a>
 </g>
 </g>
 <!-- mov_23_outcircle2sameflip&#45;&gt;mov_28_outflipmill -->
-<g id="edge17" class="edge">
+<g id="edge18" class="edge">
 <title>mov_23_outcircle2sameflip&#45;&gt;mov_28_outflipmill</title>
-<path fill="none" stroke="black" d="M252.18,-533.26C255.5,-532.57 258.78,-531.9 262,-531.25 305.2,-522.54 427.63,-528.1 457,-495.25 480.23,-469.27 477.31,-366.04 474.21,-313.98"/>
-<polygon fill="black" stroke="black" points="477.72,-314.07 473.59,-304.32 470.74,-314.52 477.72,-314.07"/>
+<path fill="none" stroke="black" d="M252.13,-533.54C255.8,-532.76 259.44,-532 263,-531.25 341.57,-514.76 387.04,-555.58 440,-495.25 462.95,-469.11 460.2,-366.36 457.18,-314.27"/>
+<polygon fill="black" stroke="black" points="460.67,-314.05 456.56,-304.29 453.69,-314.49 460.67,-314.05"/>
 </g>
 <!-- mov_40_warbkcircleflip -->
-<g id="node56" class="node">
+<g id="node57" class="node">
 <title>mov_40_warbkcircleflip</title>
-<g id="a_node56"><a xlink:href="https://www.youtube.com/watch?v=Eb5Ci22BqmI" xlink:title="{{40 &#160;|Warrior stance\nbackward circle to\nflip catch}}">
-<path fill="#ffff99" stroke="#b15928" d="M77.5,-255C77.5,-255 202.5,-255 202.5,-255 208.5,-255 214.5,-261 214.5,-267 214.5,-267 214.5,-298.25 214.5,-298.25 214.5,-304.25 208.5,-310.25 202.5,-310.25 202.5,-310.25 77.5,-310.25 77.5,-310.25 71.5,-310.25 65.5,-304.25 65.5,-298.25 65.5,-298.25 65.5,-267 65.5,-267 65.5,-261 71.5,-255 77.5,-255"/>
-<text text-anchor="middle" x="80.25" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">40</text>
-<polyline fill="none" stroke="#b15928" points="95,-255 95,-310.25"/>
-<text text-anchor="middle" x="154.75" y="-292.95" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
-<text text-anchor="middle" x="154.75" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">backward circle to</text>
-<text text-anchor="middle" x="154.75" y="-261.45" font-family="Times New Roman,serif" font-size="14.00">flip catch</text>
+<g id="a_node57"><a xlink:href="https://www.youtube.com/watch?v=Eb5Ci22BqmI" xlink:title="{{40 &#160;|Warrior stance\nbackward circle to\nflip catch}}">
+<path fill="#ffff99" stroke="#b15928" d="M60.5,-255C60.5,-255 185.5,-255 185.5,-255 191.5,-255 197.5,-261 197.5,-267 197.5,-267 197.5,-298.25 197.5,-298.25 197.5,-304.25 191.5,-310.25 185.5,-310.25 185.5,-310.25 60.5,-310.25 60.5,-310.25 54.5,-310.25 48.5,-304.25 48.5,-298.25 48.5,-298.25 48.5,-267 48.5,-267 48.5,-261 54.5,-255 60.5,-255"/>
+<text text-anchor="middle" x="63.25" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">40</text>
+<polyline fill="none" stroke="#b15928" points="78,-255 78,-310.25"/>
+<text text-anchor="middle" x="137.75" y="-292.95" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
+<text text-anchor="middle" x="137.75" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">backward circle to</text>
+<text text-anchor="middle" x="137.75" y="-261.45" font-family="Times New Roman,serif" font-size="14.00">flip catch</text>
 </a>
 </g>
 </g>
 <!-- mov_23_outcircle2sameflip&#45;&gt;mov_40_warbkcircleflip -->
-<g id="edge43" class="edge">
+<g id="edge44" class="edge">
 <title>mov_23_outcircle2sameflip&#45;&gt;mov_40_warbkcircleflip</title>
-<path fill="none" stroke="black" d="M97.74,-531.29C80.12,-523.13 63.49,-511.57 53,-495.25 44.53,-482.07 44.31,-367.44 55,-346.75 60.81,-335.51 69.64,-325.75 79.44,-317.49"/>
-<polygon fill="black" stroke="black" points="81.34,-320.45 87.07,-311.54 77.03,-314.93 81.34,-320.45"/>
+<path fill="none" stroke="black" d="M95.94,-536.78C72.76,-528.67 49.89,-515.77 36,-495.25 27.33,-482.45 26.99,-368.05 38,-346.75 43.81,-335.51 52.64,-325.75 62.44,-317.49"/>
+<polygon fill="black" stroke="black" points="64.34,-320.45 70.07,-311.54 60.03,-314.93 64.34,-320.45"/>
 </g>
 <!-- mov_31_frcircle&#45;&gt;mov_32_bkcircle -->
-<g id="edge27" class="edge">
+<g id="edge28" class="edge">
 <title>mov_31_frcircle&#45;&gt;mov_32_bkcircle</title>
 <path fill="none" stroke="black" d="M529.41,-803.65C518.72,-784.36 502.09,-754.37 490.03,-732.62"/>
 <polygon fill="black" stroke="black" points="493.17,-731.05 485.26,-724.01 487.05,-734.45 493.17,-731.05"/>
 </g>
 <!-- mov_34_altfrbkcircle -->
-<g id="node52" class="node">
+<g id="node53" class="node">
 <title>mov_34_altfrbkcircle</title>
-<g id="a_node52"><a xlink:href="https://www.youtube.com/watch?v=MsrcRGT0YzA" xlink:title="{{34 &#160;|Alternating front to\nback circles}}">
+<g id="a_node53"><a xlink:href="https://www.youtube.com/watch?v=MsrcRGT0YzA" xlink:title="{{34 &#160;|Alternating front to\nback circles}}">
 <path fill="#ffff99" stroke="#b15928" d="M570.38,-608.25C570.38,-608.25 697.62,-608.25 697.62,-608.25 703.62,-608.25 709.62,-614.25 709.62,-620.25 709.62,-620.25 709.62,-635.75 709.62,-635.75 709.62,-641.75 703.62,-647.75 697.62,-647.75 697.62,-647.75 570.38,-647.75 570.38,-647.75 564.38,-647.75 558.38,-641.75 558.38,-635.75 558.38,-635.75 558.38,-620.25 558.38,-620.25 558.38,-614.25 564.38,-608.25 570.38,-608.25"/>
 <text text-anchor="middle" x="573.12" y="-622.58" font-family="Times New Roman,serif" font-size="14.00">34</text>
 <polyline fill="none" stroke="#b15928" points="587.88,-608.25 587.88,-647.75"/>
@@ -927,7 +927,7 @@
 </g>
 </g>
 <!-- mov_31_frcircle&#45;&gt;mov_34_altfrbkcircle -->
-<g id="edge30" class="edge">
+<g id="edge31" class="edge">
 <title>mov_31_frcircle&#45;&gt;mov_34_altfrbkcircle</title>
 <path fill="none" stroke="black" d="M541.01,-803.5C543.23,-775.46 550.34,-722.54 573,-684.25 579.29,-673.63 588.28,-663.88 597.43,-655.63"/>
 <polygon fill="black" stroke="black" points="599.67,-658.32 605.02,-649.18 595.13,-652.99 599.67,-658.32"/>
@@ -945,13 +945,13 @@
 </g>
 </g>
 <!-- mov_32_bkcircle&#45;&gt;mov_33_warfrcircle -->
-<g id="edge31" class="edge">
+<g id="edge32" class="edge">
 <title>mov_32_bkcircle&#45;&gt;mov_33_warfrcircle</title>
 <path fill="none" stroke="black" d="M475,-686.22C475,-678.27 475,-668.6 475,-659.48"/>
 <polygon fill="black" stroke="black" points="478.5,-659.53 475,-649.53 471.5,-659.53 478.5,-659.53"/>
 </g>
 <!-- mov_32_bkcircle&#45;&gt;mov_34_altfrbkcircle -->
-<g id="edge28" class="edge">
+<g id="edge29" class="edge">
 <title>mov_32_bkcircle&#45;&gt;mov_34_altfrbkcircle</title>
 <path fill="none" stroke="black" d="M512.28,-686.03C533.29,-676.19 559.85,-663.74 582.79,-652.99"/>
 <polygon fill="black" stroke="black" points="584.11,-656.24 591.68,-648.83 581.14,-649.9 584.11,-656.24"/>
@@ -969,15 +969,15 @@
 </g>
 </g>
 <!-- mov_33_warfrcircle&#45;&gt;mov_36_warbkcircle -->
-<g id="edge32" class="edge">
+<g id="edge33" class="edge">
 <title>mov_33_warfrcircle&#45;&gt;mov_36_warbkcircle</title>
 <path fill="none" stroke="black" d="M540.34,-609.87C543.26,-609.14 546.16,-608.43 549,-607.75 617.34,-591.27 637.39,-589 708.95,-572.2"/>
 <polygon fill="black" stroke="black" points="709.49,-575.67 718.42,-569.96 707.88,-568.85 709.49,-575.67"/>
 </g>
 <!-- mov_37_waraltcircle -->
-<g id="node53" class="node">
+<g id="node54" class="node">
 <title>mov_37_waraltcircle</title>
-<g id="a_node53"><a xlink:href="https://www.youtube.com/watch?v=h_wcGKGlCus" xlink:title="{{37 &#160;|Warrior stance\nalternating circles}}">
+<g id="a_node54"><a xlink:href="https://www.youtube.com/watch?v=h_wcGKGlCus" xlink:title="{{37 &#160;|Warrior stance\nalternating circles}}">
 <path fill="#ffff99" stroke="#b15928" d="M728.25,-447.38C728.25,-447.38 845.75,-447.38 845.75,-447.38 851.75,-447.38 857.75,-453.38 857.75,-459.38 857.75,-459.38 857.75,-474.88 857.75,-474.88 857.75,-480.88 851.75,-486.88 845.75,-486.88 845.75,-486.88 728.25,-486.88 728.25,-486.88 722.25,-486.88 716.25,-480.88 716.25,-474.88 716.25,-474.88 716.25,-459.38 716.25,-459.38 716.25,-453.38 722.25,-447.38 728.25,-447.38"/>
 <text text-anchor="middle" x="731" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">37</text>
 <polyline fill="none" stroke="#b15928" points="745.75,-447.38 745.75,-486.88"/>
@@ -987,21 +987,21 @@
 </g>
 </g>
 <!-- mov_33_warfrcircle&#45;&gt;mov_37_waraltcircle -->
-<g id="edge34" class="edge">
+<g id="edge35" class="edge">
 <title>mov_33_warfrcircle&#45;&gt;mov_37_waraltcircle</title>
 <path fill="none" stroke="black" d="M540.26,-609.49C543.2,-608.87 546.13,-608.29 549,-607.75 618.05,-594.88 816.25,-624.17 863,-571.75 885.24,-546.81 855.44,-515.58 826.88,-493.96"/>
 <polygon fill="black" stroke="black" points="829.09,-491.24 818.94,-488.18 824.97,-496.9 829.09,-491.24"/>
 </g>
 <!-- mov_36_warbkcircle&#45;&gt;mov_37_waraltcircle -->
-<g id="edge33" class="edge">
+<g id="edge34" class="edge">
 <title>mov_36_warbkcircle&#45;&gt;mov_37_waraltcircle</title>
 <path fill="none" stroke="black" d="M787,-531.39C787,-521.62 787,-509.49 787,-498.48"/>
 <polygon fill="black" stroke="black" points="790.5,-498.64 787,-488.64 783.5,-498.64 790.5,-498.64"/>
 </g>
 <!-- mov_49_frspearwchange -->
-<g id="node64" class="node">
+<g id="node65" class="node">
 <title>mov_49_frspearwchange</title>
-<g id="a_node64"><a xlink:href="https://www.youtube.com/watch?v=xzPiZZV2K4E" xlink:title="{{49 &#160;|Front spear catch with\ndescending side change}}">
+<g id="a_node65"><a xlink:href="https://www.youtube.com/watch?v=xzPiZZV2K4E" xlink:title="{{49 &#160;|Front spear catch with\ndescending side change}}">
 <path fill="#ffff99" stroke="#b15928" d="M1243.25,-684.75C1243.25,-684.75 1396.75,-684.75 1396.75,-684.75 1402.75,-684.75 1408.75,-690.75 1408.75,-696.75 1408.75,-696.75 1408.75,-712.25 1408.75,-712.25 1408.75,-718.25 1402.75,-724.25 1396.75,-724.25 1396.75,-724.25 1243.25,-724.25 1243.25,-724.25 1237.25,-724.25 1231.25,-718.25 1231.25,-712.25 1231.25,-712.25 1231.25,-696.75 1231.25,-696.75 1231.25,-690.75 1237.25,-684.75 1243.25,-684.75"/>
 <text text-anchor="middle" x="1246" y="-699.08" font-family="Times New Roman,serif" font-size="14.00">49</text>
 <polyline fill="none" stroke="#b15928" points="1260.75,-684.75 1260.75,-724.25"/>
@@ -1011,44 +1011,62 @@
 </g>
 </g>
 <!-- mov_48_frspear&#45;&gt;mov_49_frspearwchange -->
-<g id="edge55" class="edge">
+<g id="edge56" class="edge">
 <title>mov_48_frspear&#45;&gt;mov_49_frspearwchange</title>
 <path fill="none" stroke="black" d="M1320,-805.45C1320,-787.18 1320,-758 1320,-735.88"/>
 <polygon fill="black" stroke="black" points="1323.5,-735.94 1320,-725.94 1316.5,-735.94 1323.5,-735.94"/>
 </g>
 <!-- mov_52_altxbodspear -->
-<g id="node65" class="node">
+<g id="node66" class="node">
 <title>mov_52_altxbodspear</title>
-<g id="a_node65"><a xlink:href="https://www.youtube.com/watch?v=-Z8YfWYfepQ" xlink:title="{{52 &#160;|Cross&#45;body\nspear catch\nalternating sides}}">
-<path fill="#ffff99" stroke="#b15928" d="M936,-439.5C936,-439.5 1046,-439.5 1046,-439.5 1052,-439.5 1058,-445.5 1058,-451.5 1058,-451.5 1058,-482.75 1058,-482.75 1058,-488.75 1052,-494.75 1046,-494.75 1046,-494.75 936,-494.75 936,-494.75 930,-494.75 924,-488.75 924,-482.75 924,-482.75 924,-451.5 924,-451.5 924,-445.5 930,-439.5 936,-439.5"/>
-<text text-anchor="middle" x="938.75" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">52</text>
-<polyline fill="none" stroke="#b15928" points="953.5,-439.5 953.5,-494.75"/>
-<text text-anchor="middle" x="1005.75" y="-477.45" font-family="Times New Roman,serif" font-size="14.00">Cross&#45;body</text>
-<text text-anchor="middle" x="1005.75" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">spear catch</text>
-<text text-anchor="middle" x="1005.75" y="-445.95" font-family="Times New Roman,serif" font-size="14.00">alternating sides</text>
+<g id="a_node66"><a xlink:href="https://www.youtube.com/watch?v=-Z8YfWYfepQ" xlink:title="{{52 &#160;|Cross&#45;body\nspear catch\nalternating sides}}">
+<path fill="#ffff99" stroke="#b15928" d="M947,-439.5C947,-439.5 1057,-439.5 1057,-439.5 1063,-439.5 1069,-445.5 1069,-451.5 1069,-451.5 1069,-482.75 1069,-482.75 1069,-488.75 1063,-494.75 1057,-494.75 1057,-494.75 947,-494.75 947,-494.75 941,-494.75 935,-488.75 935,-482.75 935,-482.75 935,-451.5 935,-451.5 935,-445.5 941,-439.5 947,-439.5"/>
+<text text-anchor="middle" x="949.75" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">52</text>
+<polyline fill="none" stroke="#b15928" points="964.5,-439.5 964.5,-494.75"/>
+<text text-anchor="middle" x="1016.75" y="-477.45" font-family="Times New Roman,serif" font-size="14.00">Cross&#45;body</text>
+<text text-anchor="middle" x="1016.75" y="-461.7" font-family="Times New Roman,serif" font-size="14.00">spear catch</text>
+<text text-anchor="middle" x="1016.75" y="-445.95" font-family="Times New Roman,serif" font-size="14.00">alternating sides</text>
 </a>
 </g>
 </g>
 <!-- mov_51_xbodspear&#45;&gt;mov_52_altxbodspear -->
-<g id="edge58" class="edge">
+<g id="edge59" class="edge">
 <title>mov_51_xbodspear&#45;&gt;mov_52_altxbodspear</title>
-<path fill="none" stroke="black" d="M1060.13,-531.39C1050.87,-522.92 1039.67,-512.67 1029.01,-502.92"/>
-<polygon fill="black" stroke="black" points="1031.48,-500.43 1021.74,-496.26 1026.76,-505.6 1031.48,-500.43"/>
+<path fill="none" stroke="black" d="M1077.27,-531.39C1067.09,-522.83 1054.76,-512.47 1043.05,-502.63"/>
+<polygon fill="black" stroke="black" points="1045.32,-499.97 1035.42,-496.21 1040.82,-505.33 1045.32,-499.97"/>
+</g>
+<!-- mov_54_inswordflair -->
+<g id="node35" class="node">
+<title>mov_54_inswordflair</title>
+<g id="a_node35"><a xlink:href="https://www.youtube.com/watch?v=8I7KaLuNaEs" xlink:title="{{54 &#160;|Inside tip away\nsword flair}}">
+<path fill="#b2df8a" stroke="#33a02c" d="M1268.25,-355.12C1268.25,-355.12 1373.75,-355.12 1373.75,-355.12 1379.75,-355.12 1385.75,-361.12 1385.75,-367.12 1385.75,-367.12 1385.75,-382.62 1385.75,-382.62 1385.75,-388.62 1379.75,-394.62 1373.75,-394.62 1373.75,-394.62 1268.25,-394.62 1268.25,-394.62 1262.25,-394.62 1256.25,-388.62 1256.25,-382.62 1256.25,-382.62 1256.25,-367.12 1256.25,-367.12 1256.25,-361.12 1262.25,-355.12 1268.25,-355.12"/>
+<text text-anchor="middle" x="1271" y="-369.45" font-family="Times New Roman,serif" font-size="14.00">54</text>
+<polyline fill="none" stroke="#33a02c" points="1285.75,-355.12 1285.75,-394.62"/>
+<text text-anchor="middle" x="1335.75" y="-377.32" font-family="Times New Roman,serif" font-size="14.00">Inside tip away</text>
+<text text-anchor="middle" x="1335.75" y="-361.57" font-family="Times New Roman,serif" font-size="14.00">sword flair</text>
+</a>
+</g>
+</g>
+<!-- mov_53_outswordflair&#45;&gt;mov_54_inswordflair -->
+<g id="edge5" class="edge">
+<title>mov_53_outswordflair&#45;&gt;mov_54_inswordflair</title>
+<path fill="none" stroke="black" d="M1321,-448.72C1321,-436.72 1321,-420.44 1321,-406.31"/>
+<polygon fill="black" stroke="black" points="1324.5,-406.61 1321,-396.61 1317.5,-406.61 1324.5,-406.61"/>
 </g>
 <!-- mov_02_alt360&#45;&gt;mov_35_waralt360 -->
-<g id="edge83" class="edge">
+<g id="edge84" class="edge">
 <title>mov_02_alt360&#45;&gt;mov_35_waralt360</title>
 <path fill="none" stroke="black" d="M858.64,-1379.31C860.48,-1371.67 862.65,-1362.68 864.7,-1354.2"/>
 <polygon fill="black" stroke="black" points="868.08,-1355.13 867.02,-1344.59 861.27,-1353.49 868.08,-1355.13"/>
 </g>
 <!-- mov_032_pray2360&#45;&gt;mov_13_pray23602sq -->
-<g id="edge80" class="edge">
+<g id="edge81" class="edge">
 <title>mov_032_pray2360&#45;&gt;mov_13_pray23602sq</title>
 <path fill="none" stroke="black" d="M481.25,-1379.41C493.85,-1369.63 508.34,-1356.91 519,-1343.25 531.35,-1327.42 522.53,-1314.23 539,-1302.75 601.52,-1259.18 829.03,-1323.39 880,-1266.75 928.85,-1212.47 829.72,-1151.98 764.97,-1120.24"/>
 <polygon fill="black" stroke="black" points="766.8,-1117.23 756.27,-1116.05 763.76,-1123.54 766.8,-1117.23"/>
 </g>
 <!-- mov_042_barbell2360&#45;&gt;mov_15_3602bar2sq -->
-<g id="edge82" class="edge">
+<g id="edge83" class="edge">
 <title>mov_042_barbell2360&#45;&gt;mov_15_3602bar2sq</title>
 <path fill="none" stroke="black" d="M1029.76,-1381.03C1020.01,-1370.6 1008.01,-1356.79 999,-1343.25 987.88,-1326.54 988.32,-1320.53 979,-1302.75 970.5,-1286.54 963.59,-1284.47 959,-1266.75 946.77,-1219.54 952.55,-1162.42 958.09,-1128.21"/>
 <polygon fill="black" stroke="black" points="961.5,-1129.06 959.76,-1118.61 954.6,-1127.86 961.5,-1129.06"/>
@@ -1056,63 +1074,63 @@
 <!-- lay_end2h -->
 <!-- mov_15_3602bar2sq&#45;&gt;lay_end2h -->
 <!-- mov_18_saaltcircle&#45;&gt;mov_21_altcirclewinandoutcoin -->
-<g id="edge18" class="edge">
+<g id="edge19" class="edge">
 <title>mov_18_saaltcircle&#45;&gt;mov_21_altcirclewinandoutcoin</title>
 <path fill="none" stroke="black" d="M275.02,-684.31C254.1,-674.75 228.58,-663.09 206.38,-652.94"/>
 <polygon fill="black" stroke="black" points="208.04,-649.85 197.49,-648.88 205.13,-656.22 208.04,-649.85"/>
 </g>
 <!-- mov_18_saaltcircle&#45;&gt;mov_241_altcircle2sameflip -->
-<g id="edge21" class="edge">
+<g id="edge22" class="edge">
 <title>mov_18_saaltcircle&#45;&gt;mov_241_altcircle2sameflip</title>
-<path fill="none" stroke="black" d="M304.01,-684.51C282.13,-649.94 243.76,-576.17 281,-531.25 336.14,-464.75 387.86,-514.79 472,-495.25 478.71,-493.69 485.66,-491.98 492.61,-490.19"/>
-<polygon fill="black" stroke="black" points="493.26,-493.64 502.04,-487.72 491.48,-486.87 493.26,-493.64"/>
+<path fill="none" stroke="black" d="M303.92,-684.3C282.13,-649.73 244.25,-576.38 281,-531.25 330.86,-470.01 378.24,-513.79 455,-495.25 461.59,-493.66 468.4,-491.93 475.23,-490.15"/>
+<polygon fill="black" stroke="black" points="475.7,-493.65 484.48,-487.71 473.91,-486.88 475.7,-493.65"/>
 </g>
 <!-- mov_27_inflip180pull&#45;&gt;mov_28_outflipmill -->
-<g id="edge23" class="edge">
+<g id="edge24" class="edge">
 <title>mov_27_inflip180pull&#45;&gt;mov_28_outflipmill</title>
-<path fill="none" stroke="black" d="M594.92,-354.74C571.55,-341.21 540.01,-322.97 514.74,-308.35"/>
-<polygon fill="black" stroke="black" points="516.75,-305.47 506.35,-303.5 513.25,-311.53 516.75,-305.47"/>
+<path fill="none" stroke="black" d="M573.19,-354.74C550.82,-341.27 520.66,-323.13 496.42,-308.54"/>
+<polygon fill="black" stroke="black" points="498.44,-305.67 488.06,-303.52 494.83,-311.67 498.44,-305.67"/>
 </g>
 <!-- mov_29_inmillwflip -->
-<g id="node50" class="node">
+<g id="node51" class="node">
 <title>mov_29_inmillwflip</title>
-<g id="a_node50"><a xlink:href="https://www.youtube.com/watch?v=Hmk80iWQHjM" xlink:title="{{29 &#160;|Inside mill with\nflip catch hand change}}">
-<path fill="#ffff99" stroke="#b15928" d="M595.62,-262.88C595.62,-262.88 742.38,-262.88 742.38,-262.88 748.38,-262.88 754.38,-268.88 754.38,-274.88 754.38,-274.88 754.38,-290.38 754.38,-290.38 754.38,-296.38 748.38,-302.38 742.38,-302.38 742.38,-302.38 595.62,-302.38 595.62,-302.38 589.62,-302.38 583.62,-296.38 583.62,-290.38 583.62,-290.38 583.62,-274.88 583.62,-274.88 583.62,-268.88 589.62,-262.88 595.62,-262.88"/>
-<text text-anchor="middle" x="598.38" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">29</text>
-<polyline fill="none" stroke="#b15928" points="613.12,-262.88 613.12,-302.38"/>
-<text text-anchor="middle" x="683.75" y="-285.07" font-family="Times New Roman,serif" font-size="14.00">Inside mill with</text>
-<text text-anchor="middle" x="683.75" y="-269.32" font-family="Times New Roman,serif" font-size="14.00">flip catch hand change</text>
+<g id="a_node51"><a xlink:href="https://www.youtube.com/watch?v=Hmk80iWQHjM" xlink:title="{{29 &#160;|Inside mill with\nflip catch hand change}}">
+<path fill="#ffff99" stroke="#b15928" d="M578.62,-262.88C578.62,-262.88 725.38,-262.88 725.38,-262.88 731.38,-262.88 737.38,-268.88 737.38,-274.88 737.38,-274.88 737.38,-290.38 737.38,-290.38 737.38,-296.38 731.38,-302.38 725.38,-302.38 725.38,-302.38 578.62,-302.38 578.62,-302.38 572.62,-302.38 566.62,-296.38 566.62,-290.38 566.62,-290.38 566.62,-274.88 566.62,-274.88 566.62,-268.88 572.62,-262.88 578.62,-262.88"/>
+<text text-anchor="middle" x="581.38" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">29</text>
+<polyline fill="none" stroke="#b15928" points="596.12,-262.88 596.12,-302.38"/>
+<text text-anchor="middle" x="666.75" y="-285.07" font-family="Times New Roman,serif" font-size="14.00">Inside mill with</text>
+<text text-anchor="middle" x="666.75" y="-269.32" font-family="Times New Roman,serif" font-size="14.00">flip catch hand change</text>
 </a>
 </g>
 </g>
 <!-- mov_27_inflip180pull&#45;&gt;mov_29_inmillwflip -->
-<g id="edge22" class="edge">
+<g id="edge23" class="edge">
 <title>mov_27_inflip180pull&#45;&gt;mov_29_inmillwflip</title>
-<path fill="none" stroke="black" d="M636.7,-354.74C642.19,-342.65 649.39,-326.79 655.6,-313.12"/>
-<polygon fill="black" stroke="black" points="658.74,-314.67 659.69,-304.12 652.37,-311.77 658.74,-314.67"/>
+<path fill="none" stroke="black" d="M614.97,-354.74C621.32,-342.53 629.68,-326.48 636.85,-312.71"/>
+<polygon fill="black" stroke="black" points="639.83,-314.57 641.35,-304.08 633.62,-311.33 639.83,-314.57"/>
 </g>
 <!-- mov_41_warfwdmill -->
-<g id="node57" class="node">
+<g id="node58" class="node">
 <title>mov_41_warfwdmill</title>
-<g id="a_node57"><a xlink:href="https://www.youtube.com/watch?v=ydXgS363htk" xlink:title="{{41 &#160;|Warrior stance\nforward mill}}">
-<path fill="#ffff99" stroke="#b15928" d="M245,-262.88C245,-262.88 349,-262.88 349,-262.88 355,-262.88 361,-268.88 361,-274.88 361,-274.88 361,-290.38 361,-290.38 361,-296.38 355,-302.38 349,-302.38 349,-302.38 245,-302.38 245,-302.38 239,-302.38 233,-296.38 233,-290.38 233,-290.38 233,-274.88 233,-274.88 233,-268.88 239,-262.88 245,-262.88"/>
-<text text-anchor="middle" x="247.75" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">41</text>
-<polyline fill="none" stroke="#b15928" points="262.5,-262.88 262.5,-302.38"/>
-<text text-anchor="middle" x="311.75" y="-285.07" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
-<text text-anchor="middle" x="311.75" y="-269.32" font-family="Times New Roman,serif" font-size="14.00">forward mill</text>
+<g id="a_node58"><a xlink:href="https://www.youtube.com/watch?v=ydXgS363htk" xlink:title="{{41 &#160;|Warrior stance\nforward mill}}">
+<path fill="#ffff99" stroke="#b15928" d="M228,-262.88C228,-262.88 332,-262.88 332,-262.88 338,-262.88 344,-268.88 344,-274.88 344,-274.88 344,-290.38 344,-290.38 344,-296.38 338,-302.38 332,-302.38 332,-302.38 228,-302.38 228,-302.38 222,-302.38 216,-296.38 216,-290.38 216,-290.38 216,-274.88 216,-274.88 216,-268.88 222,-262.88 228,-262.88"/>
+<text text-anchor="middle" x="230.75" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">41</text>
+<polyline fill="none" stroke="#b15928" points="245.5,-262.88 245.5,-302.38"/>
+<text text-anchor="middle" x="294.75" y="-285.07" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
+<text text-anchor="middle" x="294.75" y="-269.32" font-family="Times New Roman,serif" font-size="14.00">forward mill</text>
 </a>
 </g>
 </g>
 <!-- mov_27_inflip180pull&#45;&gt;mov_41_warfwdmill -->
-<g id="edge44" class="edge">
+<g id="edge45" class="edge">
 <title>mov_27_inflip180pull&#45;&gt;mov_41_warfwdmill</title>
-<path fill="none" stroke="black" d="M538.35,-354.63C488.41,-343.24 425.32,-327.73 370,-310.75 365.76,-309.45 361.41,-308.03 357.04,-306.56"/>
-<polygon fill="black" stroke="black" points="358.24,-303.27 347.64,-303.29 355.94,-309.88 358.24,-303.27"/>
+<path fill="none" stroke="black" d="M518.33,-354.66C469.42,-343.19 407.39,-327.61 353,-310.75 348.76,-309.44 344.41,-308.01 340.05,-306.53"/>
+<polygon fill="black" stroke="black" points="341.25,-303.24 330.65,-303.25 338.94,-309.85 341.25,-303.24"/>
 </g>
 <!-- mov_47_sifpivotwincircleout180 -->
-<g id="node63" class="node">
+<g id="node64" class="node">
 <title>mov_47_sifpivotwincircleout180</title>
-<g id="a_node63"><a xlink:href="https://www.youtube.com/watch?v=zuen0CLdwMU" xlink:title="{{47 &#160;|Inside front step pivot with\ninside circle and\noutside 180 degree mill top}}">
+<g id="a_node64"><a xlink:href="https://www.youtube.com/watch?v=zuen0CLdwMU" xlink:title="{{47 &#160;|Inside front step pivot with\ninside circle and\noutside 180 degree mill top}}">
 <path fill="#ffff99" stroke="#b15928" d="M793.88,-255C793.88,-255 966.12,-255 966.12,-255 972.12,-255 978.12,-261 978.12,-267 978.12,-267 978.12,-298.25 978.12,-298.25 978.12,-304.25 972.12,-310.25 966.12,-310.25 966.12,-310.25 793.88,-310.25 793.88,-310.25 787.88,-310.25 781.88,-304.25 781.88,-298.25 781.88,-298.25 781.88,-267 781.88,-267 781.88,-261 787.88,-255 793.88,-255"/>
 <text text-anchor="middle" x="796.62" y="-277.2" font-family="Times New Roman,serif" font-size="14.00">47</text>
 <polyline fill="none" stroke="#b15928" points="811.38,-255 811.38,-310.25"/>
@@ -1123,99 +1141,99 @@
 </g>
 </g>
 <!-- mov_27_inflip180pull&#45;&gt;mov_47_sifpivotwincircleout180 -->
-<g id="edge48" class="edge">
+<g id="edge49" class="edge">
 <title>mov_27_inflip180pull&#45;&gt;mov_47_sifpivotwincircleout180</title>
-<path fill="none" stroke="black" d="M681.44,-354.74C714.19,-343.01 756.87,-327.72 794.26,-314.33"/>
-<polygon fill="black" stroke="black" points="794.99,-317.79 803.22,-311.12 792.63,-311.2 794.99,-317.79"/>
+<path fill="none" stroke="black" d="M663.32,-354.74C699.14,-342.98 745.84,-327.65 786.7,-314.24"/>
+<polygon fill="black" stroke="black" points="787.66,-317.61 796.07,-311.17 785.48,-310.96 787.66,-317.61"/>
 </g>
 <!-- mov_30_outmillwflip -->
-<g id="node51" class="node">
+<g id="node52" class="node">
 <title>mov_30_outmillwflip</title>
-<g id="a_node51"><a xlink:href="https://www.youtube.com/watch?v=aIxKwvzj9Hk" xlink:title="{{30 &#160;|Outside mill with\nflip catch hand change}}">
-<path fill="#ffff99" stroke="#b15928" d="M496.62,-178.5C496.62,-178.5 643.38,-178.5 643.38,-178.5 649.38,-178.5 655.38,-184.5 655.38,-190.5 655.38,-190.5 655.38,-206 655.38,-206 655.38,-212 649.38,-218 643.38,-218 643.38,-218 496.62,-218 496.62,-218 490.62,-218 484.62,-212 484.62,-206 484.62,-206 484.62,-190.5 484.62,-190.5 484.62,-184.5 490.62,-178.5 496.62,-178.5"/>
-<text text-anchor="middle" x="499.38" y="-192.82" font-family="Times New Roman,serif" font-size="14.00">30</text>
-<polyline fill="none" stroke="#b15928" points="514.12,-178.5 514.12,-218"/>
-<text text-anchor="middle" x="584.75" y="-200.7" font-family="Times New Roman,serif" font-size="14.00">Outside mill with</text>
-<text text-anchor="middle" x="584.75" y="-184.95" font-family="Times New Roman,serif" font-size="14.00">flip catch hand change</text>
+<g id="a_node52"><a xlink:href="https://www.youtube.com/watch?v=aIxKwvzj9Hk" xlink:title="{{30 &#160;|Outside mill with\nflip catch hand change}}">
+<path fill="#ffff99" stroke="#b15928" d="M479.62,-178.5C479.62,-178.5 626.38,-178.5 626.38,-178.5 632.38,-178.5 638.38,-184.5 638.38,-190.5 638.38,-190.5 638.38,-206 638.38,-206 638.38,-212 632.38,-218 626.38,-218 626.38,-218 479.62,-218 479.62,-218 473.62,-218 467.62,-212 467.62,-206 467.62,-206 467.62,-190.5 467.62,-190.5 467.62,-184.5 473.62,-178.5 479.62,-178.5"/>
+<text text-anchor="middle" x="482.38" y="-192.82" font-family="Times New Roman,serif" font-size="14.00">30</text>
+<polyline fill="none" stroke="#b15928" points="497.12,-178.5 497.12,-218"/>
+<text text-anchor="middle" x="567.75" y="-200.7" font-family="Times New Roman,serif" font-size="14.00">Outside mill with</text>
+<text text-anchor="middle" x="567.75" y="-184.95" font-family="Times New Roman,serif" font-size="14.00">flip catch hand change</text>
 </a>
 </g>
 </g>
 <!-- mov_28_outflipmill&#45;&gt;mov_30_outmillwflip -->
-<g id="edge24" class="edge">
+<g id="edge25" class="edge">
 <title>mov_28_outflipmill&#45;&gt;mov_30_outmillwflip</title>
-<path fill="none" stroke="black" d="M494.73,-262.52C507.84,-251.5 524.51,-237.48 538.83,-225.45"/>
-<polygon fill="black" stroke="black" points="540.83,-228.34 546.24,-219.23 536.33,-222.98 540.83,-228.34"/>
+<path fill="none" stroke="black" d="M477.73,-262.52C490.84,-251.5 507.51,-237.48 521.83,-225.45"/>
+<polygon fill="black" stroke="black" points="523.83,-228.34 529.24,-219.23 519.33,-222.98 523.83,-228.34"/>
 </g>
 <!-- mov_42_warbwdmill -->
-<g id="node58" class="node">
+<g id="node59" class="node">
 <title>mov_42_warbwdmill</title>
-<g id="a_node58"><a xlink:href="https://www.youtube.com/watch?v=HaQqkf-cSHE" xlink:title="{{42 &#160;|Warrior stance\nbackward mill}}">
-<path fill="#ffff99" stroke="#b15928" d="M245,-178.5C245,-178.5 349,-178.5 349,-178.5 355,-178.5 361,-184.5 361,-190.5 361,-190.5 361,-206 361,-206 361,-212 355,-218 349,-218 349,-218 245,-218 245,-218 239,-218 233,-212 233,-206 233,-206 233,-190.5 233,-190.5 233,-184.5 239,-178.5 245,-178.5"/>
-<text text-anchor="middle" x="247.75" y="-192.82" font-family="Times New Roman,serif" font-size="14.00">42</text>
-<polyline fill="none" stroke="#b15928" points="262.5,-178.5 262.5,-218"/>
-<text text-anchor="middle" x="311.75" y="-200.7" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
-<text text-anchor="middle" x="311.75" y="-184.95" font-family="Times New Roman,serif" font-size="14.00">backward mill</text>
+<g id="a_node59"><a xlink:href="https://www.youtube.com/watch?v=HaQqkf-cSHE" xlink:title="{{42 &#160;|Warrior stance\nbackward mill}}">
+<path fill="#ffff99" stroke="#b15928" d="M228,-178.5C228,-178.5 332,-178.5 332,-178.5 338,-178.5 344,-184.5 344,-190.5 344,-190.5 344,-206 344,-206 344,-212 338,-218 332,-218 332,-218 228,-218 228,-218 222,-218 216,-212 216,-206 216,-206 216,-190.5 216,-190.5 216,-184.5 222,-178.5 228,-178.5"/>
+<text text-anchor="middle" x="230.75" y="-192.82" font-family="Times New Roman,serif" font-size="14.00">42</text>
+<polyline fill="none" stroke="#b15928" points="245.5,-178.5 245.5,-218"/>
+<text text-anchor="middle" x="294.75" y="-200.7" font-family="Times New Roman,serif" font-size="14.00">Warrior stance</text>
+<text text-anchor="middle" x="294.75" y="-184.95" font-family="Times New Roman,serif" font-size="14.00">backward mill</text>
 </a>
 </g>
 </g>
 <!-- mov_28_outflipmill&#45;&gt;mov_42_warbwdmill -->
-<g id="edge45" class="edge">
+<g id="edge46" class="edge">
 <title>mov_28_outflipmill&#45;&gt;mov_42_warbwdmill</title>
-<path fill="none" stroke="black" d="M431.41,-262.52C406.54,-250.81 374.49,-235.73 347.93,-223.22"/>
-<polygon fill="black" stroke="black" points="349.58,-220.13 339.04,-219.04 346.6,-226.46 349.58,-220.13"/>
+<path fill="none" stroke="black" d="M414.41,-262.52C389.54,-250.81 357.49,-235.73 330.93,-223.22"/>
+<polygon fill="black" stroke="black" points="332.58,-220.13 322.04,-219.04 329.6,-226.46 332.58,-220.13"/>
 </g>
 <!-- mov_29_inmillwflip&#45;&gt;mov_30_outmillwflip -->
-<g id="edge25" class="edge">
+<g id="edge26" class="edge">
 <title>mov_29_inmillwflip&#45;&gt;mov_30_outmillwflip</title>
-<path fill="none" stroke="black" d="M646.04,-262.52C632.79,-251.5 615.95,-237.48 601.48,-225.45"/>
-<polygon fill="black" stroke="black" points="603.93,-222.93 594,-219.22 599.45,-228.31 603.93,-222.93"/>
+<path fill="none" stroke="black" d="M629.04,-262.52C615.79,-251.5 598.95,-237.48 584.48,-225.45"/>
+<polygon fill="black" stroke="black" points="586.93,-222.93 577,-219.22 582.45,-228.31 586.93,-222.93"/>
 </g>
 <!-- mov_37_waraltcircle&#45;&gt;mov_39_warfrcircleflip -->
-<g id="edge35" class="edge">
+<g id="edge36" class="edge">
 <title>mov_37_waraltcircle&#45;&gt;mov_39_warfrcircleflip</title>
-<path fill="none" stroke="black" d="M715.82,-448.88C698.61,-445.18 680.21,-441.6 663,-439 475.56,-410.68 424.36,-437.71 238,-403 230.61,-401.62 222.97,-399.9 215.39,-398"/>
-<polygon fill="black" stroke="black" points="216.38,-394.64 205.82,-395.48 214.6,-401.41 216.38,-394.64"/>
+<path fill="none" stroke="black" d="M715.87,-450.93C693.59,-446.57 668.84,-442.16 646,-439 458.22,-413.06 407.36,-437.71 221,-403 213.61,-401.62 205.97,-399.9 198.39,-398"/>
+<polygon fill="black" stroke="black" points="199.38,-394.64 188.82,-395.48 197.6,-401.41 199.38,-394.64"/>
 </g>
 <!-- mov_38_war180pull&#45;&gt;mov_41_warfwdmill -->
-<g id="edge37" class="edge">
+<g id="edge38" class="edge">
 <title>mov_38_war180pull&#45;&gt;mov_41_warfwdmill</title>
-<path fill="none" stroke="black" d="M332,-346.8C326.03,-336.02 319.14,-323.59 313.07,-312.63"/>
-<polygon fill="black" stroke="black" points="316.19,-311.04 308.28,-303.99 310.07,-314.43 316.19,-311.04"/>
+<path fill="none" stroke="black" d="M315,-346.8C309.03,-336.02 302.14,-323.59 296.07,-312.63"/>
+<polygon fill="black" stroke="black" points="299.19,-311.04 291.28,-303.99 293.07,-314.43 299.19,-311.04"/>
 </g>
 <!-- mov_39_warfrcircleflip&#45;&gt;mov_40_warbkcircleflip -->
-<g id="edge36" class="edge">
+<g id="edge37" class="edge">
 <title>mov_39_warfrcircleflip&#45;&gt;mov_40_warbkcircleflip</title>
-<path fill="none" stroke="black" d="M143.94,-354.74C143.41,-345.21 142.75,-333.35 142.13,-322.05"/>
-<polygon fill="black" stroke="black" points="145.63,-321.91 141.58,-312.12 138.64,-322.3 145.63,-321.91"/>
+<path fill="none" stroke="black" d="M126.94,-354.74C126.41,-345.21 125.75,-333.35 125.13,-322.05"/>
+<polygon fill="black" stroke="black" points="128.63,-321.91 124.58,-312.12 121.64,-322.3 128.63,-321.91"/>
 </g>
 <!-- mov_39_warfrcircleflip&#45;&gt;mov_41_warfwdmill -->
-<g id="edge38" class="edge">
+<g id="edge39" class="edge">
 <title>mov_39_warfrcircleflip&#45;&gt;mov_41_warfwdmill</title>
-<path fill="none" stroke="black" d="M177.24,-354.74C199.91,-341.27 230.46,-323.13 255.03,-308.54"/>
-<polygon fill="black" stroke="black" points="256.7,-311.62 263.51,-303.51 253.12,-305.61 256.7,-311.62"/>
+<path fill="none" stroke="black" d="M160.24,-354.74C182.91,-341.27 213.46,-323.13 238.03,-308.54"/>
+<polygon fill="black" stroke="black" points="239.7,-311.62 246.51,-303.51 236.12,-305.61 239.7,-311.62"/>
 </g>
 <!-- mov_40_warbkcircleflip&#45;&gt;mov_42_warbwdmill -->
-<g id="edge39" class="edge">
+<g id="edge40" class="edge">
 <title>mov_40_warbkcircleflip&#45;&gt;mov_42_warbwdmill</title>
-<path fill="none" stroke="black" d="M191.41,-254.65C210.42,-244.68 231.85,-233.43 250.42,-223.69"/>
-<polygon fill="black" stroke="black" points="251.83,-226.9 259.06,-219.16 248.58,-220.7 251.83,-226.9"/>
+<path fill="none" stroke="black" d="M174.41,-254.65C193.42,-244.68 214.85,-233.43 233.42,-223.69"/>
+<polygon fill="black" stroke="black" points="234.83,-226.9 242.06,-219.16 231.58,-220.7 234.83,-226.9"/>
 </g>
 <!-- mov_41_warfwdmill&#45;&gt;mov_42_warbwdmill -->
-<g id="edge40" class="edge">
+<g id="edge41" class="edge">
 <title>mov_41_warfwdmill&#45;&gt;mov_42_warbwdmill</title>
-<path fill="none" stroke="black" d="M297,-262.52C297,-252.75 297,-240.62 297,-229.6"/>
-<polygon fill="black" stroke="black" points="300.5,-229.77 297,-219.77 293.5,-229.77 300.5,-229.77"/>
+<path fill="none" stroke="black" d="M280,-262.52C280,-252.75 280,-240.62 280,-229.6"/>
+<polygon fill="black" stroke="black" points="283.5,-229.77 280,-219.77 276.5,-229.77 283.5,-229.77"/>
 </g>
 <!-- mov_43_sifpivotwincircle&#45;&gt;mov_44_sifpivotwoutcircle -->
-<g id="edge49" class="edge">
+<g id="edge50" class="edge">
 <title>mov_43_sifpivotwincircle&#45;&gt;mov_44_sifpivotwoutcircle</title>
 <path fill="none" stroke="black" d="M713.86,-803.65C705.94,-785.08 693.8,-756.62 684.63,-735.11"/>
 <polygon fill="black" stroke="black" points="687.88,-733.81 680.73,-725.98 681.44,-736.55 687.88,-733.81"/>
 </g>
 <!-- mov_45_sifpivotwflip -->
-<g id="node61" class="node">
+<g id="node62" class="node">
 <title>mov_45_sifpivotwflip</title>
-<g id="a_node61"><a xlink:href="https://www.youtube.com/watch?v=vU-BHGVejhs" xlink:title="{{45 &#160;|Inside stepping pivot with\ncoin flip and nunchuck return}}">
+<g id="a_node62"><a xlink:href="https://www.youtube.com/watch?v=vU-BHGVejhs" xlink:title="{{45 &#160;|Inside stepping pivot with\ncoin flip and nunchuck return}}">
 <path fill="#ffff99" stroke="#b15928" d="M791.5,-684.75C791.5,-684.75 976.5,-684.75 976.5,-684.75 982.5,-684.75 988.5,-690.75 988.5,-696.75 988.5,-696.75 988.5,-712.25 988.5,-712.25 988.5,-718.25 982.5,-724.25 976.5,-724.25 976.5,-724.25 791.5,-724.25 791.5,-724.25 785.5,-724.25 779.5,-718.25 779.5,-712.25 779.5,-712.25 779.5,-696.75 779.5,-696.75 779.5,-690.75 785.5,-684.75 791.5,-684.75"/>
 <text text-anchor="middle" x="794.25" y="-699.08" font-family="Times New Roman,serif" font-size="14.00">45</text>
 <polyline fill="none" stroke="#b15928" points="809,-684.75 809,-724.25"/>
@@ -1225,15 +1243,15 @@
 </g>
 </g>
 <!-- mov_43_sifpivotwincircle&#45;&gt;mov_45_sifpivotwflip -->
-<g id="edge50" class="edge">
+<g id="edge51" class="edge">
 <title>mov_43_sifpivotwincircle&#45;&gt;mov_45_sifpivotwflip</title>
 <path fill="none" stroke="black" d="M748.39,-803.65C775.69,-783.89 818.48,-752.92 848.68,-731.06"/>
 <polygon fill="black" stroke="black" points="850.35,-734.18 856.4,-725.48 846.24,-728.51 850.35,-734.18"/>
 </g>
 <!-- mov_46_sifpivotwoutcircleflip -->
-<g id="node62" class="node">
+<g id="node63" class="node">
 <title>mov_46_sifpivotwoutcircleflip</title>
-<g id="a_node62"><a xlink:href="https://www.youtube.com/watch?v=YSHMJu7VWkg" xlink:title="{{46 &#160;|Inside stepping pivot with\noutside circle coin flip}}">
+<g id="a_node63"><a xlink:href="https://www.youtube.com/watch?v=YSHMJu7VWkg" xlink:title="{{46 &#160;|Inside stepping pivot with\noutside circle coin flip}}">
 <path fill="#ffff99" stroke="#b15928" d="M801.25,-608.25C801.25,-608.25 966.75,-608.25 966.75,-608.25 972.75,-608.25 978.75,-614.25 978.75,-620.25 978.75,-620.25 978.75,-635.75 978.75,-635.75 978.75,-641.75 972.75,-647.75 966.75,-647.75 966.75,-647.75 801.25,-647.75 801.25,-647.75 795.25,-647.75 789.25,-641.75 789.25,-635.75 789.25,-635.75 789.25,-620.25 789.25,-620.25 789.25,-614.25 795.25,-608.25 801.25,-608.25"/>
 <text text-anchor="middle" x="804" y="-622.58" font-family="Times New Roman,serif" font-size="14.00">46</text>
 <polyline fill="none" stroke="#b15928" points="818.75,-608.25 818.75,-647.75"/>
@@ -1243,32 +1261,32 @@
 </g>
 </g>
 <!-- mov_44_sifpivotwoutcircle&#45;&gt;mov_46_sifpivotwoutcircleflip -->
-<g id="edge51" class="edge">
+<g id="edge52" class="edge">
 <title>mov_44_sifpivotwoutcircle&#45;&gt;mov_46_sifpivotwoutcircleflip</title>
 <path fill="none" stroke="black" d="M726.6,-684.31C754.68,-674.45 789.11,-662.35 818.6,-651.98"/>
 <polygon fill="black" stroke="black" points="819.52,-655.37 827.79,-648.75 817.2,-648.77 819.52,-655.37"/>
 </g>
 <!-- mov_45_sifpivotwflip&#45;&gt;mov_46_sifpivotwoutcircleflip -->
-<g id="edge52" class="edge">
+<g id="edge53" class="edge">
 <title>mov_45_sifpivotwflip&#45;&gt;mov_46_sifpivotwoutcircleflip</title>
 <path fill="none" stroke="black" d="M884,-684.31C884,-676.75 884,-667.88 884,-659.49"/>
 <polygon fill="black" stroke="black" points="887.5,-659.63 884,-649.63 880.5,-659.63 887.5,-659.63"/>
 </g>
 <!-- mov_46_sifpivotwoutcircleflip&#45;&gt;mov_47_sifpivotwincircleout180 -->
-<g id="edge53" class="edge">
+<g id="edge54" class="edge">
 <title>mov_46_sifpivotwoutcircleflip&#45;&gt;mov_47_sifpivotwincircleout180</title>
 <path fill="none" stroke="black" d="M883.78,-608.05C883.14,-553.58 881.31,-395.78 880.45,-322.22"/>
 <polygon fill="black" stroke="black" points="883.95,-322.22 880.33,-312.26 876.95,-322.3 883.95,-322.22"/>
 </g>
 <!-- mov_49_frspearwchange&#45;&gt;mov_50_f2bxbodhipull -->
-<g id="edge56" class="edge">
+<g id="edge57" class="edge">
 <title>mov_49_frspearwchange&#45;&gt;mov_50_f2bxbodhipull</title>
-<path fill="none" stroke="black" d="M1289.35,-684.31C1274.64,-675.1 1256.82,-663.95 1241.05,-654.07"/>
-<polygon fill="black" stroke="black" points="1243.16,-651.26 1232.82,-648.92 1239.44,-657.2 1243.16,-651.26"/>
+<path fill="none" stroke="black" d="M1291.67,-684.31C1278.2,-675.19 1261.91,-664.16 1247.43,-654.35"/>
+<polygon fill="black" stroke="black" points="1249.73,-651.68 1239.48,-648.97 1245.8,-657.47 1249.73,-651.68"/>
 </g>
 <!-- lay_end2h&#45;&gt;mov_16_saincircle -->
 <!-- Legend -->
-<g id="node67" class="node">
+<g id="node68" class="node">
 <title>Legend</title>
 <path fill="#ffff99" stroke="none" d="M1646.5,-886.75C1646.5,-886.75 1477.5,-886.75 1477.5,-886.75 1471.5,-886.75 1465.5,-880.75 1465.5,-874.75 1465.5,-874.75 1465.5,-772.75 1465.5,-772.75 1465.5,-766.75 1471.5,-760.75 1477.5,-760.75 1477.5,-760.75 1646.5,-760.75 1646.5,-760.75 1652.5,-760.75 1658.5,-766.75 1658.5,-772.75 1658.5,-772.75 1658.5,-874.75 1658.5,-874.75 1658.5,-880.75 1652.5,-886.75 1646.5,-886.75"/>
 <polygon fill="none" stroke="#b15928" points="1465.5,-860.75 1465.5,-886.75 1658.5,-886.75 1658.5,-860.75 1465.5,-860.75"/>
