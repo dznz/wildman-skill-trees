@@ -32,6 +32,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     ext_2horder [label="Two-hand\nOrder Position"]
     ext_saorder [label="Single-arm\nOrder Position"]
     ext_180pull [label="180 Degree Pullover"]
+    ext_altmill [label="Alternating sword grip mill"]
     ext_frswingclean [label="Front swing clean"]
     ext_2horder -> ext_sq
     ext_2horder -> ext_saorder -> ext_180pull
@@ -151,6 +152,7 @@ mov_59_inswordmillwflair       [label="{{59  |Inside sword grip mill with\ninsid
       mov_18_saaltcircle -> mov_241_altcircle2sameflip
       mov_27_inflip180pull -> mov_29_inmillwflip
       mov_27_inflip180pull -> mov_28_outflipmill
+      {mov_27_inflip180pull, mov_28_outflipmill} -> ext_altmill
       {mov_28_outflipmill, mov_29_inmillwflip} -> mov_30_outmillwflip
     }
 
