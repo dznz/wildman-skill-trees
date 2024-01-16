@@ -48,11 +48,15 @@ This is my humble attempt to coalesce this semi-implicit knowledge into structur
 
 The format includes the Wildman index order of recommended progression, the Wildman name for the drill (and alternative common names), and an optional field that notes the key idea or skill that should be established by the drill before moving onto more complex drills.
 
-For the SVG version of the diagrams, links to the video and the playlist it belongs to have been included where possible.
+For the SVG version of the diagrams, links to the video and the playlist it belongs to have been included where possible. Save the SVG locally and open it in a web browser to take advantage of its scalability and links. 
+
+For size considerations, we do not store the PNG versions in the repo directly, but do offer [recent releases](/releases) that include PNG renders.
 
 ### Kettlebell Basic Skill Progression ###
 
-This is the full progression, to the best of my abilities. It's quite a lot to take in all at once.
+The Kettlebell skill tree can be viewed in a single diagram or broken down into four parts (scroll below the full progression to view the parts).
+
+Here is the full progression, to the best of my abilities. It's quite a lot to take in all at once.
 
 | Source | SVG |
 |------- | --- | 
@@ -183,7 +187,7 @@ Once stance changes are added, the single-arm movements start to warrant their o
 
 **Warrior Stance Sub-Sequence**
 
-As and experiment, I've broken out the warrior stance mace movements into their own sub-sequence in order make this particular set more legible.
+As an experiment, I've broken out the warrior stance mace movements into their own sub-sequence in order make this particular set more legible.
 
 | Source | SVG |
 |------- | --- | 
