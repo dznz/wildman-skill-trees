@@ -20,7 +20,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   node [color=12, fillcolor=11]
 
   subgraph pre {
-    node [color=lightslategrey, fillcolor=ghostwhite]
+    node [color=2, fillcolor=1]
     ext_bw_squat       [label="{{BW|Squat}}"]
     ext_bw_altshinbox  [label="{{BW|Alt Shin Box}}"]
     mov_12_clean          [label="KB-12|Swing Clean"                                   URL="https://www.youtube.com/watch?v=_nIsSXWs5iU&list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&index=12"]
@@ -97,7 +97,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
      </TR>
      <TR>
       <TD>Prerequisites and next steps</TD>
-      <TD BGCOLOR="ghostwhite">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+      <TD BGCOLOR="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
      </TR>
      <TR>
       <TD>Drills</TD>

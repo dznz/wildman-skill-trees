@@ -18,35 +18,35 @@
 <text text-anchor="start" x="1184.62" y="-33.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">© 2023. This work is openly licensed with CC BY&#45;NC&#45;SA 4.0</text>
 <text text-anchor="start" x="1252.88" y="-19.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">http://creativecommons.org/licenses/by&#45;nc&#45;sa/4.0/</text>
 <text text-anchor="start" x="1376.62" y="-5.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00"> &#160;</text>
-<g id="clust2" class="cluster">
-<title>cluster_deadlift</title>
-<polygon fill="none" stroke="black" points="864.62,-559 864.62,-892.5 1040.62,-892.5 1040.62,-559 864.62,-559"/>
-<text text-anchor="middle" x="1004.5" y="-875.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Deadlifts</text>
+<g id="clust4" class="cluster">
+<title>cluster_snatch</title>
+<polygon fill="none" stroke="black" points="1046.62,-171.75 1046.62,-549.88 1382.62,-549.88 1382.62,-171.75 1046.62,-171.75"/>
+<text text-anchor="middle" x="1352.88" y="-532.58" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Snatch</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_double</title>
 <polygon fill="none" stroke="black" points="141.62,-170 141.62,-815 698.62,-815 698.62,-170 141.62,-170"/>
 <text text-anchor="middle" x="664" y="-797.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Doubles</text>
 </g>
-<g id="clust4" class="cluster">
-<title>cluster_snatch</title>
-<polygon fill="none" stroke="black" points="1046.62,-171.75 1046.62,-549.88 1382.62,-549.88 1382.62,-171.75 1046.62,-171.75"/>
-<text text-anchor="middle" x="1352.88" y="-532.58" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Snatch</text>
+<g id="clust2" class="cluster">
+<title>cluster_deadlift</title>
+<polygon fill="none" stroke="black" points="864.62,-559 864.62,-892.5 1040.62,-892.5 1040.62,-559 864.62,-559"/>
+<text text-anchor="middle" x="1004.5" y="-875.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Deadlifts</text>
 </g>
 <!-- ext_hc_dblswing -->
 <g id="node1" class="node">
 <title>ext_hc_dblswing</title>
-<path fill="ghostwhite" stroke="lightslategrey" d="M13.5,-581.12C13.5,-581.12 119.75,-581.12 119.75,-581.12 125.75,-581.12 131.75,-587.12 131.75,-593.12 131.75,-593.12 131.75,-605.12 131.75,-605.12 131.75,-611.12 125.75,-617.12 119.75,-617.12 119.75,-617.12 13.5,-617.12 13.5,-617.12 7.5,-617.12 1.5,-611.12 1.5,-605.12 1.5,-605.12 1.5,-593.12 1.5,-593.12 1.5,-587.12 7.5,-581.12 13.5,-581.12"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M13.5,-581.12C13.5,-581.12 119.75,-581.12 119.75,-581.12 125.75,-581.12 131.75,-587.12 131.75,-593.12 131.75,-593.12 131.75,-605.12 131.75,-605.12 131.75,-611.12 125.75,-617.12 119.75,-617.12 119.75,-617.12 13.5,-617.12 13.5,-617.12 7.5,-617.12 1.5,-611.12 1.5,-605.12 1.5,-605.12 1.5,-593.12 1.5,-593.12 1.5,-587.12 7.5,-581.12 13.5,-581.12"/>
 <text text-anchor="middle" x="19.25" y="-593.83" font-family="Times New Roman,serif" font-size="14.00">HC</text>
-<polyline fill="none" stroke="lightslategrey" points="37,-581.38 37,-617.12"/>
+<polyline fill="none" stroke="#1f78b4" points="37,-581.38 37,-617.12"/>
 <text text-anchor="middle" x="84.38" y="-593.83" font-family="Times New Roman,serif" font-size="14.00">Double Swing</text>
 </g>
 <!-- ext_hc_dblrockit -->
 <g id="node2" class="node">
 <title>ext_hc_dblrockit</title>
-<path fill="ghostwhite" stroke="lightslategrey" d="M12,-480.88C12,-480.88 121.25,-480.88 121.25,-480.88 127.25,-480.88 133.25,-486.88 133.25,-492.88 133.25,-492.88 133.25,-504.88 133.25,-504.88 133.25,-510.88 127.25,-516.88 121.25,-516.88 121.25,-516.88 12,-516.88 12,-516.88 6,-516.88 0,-510.88 0,-504.88 0,-504.88 0,-492.88 0,-492.88 0,-486.88 6,-480.88 12,-480.88"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M12,-480.88C12,-480.88 121.25,-480.88 121.25,-480.88 127.25,-480.88 133.25,-486.88 133.25,-492.88 133.25,-492.88 133.25,-504.88 133.25,-504.88 133.25,-510.88 127.25,-516.88 121.25,-516.88 121.25,-516.88 12,-516.88 12,-516.88 6,-516.88 0,-510.88 0,-504.88 0,-504.88 0,-492.88 0,-492.88 0,-486.88 6,-480.88 12,-480.88"/>
 <text text-anchor="middle" x="17.75" y="-493.57" font-family="Times New Roman,serif" font-size="14.00">HC</text>
-<polyline fill="none" stroke="lightslategrey" points="35.5,-481.12 35.5,-516.88"/>
+<polyline fill="none" stroke="#1f78b4" points="35.5,-481.12 35.5,-516.88"/>
 <text text-anchor="middle" x="84.38" y="-493.57" font-family="Times New Roman,serif" font-size="14.00">Double Rockit</text>
 </g>
 <!-- ext_hc_dblswing&#45;&gt;ext_hc_dblrockit -->
@@ -76,11 +76,11 @@
 <g id="node3" class="node">
 <title>mov_01_deadlift</title>
 <g id="a_node3"><a xlink:href="https://www.youtube.com/watch?v=x0XkmM34BPI&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=1" xlink:title="{{KB&#45;01|Two Hand Deadlift}|HIP HINGE}">
-<path fill="ghostwhite" stroke="lightslategrey" d="M867.62,-901C867.62,-901 1019.62,-901 1019.62,-901 1025.62,-901 1031.62,-907 1031.62,-913 1031.62,-913 1031.62,-936.5 1031.62,-936.5 1031.62,-942.5 1025.62,-948.5 1019.62,-948.5 1019.62,-948.5 867.62,-948.5 867.62,-948.5 861.62,-948.5 855.62,-942.5 855.62,-936.5 855.62,-936.5 855.62,-913 855.62,-913 855.62,-907 861.62,-901 867.62,-901"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M867.62,-901C867.62,-901 1019.62,-901 1019.62,-901 1025.62,-901 1031.62,-907 1031.62,-913 1031.62,-913 1031.62,-936.5 1031.62,-936.5 1031.62,-942.5 1025.62,-948.5 1019.62,-948.5 1019.62,-948.5 867.62,-948.5 867.62,-948.5 861.62,-948.5 855.62,-942.5 855.62,-936.5 855.62,-936.5 855.62,-913 855.62,-913 855.62,-907 861.62,-901 867.62,-901"/>
 <text text-anchor="middle" x="882" y="-931.2" font-family="Times New Roman,serif" font-size="14.00">KB&#45;01</text>
-<polyline fill="none" stroke="lightslategrey" points="908.38,-924.75 908.38,-948.5"/>
+<polyline fill="none" stroke="#1f78b4" points="908.38,-924.75 908.38,-948.5"/>
 <text text-anchor="middle" x="970" y="-931.2" font-family="Times New Roman,serif" font-size="14.00">Two Hand Deadlift</text>
-<polyline fill="none" stroke="lightslategrey" points="855.62,-924.75 1031.62,-924.75"/>
+<polyline fill="none" stroke="#1f78b4" points="855.62,-924.75 1031.62,-924.75"/>
 <text text-anchor="middle" x="943.62" y="-907.45" font-family="Times New Roman,serif" font-size="14.00">HIP HINGE</text>
 </a>
 </g>
@@ -106,9 +106,9 @@
 <g id="node4" class="node">
 <title>mov_10_h2h</title>
 <g id="a_node4"><a xlink:href="https://www.youtube.com/watch?v=0Uk0Rdm3QFs&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=10" xlink:title="{{KB&#45;10|Hand to Hand\nTransition}}">
-<path fill="ghostwhite" stroke="lightslategrey" d="M718.88,-667.75C718.88,-667.75 842.38,-667.75 842.38,-667.75 848.38,-667.75 854.38,-673.75 854.38,-679.75 854.38,-679.75 854.38,-695.25 854.38,-695.25 854.38,-701.25 848.38,-707.25 842.38,-707.25 842.38,-707.25 718.88,-707.25 718.88,-707.25 712.88,-707.25 706.88,-701.25 706.88,-695.25 706.88,-695.25 706.88,-679.75 706.88,-679.75 706.88,-673.75 712.88,-667.75 718.88,-667.75"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M718.88,-667.75C718.88,-667.75 842.38,-667.75 842.38,-667.75 848.38,-667.75 854.38,-673.75 854.38,-679.75 854.38,-679.75 854.38,-695.25 854.38,-695.25 854.38,-701.25 848.38,-707.25 842.38,-707.25 842.38,-707.25 718.88,-707.25 718.88,-707.25 712.88,-707.25 706.88,-701.25 706.88,-695.25 706.88,-695.25 706.88,-679.75 706.88,-679.75 706.88,-673.75 712.88,-667.75 718.88,-667.75"/>
 <text text-anchor="middle" x="733.25" y="-682.08" font-family="Times New Roman,serif" font-size="14.00">KB&#45;10</text>
-<polyline fill="none" stroke="lightslategrey" points="759.62,-667.75 759.62,-707.25"/>
+<polyline fill="none" stroke="#1f78b4" points="759.62,-667.75 759.62,-707.25"/>
 <text text-anchor="middle" x="807" y="-689.95" font-family="Times New Roman,serif" font-size="14.00">Hand to Hand</text>
 <text text-anchor="middle" x="807" y="-674.2" font-family="Times New Roman,serif" font-size="14.00">Transition</text>
 </a>
@@ -135,9 +135,9 @@
 <g id="node5" class="node">
 <title>mov_12_clean</title>
 <g id="a_node5"><a xlink:href="https://www.youtube.com/watch?v=_nIsSXWs5iU&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=12" xlink:title="KB&#45;12|Swing Clean">
-<path fill="ghostwhite" stroke="lightslategrey" d="M1158.38,-669.5C1158.38,-669.5 1272.88,-669.5 1272.88,-669.5 1278.88,-669.5 1284.88,-675.5 1284.88,-681.5 1284.88,-681.5 1284.88,-693.5 1284.88,-693.5 1284.88,-699.5 1278.88,-705.5 1272.88,-705.5 1272.88,-705.5 1158.38,-705.5 1158.38,-705.5 1152.38,-705.5 1146.38,-699.5 1146.38,-693.5 1146.38,-693.5 1146.38,-681.5 1146.38,-681.5 1146.38,-675.5 1152.38,-669.5 1158.38,-669.5"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M1158.38,-669.5C1158.38,-669.5 1272.88,-669.5 1272.88,-669.5 1278.88,-669.5 1284.88,-675.5 1284.88,-681.5 1284.88,-681.5 1284.88,-693.5 1284.88,-693.5 1284.88,-699.5 1278.88,-705.5 1272.88,-705.5 1272.88,-705.5 1158.38,-705.5 1158.38,-705.5 1152.38,-705.5 1146.38,-699.5 1146.38,-693.5 1146.38,-693.5 1146.38,-681.5 1146.38,-681.5 1146.38,-675.5 1152.38,-669.5 1158.38,-669.5"/>
 <text text-anchor="middle" x="1172.75" y="-682.08" font-family="Times New Roman,serif" font-size="14.00">KB&#45;12</text>
-<polyline fill="none" stroke="lightslategrey" points="1199.12,-669.5 1199.12,-705.5"/>
+<polyline fill="none" stroke="#1f78b4" points="1199.12,-669.5 1199.12,-705.5"/>
 <text text-anchor="middle" x="1242" y="-682.08" font-family="Times New Roman,serif" font-size="14.00">Swing Clean</text>
 </a>
 </g>
@@ -146,11 +146,11 @@
 <g id="node6" class="node">
 <title>mov_16_startstopclean</title>
 <g id="a_node6"><a xlink:href="https://www.youtube.com/watch?v=XbK3jxI0WNQ&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=16" xlink:title="{{KB&#45;16|Start Stop Clean}|START &amp; END CLEAN}">
-<path fill="ghostwhite" stroke="lightslategrey" d="M1061.12,-575.38C1061.12,-575.38 1198.12,-575.38 1198.12,-575.38 1204.12,-575.38 1210.12,-581.38 1210.12,-587.38 1210.12,-587.38 1210.12,-610.88 1210.12,-610.88 1210.12,-616.88 1204.12,-622.88 1198.12,-622.88 1198.12,-622.88 1061.12,-622.88 1061.12,-622.88 1055.12,-622.88 1049.12,-616.88 1049.12,-610.88 1049.12,-610.88 1049.12,-587.38 1049.12,-587.38 1049.12,-581.38 1055.12,-575.38 1061.12,-575.38"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M1061.12,-575.38C1061.12,-575.38 1198.12,-575.38 1198.12,-575.38 1204.12,-575.38 1210.12,-581.38 1210.12,-587.38 1210.12,-587.38 1210.12,-610.88 1210.12,-610.88 1210.12,-616.88 1204.12,-622.88 1198.12,-622.88 1198.12,-622.88 1061.12,-622.88 1061.12,-622.88 1055.12,-622.88 1049.12,-616.88 1049.12,-610.88 1049.12,-610.88 1049.12,-587.38 1049.12,-587.38 1049.12,-581.38 1055.12,-575.38 1061.12,-575.38"/>
 <text text-anchor="middle" x="1075.5" y="-605.58" font-family="Times New Roman,serif" font-size="14.00">KB&#45;16</text>
-<polyline fill="none" stroke="lightslategrey" points="1101.88,-599.12 1101.88,-622.88"/>
+<polyline fill="none" stroke="#1f78b4" points="1101.88,-599.12 1101.88,-622.88"/>
 <text text-anchor="middle" x="1156" y="-605.58" font-family="Times New Roman,serif" font-size="14.00">Start Stop Clean</text>
-<polyline fill="none" stroke="lightslategrey" points="1049.12,-599.12 1210.12,-599.12"/>
+<polyline fill="none" stroke="#1f78b4" points="1049.12,-599.12 1210.12,-599.12"/>
 <text text-anchor="middle" x="1129.62" y="-581.83" font-family="Times New Roman,serif" font-size="14.00">START &amp; END CLEAN</text>
 </a>
 </g>
@@ -165,9 +165,9 @@
 <g id="node7" class="node">
 <title>mov_17_cap</title>
 <g id="a_node7"><a xlink:href="https://www.youtube.com/watch?v=SSxB3m5qRas&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=17" xlink:title="KB&#45;17|Clean &amp; Press">
-<path fill="ghostwhite" stroke="lightslategrey" d="M1239.75,-581.12C1239.75,-581.12 1365.5,-581.12 1365.5,-581.12 1371.5,-581.12 1377.5,-587.12 1377.5,-593.12 1377.5,-593.12 1377.5,-605.12 1377.5,-605.12 1377.5,-611.12 1371.5,-617.12 1365.5,-617.12 1365.5,-617.12 1239.75,-617.12 1239.75,-617.12 1233.75,-617.12 1227.75,-611.12 1227.75,-605.12 1227.75,-605.12 1227.75,-593.12 1227.75,-593.12 1227.75,-587.12 1233.75,-581.12 1239.75,-581.12"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M1239.75,-581.12C1239.75,-581.12 1365.5,-581.12 1365.5,-581.12 1371.5,-581.12 1377.5,-587.12 1377.5,-593.12 1377.5,-593.12 1377.5,-605.12 1377.5,-605.12 1377.5,-611.12 1371.5,-617.12 1365.5,-617.12 1365.5,-617.12 1239.75,-617.12 1239.75,-617.12 1233.75,-617.12 1227.75,-611.12 1227.75,-605.12 1227.75,-605.12 1227.75,-593.12 1227.75,-593.12 1227.75,-587.12 1233.75,-581.12 1239.75,-581.12"/>
 <text text-anchor="middle" x="1254.12" y="-593.7" font-family="Times New Roman,serif" font-size="14.00">KB&#45;17</text>
-<polyline fill="none" stroke="lightslategrey" points="1280.5,-581.12 1280.5,-617.12"/>
+<polyline fill="none" stroke="#1f78b4" points="1280.5,-581.12 1280.5,-617.12"/>
 <text text-anchor="middle" x="1329" y="-593.7" font-family="Times New Roman,serif" font-size="14.00">Clean &amp; Press</text>
 </a>
 </g>
@@ -216,12 +216,12 @@
 <g id="node8" class="node">
 <title>mov_19_startstopcap</title>
 <g id="a_node8"><a xlink:href="https://www.youtube.com/watch?v=dSj3kqbuois&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=19" xlink:title="{{KB&#45;19|Start Stop\nClean &amp; Press}|START &amp; END C&amp;P}">
-<path fill="ghostwhite" stroke="lightslategrey" d="M809.75,-467.25C809.75,-467.25 935.5,-467.25 935.5,-467.25 941.5,-467.25 947.5,-473.25 947.5,-479.25 947.5,-479.25 947.5,-518.5 947.5,-518.5 947.5,-524.5 941.5,-530.5 935.5,-530.5 935.5,-530.5 809.75,-530.5 809.75,-530.5 803.75,-530.5 797.75,-524.5 797.75,-518.5 797.75,-518.5 797.75,-479.25 797.75,-479.25 797.75,-473.25 803.75,-467.25 809.75,-467.25"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M809.75,-467.25C809.75,-467.25 935.5,-467.25 935.5,-467.25 941.5,-467.25 947.5,-473.25 947.5,-479.25 947.5,-479.25 947.5,-518.5 947.5,-518.5 947.5,-524.5 941.5,-530.5 935.5,-530.5 935.5,-530.5 809.75,-530.5 809.75,-530.5 803.75,-530.5 797.75,-524.5 797.75,-518.5 797.75,-518.5 797.75,-479.25 797.75,-479.25 797.75,-473.25 803.75,-467.25 809.75,-467.25"/>
 <text text-anchor="middle" x="824.12" y="-505.32" font-family="Times New Roman,serif" font-size="14.00">KB&#45;19</text>
-<polyline fill="none" stroke="lightslategrey" points="850.5,-491 850.5,-530.5"/>
+<polyline fill="none" stroke="#1f78b4" points="850.5,-491 850.5,-530.5"/>
 <text text-anchor="middle" x="899" y="-513.2" font-family="Times New Roman,serif" font-size="14.00">Start Stop</text>
 <text text-anchor="middle" x="899" y="-497.45" font-family="Times New Roman,serif" font-size="14.00">Clean &amp; Press</text>
-<polyline fill="none" stroke="lightslategrey" points="797.75,-491 947.5,-491"/>
+<polyline fill="none" stroke="#1f78b4" points="797.75,-491 947.5,-491"/>
 <text text-anchor="middle" x="872.62" y="-473.7" font-family="Times New Roman,serif" font-size="14.00">START &amp; END C&amp;P</text>
 </a>
 </g>
@@ -567,7 +567,7 @@
 <text text-anchor="start" x="1465.12" y="-413.45" font-family="Times New Roman,serif" font-weight="bold" font-size="14.00">Legend</text>
 <polygon fill="none" stroke="#b15928" points="1391.12,-379.75 1391.12,-404.75 1556.12,-404.75 1556.12,-379.75 1391.12,-379.75"/>
 <text text-anchor="start" x="1396" y="-386.45" font-family="Times New Roman,serif" font-size="14.00">Prerequisites and next steps</text>
-<polygon fill="ghostwhite" stroke="none" points="1556.12,-379.75 1556.12,-404.75 1584.12,-404.75 1584.12,-379.75 1556.12,-379.75"/>
+<polygon fill="#a6cee3" stroke="none" points="1556.12,-379.75 1556.12,-404.75 1584.12,-404.75 1584.12,-379.75 1556.12,-379.75"/>
 <polygon fill="none" stroke="#b15928" points="1556.12,-379.75 1556.12,-404.75 1584.12,-404.75 1584.12,-379.75 1556.12,-379.75"/>
 <text text-anchor="start" x="1560.75" y="-386.45" font-family="Times New Roman,serif" font-size="14.00">     </text>
 <polygon fill="none" stroke="#b15928" points="1391.12,-354.75 1391.12,-379.75 1556.12,-379.75 1556.12,-354.75 1391.12,-354.75"/>

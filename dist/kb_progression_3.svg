@@ -26,9 +26,9 @@
 <!-- ext_bw_squat -->
 <g id="node1" class="node">
 <title>ext_bw_squat</title>
-<path fill="ghostwhite" stroke="lightslategrey" d="M58.62,-468.25C58.62,-468.25 121.38,-468.25 121.38,-468.25 127.38,-468.25 133.38,-474.25 133.38,-480.25 133.38,-480.25 133.38,-492.25 133.38,-492.25 133.38,-498.25 127.38,-504.25 121.38,-504.25 121.38,-504.25 58.62,-504.25 58.62,-504.25 52.62,-504.25 46.62,-498.25 46.62,-492.25 46.62,-492.25 46.62,-480.25 46.62,-480.25 46.62,-474.25 52.62,-468.25 58.62,-468.25"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M58.62,-468.25C58.62,-468.25 121.38,-468.25 121.38,-468.25 127.38,-468.25 133.38,-474.25 133.38,-480.25 133.38,-480.25 133.38,-492.25 133.38,-492.25 133.38,-498.25 127.38,-504.25 121.38,-504.25 121.38,-504.25 58.62,-504.25 58.62,-504.25 52.62,-504.25 46.62,-498.25 46.62,-492.25 46.62,-492.25 46.62,-480.25 46.62,-480.25 46.62,-474.25 52.62,-468.25 58.62,-468.25"/>
 <text text-anchor="middle" x="65.88" y="-480.95" font-family="Times New Roman,serif" font-size="14.00">BW</text>
-<polyline fill="none" stroke="lightslategrey" points="85.12,-468.5 85.12,-504.25"/>
+<polyline fill="none" stroke="#1f78b4" points="85.12,-468.5 85.12,-504.25"/>
 <text text-anchor="middle" x="109.25" y="-480.95" font-family="Times New Roman,serif" font-size="14.00">Squat</text>
 </g>
 <!-- mov_51_fourcountsquat -->
@@ -52,9 +52,9 @@
 <!-- ext_bw_altshinbox -->
 <g id="node2" class="node">
 <title>ext_bw_altshinbox</title>
-<path fill="ghostwhite" stroke="lightslategrey" d="M202.75,-468.25C202.75,-468.25 305.25,-468.25 305.25,-468.25 311.25,-468.25 317.25,-474.25 317.25,-480.25 317.25,-480.25 317.25,-492.25 317.25,-492.25 317.25,-498.25 311.25,-504.25 305.25,-504.25 305.25,-504.25 202.75,-504.25 202.75,-504.25 196.75,-504.25 190.75,-498.25 190.75,-492.25 190.75,-492.25 190.75,-480.25 190.75,-480.25 190.75,-474.25 196.75,-468.25 202.75,-468.25"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M202.75,-468.25C202.75,-468.25 305.25,-468.25 305.25,-468.25 311.25,-468.25 317.25,-474.25 317.25,-480.25 317.25,-480.25 317.25,-492.25 317.25,-492.25 317.25,-498.25 311.25,-504.25 305.25,-504.25 305.25,-504.25 202.75,-504.25 202.75,-504.25 196.75,-504.25 190.75,-498.25 190.75,-492.25 190.75,-492.25 190.75,-480.25 190.75,-480.25 190.75,-474.25 196.75,-468.25 202.75,-468.25"/>
 <text text-anchor="middle" x="210" y="-480.95" font-family="Times New Roman,serif" font-size="14.00">BW</text>
-<polyline fill="none" stroke="lightslategrey" points="229.25,-468.5 229.25,-504.25"/>
+<polyline fill="none" stroke="#1f78b4" points="229.25,-468.5 229.25,-504.25"/>
 <text text-anchor="middle" x="273.25" y="-480.95" font-family="Times New Roman,serif" font-size="14.00">Alt Shin Box</text>
 </g>
 <!-- mov_52_rackaltshinbox -->
@@ -78,9 +78,9 @@
 <g id="node3" class="node">
 <title>mov_12_clean</title>
 <g id="a_node3"><a xlink:href="https://www.youtube.com/watch?v=_nIsSXWs5iU&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=12" xlink:title="KB&#45;12|Swing Clean">
-<path fill="ghostwhite" stroke="lightslategrey" d="M1414.75,-718C1414.75,-718 1529.25,-718 1529.25,-718 1535.25,-718 1541.25,-724 1541.25,-730 1541.25,-730 1541.25,-742 1541.25,-742 1541.25,-748 1535.25,-754 1529.25,-754 1529.25,-754 1414.75,-754 1414.75,-754 1408.75,-754 1402.75,-748 1402.75,-742 1402.75,-742 1402.75,-730 1402.75,-730 1402.75,-724 1408.75,-718 1414.75,-718"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M1414.75,-718C1414.75,-718 1529.25,-718 1529.25,-718 1535.25,-718 1541.25,-724 1541.25,-730 1541.25,-730 1541.25,-742 1541.25,-742 1541.25,-748 1535.25,-754 1529.25,-754 1529.25,-754 1414.75,-754 1414.75,-754 1408.75,-754 1402.75,-748 1402.75,-742 1402.75,-742 1402.75,-730 1402.75,-730 1402.75,-724 1408.75,-718 1414.75,-718"/>
 <text text-anchor="middle" x="1429.12" y="-730.58" font-family="Times New Roman,serif" font-size="14.00">KB&#45;12</text>
-<polyline fill="none" stroke="lightslategrey" points="1455.5,-718 1455.5,-754"/>
+<polyline fill="none" stroke="#1f78b4" points="1455.5,-718 1455.5,-754"/>
 <text text-anchor="middle" x="1498.38" y="-730.58" font-family="Times New Roman,serif" font-size="14.00">Swing Clean</text>
 </a>
 </g>
@@ -89,9 +89,9 @@
 <g id="node4" class="node">
 <title>mov_17_cap</title>
 <g id="a_node4"><a xlink:href="https://www.youtube.com/watch?v=SSxB3m5qRas&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=17" xlink:title="KB&#45;17|Clean &amp; Press">
-<path fill="ghostwhite" stroke="lightslategrey" d="M1316.12,-643.25C1316.12,-643.25 1441.88,-643.25 1441.88,-643.25 1447.88,-643.25 1453.88,-649.25 1453.88,-655.25 1453.88,-655.25 1453.88,-667.25 1453.88,-667.25 1453.88,-673.25 1447.88,-679.25 1441.88,-679.25 1441.88,-679.25 1316.12,-679.25 1316.12,-679.25 1310.12,-679.25 1304.12,-673.25 1304.12,-667.25 1304.12,-667.25 1304.12,-655.25 1304.12,-655.25 1304.12,-649.25 1310.12,-643.25 1316.12,-643.25"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M1316.12,-643.25C1316.12,-643.25 1441.88,-643.25 1441.88,-643.25 1447.88,-643.25 1453.88,-649.25 1453.88,-655.25 1453.88,-655.25 1453.88,-667.25 1453.88,-667.25 1453.88,-673.25 1447.88,-679.25 1441.88,-679.25 1441.88,-679.25 1316.12,-679.25 1316.12,-679.25 1310.12,-679.25 1304.12,-673.25 1304.12,-667.25 1304.12,-667.25 1304.12,-655.25 1304.12,-655.25 1304.12,-649.25 1310.12,-643.25 1316.12,-643.25"/>
 <text text-anchor="middle" x="1330.5" y="-655.83" font-family="Times New Roman,serif" font-size="14.00">KB&#45;17</text>
-<polyline fill="none" stroke="lightslategrey" points="1356.88,-643.25 1356.88,-679.25"/>
+<polyline fill="none" stroke="#1f78b4" points="1356.88,-643.25 1356.88,-679.25"/>
 <text text-anchor="middle" x="1405.38" y="-655.83" font-family="Times New Roman,serif" font-size="14.00">Clean &amp; Press</text>
 </a>
 </g>
@@ -124,12 +124,12 @@
 <g id="node5" class="node">
 <title>mov_19_startstopcap</title>
 <g id="a_node5"><a xlink:href="https://www.youtube.com/watch?v=dSj3kqbuois&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=19" xlink:title="{{KB&#45;19|Start Stop\nClean &amp; Press}|START &amp; END C&amp;P}">
-<path fill="ghostwhite" stroke="lightslategrey" d="M1316.12,-541.25C1316.12,-541.25 1441.88,-541.25 1441.88,-541.25 1447.88,-541.25 1453.88,-547.25 1453.88,-553.25 1453.88,-553.25 1453.88,-592.5 1453.88,-592.5 1453.88,-598.5 1447.88,-604.5 1441.88,-604.5 1441.88,-604.5 1316.12,-604.5 1316.12,-604.5 1310.12,-604.5 1304.12,-598.5 1304.12,-592.5 1304.12,-592.5 1304.12,-553.25 1304.12,-553.25 1304.12,-547.25 1310.12,-541.25 1316.12,-541.25"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M1316.12,-541.25C1316.12,-541.25 1441.88,-541.25 1441.88,-541.25 1447.88,-541.25 1453.88,-547.25 1453.88,-553.25 1453.88,-553.25 1453.88,-592.5 1453.88,-592.5 1453.88,-598.5 1447.88,-604.5 1441.88,-604.5 1441.88,-604.5 1316.12,-604.5 1316.12,-604.5 1310.12,-604.5 1304.12,-598.5 1304.12,-592.5 1304.12,-592.5 1304.12,-553.25 1304.12,-553.25 1304.12,-547.25 1310.12,-541.25 1316.12,-541.25"/>
 <text text-anchor="middle" x="1330.5" y="-579.33" font-family="Times New Roman,serif" font-size="14.00">KB&#45;19</text>
-<polyline fill="none" stroke="lightslategrey" points="1356.88,-565 1356.88,-604.5"/>
+<polyline fill="none" stroke="#1f78b4" points="1356.88,-565 1356.88,-604.5"/>
 <text text-anchor="middle" x="1405.38" y="-587.2" font-family="Times New Roman,serif" font-size="14.00">Start Stop</text>
 <text text-anchor="middle" x="1405.38" y="-571.45" font-family="Times New Roman,serif" font-size="14.00">Clean &amp; Press</text>
-<polyline fill="none" stroke="lightslategrey" points="1304.12,-565 1453.88,-565"/>
+<polyline fill="none" stroke="#1f78b4" points="1304.12,-565 1453.88,-565"/>
 <text text-anchor="middle" x="1379" y="-547.7" font-family="Times New Roman,serif" font-size="14.00">START &amp; END C&amp;P</text>
 </a>
 </g>
@@ -161,12 +161,12 @@
 <g id="node6" class="node">
 <title>mov_22_gobsquathalo</title>
 <g id="a_node6"><a xlink:href="https://www.youtube.com/watch?v=cnZ8Mx8NQPE&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=22" xlink:title="{{22|Goblet Squat\nwith Halo}|FULL DEPTH}">
-<path fill="ghostwhite" stroke="lightslategrey" d="M549.12,-541.25C549.12,-541.25 644.88,-541.25 644.88,-541.25 650.88,-541.25 656.88,-547.25 656.88,-553.25 656.88,-553.25 656.88,-592.5 656.88,-592.5 656.88,-598.5 650.88,-604.5 644.88,-604.5 644.88,-604.5 549.12,-604.5 549.12,-604.5 543.12,-604.5 537.12,-598.5 537.12,-592.5 537.12,-592.5 537.12,-553.25 537.12,-553.25 537.12,-547.25 543.12,-541.25 549.12,-541.25"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M549.12,-541.25C549.12,-541.25 644.88,-541.25 644.88,-541.25 650.88,-541.25 656.88,-547.25 656.88,-553.25 656.88,-553.25 656.88,-592.5 656.88,-592.5 656.88,-598.5 650.88,-604.5 644.88,-604.5 644.88,-604.5 549.12,-604.5 549.12,-604.5 543.12,-604.5 537.12,-598.5 537.12,-592.5 537.12,-592.5 537.12,-553.25 537.12,-553.25 537.12,-547.25 543.12,-541.25 549.12,-541.25"/>
 <text text-anchor="middle" x="551.88" y="-579.33" font-family="Times New Roman,serif" font-size="14.00">22</text>
-<polyline fill="none" stroke="lightslategrey" points="566.62,-565 566.62,-604.5"/>
+<polyline fill="none" stroke="#1f78b4" points="566.62,-565 566.62,-604.5"/>
 <text text-anchor="middle" x="611.75" y="-587.2" font-family="Times New Roman,serif" font-size="14.00">Goblet Squat</text>
 <text text-anchor="middle" x="611.75" y="-571.45" font-family="Times New Roman,serif" font-size="14.00">with Halo</text>
-<polyline fill="none" stroke="lightslategrey" points="537.12,-565 656.88,-565"/>
+<polyline fill="none" stroke="#1f78b4" points="537.12,-565 656.88,-565"/>
 <text text-anchor="middle" x="597" y="-547.7" font-family="Times New Roman,serif" font-size="14.00">FULL DEPTH</text>
 </a>
 </g>
@@ -175,9 +175,9 @@
 <g id="node7" class="node">
 <title>mov_23_racksquat</title>
 <g id="a_node7"><a xlink:href="https://www.youtube.com/watch?v=KTDVl0Lkdc4&amp;list=PLk4oYPJ7TXKhX8YqA2AVrfgs_pEF6p7KA&amp;index=23" xlink:title="{{KB&#45;23|Single&#45;Bell Front Squat}}">
-<path fill="ghostwhite" stroke="lightslategrey" d="M843.75,-468.25C843.75,-468.25 1018.25,-468.25 1018.25,-468.25 1024.25,-468.25 1030.25,-474.25 1030.25,-480.25 1030.25,-480.25 1030.25,-492.25 1030.25,-492.25 1030.25,-498.25 1024.25,-504.25 1018.25,-504.25 1018.25,-504.25 843.75,-504.25 843.75,-504.25 837.75,-504.25 831.75,-498.25 831.75,-492.25 831.75,-492.25 831.75,-480.25 831.75,-480.25 831.75,-474.25 837.75,-468.25 843.75,-468.25"/>
+<path fill="#a6cee3" stroke="#1f78b4" d="M843.75,-468.25C843.75,-468.25 1018.25,-468.25 1018.25,-468.25 1024.25,-468.25 1030.25,-474.25 1030.25,-480.25 1030.25,-480.25 1030.25,-492.25 1030.25,-492.25 1030.25,-498.25 1024.25,-504.25 1018.25,-504.25 1018.25,-504.25 843.75,-504.25 843.75,-504.25 837.75,-504.25 831.75,-498.25 831.75,-492.25 831.75,-492.25 831.75,-480.25 831.75,-480.25 831.75,-474.25 837.75,-468.25 843.75,-468.25"/>
 <text text-anchor="middle" x="858.12" y="-480.95" font-family="Times New Roman,serif" font-size="14.00">KB&#45;23</text>
-<polyline fill="none" stroke="lightslategrey" points="884.5,-468.5 884.5,-504.25"/>
+<polyline fill="none" stroke="#1f78b4" points="884.5,-468.5 884.5,-504.25"/>
 <text text-anchor="middle" x="957.38" y="-480.95" font-family="Times New Roman,serif" font-size="14.00">Single&#45;Bell Front Squat</text>
 </a>
 </g>
@@ -419,7 +419,7 @@
 <text text-anchor="start" x="1405.5" y="-309.7" font-family="Times New Roman,serif" font-weight="bold" font-size="14.00">Legend</text>
 <polygon fill="none" stroke="#b15928" points="1331.5,-276 1331.5,-301 1496.5,-301 1496.5,-276 1331.5,-276"/>
 <text text-anchor="start" x="1336.38" y="-282.7" font-family="Times New Roman,serif" font-size="14.00">Prerequisites and next steps</text>
-<polygon fill="ghostwhite" stroke="none" points="1496.5,-276 1496.5,-301 1524.5,-301 1524.5,-276 1496.5,-276"/>
+<polygon fill="#a6cee3" stroke="none" points="1496.5,-276 1496.5,-301 1524.5,-301 1524.5,-276 1496.5,-276"/>
 <polygon fill="none" stroke="#b15928" points="1496.5,-276 1496.5,-301 1524.5,-301 1524.5,-276 1496.5,-276"/>
 <text text-anchor="start" x="1501.12" y="-282.7" font-family="Times New Roman,serif" font-size="14.00">     </text>
 <polygon fill="none" stroke="#b15928" points="1331.5,-251 1331.5,-276 1496.5,-276 1496.5,-251 1331.5,-251"/>

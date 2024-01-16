@@ -20,7 +20,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   node [color=12, fillcolor=11]
 
   subgraph pre {
-    node [color=lightslategrey, fillcolor=ghostwhite]
+    node [color=2, fillcolor=1]
     ext_hc_dblswing    [label="{{HC|Double Swing}}"]
     ext_hc_dblrockit   [label="{{HC|Double Rockit}}"]
     
@@ -114,7 +114,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
      </TR>
      <TR>
       <TD>Prerequisites and next steps</TD>
-      <TD BGCOLOR="ghostwhite">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+      <TD BGCOLOR="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
      </TR>
      <TR>
       <TD>Drills</TD>
