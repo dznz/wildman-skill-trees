@@ -111,6 +111,7 @@ mov_53_outswordflair           [label="{{53  |Outside sword flair}}"            
 
 mov_54_inswordflair            [label="{{54  |Inside tip away\nsword flair}}"                   URL="https://www.youtube.com/watch?v=8I7KaLuNaEs" ];
 mov_55_out180pullwflair        [label="{{55  |Outside\n180 degree pullover with\nsword flair}}" URL="https://www.youtube.com/watch?v=hh3393-eXrs" ];
+mov_56_in180pullwflair         [label="{{56  |Inside\n180 degree pullover with\nsword flair}}"  URL="https://www.youtube.com/watch?v=Sqw6YyBTgOQ" ];
 
 
 // Ungrouped arrows
@@ -191,6 +192,7 @@ mov_55_out180pullwflair        [label="{{55  |Outside\n180 degree pullover with\
     }
 
     {ext_180pull, mov_53_outswordflair} -> mov_55_out180pullwflair
+    {mov_55_out180pullwflair, mov_54_inswordflair} -> mov_56_in180pullwflair
 
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
   }
