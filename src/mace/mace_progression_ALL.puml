@@ -1,5 +1,5 @@
-@startdot
-digraph mace_progression {
+@startdot mace_progression_ALL
+digraph mace_progression_ALL {
   
   label=<
 <B>Mace Skill Progression - ALL</B><BR ALIGN="LEFT"/><BR ALIGN="LEFT"/>
@@ -114,6 +114,7 @@ mov_55_out180pullwflair        [label="{{55  |Outside\n180 degree pullover with\
 mov_56_in180pullwflair         [label="{{56  |Inside\n180 degree pullover with\nsword flair}}"            URL="https://www.youtube.com/watch?v=Sqw6YyBTgOQ" ];
 mov_57_alt180pullwflair        [label="{{57  |Inside & outside\n180 degree pullover with\nsword flairs}}" URL="https://www.youtube.com/watch?v=XriSUPQ4Ql4" ];
 mov_58_outswordmillwflair      [label="{{58  |Outside sword grip mill with\ntip-away sword flair}}"       URL="https://www.youtube.com/watch?v=bKldH_In6SI" ];
+mov_59_inswordmillwflair       [label="{{59  |Inside sword grip mill with\ninside sword flair}}"          URL="https://www.youtube.com/watch?v=uMLwGxhbt2Y" ];
 
 // Ungrouped arrows
 
@@ -196,6 +197,7 @@ mov_58_outswordmillwflair      [label="{{58  |Outside sword grip mill with\ntip-
     {mov_55_out180pullwflair, mov_54_inswordflair} -> mov_56_in180pullwflair
     {mov_55_out180pullwflair, mov_56_in180pullwflair} -> mov_57_alt180pullwflair
     {mov_28_outflipmill, mov_55_out180pullwflair} -> mov_58_outswordmillwflair
+    {mov_27_inflip180pull, mov_56_in180pullwflair, mov_58_outswordmillwflair} -> mov_59_inswordmillwflair
 
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
   }
