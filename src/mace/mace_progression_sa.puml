@@ -76,7 +76,8 @@ mov_47_sifpivotwincircleout180 [label="{{47  |Inside front step pivot with\ninsi
 mov_48_frspear                 [label="{{48  |Front spear catch}}"                                                            URL="https://www.youtube.com/watch?v=hwQlmjHQsrg" ];
 mov_49_frspearwchange          [label="{{49  |Front spear catch with\ndescending side change}}"                               URL="https://www.youtube.com/watch?v=xzPiZZV2K4E" ];
 mov_50_f2bxbodhipull           [label="{{50  |Front to back\ncross-body high pull}}"                                          URL="https://www.youtube.com/watch?v=AoUxg7QE-xU" ];
-mov_51_xbodspear               [label="{{51  |Cross-body\nspear catch isolations}}"                                            URL="https://www.youtube.com/watch?v=VkwN58PBBSs" ];
+mov_51_xbodspear               [label="{{51  |Cross-body\nspear catch isolations}}"                                           URL="https://www.youtube.com/watch?v=VkwN58PBBSs" ];
+mov_52_altxbodspear            [label="{{52  |Cross-body\nspear catch\nalternating sides}}"                                   URL="https://www.youtube.com/watch?v=-Z8YfWYfepQ" ];
 
 
     // Precursor
@@ -147,7 +148,7 @@ mov_51_xbodspear               [label="{{51  |Cross-body\nspear catch isolations
     }
     subgraph cluster_spear {
       label="Spear catch"
-      ext_frswingclean -> mov_48_frspear -> mov_49_frspearwchange -> mov_50_f2bxbodhipull -> mov_51_xbodspear
+      ext_frswingclean -> mov_48_frspear -> mov_49_frspearwchange -> mov_50_f2bxbodhipull -> mov_51_xbodspear -> mov_52_altxbodspear
     }
     
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
