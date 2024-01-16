@@ -38,7 +38,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   subgraph isolated {
     node [color=4, fillcolor=3]
     mov_01_360, mov_031_prayer, mov_041_barbell, mov_061_uppercut, mov_07_invs2sswing, mov_081_lowblockspin, mov_101_martialspin, mov_102_samartialspin, mov_14_barpress2sq,mov_35_waralt360
-    mov_051_sabackswing, mov_052_backswing, mov_11_paddlerow2upblock, mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle, mov_51_xbodspear
+    mov_051_sabackswing, mov_052_backswing, mov_11_paddlerow2upblock, mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle, mov_48_frspear, mov_51_xbodspear
   }
 
 mov_01_360                    [label="{{01  |360}}"                                  URL="https://www.youtube.com/watch?v=TyZ8iYv6Ip0" ]
