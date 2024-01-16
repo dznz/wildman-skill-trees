@@ -33,7 +33,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
 
   subgraph isolated {
     node [color=4, fillcolor=3]
-    mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle
+    mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle, mov_51_xbodspear
   }
 
 mov_16_saincircle             [label="{{16  |Single arm\ninside circle}}"                     URL="https://www.youtube.com/watch?v=MSt1cYAiLzI" ]
@@ -76,6 +76,7 @@ mov_47_sifpivotwincircleout180 [label="{{47  |Inside front step pivot with\ninsi
 mov_48_frspear                 [label="{{48  |Front spear catch}}"                                                            URL="https://www.youtube.com/watch?v=hwQlmjHQsrg" ];
 mov_49_frspearwchange          [label="{{49  |Front spear catch with\ndescending side change}}"                               URL="https://www.youtube.com/watch?v=xzPiZZV2K4E" ];
 mov_50_f2bxbodhipull           [label="{{50  |Front to back\ncross-body high pull}}"                                          URL="https://www.youtube.com/watch?v=AoUxg7QE-xU" ];
+mov_51_xbodspear               [label="{{51  |Cross-body\nspear catch isolations}}"                                            URL="https://www.youtube.com/watch?v=VkwN58PBBSs" ];
 
 
     // Precursor
@@ -144,7 +145,10 @@ mov_50_f2bxbodhipull           [label="{{50  |Front to back\ncross-body high pul
       mov_45_sifpivotwflip -> mov_46_sifpivotwoutcircleflip
       mov_46_sifpivotwoutcircleflip -> mov_47_sifpivotwincircleout180
     }
-    ext_frswingclean -> mov_48_frspear -> mov_49_frspearwchange -> mov_50_f2bxbodhipull
+    subgraph cluster_spear {
+      label="Spear catch"
+      ext_frswingclean -> mov_48_frspear -> mov_49_frspearwchange -> mov_50_f2bxbodhipull -> mov_51_xbodspear
+    }
     
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
   
