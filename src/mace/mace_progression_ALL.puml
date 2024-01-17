@@ -110,13 +110,14 @@ mov_51_xbodspear               [label="{{51  |Cross-body\nspear catch isolations
 mov_52_altxbodspear            [label="{{52  |Cross-body\nspear catch\nalternating sides}}"                                   URL="https://www.youtube.com/watch?v=-Z8YfWYfepQ" ];
 mov_53_outswordflair           [label="{{53  |Outside sword flair}}"                                                          URL="https://www.youtube.com/watch?v=HxItsGvz-e4" ];
 
-mov_54_inswordflair            [label="{{54  |Inside tip away\nsword flair}}"                             URL="https://www.youtube.com/watch?v=8I7KaLuNaEs" ];
-mov_55_out180pullwflair        [label="{{55  |Outside\n180 degree pullover with\nsword flair}}"           URL="https://www.youtube.com/watch?v=hh3393-eXrs" ];
-mov_56_in180pullwflair         [label="{{56  |Inside\n180 degree pullover with\nsword flair}}"            URL="https://www.youtube.com/watch?v=Sqw6YyBTgOQ" ];
-mov_57_alt180pullwflair        [label="{{57  |Inside & outside\n180 degree pullover with\nsword flairs}}" URL="https://www.youtube.com/watch?v=XriSUPQ4Ql4" ];
-mov_58_outswordmillwflair      [label="{{58  |Outside sword grip mill with\ntip-away sword flair}}"       URL="https://www.youtube.com/watch?v=bKldH_In6SI" ];
-mov_59_inswordmillwflair       [label="{{59  |Inside sword grip mill with\ninside sword flair}}"          URL="https://www.youtube.com/watch?v=uMLwGxhbt2Y" ];
-mov_60_altswordmillwflair      [label="{{60  |Alternating\nsword grip mill with\nsword flairs}}"          URL="https://www.youtube.com/watch?v=_GBln0VGekg" ];
+mov_54_inswordflair            [label="{{54  |Inside tip away\nsword flair}}"                                        URL="https://www.youtube.com/watch?v=8I7KaLuNaEs" ];
+mov_55_out180pullwflair        [label="{{55  |Outside\n180 degree pullover with\nsword flair}}"                      URL="https://www.youtube.com/watch?v=hh3393-eXrs" ];
+mov_56_in180pullwflair         [label="{{56  |Inside\n180 degree pullover with\nsword flair}}"                       URL="https://www.youtube.com/watch?v=Sqw6YyBTgOQ" ];
+mov_57_alt180pullwflair        [label="{{57  |Inside & outside\n180 degree pullover with\nsword flairs}}"            URL="https://www.youtube.com/watch?v=XriSUPQ4Ql4" ];
+mov_58_outswordmillwflair      [label="{{58  |Outside sword grip mill with\ntip-away sword flair}}"                  URL="https://www.youtube.com/watch?v=bKldH_In6SI" ];
+mov_59_inswordmillwflair       [label="{{59  |Inside sword grip mill with\ninside sword flair}}"                     URL="https://www.youtube.com/watch?v=uMLwGxhbt2Y" ];
+mov_60_altswordmillwflair      [label="{{60  |Alternating\nsword grip mill with\nsword flairs}}"                     URL="https://www.youtube.com/watch?v=_GBln0VGekg" ];
+mov_61_clockupper2180outpull   [label="{{61  |Front clockwork\nupper cut to\n180 degree outside pullover}}"          URL="https://www.youtube.com/watch?v=XP7abuBs_V0" ];
 
 // Ungrouped arrows
 
@@ -202,12 +203,16 @@ mov_60_altswordmillwflair      [label="{{60  |Alternating\nsword grip mill with\
     {mov_28_outflipmill, mov_55_out180pullwflair} -> mov_58_outswordmillwflair
     {mov_27_inflip180pull, mov_56_in180pullwflair, mov_58_outswordmillwflair} -> mov_59_inswordmillwflair
     {ext_altmill, mov_57_alt180pullwflair, mov_59_inswordmillwflair} -> mov_60_altswordmillwflair
+    
+    {ext_180pull} -> mov_61_clockupper2180outpull
 
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
+    {rank=same;mov_60_altswordmillwflair,mov_61_clockupper2180outpull}
   }
 
 
-  
+  // 2h -> sa
+  mov_061_uppercut -> mov_61_clockupper2180outpull
 
 
   subgraph cluster_2h {
