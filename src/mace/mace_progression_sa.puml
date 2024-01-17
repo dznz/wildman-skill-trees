@@ -31,6 +31,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     ext_180pull [label="180 Degree Pullover"]
     ext_altmill [label="Alternating sword grip mill"]
     ext_frswingclean [label="Front swing clean"]
+    ext_m01_360 [label="{{M-01  |360}}"]
     ext_saorder -> ext_180pull
   }
 
@@ -83,16 +84,17 @@ mov_51_xbodspear               [label="{{51  |Cross-body\nspear catch isolations
 mov_52_altxbodspear            [label="{{52  |Cross-body\nspear catch\nalternating sides}}"                                   URL="https://www.youtube.com/watch?v=-Z8YfWYfepQ" ];
 mov_53_outswordflair           [label="{{53  |Outside sword flair}}"                                                          URL="https://www.youtube.com/watch?v=HxItsGvz-e4" ];
 
-mov_54_inswordflair            [label="{{54  |Inside tip away\nsword flair}}"                             URL="https://www.youtube.com/watch?v=8I7KaLuNaEs" ];
-mov_55_out180pullwflair        [label="{{55  |Outside\n180 degree pullover with\nsword flair}}"           URL="https://www.youtube.com/watch?v=hh3393-eXrs" ];
-mov_56_in180pullwflair         [label="{{56  |Inside\n180 degree pullover with\nsword flair}}"            URL="https://www.youtube.com/watch?v=Sqw6YyBTgOQ" ];
-mov_57_alt180pullwflair        [label="{{57  |Inside & outside\n180 degree pullover with\nsword flairs}}" URL="https://www.youtube.com/watch?v=XriSUPQ4Ql4" ];
-mov_58_outswordmillwflair      [label="{{58  |Outside sword grip mill with\ntip-away sword flair}}"       URL="https://www.youtube.com/watch?v=bKldH_In6SI" ];
-mov_59_inswordmillwflair       [label="{{59  |Inside sword grip mill with\ninside sword flair}}"          URL="https://www.youtube.com/watch?v=uMLwGxhbt2Y" ];
-mov_60_altswordmillwflair      [label="{{60  |Alternating\nsword grip mill with\nsword flairs}}"          URL="https://www.youtube.com/watch?v=_GBln0VGekg" ];
+mov_54_inswordflair            [label="{{54  |Inside tip away\nsword flair}}"                                        URL="https://www.youtube.com/watch?v=8I7KaLuNaEs" ];
+mov_55_out180pullwflair        [label="{{55  |Outside\n180 degree pullover with\nsword flair}}"                      URL="https://www.youtube.com/watch?v=hh3393-eXrs" ];
+mov_56_in180pullwflair         [label="{{56  |Inside\n180 degree pullover with\nsword flair}}"                       URL="https://www.youtube.com/watch?v=Sqw6YyBTgOQ" ];
+mov_57_alt180pullwflair        [label="{{57  |Inside & outside\n180 degree pullover with\nsword flairs}}"            URL="https://www.youtube.com/watch?v=XriSUPQ4Ql4" ];
+mov_58_outswordmillwflair      [label="{{58  |Outside sword grip mill with\ntip-away sword flair}}"                  URL="https://www.youtube.com/watch?v=bKldH_In6SI" ];
+mov_59_inswordmillwflair       [label="{{59  |Inside sword grip mill with\ninside sword flair}}"                     URL="https://www.youtube.com/watch?v=uMLwGxhbt2Y" ];
+mov_60_altswordmillwflair      [label="{{60  |Alternating\nsword grip mill with\nsword flairs}}"                     URL="https://www.youtube.com/watch?v=_GBln0VGekg" ];
 mov_61_clockupper2180outpull   [label="{{61  |Front clockwork\nupper cut to\n180 degree outside pullover}}"          URL="https://www.youtube.com/watch?v=XP7abuBs_V0" ];
 mov_62_clockupper2180outwflair [label="{{62  |Clockwork uppercut to\noutside rotating 180 +\ntip away sword flair}}" URL="https://www.youtube.com/watch?v=VjnRZIYV2H8" ];
 mov_63_clockupperwsasc         [label="{{63  |Clockwork uppercut +\nsingle arm shield cast}}"                        URL="https://www.youtube.com/watch?v=FQFBXlIjcDo" ];
+mov_64_altclockupperw360       [label="{{64  |Alternating\nclockwork uppercut with\ntwo-hand 360 shield cast}}"      URL="https://www.youtube.com/watch?v=uE1DaKTf6SI" ];
 
     // Precursor
     ext_180pull -> mov_27_inflip180pull
@@ -177,6 +179,7 @@ mov_63_clockupperwsasc         [label="{{63  |Clockwork uppercut +\nsingle arm s
     {ext_180pull} -> mov_61_clockupper2180outpull
     {mov_55_out180pullwflair, mov_61_clockupper2180outpull} -> mov_62_clockupper2180outwflair
     {mov_62_clockupper2180outwflair} -> mov_63_clockupperwsasc
+    {ext_m01_360, mov_63_clockupperwsasc} -> mov_64_altclockupperw360
     
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
     {rank=same;mov_56_in180pullwflair,mov_61_clockupper2180outpull}

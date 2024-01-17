@@ -120,6 +120,7 @@ mov_60_altswordmillwflair      [label="{{60  |Alternating\nsword grip mill with\
 mov_61_clockupper2180outpull   [label="{{61  |Front clockwork\nupper cut to\n180 degree outside pullover}}"          URL="https://www.youtube.com/watch?v=XP7abuBs_V0" ];
 mov_62_clockupper2180outwflair [label="{{62  |Clockwork uppercut to\noutside rotating 180 +\ntip away sword flair}}" URL="https://www.youtube.com/watch?v=VjnRZIYV2H8" ];
 mov_63_clockupperwsasc         [label="{{63  |Clockwork uppercut +\nsingle arm shield cast}}"                        URL="https://www.youtube.com/watch?v=FQFBXlIjcDo" ];
+mov_64_altclockupperw360       [label="{{64  |Alternating\nclockwork uppercut with\ntwo-hand 360 shield cast}}"      URL="https://www.youtube.com/watch?v=uE1DaKTf6SI" ];
 
 // Ungrouped arrows
 
@@ -209,6 +210,7 @@ mov_63_clockupperwsasc         [label="{{63  |Clockwork uppercut +\nsingle arm s
     {ext_180pull} -> mov_61_clockupper2180outpull
     {mov_55_out180pullwflair, mov_61_clockupper2180outpull} -> mov_62_clockupper2180outwflair
     {mov_62_clockupper2180outwflair} -> mov_63_clockupperwsasc
+    {mov_63_clockupperwsasc} -> mov_64_altclockupperw360
 
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
     {rank=same;mov_59_inswordmillwflair,mov_61_clockupper2180outpull}
@@ -216,6 +218,7 @@ mov_63_clockupperwsasc         [label="{{63  |Clockwork uppercut +\nsingle arm s
 
 
   // 2h -> sa
+  mov_01_360 -> mov_64_altclockupperw360
   mov_061_uppercut -> mov_61_clockupper2180outpull
 
 
