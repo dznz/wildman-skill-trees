@@ -35,9 +35,35 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     ext_saorder -> ext_180pull
   }
 
-  subgraph isolated {
+  subgraph custer_war {
+    label="Warrior stance"
+    node [color=6, fillcolor=5]
+    mov_33_warfrcircle -> mov_36_warbkcircle -> mov_37_waraltcircle;
+    mov_33_warfrcircle -> mov_37_waraltcircle;
+    mov_37_waraltcircle -> mov_39_warfrcircleflip -> mov_40_warbkcircleflip
+    {mov_38_war180pull,mov_39_warfrcircleflip} -> mov_41_warfwdmill
+    {mov_41_warfwdmill,mov_40_warbkcircleflip} -> mov_42_warbwdmill
+  }
+
+  subgraph custer_sifpivot {
+      label="Step in front pivot"
+      node [color=8, fillcolor=7]
+      mov_43_sifpivotwincircle -> mov_44_sifpivotwoutcircle
+      mov_43_sifpivotwincircle -> mov_45_sifpivotwflip
+      mov_44_sifpivotwoutcircle -> mov_46_sifpivotwoutcircleflip
+      mov_45_sifpivotwflip -> mov_46_sifpivotwoutcircleflip
+      mov_46_sifpivotwoutcircleflip -> mov_47_sifpivotwincircleout180
+    }
+
+  subgraph custer_flair {
+    label="Sword flair"
     node [color=4, fillcolor=3]
-    mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle, mov_48_frspear, mov_51_xbodspear, mov_53_outswordflair, mov_54_inswordflair
+    {ext_180pull, mov_53_outswordflair} -> mov_55_out180pullwflair
+    {mov_55_out180pullwflair, mov_54_inswordflair} -> mov_56_in180pullwflair
+    {mov_55_out180pullwflair, mov_56_in180pullwflair} -> mov_57_alt180pullwflair
+    {mov_55_out180pullwflair} -> mov_28_outflipmill
+    {mov_56_in180pullwflair, mov_58_outswordmillwflair} -> mov_59_inswordmillwflair
+    {ext_altmill, mov_57_alt180pullwflair, mov_59_inswordmillwflair} -> mov_60_altswordmillwflair
   }
 
 mov_16_saincircle             [label="{{16  |Single arm\ninside circle}}"                     URL="https://www.youtube.com/watch?v=MSt1cYAiLzI" ]
@@ -137,50 +163,35 @@ mov_64_altclockupperw360       [label="{{64  |Alternating\nclockwork uppercut wi
       mov_17_saoutcircle -> mov_32_bkcircle;
       mov_31_frcircle -> mov_34_altfrbkcircle;
     }
-    mov_32_bkcircle -> mov_33_warfrcircle
 
-    subgraph cluster_war {
-      label="Warrior stance"
-      mov_33_warfrcircle -> mov_36_warbkcircle -> mov_37_waraltcircle;
-      mov_33_warfrcircle -> mov_37_waraltcircle;
-      mov_37_waraltcircle -> mov_39_warfrcircleflip -> mov_40_warbkcircleflip
-      {mov_38_war180pull,mov_39_warfrcircleflip} -> mov_41_warfwdmill
-      {mov_41_warfwdmill,mov_40_warbkcircleflip} -> mov_42_warbwdmill
-    }
+    // Warrior stance connections
+    mov_32_bkcircle -> mov_33_warfrcircle
     ext_180pull -> mov_38_war180pull
     mov_22_incircle2sameflip -> mov_39_warfrcircleflip
     mov_23_outcircle2sameflip -> mov_40_warbkcircleflip
     mov_27_inflip180pull -> mov_41_warfwdmill
     mov_28_outflipmill -> mov_42_warbwdmill
 
+    // Step in front pivot connections
     mov_16_saincircle -> mov_43_sifpivotwincircle
     mov_17_saoutcircle -> mov_44_sifpivotwoutcircle
     mov_27_inflip180pull -> mov_47_sifpivotwincircleout180
-    subgraph cluster_sifpivot {
-      label="Step in front pivot"
-      mov_43_sifpivotwincircle -> mov_44_sifpivotwoutcircle
-      mov_43_sifpivotwincircle -> mov_45_sifpivotwflip
-      mov_44_sifpivotwoutcircle -> mov_46_sifpivotwoutcircleflip
-      mov_45_sifpivotwflip -> mov_46_sifpivotwoutcircleflip
-      mov_46_sifpivotwoutcircleflip -> mov_47_sifpivotwincircleout180
-    }
+
+    mov_28_outflipmill -> mov_28_outflipmill
+    mov_27_inflip180pull ->mov_59_inswordmillwflair
+    
     subgraph custer_spear {
       label="Spear catch"
       ext_frswingclean -> mov_48_frspear -> mov_49_frspearwchange -> mov_50_f2bxbodhipull -> mov_51_xbodspear -> mov_52_altxbodspear
     }
 
-    {ext_180pull, mov_53_outswordflair} -> mov_55_out180pullwflair
-    {mov_55_out180pullwflair, mov_54_inswordflair} -> mov_56_in180pullwflair
-    {mov_55_out180pullwflair, mov_56_in180pullwflair} -> mov_57_alt180pullwflair
-    {mov_28_outflipmill, mov_55_out180pullwflair} -> mov_58_outswordmillwflair
-    {mov_27_inflip180pull, mov_56_in180pullwflair, mov_58_outswordmillwflair} -> mov_59_inswordmillwflair
-    {ext_altmill, mov_57_alt180pullwflair, mov_59_inswordmillwflair} -> mov_60_altswordmillwflair
-
+    // Clockwork uppercut
     {ext_180pull} -> mov_61_clockupper2180outpull
     {mov_55_out180pullwflair, mov_61_clockupper2180outpull} -> mov_62_clockupper2180outwflair
     {mov_62_clockupper2180outwflair} -> mov_63_clockupperwsasc
     {ext_m01_360, mov_63_clockupperwsasc} -> mov_64_altclockupperw360
     
+    // Rank hacks
     {rank=same;mov_23_outcircle2sameflip;mov_36_warbkcircle}
     {rank=same;mov_56_in180pullwflair,mov_61_clockupper2180outpull}
   
@@ -214,12 +225,20 @@ mov_64_altclockupperw360       [label="{{64  |Alternating\nclockwork uppercut wi
       <TD BGCOLOR="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
      </TR>
      <TR>
-      <TD>Isolated Drills</TD>
-      <TD BGCOLOR="3"></TD>
+      <TD>Symmetric Stance</TD>
+      <TD BGCOLOR="11"></TD>
      </TR>
      <TR>
-      <TD>Integrated Drills</TD>
-      <TD BGCOLOR="11"></TD>
+      <TD>Sword Flair</TD>
+      <TD BGCOLOR="3"></TD>
+     </TR>
+    <TR>
+      <TD>Warrior Stance</TD>
+      <TD BGCOLOR="5"></TD>
+     </TR>
+     <TR>
+      <TD>Step in front pivot</TD>
+      <TD BGCOLOR="7"></TD>
      </TR>
      <TR>
       <TD>Learning drills</TD>
