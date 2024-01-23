@@ -26,7 +26,8 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     mov_09_sc; mov_07_pullover; mov_05_insidecircle;
     mov_06_outsidecircle; mov_10_squat; mov_19_inpend;
     mov_16_outpend; mov_17_stepbacklunge; mov_21_gama;
-    mov_37_cap; mov_18_altcircle
+    mov_37_cap; mov_18_altcircle;
+    mov_40_swipe
   }
   subgraph "secondary" {
     node [color=8, fillcolor=7]
@@ -106,6 +107,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_37_cap                [label="{{37|Clean & Press}}"                                       URL="https://www.youtube.com/watch?v=6kpEYglMJ1c"]
   mov_38_millprep           [label="{{38|Mill Prep}}"                                           URL="https://www.youtube.com/watch?v=G_OXuFs2bRs"]
   mov_39_pullsquat          [label="{{39|Pullover Squat}}"                                      URL="https://www.youtube.com/watch?v=3yf3VO2sd-4"];
+  mov_40_swipe              [label="{{40|Technical Swipe}}"                                     URL="https://www.youtube.com/watch?v=nQ7npb0krRg"];
 
   // Unsequenced
   ' mov_mill                   [label="{{|Mill}}"                            URL="https://www.youtube.com/watch?v=iFtaPBDwG7w"]
@@ -145,6 +147,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_13_frontpress -> mov_36_squatpress;
   mov_13_frontpress -> mov_30_sbfrontpress;
   mov_20_3csc -> mov_23_kneelsc
+  {mov_11_swingclean, mov_07_pullover} -> mov_40_swipe
   
   ' mov_07_pullover -> mov_180pullover;
   ' mov_07_pullover -> mov_pulloversquat;
@@ -227,6 +230,11 @@ subgraph cluster_getup {
   mov_26_fbpull -> mov_27_fbpullsit;
   mov_27_fbpullsit -> mov_29_fbpullsitpress;
   mov_31_altshinbox -> mov_33_altshinboxfrpress;
+}
+
+subgraph cluster_swipe {
+  label="Swipe"
+  mov_40_swipe
 }
 
 // LAYOUT HACKS

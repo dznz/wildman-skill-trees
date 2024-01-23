@@ -25,6 +25,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     ' node [fontname="Helvetica Bold,Arial Bold,sans-serif",fontsize=16]
     node [margin=0.2]
     mov_cap;
+    mov_40_swipe;
   }
   subgraph "secondary" {
     node [color=8, fillcolor=7]
@@ -44,6 +45,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     ext_2h_pullover           [label="{{2H-07|Pullover}|CLUB BEHIND HEAD}"                           URL="https://www.youtube.com/watch?v=jpIn1Sumg78&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=7"]
     ext_2h_squat              [label="{{2H-10|Balance Squat}}"                                       URL="https://www.youtube.com/watch?v=LSXticZ67Pw&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=11"]
     ext_2h_stepbacklunge      [label="{{2H-17|Balance Step\nBack Lunge}}"                            URL="https://www.youtube.com/watch?v=dNrYT5iU7BQ&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=26"]
+    ext_2h_swingclean         [label="{{2H-11|Swing Clean}|DECELERATE WEIGHT}"                       URL="https://www.youtube.com/watch?v=0oRuCQOkPRo&list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&index=12"]
   }
 
   subgraph "extra" {
@@ -76,6 +78,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_cap                [label="{{37|Clean & Press}}"                                       URL="https://www.youtube.com/watch?v=6kpEYglMJ1c"]
   mov_millprep           [label="{{38|Mill Prep}}"                                           URL="https://www.youtube.com/watch?v=G_OXuFs2bRs"]
   mov_39_pullsquat       [label="{{39|Pullover Squat}}"                                      URL="https://www.youtube.com/watch?v=3yf3VO2sd-4"];
+  mov_40_swipe           [label="{{40|Technical Swipe}}"                                     URL="https://www.youtube.com/watch?v=nQ7npb0krRg"];
 
   // Prerequisite skills
   pre_shinbox -> mov_altshinbox;
@@ -100,6 +103,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   ext_2h_incircle -> mov_millprep;
   ext_2h_squat -> mov_39_pullsquat;
   ext_2h_pullover -> mov_39_pullsquat;
+  {ext_2h_swingclean, ext_2h_pullover} -> mov_40_swipe
 
   mov_fbpull -> mov_fbpullsit;
   mov_sblungepull -> mov_sblungepullbot;

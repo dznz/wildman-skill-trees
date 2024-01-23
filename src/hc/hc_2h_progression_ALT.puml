@@ -86,6 +86,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     mov_37_cap                [label="{{37|Clean & Press}}"                                       URL="https://www.youtube.com/watch?v=6kpEYglMJ1c"]
     mov_38_millprep           [label="{{38|Mill Prep}}"                                           URL="https://www.youtube.com/watch?v=G_OXuFs2bRs"]
     mov_39_pullsquat          [label="{{39|Pullover Squat}}"                                      URL="https://www.youtube.com/watch?v=3yf3VO2sd-4"];
+    mov_40_swipe              [label="{{40|Technical Swipe}}"                                     URL="https://www.youtube.com/watch?v=nQ7npb0krRg"];
   }
 
   // Prerequisite skills
@@ -109,6 +110,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_08_backpossidetoside -> mov_25_kneelbackswing;
   mov_20_3csc -> mov_23_kneelsc
   mov_07_pullover -> mov_39_pullsquat;
+  {mov_11_swingclean, mov_07_pullover} -> mov_40_swipe
 
 subgraph custer_sideswing {
   label="Sideswing"
@@ -173,6 +175,11 @@ subgraph custer_getup {
   mov_26_fbpull -> mov_27_fbpullsit;
   mov_27_fbpullsit -> mov_29_fbpullsitpress;
   mov_31_altshinbox -> mov_33_altshinboxfrpress;
+}
+
+subgraph custer_swipe {
+  label="Swipe"
+  mov_40_swipe
 }
 
 // LAYOUT HACKS
