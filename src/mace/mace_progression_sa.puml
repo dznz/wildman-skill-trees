@@ -177,7 +177,6 @@ mov_64_altclockupperw360       [label="{{64  |Alternating\nclockwork uppercut wi
     mov_17_saoutcircle -> mov_44_sifpivotwoutcircle
     mov_27_inflip180pull -> mov_47_sifpivotwincircleout180
 
-    mov_28_outflipmill -> mov_28_outflipmill
     mov_27_inflip180pull ->mov_59_inswordmillwflair
     
     subgraph custer_spear {
