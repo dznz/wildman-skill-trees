@@ -122,5 +122,27 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_14_outpull -> mov_23_outpull3count -> mov_19_mill
   {mov_22_outpendoutpull, mov_23_outpull3count} -> mov_24_outpendoutpull3c
 
+  // LEGEND
+  { rank = sink;
+    Legend [shape=none, margin=0, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" BGCOLOR="1">
+     <TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+     <TR>
+      <TD>Two-Handed Prerequisites</TD>
+      <TD BGCOLOR="3"></TD>
+     </TR>
+     <TR>
+      <TD>Regular Drills</TD>
+      <TD BGCOLOR="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+     </TR>
+     <TR>
+      <TD>Learning drills</TD>
+      <TD BGCOLOR="9"></TD>
+     </TR>
+    </TABLE>
+   >];
+  }
 }
 @enddot
