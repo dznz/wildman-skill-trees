@@ -18,6 +18,11 @@
 <text text-anchor="start" x="1056.12" y="-33.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">© 2023. This work is openly licensed with CC BY&#45;NC&#45;SA 4.0</text>
 <text text-anchor="start" x="1124.38" y="-19.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">http://creativecommons.org/licenses/by&#45;nc&#45;sa/4.0/</text>
 <text text-anchor="start" x="1248.12" y="-5.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00"> &#160;</text>
+<g id="clust2" class="cluster">
+<title>cluster_deadlift</title>
+<polygon fill="none" stroke="black" points="138.12,-611 138.12,-944.5 314.12,-944.5 314.12,-611 138.12,-611"/>
+<text text-anchor="middle" x="278" y="-927.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Deadlifts</text>
+</g>
 <g id="clust3" class="cluster">
 <title>cluster_double</title>
 <polygon fill="none" stroke="black" points="322.12,-243 322.12,-867 879.12,-867 879.12,-243 322.12,-243"/>
@@ -27,11 +32,6 @@
 <title>cluster_snatch</title>
 <polygon fill="none" stroke="black" points="887.12,-170 887.12,-510.75 1253.12,-510.75 1253.12,-170 887.12,-170"/>
 <text text-anchor="middle" x="1223.38" y="-493.45" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Snatch</text>
-</g>
-<g id="clust2" class="cluster">
-<title>cluster_deadlift</title>
-<polygon fill="none" stroke="black" points="138.12,-611 138.12,-944.5 314.12,-944.5 314.12,-611 138.12,-611"/>
-<text text-anchor="middle" x="278" y="-927.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Deadlifts</text>
 </g>
 <!-- ext_hc_dblswing -->
 <g id="node1" class="node">

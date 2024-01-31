@@ -18,31 +18,6 @@
 <text text-anchor="start" x="1603" y="-33.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">© 2023. This work is openly licensed with CC BY&#45;NC&#45;SA 4.0</text>
 <text text-anchor="start" x="1671.25" y="-19.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">http://creativecommons.org/licenses/by&#45;nc&#45;sa/4.0/</text>
 <text text-anchor="start" x="1795" y="-5.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00"> &#160;</text>
-<g id="clust16" class="cluster">
-<title>cluster_swipe</title>
-<polygon fill="none" stroke="black" points="994,-1280.25 994,-1357.75 1162,-1357.75 1162,-1280.25 994,-1280.25"/>
-<text text-anchor="middle" x="1134.5" y="-1340.45" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Swipe</text>
-</g>
-<g id="clust11" class="cluster">
-<title>cluster_sc</title>
-<polygon fill="none" stroke="black" points="618,-990.25 618,-1458.5 986,-1458.5 986,-990.25 618,-990.25"/>
-<text text-anchor="middle" x="941.62" y="-1441.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Shield Cast</text>
-</g>
-<g id="clust12" class="cluster">
-<title>cluster_squat</title>
-<polygon fill="none" stroke="black" points="743,-673.5 743,-897 1251,-897 1251,-673.5 743,-673.5"/>
-<text text-anchor="middle" x="1220.88" y="-879.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Squats</text>
-</g>
-<g id="clust8" class="cluster">
-<title>cluster_circles</title>
-<polygon fill="none" stroke="black" points="198,-978 198,-1255.25 374,-1255.25 374,-978 198,-978"/>
-<text text-anchor="middle" x="343.88" y="-1237.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Circles</text>
-</g>
-<g id="clust13" class="cluster">
-<title>cluster_lunge</title>
-<polygon fill="none" stroke="black" points="610,-170 610,-600.5 988,-600.5 988,-170 610,-170"/>
-<text text-anchor="middle" x="960.12" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Lunge</text>
-</g>
 <g id="clust9" class="cluster">
 <title>cluster_cap</title>
 <polygon fill="none" stroke="black" points="1170,-1177.75 1170,-1557.25 1362,-1557.25 1362,-1177.75 1170,-1177.75"/>
@@ -53,10 +28,35 @@
 <polygon fill="none" stroke="black" points="490,-992.75 490,-1070.25 610,-1070.25 610,-992.75 490,-992.75"/>
 <text text-anchor="middle" x="591.88" y="-1052.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mill</text>
 </g>
+<g id="clust13" class="cluster">
+<title>cluster_lunge</title>
+<polygon fill="none" stroke="black" points="610,-170 610,-600.5 988,-600.5 988,-170 610,-170"/>
+<text text-anchor="middle" x="960.12" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Lunge</text>
+</g>
+<g id="clust11" class="cluster">
+<title>cluster_sc</title>
+<polygon fill="none" stroke="black" points="618,-990.25 618,-1458.5 986,-1458.5 986,-990.25 618,-990.25"/>
+<text text-anchor="middle" x="941.62" y="-1441.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Shield Cast</text>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_swipe</title>
+<polygon fill="none" stroke="black" points="994,-1280.25 994,-1357.75 1162,-1357.75 1162,-1280.25 994,-1280.25"/>
+<text text-anchor="middle" x="1134.5" y="-1340.45" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Swipe</text>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_circles</title>
+<polygon fill="none" stroke="black" points="198,-978 198,-1255.25 374,-1255.25 374,-978 198,-978"/>
+<text text-anchor="middle" x="343.88" y="-1237.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Circles</text>
+</g>
 <g id="clust15" class="cluster">
 <title>cluster_getup</title>
 <polygon fill="none" stroke="black" points="1366,-248 1366,-600.5 1796,-600.5 1796,-248 1366,-248"/>
 <text text-anchor="middle" x="1768.5" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Getup</text>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_squat</title>
+<polygon fill="none" stroke="black" points="743,-673.5 743,-897 1251,-897 1251,-673.5 743,-673.5"/>
+<text text-anchor="middle" x="1220.88" y="-879.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Squats</text>
 </g>
 <g id="clust7" class="cluster">
 <title>cluster_sideswing</title>
