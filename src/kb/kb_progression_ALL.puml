@@ -129,6 +129,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_77_shsldl             [label="{{77|Single Hand\nSingle Leg Deadlift}|ONE-SIDE BALANCE}"   URL="https://www.youtube.com/watch?v=1K4hgXfUinU"];
   mov_78_dblcleansqpress    [label="{{78|Double Clean Squat Press}}"                            URL="https://www.youtube.com/watch?v=fWPDPBliCEk"];
   mov_79_kneelsnatchdown    [label="{{79|Half-Kneeling Snatch Down}|KB CLOSE TO BODY}"          URL="https://www.youtube.com/watch?v=okO-7womT5Q"];
+  mov_80_dblhangcsp         [label="{{80|Double Dead\nHang Clean\nSquat Press}}"                URL="https://www.youtube.com/watch?v=DpGOSw7kGO0"];
 
   mov_01_deadlift -> mov_02_swing;
   mov_01_deadlift -> mov_03_atw;
@@ -294,7 +295,8 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     mov_60_dblswing -> mov_64_dbloutswing;
     mov_68_dblclean2squat -> mov_74_dblhangclean2squat;
     mov_65_dblcap -> mov_76_dblhangcap;
-    mov_68_dblclean2squat -> mov_78_dblcleansqpress;
+    {mov_76_dblhangcap, mov_68_dblclean2squat} -> mov_78_dblcleansqpress;
+    {mov_74_dblhangclean2squat, mov_78_dblcleansqpress} -> mov_80_dblhangcsp;
   }
 
   subgraph cluster_snatch {
