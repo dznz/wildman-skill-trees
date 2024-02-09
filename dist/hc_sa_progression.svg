@@ -34,7 +34,7 @@
 <!-- mov_07_sc -->
 <g id="node19" class="node">
 <title>mov_07_sc</title>
-<g id="a_node19"><a xlink:href="https://www.youtube.com/watch?v=huwc0g3yLWk&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=4" xlink:title="{{07|Shield Cast}}">
+<g id="a_node19"><a xlink:href="https://www.youtube.com/watch?v=huwc0g3yLWk" xlink:title="{{07|Shield Cast}}">
 <path fill="#ffff99" stroke="#b15928" d="M775,-682.25C775,-682.25 860.25,-682.25 860.25,-682.25 866.25,-682.25 872.25,-688.25 872.25,-694.25 872.25,-694.25 872.25,-706.25 872.25,-706.25 872.25,-712.25 866.25,-718.25 860.25,-718.25 860.25,-718.25 775,-718.25 775,-718.25 769,-718.25 763,-712.25 763,-706.25 763,-706.25 763,-694.25 763,-694.25 763,-688.25 769,-682.25 775,-682.25"/>
 <text text-anchor="middle" x="777.75" y="-694.95" font-family="Times New Roman,serif" font-size="14.00">07</text>
 <polyline fill="none" stroke="#b15928" points="792.5,-682.5 792.5,-718.25"/>
@@ -51,7 +51,7 @@
 <!-- mov_14_outpull -->
 <g id="node26" class="node">
 <title>mov_14_outpull</title>
-<g id="a_node26"><a xlink:href="https://www.youtube.com/watch?v=sJ5XCgdCMx8&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=14" xlink:title="{{14|Outside Pullover}|+ EXT ROTATION}">
+<g id="a_node26"><a xlink:href="https://www.youtube.com/watch?v=sJ5XCgdCMx8" xlink:title="{{14|Outside Pullover}|+ EXT ROTATION}">
 <path fill="#ffff99" stroke="#b15928" d="M926.38,-676.5C926.38,-676.5 1040.88,-676.5 1040.88,-676.5 1046.88,-676.5 1052.88,-682.5 1052.88,-688.5 1052.88,-688.5 1052.88,-712 1052.88,-712 1052.88,-718 1046.88,-724 1040.88,-724 1040.88,-724 926.38,-724 926.38,-724 920.38,-724 914.38,-718 914.38,-712 914.38,-712 914.38,-688.5 914.38,-688.5 914.38,-682.5 920.38,-676.5 926.38,-676.5"/>
 <text text-anchor="middle" x="929.12" y="-706.7" font-family="Times New Roman,serif" font-size="14.00">14</text>
 <polyline fill="none" stroke="#b15928" points="943.88,-700.25 943.88,-724"/>
@@ -70,7 +70,7 @@
 <!-- mov_06_perry -->
 <g id="node2" class="node">
 <title>mov_06_perry</title>
-<g id="a_node2"><a xlink:href="https://www.youtube.com/watch?v=FpUecSrX_AI&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=3" xlink:title="{{06|Perry Cast\naka Bailout}|SAFE FAILURE}">
+<g id="a_node2"><a xlink:href="https://www.youtube.com/watch?v=FpUecSrX_AI" xlink:title="{{06|Perry Cast\naka Bailout}|SAFE FAILURE}">
 <path fill="#cab2d6" stroke="#6a3d9a" d="M939.25,-776.75C939.25,-776.75 1028,-776.75 1028,-776.75 1034,-776.75 1040,-782.75 1040,-788.75 1040,-788.75 1040,-828 1040,-828 1040,-834 1034,-840 1028,-840 1028,-840 939.25,-840 939.25,-840 933.25,-840 927.25,-834 927.25,-828 927.25,-828 927.25,-788.75 927.25,-788.75 927.25,-782.75 933.25,-776.75 939.25,-776.75"/>
 <text text-anchor="middle" x="943" y="-814.83" font-family="Times New Roman,serif" font-size="14.00">06</text>
 <polyline fill="none" stroke="#6a3d9a" points="958.75,-800.5 958.75,-840"/>
@@ -96,7 +96,7 @@
 <!-- mov_17_millprep -->
 <g id="node3" class="node">
 <title>mov_17_millprep</title>
-<g id="a_node3"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=17" xlink:title="{{17|Mill Prep}}">
+<g id="a_node3"><a xlink:href="https://www.youtube.com/watch?v=TSjIEfyJGKY" xlink:title="{{17|Mill Prep}}">
 <path fill="#cab2d6" stroke="#6a3d9a" d="M650.38,-578.12C650.38,-578.12 722.88,-578.12 722.88,-578.12 728.88,-578.12 734.88,-584.12 734.88,-590.12 734.88,-590.12 734.88,-602.12 734.88,-602.12 734.88,-608.12 728.88,-614.12 722.88,-614.12 722.88,-614.12 650.38,-614.12 650.38,-614.12 644.38,-614.12 638.38,-608.12 638.38,-602.12 638.38,-602.12 638.38,-590.12 638.38,-590.12 638.38,-584.12 644.38,-578.12 650.38,-578.12"/>
 <text text-anchor="middle" x="653.12" y="-590.83" font-family="Times New Roman,serif" font-size="14.00">17</text>
 <polyline fill="none" stroke="#6a3d9a" points="667.88,-578.38 667.88,-614.12"/>
@@ -107,7 +107,7 @@
 <!-- mov_18_alt180pull -->
 <g id="node29" class="node">
 <title>mov_18_alt180pull</title>
-<g id="a_node29"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=18" xlink:title="{{18|Alternating 180 Degree\nPullover}}">
+<g id="a_node29"><a xlink:href="https://www.youtube.com/watch?v=brM1Ybg9v7E" xlink:title="{{18|Alternating 180 Degree\nPullover}}">
 <path fill="#ffff99" stroke="#b15928" d="M860.5,-480.12C860.5,-480.12 1008.75,-480.12 1008.75,-480.12 1014.75,-480.12 1020.75,-486.12 1020.75,-492.12 1020.75,-492.12 1020.75,-507.62 1020.75,-507.62 1020.75,-513.62 1014.75,-519.62 1008.75,-519.62 1008.75,-519.62 860.5,-519.62 860.5,-519.62 854.5,-519.62 848.5,-513.62 848.5,-507.62 848.5,-507.62 848.5,-492.12 848.5,-492.12 848.5,-486.12 854.5,-480.12 860.5,-480.12"/>
 <text text-anchor="middle" x="863.25" y="-494.45" font-family="Times New Roman,serif" font-size="14.00">18</text>
 <polyline fill="none" stroke="#b15928" points="878,-480.12 878,-519.62"/>
@@ -125,7 +125,7 @@
 <!-- mov_21_outcirclesc -->
 <g id="node32" class="node">
 <title>mov_21_outcirclesc</title>
-<g id="a_node32"><a xlink:href="https://www.youtube.com/watch?v=NdJlzFTbQwo&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=21" xlink:title="{{21|Outside Circle\nShield Cast}|ORDER POS IN MILL}">
+<g id="a_node32"><a xlink:href="https://www.youtube.com/watch?v=NdJlzFTbQwo" xlink:title="{{21|Outside Circle\nShield Cast}|ORDER POS IN MILL}">
 <path fill="#ffff99" stroke="#b15928" d="M494.88,-468.25C494.88,-468.25 620.38,-468.25 620.38,-468.25 626.38,-468.25 632.38,-474.25 632.38,-480.25 632.38,-480.25 632.38,-519.5 632.38,-519.5 632.38,-525.5 626.38,-531.5 620.38,-531.5 620.38,-531.5 494.88,-531.5 494.88,-531.5 488.88,-531.5 482.88,-525.5 482.88,-519.5 482.88,-519.5 482.88,-480.25 482.88,-480.25 482.88,-474.25 488.88,-468.25 494.88,-468.25"/>
 <text text-anchor="middle" x="503.12" y="-506.32" font-family="Times New Roman,serif" font-size="14.00">21</text>
 <polyline fill="none" stroke="#b15928" points="523.38,-492 523.38,-531.5"/>
@@ -157,7 +157,7 @@
 <!-- mov_19_mill -->
 <g id="node30" class="node">
 <title>mov_19_mill</title>
-<g id="a_node30"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=19" xlink:title="{{19|Mill}}">
+<g id="a_node30"><a xlink:href="https://www.youtube.com/watch?v=0fm3VX0iKnA" xlink:title="{{19|Mill}}">
 <path fill="#ffff99" stroke="#b15928" d="M913.38,-385.62C913.38,-385.62 955.88,-385.62 955.88,-385.62 961.88,-385.62 967.88,-391.62 967.88,-397.62 967.88,-397.62 967.88,-409.62 967.88,-409.62 967.88,-415.62 961.88,-421.62 955.88,-421.62 955.88,-421.62 913.38,-421.62 913.38,-421.62 907.38,-421.62 901.38,-415.62 901.38,-409.62 901.38,-409.62 901.38,-397.62 901.38,-397.62 901.38,-391.62 907.38,-385.62 913.38,-385.62"/>
 <text text-anchor="middle" x="916.12" y="-398.32" font-family="Times New Roman,serif" font-size="14.00">19</text>
 <polyline fill="none" stroke="#b15928" points="930.88,-385.88 930.88,-421.62"/>
@@ -218,7 +218,7 @@
 <!-- mov_01_s2s -->
 <g id="node15" class="node">
 <title>mov_01_s2s</title>
-<g id="a_node15"><a xlink:href="https://www.youtube.com/watch?v=cosgyt2BQG4&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw" xlink:title="{{01|Side to Side Swing}|ELBOWS LOCKED}">
+<g id="a_node15"><a xlink:href="https://www.youtube.com/watch?v=cosgyt2BQG4" xlink:title="{{01|Side to Side Swing}|ELBOWS LOCKED}">
 <path fill="#ffff99" stroke="#b15928" d="M344.62,-784.62C344.62,-784.62 472.62,-784.62 472.62,-784.62 478.62,-784.62 484.62,-790.62 484.62,-796.62 484.62,-796.62 484.62,-820.12 484.62,-820.12 484.62,-826.12 478.62,-832.12 472.62,-832.12 472.62,-832.12 344.62,-832.12 344.62,-832.12 338.62,-832.12 332.62,-826.12 332.62,-820.12 332.62,-820.12 332.62,-796.62 332.62,-796.62 332.62,-790.62 338.62,-784.62 344.62,-784.62"/>
 <text text-anchor="middle" x="347.38" y="-814.83" font-family="Times New Roman,serif" font-size="14.00">01</text>
 <polyline fill="none" stroke="#b15928" points="362.12,-808.38 362.12,-832.12"/>
@@ -253,7 +253,7 @@
 <!-- mov_08_sideswingl2h -->
 <g id="node20" class="node">
 <title>mov_08_sideswingl2h</title>
-<g id="a_node20"><a xlink:href="https://www.youtube.com/watch?v=huwc0g3yLWk&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=5" xlink:title="{{08|Side Swing\nLow to High\nwith Stop}|HIP SNAP}">
+<g id="a_node20"><a xlink:href="https://www.youtube.com/watch?v=0_wHseV7B-o" xlink:title="{{08|Side Swing\nLow to High\nwith Stop}|HIP SNAP}">
 <path fill="#ffff99" stroke="#b15928" d="M342.62,-660.75C342.62,-660.75 434.62,-660.75 434.62,-660.75 440.62,-660.75 446.62,-666.75 446.62,-672.75 446.62,-672.75 446.62,-727.75 446.62,-727.75 446.62,-733.75 440.62,-739.75 434.62,-739.75 434.62,-739.75 342.62,-739.75 342.62,-739.75 336.62,-739.75 330.62,-733.75 330.62,-727.75 330.62,-727.75 330.62,-672.75 330.62,-672.75 330.62,-666.75 336.62,-660.75 342.62,-660.75"/>
 <text text-anchor="middle" x="345.38" y="-706.7" font-family="Times New Roman,serif" font-size="14.00">08</text>
 <polyline fill="none" stroke="#b15928" points="360.12,-684.5 360.12,-739.75"/>
@@ -324,7 +324,7 @@
 <!-- mov_09_s2srockit -->
 <g id="node21" class="node">
 <title>mov_09_s2srockit</title>
-<g id="a_node21"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=6" xlink:title="{{09|Side to Side Rockit}}">
+<g id="a_node21"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik" xlink:title="{{09|Side to Side Rockit}}">
 <path fill="#ffff99" stroke="#b15928" d="M199.12,-578.12C199.12,-578.12 330.12,-578.12 330.12,-578.12 336.12,-578.12 342.12,-584.12 342.12,-590.12 342.12,-590.12 342.12,-602.12 342.12,-602.12 342.12,-608.12 336.12,-614.12 330.12,-614.12 330.12,-614.12 199.12,-614.12 199.12,-614.12 193.12,-614.12 187.12,-608.12 187.12,-602.12 187.12,-602.12 187.12,-590.12 187.12,-590.12 187.12,-584.12 193.12,-578.12 199.12,-578.12"/>
 <text text-anchor="middle" x="201.88" y="-590.83" font-family="Times New Roman,serif" font-size="14.00">09</text>
 <polyline fill="none" stroke="#b15928" points="216.62,-578.38 216.62,-614.12"/>
@@ -382,7 +382,7 @@
 <!-- mov_03_outcircle -->
 <g id="node17" class="node">
 <title>mov_03_outcircle</title>
-<g id="a_node17"><a xlink:href="https://www.youtube.com/watch?v=Mf2QuZvRtQ4&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=2" xlink:title="{{03|Outside Circle}}">
+<g id="a_node17"><a xlink:href="https://www.youtube.com/watch?v=Mf2QuZvRtQ4" xlink:title="{{03|Outside Circle}}">
 <path fill="#ffff99" stroke="#b15928" d="M506.75,-578.12C506.75,-578.12 608.5,-578.12 608.5,-578.12 614.5,-578.12 620.5,-584.12 620.5,-590.12 620.5,-590.12 620.5,-602.12 620.5,-602.12 620.5,-608.12 614.5,-614.12 608.5,-614.12 608.5,-614.12 506.75,-614.12 506.75,-614.12 500.75,-614.12 494.75,-608.12 494.75,-602.12 494.75,-602.12 494.75,-590.12 494.75,-590.12 494.75,-584.12 500.75,-578.12 506.75,-578.12"/>
 <text text-anchor="middle" x="509.5" y="-590.83" font-family="Times New Roman,serif" font-size="14.00">03</text>
 <polyline fill="none" stroke="#b15928" points="524.25,-578.38 524.25,-614.12"/>
@@ -423,7 +423,7 @@
 <!-- mov_12_outpend -->
 <g id="node24" class="node">
 <title>mov_12_outpend</title>
-<g id="a_node24"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=9" xlink:title="{{12|Outside Pendulum}}">
+<g id="a_node24"><a xlink:href="https://www.youtube.com/watch?v=q8l1G7UoERA" xlink:title="{{12|Outside Pendulum}}">
 <path fill="#ffff99" stroke="#b15928" d="M265.5,-481.88C265.5,-481.88 389.75,-481.88 389.75,-481.88 395.75,-481.88 401.75,-487.88 401.75,-493.88 401.75,-493.88 401.75,-505.88 401.75,-505.88 401.75,-511.88 395.75,-517.88 389.75,-517.88 389.75,-517.88 265.5,-517.88 265.5,-517.88 259.5,-517.88 253.5,-511.88 253.5,-505.88 253.5,-505.88 253.5,-493.88 253.5,-493.88 253.5,-487.88 259.5,-481.88 265.5,-481.88"/>
 <text text-anchor="middle" x="268.25" y="-494.57" font-family="Times New Roman,serif" font-size="14.00">12</text>
 <polyline fill="none" stroke="#b15928" points="283,-482.12 283,-517.88"/>
@@ -458,7 +458,7 @@
 <!-- mov_13_inpend -->
 <g id="node25" class="node">
 <title>mov_13_inpend</title>
-<g id="a_node25"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=10" xlink:title="{{13|Inside Pendulum}}">
+<g id="a_node25"><a xlink:href="https://www.youtube.com/watch?v=4LqqrNosRiI" xlink:title="{{13|Inside Pendulum}}">
 <path fill="#ffff99" stroke="#b15928" d="M270.38,-385.62C270.38,-385.62 384.88,-385.62 384.88,-385.62 390.88,-385.62 396.88,-391.62 396.88,-397.62 396.88,-397.62 396.88,-409.62 396.88,-409.62 396.88,-415.62 390.88,-421.62 384.88,-421.62 384.88,-421.62 270.38,-421.62 270.38,-421.62 264.38,-421.62 258.38,-415.62 258.38,-409.62 258.38,-409.62 258.38,-397.62 258.38,-397.62 258.38,-391.62 264.38,-385.62 270.38,-385.62"/>
 <text text-anchor="middle" x="273.12" y="-398.32" font-family="Times New Roman,serif" font-size="14.00">13</text>
 <polyline fill="none" stroke="#b15928" points="287.88,-385.88 287.88,-421.62"/>
@@ -516,7 +516,7 @@
 <!-- mov_11_altcircle -->
 <g id="node23" class="node">
 <title>mov_11_altcircle</title>
-<g id="a_node23"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=8" xlink:title="{{11|Alternating Circle}}">
+<g id="a_node23"><a xlink:href="https://www.youtube.com/watch?v=yuJNSETl-tI" xlink:title="{{11|Alternating Circle}}">
 <path fill="#ffff99" stroke="#b15928" d="M700.5,-481.88C700.5,-481.88 818.75,-481.88 818.75,-481.88 824.75,-481.88 830.75,-487.88 830.75,-493.88 830.75,-493.88 830.75,-505.88 830.75,-505.88 830.75,-511.88 824.75,-517.88 818.75,-517.88 818.75,-517.88 700.5,-517.88 700.5,-517.88 694.5,-517.88 688.5,-511.88 688.5,-505.88 688.5,-505.88 688.5,-493.88 688.5,-493.88 688.5,-487.88 694.5,-481.88 700.5,-481.88"/>
 <text text-anchor="middle" x="703.25" y="-494.57" font-family="Times New Roman,serif" font-size="14.00">11</text>
 <polyline fill="none" stroke="#b15928" points="718,-482.12 718,-517.88"/>
@@ -581,7 +581,7 @@
 <!-- mov_10_sideswingl2hcont -->
 <g id="node22" class="node">
 <title>mov_10_sideswingl2hcont</title>
-<g id="a_node22"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=7" xlink:title="{{10|Side Swing\nLow to High\nContinuous}}">
+<g id="a_node22"><a xlink:href="https://www.youtube.com/watch?v=_Yd8I7U44mw" xlink:title="{{10|Side Swing\nLow to High\nContinuous}}">
 <path fill="#ffff99" stroke="#b15928" d="M372.62,-568.5C372.62,-568.5 464.62,-568.5 464.62,-568.5 470.62,-568.5 476.62,-574.5 476.62,-580.5 476.62,-580.5 476.62,-611.75 476.62,-611.75 476.62,-617.75 470.62,-623.75 464.62,-623.75 464.62,-623.75 372.62,-623.75 372.62,-623.75 366.62,-623.75 360.62,-617.75 360.62,-611.75 360.62,-611.75 360.62,-580.5 360.62,-580.5 360.62,-574.5 366.62,-568.5 372.62,-568.5"/>
 <text text-anchor="middle" x="375.38" y="-590.7" font-family="Times New Roman,serif" font-size="14.00">10</text>
 <polyline fill="none" stroke="#b15928" points="390.12,-568.5 390.12,-623.75"/>
@@ -612,7 +612,7 @@
 <!-- mov_20_revmill -->
 <g id="node31" class="node">
 <title>mov_20_revmill</title>
-<g id="a_node31"><a xlink:href="https://www.youtube.com/watch?v=I26O1ct_hik&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=20" xlink:title="{{20|Reverse Mill}}">
+<g id="a_node31"><a xlink:href="https://www.youtube.com/watch?v=B8YWWwRB8fo" xlink:title="{{20|Reverse Mill}}">
 <path fill="#ffff99" stroke="#b15928" d="M772,-385.62C772,-385.62 863.25,-385.62 863.25,-385.62 869.25,-385.62 875.25,-391.62 875.25,-397.62 875.25,-397.62 875.25,-409.62 875.25,-409.62 875.25,-415.62 869.25,-421.62 863.25,-421.62 863.25,-421.62 772,-421.62 772,-421.62 766,-421.62 760,-415.62 760,-409.62 760,-409.62 760,-397.62 760,-397.62 760,-391.62 766,-385.62 772,-385.62"/>
 <text text-anchor="middle" x="774.75" y="-398.32" font-family="Times New Roman,serif" font-size="14.00">20</text>
 <polyline fill="none" stroke="#b15928" points="789.5,-385.88 789.5,-421.62"/>
@@ -683,7 +683,7 @@
 <!-- mov_15_inpull -->
 <g id="node27" class="node">
 <title>mov_15_inpull</title>
-<g id="a_node27"><a xlink:href="https://www.youtube.com/watch?v=sJ5XCgdCMx8&amp;list=PLk4oYPJ7TXKgCH_TpdUCNs2-m5ZCqx-Pw&amp;index=15" xlink:title="{{15|Inside Pullover}|+ INT ROTATION}">
+<g id="a_node27"><a xlink:href="https://www.youtube.com/watch?v=DQg80eX08hg" xlink:title="{{15|Inside Pullover}|+ INT ROTATION}">
 <path fill="#ffff99" stroke="#b15928" d="M931.25,-572.38C931.25,-572.38 1036,-572.38 1036,-572.38 1042,-572.38 1048,-578.38 1048,-584.38 1048,-584.38 1048,-607.88 1048,-607.88 1048,-613.88 1042,-619.88 1036,-619.88 1036,-619.88 931.25,-619.88 931.25,-619.88 925.25,-619.88 919.25,-613.88 919.25,-607.88 919.25,-607.88 919.25,-584.38 919.25,-584.38 919.25,-578.38 925.25,-572.38 931.25,-572.38"/>
 <text text-anchor="middle" x="934" y="-602.58" font-family="Times New Roman,serif" font-size="14.00">15</text>
 <polyline fill="none" stroke="#b15928" points="948.75,-596.12 948.75,-619.88"/>
