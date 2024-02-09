@@ -74,7 +74,7 @@ I have chosen to colour the drills that are specifically highlighted as useful w
 
 | Source | SVG |
 |------- | --- | 
-| [`/src/kb/kb_progression_1.gv`](/src/kb/kb_progression_1.gv) |  [`/dist/kb_progression_1.svg`](/dist/kb_progression_1.svg) |
+| [`/src/kb/kb_progression_1.puml`](/src/kb/kb_progression_1.puml) |  [`/dist/kb_progression_1.svg`](/dist/kb_progression_1.svg) |
 
 ![Tree of kettlebell drills, arranged in order of learning.](/dist/kb_progression_1.svg)
 
@@ -85,7 +85,7 @@ Once the basics have been established, Wildman moves into developing the precurs
 
 | Source | SVG |
 |------- | --- | 
-| [`/src/kb/kb_progression_2_tgu.gv`](/src/kb/kb_progression_2_tgu.gv) |  [`/dist/kb_progression_2_tgu.svg`](/dist/kb_progression_2_tgu.svg) |
+| [`/src/kb/kb_progression_2_tgu.puml`](/src/kb/kb_progression_2_tgu.puml) |  [`/dist/kb_progression_2_tgu.svg`](/dist/kb_progression_2_tgu.svg) |
 
 ![Tree of kettlebell drills for TGU skills, arranged in order of learning.](/dist/kb_progression_2_tgu.svg)
 
@@ -95,7 +95,7 @@ Covers #39 to #55, as well as a cheeky #72, the Deck Squat. This is mostly relat
 
 | Source | SVG |
 |------- | --- | 
-| [`/src/kb/kb_progression_3.gv`](/src/kb/kb_progression_3.gv) |  [`/dist/kb_progression_3.svg`](/dist/kb_progression_3.svg) |
+| [`/src/kb/kb_progression_3.puml`](/src/kb/kb_progression_3.puml) |  [`/dist/kb_progression_3.svg`](/dist/kb_progression_3.svg) |
 
 ![Tree of kettlebell drills for further skills, arranged in order of learning.](/dist/kb_progression_3.svg)
 
@@ -105,7 +105,7 @@ Covers #56 to #73, minus the Deck Squat. Here, the snatch is developed, as well 
 
 | Source | SVG |
 |------- | --- | 
-| [`/src/kb/kb_progression_4.gv`](/src/kb/kb_progression_4.gv) |  [`/dist/kb_progression_4.svg`](/dist/kb_progression_4.svg) |
+| [`/src/kb/kb_progression_4.puml`](/src/kb/kb_progression_4.puml) |  [`/dist/kb_progression_4.svg`](/dist/kb_progression_4.svg) |
 
 ![Tree of kettlebell drills for further skills, arranged in order of learning.](/dist/kb_progression_4.svg)
 
@@ -157,7 +157,7 @@ Single-arm Heavy Club is generally developed *after* two-handed heavy club so th
 
 | Source | SVG |
 |------- | --- | 
-| [`/src/hc/hc_sa_progression.gv`](/src/hc/hc_sa_progression.gv) |  [`/dist/hc_sa_progression.svg`](/dist/hc_sa_progression.svg) |
+| [`/src/hc/hc_sa_progression.puml`](/src/hc/hc_sa_progression.puml) |  [`/dist/hc_sa_progression.svg`](/dist/hc_sa_progression.svg) |
 
 ![Tree of single-arm Heavy Club drills, arranged in order of learning.](/dist/hc_sa_progression.svg)
 
