@@ -43,6 +43,7 @@ This is my humble attempt to coalesce this semi-implicit knowledge into structur
   - [Two-Handed Heavy Club Bootstrap Program](#two-handed-heavy-club-bootstrap-program)
 - [Sequence Lists](#sequence-lists)
 - [Contributing](#contributing)
+- [License](#License)
 
 ## The Diagrams ##
 
@@ -290,3 +291,11 @@ Additional/alternative formats can be rendered by overriding the `$OutputFormats
 ```ps1
 > Invoke-Psake .\psakefile.ps1 -properties @{"OutputFormats"=@("svg","png")}
 ```
+
+## License
+
+`wildman-skill-trees` © 2023- is licensed under [CC BY-NC-SA 4.0].
+
+[CC BY-NC-SA 4.0]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+For full terms, see the [LICENSE](LICENSE.txt) file.
