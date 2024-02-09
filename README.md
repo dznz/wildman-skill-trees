@@ -251,7 +251,7 @@ Some contain additional fields that may or may not be useful to you. These are e
 |------- | --- | 
 | Kettlebell | [`/src/kb/kb_progression.csv`](/src/kb/kb_progression.csv) |
 | Two-handed Heavy Club |  [`/src/hc/hc_2h_progression.csv`](/src/hc/hc_2h_progression.csv) |
-| Single-arm Heavy Club | *Does not exist, sorry!*|
+| Single-arm Heavy Club | [`/src/hc/hc_sa_drills.csv`](/src/hc/hc_sa_drills.csv)|
 | Mace | [`/src/mace/mace_progression.csv`](/src/mace/mace_progression.csv) |
 
 If you use these for your own project, do let me know!
