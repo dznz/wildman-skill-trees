@@ -73,6 +73,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_22_outpendoutpull   [label="{{22|Outside Pendulum\nOutside Pullover}}"            URL="https://www.youtube.com/watch?v=b0Ztc-54C_Y"]
   mov_23_outpull3count    [label="{{23|Outside Pullover\n3 Count}}"                     URL="https://www.youtube.com/watch?v=_hJaJVaMPtE"];
   mov_24_outpendoutpull3c [label="{{24|Outside Pendulum\nOutside Pullover\n3 Count}}"   URL="https://www.youtube.com/watch?v=FauiblV5PHg"];
+  mov_25_inpendinpull     [label="{{25|Inside Pendulum\nInside Pullover}}"              URL="https://www.youtube.com/watch?v=VFaO93BsNaA"];
 
   // external skill links
   ext_2h_s2s -> ext_2h_sideswingl2h -> ext_2h_s2srockit;
@@ -121,6 +122,10 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   {mov_12_outpend, mov_14_outpull} -> mov_22_outpendoutpull;
   mov_14_outpull -> mov_23_outpull3count -> mov_19_mill
   {mov_22_outpendoutpull, mov_23_outpull3count} -> mov_24_outpendoutpull3c
+  {mov_13_inpend, mov_15_inpull, mov_22_outpendoutpull} -> mov_25_inpendinpull
+
+  // Layout Hacks
+  { rank=same; mov_22_outpendoutpull; mov_24_outpendoutpull3c}
 
   // LEGEND
   { rank = sink;
