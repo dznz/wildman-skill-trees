@@ -59,6 +59,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_78_dblcleansqpress    [label="{{78|Double Clean Squat Press}}"                            URL="https://www.youtube.com/watch?v=fWPDPBliCEk"];
   mov_79_kneelsnatchdown    [label="{{79|Half-Kneeling Snatch Down}|KB CLOSE TO BODY}"          URL="https://www.youtube.com/watch?v=okO-7womT5Q"];
   mov_80_dblhangcsp         [label="{{80|Double Dead\nHang Clean\nSquat Press}}"                URL="https://www.youtube.com/watch?v=DpGOSw7kGO0"];
+  mov_81_kneelsnatch        [label="{{81|Half Kneeling\nFull Snatch}}"                          URL="https://www.youtube.com/watch?v=axx4kfUzkl4"];
 
   // Precursor dependencies
   ext_hc_dblswing -> ext_hc_dblrockit;
@@ -104,8 +105,8 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   subgraph cluster_snatch {
     label="Snatch"
     mov_59_halfsnatchdown -> mov_61_halfsnatchup -> mov_66_snatch;
+    mov_70_kneelsnatchup -> mov_79_kneelsnatchdown -> mov_81_kneelsnatch -> mov_66_snatch
     mov_66_snatch -> mov_69_snatchpress;
-    mov_70_kneelsnatchup -> mov_79_kneelsnatchdown -> mov_66_snatch
   }
   mov_19_startstopcap -> mov_70_kneelsnatchup;
 
