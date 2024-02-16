@@ -60,10 +60,11 @@ Task SetReleaseFormats `
   $script:OutputFormats = "svg", "png"
 }
 
-Task Compile -Depends CompileHeavyClub, `
-                      CompileKettlebell, `
-                      CompileMace
-{}
+Task Compile `
+  -Description "Use PlantUML to produce diagram images." `
+  -Depends CompileHeavyClub, `
+           CompileKettlebell, `
+           CompileMace `
 
 Task CompileHeavyClub { Compile-PumlDiagram -ToolName "hc" }
 
@@ -71,10 +72,11 @@ Task CompileKettlebell { Compile-PumlDiagram -ToolName "kb" }
 
 Task CompileMace { Compile-PumlDiagram -ToolName "mace" }
 
-Task CopyStaticFiles -Depends CopyStaticHeavyClub, `
-                              CopyStaticKettlebell, `
-                              CopyStaticMace
-{}
+Task CopyStaticFiles `
+  -Description "Copy unprocessed files to Dist directory." `
+  -Depends CopyStaticHeavyClub, `
+           CopyStaticKettlebell, `
+           CopyStaticMace
 
 Task CopyStaticHeavyClub { Copy-StaticFiles -ToolName "hc" }
 
@@ -82,7 +84,8 @@ Task CopyStaticKettlebell { Copy-StaticFiles -ToolName "kb" }
 
 Task CopyStaticMace { Copy-StaticFiles -ToolName "mace" }
 
-Task Clean {
+Task Clean -Description "Remove all files in Dist."
+{
   Remove-Item -Path (Join-Path $DistDir "*")
 }
 

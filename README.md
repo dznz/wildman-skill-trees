@@ -277,14 +277,17 @@ I use the Powershell build automation tool, [psake], to run PlantUML render step
 > Invoke-Psake .\psakefile.ps1
 ```
 
-The following targets are currently available:
+The following top-level targets are currently available:
 
-- `Full` - Build everything from scratch (default)
-  - `Clean` - Delete all generated images
-  - `Compile`
-    - `CompileHeavyClub`
-    - `CompileKettlebell`
-    - `CompileMace`
+- `Quick` - Only build SVG diagrams (default)
+- `Full` - Build everything for release
+- `Clean` - Delete all files from Dist directory
+
+To see the full list of tasks, run the docs command:
+
+```ps1
+> Invoke-Psake -docs .\psakefile.ps1
+```
 
 Additional/alternative formats can be rendered by overriding the `$OutputFormats` property:
 
