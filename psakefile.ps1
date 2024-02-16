@@ -55,7 +55,7 @@ Task Full -Depends Clean, SetReleaseFormats, Compile, CopyStaticFiles `
 
 # Releases include SVG & PNG formats for accessibility
 Task SetReleaseFormats `
-  -Description "Set to the supported image formats for releases."
+  -Description "Set to the supported image formats for releases." `
 {
   $script:OutputFormats = "svg", "png"
 }
@@ -84,8 +84,7 @@ Task CopyStaticKettlebell { Copy-StaticFiles -ToolName "kb" }
 
 Task CopyStaticMace { Copy-StaticFiles -ToolName "mace" }
 
-Task Clean -Description "Remove all files in Dist."
-{
+Task Clean -Description "Remove all files in Dist." {
   Remove-Item -Path (Join-Path $DistDir "*")
 }
 
