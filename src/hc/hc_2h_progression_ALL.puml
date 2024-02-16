@@ -44,7 +44,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     // Squat
     mov_32_incirclesquat; mov_34_outcirclesquat; mov_36_squatpress; mov_39_pullsquat
     // Lunge
-    mov_23_kneelsc; mov_25_kneelbackswing; mov_24_sblungepull; mov_28_sblungepullbot; mov_30_sbfrontpress; mov_35_sblungepullsbpress; mov_41_sblungepress
+    mov_23_kneelsc; mov_25_kneelbackswing; mov_24_sblungepull; mov_28_sblungepullbot; mov_30_sbfrontpress; mov_35_sblungepullsbpress; mov_41_sblungepress; mov_42_kneelpull
   }
 
   subgraph "prereq" {
@@ -109,6 +109,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_39_pullsquat          [label="{{39|Pullover Squat}}"                                      URL="https://www.youtube.com/watch?v=3yf3VO2sd-4"];
   mov_40_swipe              [label="{{40|Technical Swipe}}"                                     URL="https://www.youtube.com/watch?v=nQ7npb0krRg"];
   mov_41_sblungepress       [label="{{41|Step Back Lunge\nFront Press at Bottom}}"              URL="https://www.youtube.com/watch?v=mf2dOl-QzEs"];
+  mov_42_kneelpull          [label="{{42|Half Kneeling\nPullover}}"                             URL="https://www.youtube.com/watch?v=FhIn5to6NmM"];
 
   // Unsequenced
   ' mov_mill                   [label="{{|Mill}}"                            URL="https://www.youtube.com/watch?v=iFtaPBDwG7w"]
@@ -216,6 +217,7 @@ subgraph cluster_lunge {
   mov_24_sblungepull -> mov_28_sblungepullbot;
   mov_28_sblungepullbot -> mov_35_sblungepullsbpress;
   mov_30_sbfrontpress -> mov_41_sblungepress
+  {mov_25_kneelbackswing, mov_28_sblungepullbot} -> mov_42_kneelpull
 }
 
 subgraph cluster_mill {

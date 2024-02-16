@@ -18,45 +18,45 @@
 <text text-anchor="start" x="1603" y="-33.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">© 2023. This work is openly licensed with CC BY&#45;NC&#45;SA 4.0</text>
 <text text-anchor="start" x="1671.25" y="-19.7" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="14.00">http://creativecommons.org/licenses/by&#45;nc&#45;sa/4.0/</text>
 <text text-anchor="start" x="1795" y="-5.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00"> &#160;</text>
-<g id="clust9" class="cluster">
-<title>cluster_cap</title>
-<polygon fill="none" stroke="black" points="1170,-1177.75 1170,-1557.25 1362,-1557.25 1362,-1177.75 1170,-1177.75"/>
-<text text-anchor="middle" x="1308.25" y="-1539.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Clean &amp; Press</text>
-</g>
-<g id="clust11" class="cluster">
-<title>cluster_sc</title>
-<polygon fill="none" stroke="black" points="618,-990.25 618,-1458.5 986,-1458.5 986,-990.25 618,-990.25"/>
-<text text-anchor="middle" x="941.62" y="-1441.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Shield Cast</text>
-</g>
-<g id="clust12" class="cluster">
-<title>cluster_squat</title>
-<polygon fill="none" stroke="black" points="743,-673.5 743,-897 1251,-897 1251,-673.5 743,-673.5"/>
-<text text-anchor="middle" x="1220.88" y="-879.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Squats</text>
-</g>
-<g id="clust15" class="cluster">
-<title>cluster_getup</title>
-<polygon fill="none" stroke="black" points="1366,-248 1366,-600.5 1796,-600.5 1796,-248 1366,-248"/>
-<text text-anchor="middle" x="1768.5" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Getup</text>
-</g>
-<g id="clust16" class="cluster">
+<g id="clust17" class="cluster">
 <title>cluster_swipe</title>
 <polygon fill="none" stroke="black" points="994,-1280.25 994,-1357.75 1162,-1357.75 1162,-1280.25 994,-1280.25"/>
 <text text-anchor="middle" x="1134.5" y="-1340.45" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Swipe</text>
+</g>
+<g id="clust15" class="cluster">
+<title>cluster_mill</title>
+<polygon fill="none" stroke="black" points="490,-992.75 490,-1070.25 610,-1070.25 610,-992.75 490,-992.75"/>
+<text text-anchor="middle" x="591.88" y="-1052.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mill</text>
 </g>
 <g id="clust8" class="cluster">
 <title>cluster_circles</title>
 <polygon fill="none" stroke="black" points="198,-978 198,-1255.25 374,-1255.25 374,-978 198,-978"/>
 <text text-anchor="middle" x="343.88" y="-1237.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Circles</text>
 </g>
-<g id="clust14" class="cluster">
-<title>cluster_mill</title>
-<polygon fill="none" stroke="black" points="490,-992.75 490,-1070.25 610,-1070.25 610,-992.75 490,-992.75"/>
-<text text-anchor="middle" x="591.88" y="-1052.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Mill</text>
+<g id="clust11" class="cluster">
+<title>cluster_sc</title>
+<polygon fill="none" stroke="black" points="618,-990.25 618,-1458.5 986,-1458.5 986,-990.25 618,-990.25"/>
+<text text-anchor="middle" x="941.62" y="-1441.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Shield Cast</text>
 </g>
 <g id="clust13" class="cluster">
 <title>cluster_lunge</title>
-<polygon fill="none" stroke="black" points="610,-170 610,-600.5 1044,-600.5 1044,-170 610,-170"/>
-<text text-anchor="middle" x="1016.12" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Lunge</text>
+<polygon fill="none" stroke="black" points="610,-170 610,-600.5 1195,-600.5 1195,-170 610,-170"/>
+<text text-anchor="middle" x="1167.12" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Lunge</text>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_cap</title>
+<polygon fill="none" stroke="black" points="1170,-1177.75 1170,-1557.25 1362,-1557.25 1362,-1177.75 1170,-1177.75"/>
+<text text-anchor="middle" x="1308.25" y="-1539.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Clean &amp; Press</text>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_squat</title>
+<polygon fill="none" stroke="black" points="743,-673.5 743,-897 1251,-897 1251,-673.5 743,-673.5"/>
+<text text-anchor="middle" x="1220.88" y="-879.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Squats</text>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_getup</title>
+<polygon fill="none" stroke="black" points="1366,-248 1366,-600.5 1796,-600.5 1796,-248 1366,-248"/>
+<text text-anchor="middle" x="1768.5" y="-583.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Getup</text>
 </g>
 <g id="clust7" class="cluster">
 <title>cluster_sideswing</title>
@@ -132,9 +132,9 @@
 <polygon fill="black" stroke="black" points="579.29,-1042.5 569.42,-1038.66 574.74,-1047.82 579.29,-1042.5"/>
 </g>
 <!-- mov_20_3csc -->
-<g id="node44" class="node">
+<g id="node45" class="node">
 <title>mov_20_3csc</title>
-<g id="a_node44"><a xlink:href="https://www.youtube.com/watch?v=ABQij0Zpt0U&amp;list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&amp;index=35" xlink:title="{{20|Three&#45;Count\nShield Cast}}">
+<g id="a_node45"><a xlink:href="https://www.youtube.com/watch?v=ABQij0Zpt0U&amp;list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&amp;index=35" xlink:title="{{20|Three&#45;Count\nShield Cast}}">
 <path fill="#cab2d6" stroke="#6a3d9a" d="M698,-998.75C698,-998.75 802,-998.75 802,-998.75 808,-998.75 814,-1004.75 814,-1010.75 814,-1010.75 814,-1027.75 814,-1027.75 814,-1033.75 808,-1039.75 802,-1039.75 802,-1039.75 698,-1039.75 698,-1039.75 692,-1039.75 686,-1033.75 686,-1027.75 686,-1027.75 686,-1010.75 686,-1010.75 686,-1004.75 692,-998.75 698,-998.75"/>
 <text text-anchor="middle" x="702.25" y="-1014.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">20</text>
 <polyline fill="none" stroke="#6a3d9a" points="718.5,-998.75 718.5,-1039.75"/>
@@ -206,9 +206,9 @@
 <polygon fill="black" stroke="black" points="725.24,-1247.28 718.86,-1238.82 718.58,-1249.41 725.24,-1247.28"/>
 </g>
 <!-- mov_12_robotsc -->
-<g id="node42" class="node">
+<g id="node43" class="node">
 <title>mov_12_robotsc</title>
-<g id="a_node42"><a xlink:href="https://www.youtube.com/watch?v=LDGi_lmzGR8&amp;list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&amp;index=13" xlink:title="{{12|Robot Shield Cast}}">
+<g id="a_node43"><a xlink:href="https://www.youtube.com/watch?v=LDGi_lmzGR8&amp;list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&amp;index=13" xlink:title="{{12|Robot Shield Cast}}">
 <path fill="#cab2d6" stroke="#6a3d9a" d="M806,-1288.75C806,-1288.75 946,-1288.75 946,-1288.75 952,-1288.75 958,-1294.75 958,-1300.75 958,-1300.75 958,-1312.75 958,-1312.75 958,-1318.75 952,-1324.75 946,-1324.75 946,-1324.75 806,-1324.75 806,-1324.75 800,-1324.75 794,-1318.75 794,-1312.75 794,-1312.75 794,-1300.75 794,-1300.75 794,-1294.75 800,-1288.75 806,-1288.75"/>
 <text text-anchor="middle" x="810.25" y="-1301.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">12</text>
 <polyline fill="none" stroke="#6a3d9a" points="826.5,-1289.25 826.5,-1324.75"/>
@@ -530,17 +530,17 @@
 <!-- mov_30_sbfrontpress -->
 <g id="node36" class="node">
 <title>mov_30_sbfrontpress</title>
-<path fill="#fdbf6f" stroke="#ff7f00" d="M870.88,-256.5C870.88,-256.5 1013.12,-256.5 1013.12,-256.5 1019.12,-256.5 1025.12,-262.5 1025.12,-268.5 1025.12,-268.5 1025.12,-285.5 1025.12,-285.5 1025.12,-291.5 1019.12,-297.5 1013.12,-297.5 1013.12,-297.5 870.88,-297.5 870.88,-297.5 864.88,-297.5 858.88,-291.5 858.88,-285.5 858.88,-285.5 858.88,-268.5 858.88,-268.5 858.88,-262.5 864.88,-256.5 870.88,-256.5"/>
-<text text-anchor="middle" x="879.25" y="-271.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">30?</text>
-<polyline fill="none" stroke="#ff7f00" points="899.62,-256.5 899.62,-297.5"/>
-<text text-anchor="middle" x="962.38" y="-280.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step&#45;Back Lunge</text>
-<text text-anchor="middle" x="962.38" y="-263.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Front Press</text>
+<path fill="#fdbf6f" stroke="#ff7f00" d="M1021.88,-256.5C1021.88,-256.5 1164.12,-256.5 1164.12,-256.5 1170.12,-256.5 1176.12,-262.5 1176.12,-268.5 1176.12,-268.5 1176.12,-285.5 1176.12,-285.5 1176.12,-291.5 1170.12,-297.5 1164.12,-297.5 1164.12,-297.5 1021.88,-297.5 1021.88,-297.5 1015.88,-297.5 1009.88,-291.5 1009.88,-285.5 1009.88,-285.5 1009.88,-268.5 1009.88,-268.5 1009.88,-262.5 1015.88,-256.5 1021.88,-256.5"/>
+<text text-anchor="middle" x="1030.25" y="-271.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">30?</text>
+<polyline fill="none" stroke="#ff7f00" points="1050.62,-256.5 1050.62,-297.5"/>
+<text text-anchor="middle" x="1113.38" y="-280.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step&#45;Back Lunge</text>
+<text text-anchor="middle" x="1113.38" y="-263.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Front Press</text>
 </g>
 <!-- mov_13_frontpress&#45;&gt;mov_30_sbfrontpress -->
 <g id="edge21" class="edge">
 <title>mov_13_frontpress&#45;&gt;mov_30_sbfrontpress</title>
-<path fill="none" stroke="black" d="M1297.46,-1288.34C1308.4,-1279.72 1320.12,-1268.35 1327,-1255.25 1357.18,-1197.81 1346,-1175.39 1346,-1110.5 1346,-1110.5 1346,-1110.5 1346,-546 1346,-398.06 1155.56,-326.93 1036.18,-296.88"/>
-<polygon fill="black" stroke="black" points="1037.24,-293.53 1026.69,-294.55 1035.56,-300.33 1037.24,-293.53"/>
+<path fill="none" stroke="black" d="M1297.46,-1288.34C1308.4,-1279.72 1320.12,-1268.35 1327,-1255.25 1357.18,-1197.81 1346,-1175.39 1346,-1110.5 1346,-1110.5 1346,-1110.5 1346,-546 1346,-429.74 1218.54,-343.5 1144.56,-303.24"/>
+<polygon fill="black" stroke="black" points="1146.3,-300.2 1135.83,-298.58 1143,-306.38 1146.3,-300.2"/>
 </g>
 <!-- mov_01_sidetoside -->
 <g id="node16" class="node">
@@ -691,7 +691,7 @@
 </g>
 </g>
 <!-- mov_31_altshinbox&#45;&gt;mov_33_altshinboxfrpress -->
-<g id="edge56" class="edge">
+<g id="edge58" class="edge">
 <title>mov_31_altshinbox&#45;&gt;mov_33_altshinboxfrpress</title>
 <path fill="none" stroke="black" d="M1689,-526.09C1689,-503.79 1689,-467.46 1689,-442.01"/>
 <polygon fill="black" stroke="black" points="1692.5,-442.01 1689,-432.01 1685.5,-442.01 1692.5,-442.01"/>
@@ -719,7 +719,7 @@
 </g>
 </g>
 <!-- mov_26_fbpull&#45;&gt;mov_27_fbpullsit -->
-<g id="edge54" class="edge">
+<g id="edge56" class="edge">
 <title>mov_26_fbpull&#45;&gt;mov_27_fbpullsit</title>
 <path fill="none" stroke="black" d="M1473,-528.61C1473,-506.51 1473,-468.05 1473,-441.6"/>
 <polygon fill="black" stroke="black" points="1476.5,-441.91 1473,-431.91 1469.5,-441.91 1476.5,-441.91"/>
@@ -737,7 +737,7 @@
 </g>
 </g>
 <!-- mov_27_fbpullsit&#45;&gt;mov_29_fbpullsitpress -->
-<g id="edge55" class="edge">
+<g id="edge57" class="edge">
 <title>mov_27_fbpullsit&#45;&gt;mov_29_fbpullsitpress</title>
 <path fill="none" stroke="black" d="M1473,-393.61C1473,-372.24 1473,-335.58 1473,-309.27"/>
 <polygon fill="black" stroke="black" points="1476.5,-309.51 1473,-299.51 1469.5,-309.51 1476.5,-309.51"/>
@@ -773,68 +773,92 @@
 <path fill="none" stroke="black" d="M749.46,-528.54C765.29,-517.82 785.65,-503.6 803,-490 823,-474.32 844.48,-455.57 861.21,-440.49"/>
 <polygon fill="black" stroke="black" points="863.32,-443.31 868.38,-434 858.62,-438.12 863.32,-443.31"/>
 </g>
+<!-- mov_42_kneelpull -->
+<g id="node39" class="node">
+<title>mov_42_kneelpull</title>
+<g id="a_node39"><a xlink:href="https://www.youtube.com/watch?v=FhIn5to6NmM" xlink:title="{{42|Half Kneeling\nPullover}}">
+<path fill="#fdbf6f" stroke="#ff7f00" d="M629.75,-178.5C629.75,-178.5 738.25,-178.5 738.25,-178.5 744.25,-178.5 750.25,-184.5 750.25,-190.5 750.25,-190.5 750.25,-207.5 750.25,-207.5 750.25,-213.5 744.25,-219.5 738.25,-219.5 738.25,-219.5 629.75,-219.5 629.75,-219.5 623.75,-219.5 617.75,-213.5 617.75,-207.5 617.75,-207.5 617.75,-190.5 617.75,-190.5 617.75,-184.5 623.75,-178.5 629.75,-178.5"/>
+<text text-anchor="middle" x="634" y="-193.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">42</text>
+<polyline fill="none" stroke="#ff7f00" points="650.25,-178.5 650.25,-219.5"/>
+<text text-anchor="middle" x="700.25" y="-202.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Half Kneeling</text>
+<text text-anchor="middle" x="700.25" y="-185.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Pullover</text>
+</a>
+</g>
+</g>
+<!-- mov_25_kneelbackswing&#45;&gt;mov_42_kneelpull -->
+<g id="edge54" class="edge">
+<title>mov_25_kneelbackswing&#45;&gt;mov_42_kneelpull</title>
+<path fill="none" stroke="black" d="M703.93,-391.15C700.1,-354.39 691.87,-275.46 687.27,-231.39"/>
+<polygon fill="black" stroke="black" points="690.76,-231.04 686.24,-221.46 683.79,-231.77 690.76,-231.04"/>
+</g>
 <!-- mov_28_sblungepullbot -->
 <g id="node35" class="node">
 <title>mov_28_sblungepullbot</title>
 <g id="a_node35"><a xlink:href="https://www.youtube.com/watch?v=UpY9zHuTZds" xlink:title="{{28|Step&#45;Back Lunge\nPullover at Bottom}}">
-<path fill="#fdbf6f" stroke="#ff7f00" d="M672,-256.5C672,-256.5 812,-256.5 812,-256.5 818,-256.5 824,-262.5 824,-268.5 824,-268.5 824,-285.5 824,-285.5 824,-291.5 818,-297.5 812,-297.5 812,-297.5 672,-297.5 672,-297.5 666,-297.5 660,-291.5 660,-285.5 660,-285.5 660,-268.5 660,-268.5 660,-262.5 666,-256.5 672,-256.5"/>
-<text text-anchor="middle" x="676.25" y="-271.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">28</text>
-<polyline fill="none" stroke="#ff7f00" points="692.5,-256.5 692.5,-297.5"/>
-<text text-anchor="middle" x="758.25" y="-280.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step&#45;Back Lunge</text>
-<text text-anchor="middle" x="758.25" y="-263.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Pullover at Bottom</text>
+<path fill="#fdbf6f" stroke="#ff7f00" d="M805,-256.5C805,-256.5 945,-256.5 945,-256.5 951,-256.5 957,-262.5 957,-268.5 957,-268.5 957,-285.5 957,-285.5 957,-291.5 951,-297.5 945,-297.5 945,-297.5 805,-297.5 805,-297.5 799,-297.5 793,-291.5 793,-285.5 793,-285.5 793,-268.5 793,-268.5 793,-262.5 799,-256.5 805,-256.5"/>
+<text text-anchor="middle" x="809.25" y="-271.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">28</text>
+<polyline fill="none" stroke="#ff7f00" points="825.5,-256.5 825.5,-297.5"/>
+<text text-anchor="middle" x="891.25" y="-280.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step&#45;Back Lunge</text>
+<text text-anchor="middle" x="891.25" y="-263.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Pullover at Bottom</text>
 </a>
 </g>
 </g>
 <!-- mov_24_sblungepull&#45;&gt;mov_28_sblungepullbot -->
 <g id="edge51" class="edge">
 <title>mov_24_sblungepull&#45;&gt;mov_28_sblungepullbot</title>
-<path fill="none" stroke="black" d="M868.69,-391.09C843.09,-368.23 800.96,-330.63 772.38,-305.11"/>
-<polygon fill="black" stroke="black" points="774.89,-302.67 765.1,-298.62 770.23,-307.89 774.89,-302.67"/>
+<path fill="none" stroke="black" d="M888.6,-391.09C885.99,-369.32 881.76,-334.16 878.71,-308.82"/>
+<polygon fill="black" stroke="black" points="882.21,-308.63 877.54,-299.12 875.26,-309.46 882.21,-308.63"/>
 </g>
 <!-- mov_35_sblungepullsbpress -->
 <g id="node37" class="node">
 <title>mov_35_sblungepullsbpress</title>
 <g id="a_node37"><a xlink:href="https://www.youtube.com/watch?v=1cXPBXfKNhU" xlink:title="{{35|Step&#45;Back Lunge Pullover\nStep&#45;Back Press}}">
-<path fill="#fdbf6f" stroke="#ff7f00" d="M629.62,-178.5C629.62,-178.5 818.38,-178.5 818.38,-178.5 824.38,-178.5 830.38,-184.5 830.38,-190.5 830.38,-190.5 830.38,-207.5 830.38,-207.5 830.38,-213.5 824.38,-219.5 818.38,-219.5 818.38,-219.5 629.62,-219.5 629.62,-219.5 623.62,-219.5 617.62,-213.5 617.62,-207.5 617.62,-207.5 617.62,-190.5 617.62,-190.5 617.62,-184.5 623.62,-178.5 629.62,-178.5"/>
-<text text-anchor="middle" x="633.88" y="-193.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">35</text>
-<polyline fill="none" stroke="#ff7f00" points="650.12,-178.5 650.12,-219.5"/>
-<text text-anchor="middle" x="740.25" y="-202.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step&#45;Back Lunge Pullover</text>
-<text text-anchor="middle" x="740.25" y="-185.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step&#45;Back Press</text>
+<path fill="#fdbf6f" stroke="#ff7f00" d="M780.62,-178.5C780.62,-178.5 969.38,-178.5 969.38,-178.5 975.38,-178.5 981.38,-184.5 981.38,-190.5 981.38,-190.5 981.38,-207.5 981.38,-207.5 981.38,-213.5 975.38,-219.5 969.38,-219.5 969.38,-219.5 780.62,-219.5 780.62,-219.5 774.62,-219.5 768.62,-213.5 768.62,-207.5 768.62,-207.5 768.62,-190.5 768.62,-190.5 768.62,-184.5 774.62,-178.5 780.62,-178.5"/>
+<text text-anchor="middle" x="784.88" y="-193.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">35</text>
+<polyline fill="none" stroke="#ff7f00" points="801.12,-178.5 801.12,-219.5"/>
+<text text-anchor="middle" x="891.25" y="-202.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step&#45;Back Lunge Pullover</text>
+<text text-anchor="middle" x="891.25" y="-185.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step&#45;Back Press</text>
 </a>
 </g>
 </g>
 <!-- mov_28_sblungepullbot&#45;&gt;mov_35_sblungepullsbpress -->
 <g id="edge52" class="edge">
 <title>mov_28_sblungepullbot&#45;&gt;mov_35_sblungepullsbpress</title>
-<path fill="none" stroke="black" d="M737.27,-256.03C735.45,-248.35 733.33,-239.39 731.32,-230.92"/>
-<polygon fill="black" stroke="black" points="734.76,-230.23 729.05,-221.31 727.95,-231.85 734.76,-230.23"/>
+<path fill="none" stroke="black" d="M875,-256.03C875,-248.44 875,-239.6 875,-231.21"/>
+<polygon fill="black" stroke="black" points="878.5,-231.35 875,-221.35 871.5,-231.35 878.5,-231.35"/>
+</g>
+<!-- mov_28_sblungepullbot&#45;&gt;mov_42_kneelpull -->
+<g id="edge55" class="edge">
+<title>mov_28_sblungepullbot&#45;&gt;mov_42_kneelpull</title>
+<path fill="none" stroke="black" d="M824.82,-256.03C800.24,-246.25 770.45,-234.4 744.61,-224.12"/>
+<polygon fill="black" stroke="black" points="746.17,-220.97 735.59,-220.53 743.58,-227.48 746.17,-220.97"/>
 </g>
 <!-- mov_30_sbfrontpress&#45;&gt;mov_35_sblungepullsbpress -->
 <g id="edge49" class="edge">
 <title>mov_30_sbfrontpress&#45;&gt;mov_35_sblungepullsbpress</title>
-<path fill="none" stroke="black" d="M884.72,-256.03C856.3,-246.12 821.76,-234.08 792,-223.71"/>
-<polygon fill="black" stroke="black" points="793.3,-220.45 782.7,-220.46 790.99,-227.06 793.3,-220.45"/>
+<path fill="none" stroke="black" d="M1035.72,-256.03C1007.3,-246.12 972.76,-234.08 943,-223.71"/>
+<polygon fill="black" stroke="black" points="944.3,-220.45 933.7,-220.46 941.99,-227.06 944.3,-220.45"/>
 </g>
 <!-- mov_41_sblungepress -->
 <g id="node38" class="node">
 <title>mov_41_sblungepress</title>
 <g id="a_node38"><a xlink:href="https://www.youtube.com/watch?v=mf2dOl-QzEs" xlink:title="{{41|Step Back Lunge\nFront Press at Bottom}}">
-<path fill="#fdbf6f" stroke="#ff7f00" d="M860.38,-178.5C860.38,-178.5 1023.62,-178.5 1023.62,-178.5 1029.62,-178.5 1035.62,-184.5 1035.62,-190.5 1035.62,-190.5 1035.62,-207.5 1035.62,-207.5 1035.62,-213.5 1029.62,-219.5 1023.62,-219.5 1023.62,-219.5 860.38,-219.5 860.38,-219.5 854.38,-219.5 848.38,-213.5 848.38,-207.5 848.38,-207.5 848.38,-190.5 848.38,-190.5 848.38,-184.5 854.38,-178.5 860.38,-178.5"/>
-<text text-anchor="middle" x="864.62" y="-193.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">41</text>
-<polyline fill="none" stroke="#ff7f00" points="880.88,-178.5 880.88,-219.5"/>
-<text text-anchor="middle" x="958.25" y="-202.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step Back Lunge</text>
-<text text-anchor="middle" x="958.25" y="-185.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Front Press at Bottom</text>
+<path fill="#fdbf6f" stroke="#ff7f00" d="M1011.38,-178.5C1011.38,-178.5 1174.62,-178.5 1174.62,-178.5 1180.62,-178.5 1186.62,-184.5 1186.62,-190.5 1186.62,-190.5 1186.62,-207.5 1186.62,-207.5 1186.62,-213.5 1180.62,-219.5 1174.62,-219.5 1174.62,-219.5 1011.38,-219.5 1011.38,-219.5 1005.38,-219.5 999.38,-213.5 999.38,-207.5 999.38,-207.5 999.38,-190.5 999.38,-190.5 999.38,-184.5 1005.38,-178.5 1011.38,-178.5"/>
+<text text-anchor="middle" x="1015.62" y="-193.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">41</text>
+<polyline fill="none" stroke="#ff7f00" points="1031.88,-178.5 1031.88,-219.5"/>
+<text text-anchor="middle" x="1109.25" y="-202.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Step Back Lunge</text>
+<text text-anchor="middle" x="1109.25" y="-185.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Front Press at Bottom</text>
 </a>
 </g>
 </g>
 <!-- mov_30_sbfrontpress&#45;&gt;mov_41_sblungepress -->
 <g id="edge53" class="edge">
 <title>mov_30_sbfrontpress&#45;&gt;mov_41_sblungepress</title>
-<path fill="none" stroke="black" d="M942,-256.03C942,-248.44 942,-239.6 942,-231.21"/>
-<polygon fill="black" stroke="black" points="945.5,-231.35 942,-221.35 938.5,-231.35 945.5,-231.35"/>
+<path fill="none" stroke="black" d="M1093,-256.03C1093,-248.44 1093,-239.6 1093,-231.21"/>
+<polygon fill="black" stroke="black" points="1096.5,-231.35 1093,-221.35 1089.5,-231.35 1096.5,-231.35"/>
 </g>
 <!-- pre_deadlift -->
-<g id="node39" class="node">
+<g id="node40" class="node">
 <title>pre_deadlift</title>
 <path fill="#a6cee3" stroke="#1f78b4" d="M648.25,-1574C648.25,-1574 743.75,-1574 743.75,-1574 749.75,-1574 755.75,-1580 755.75,-1586 755.75,-1586 755.75,-1598 755.75,-1598 755.75,-1604 749.75,-1610 743.75,-1610 743.75,-1610 648.25,-1610 648.25,-1610 642.25,-1610 636.25,-1604 636.25,-1598 636.25,-1598 636.25,-1586 636.25,-1586 636.25,-1580 642.25,-1574 648.25,-1574"/>
 <text text-anchor="middle" x="696" y="-1586.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Deadlift Position</text>
@@ -852,7 +876,7 @@
 <polygon fill="black" stroke="black" points="222.61,-1510.75 212.18,-1512.61 221.49,-1517.66 222.61,-1510.75"/>
 </g>
 <!-- pre_shouldercatch -->
-<g id="node40" class="node">
+<g id="node41" class="node">
 <title>pre_shouldercatch</title>
 <path fill="#a6cee3" stroke="#1f78b4" d="M615.25,-1479.25C615.25,-1479.25 704.75,-1479.25 704.75,-1479.25 710.75,-1479.25 716.75,-1485.25 716.75,-1491.25 716.75,-1491.25 716.75,-1508.25 716.75,-1508.25 716.75,-1514.25 710.75,-1520.25 704.75,-1520.25 704.75,-1520.25 615.25,-1520.25 615.25,-1520.25 609.25,-1520.25 603.25,-1514.25 603.25,-1508.25 603.25,-1508.25 603.25,-1491.25 603.25,-1491.25 603.25,-1485.25 609.25,-1479.25 615.25,-1479.25"/>
 <text text-anchor="middle" x="660" y="-1502.95" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Shoulder Catch</text>
@@ -871,7 +895,7 @@
 <polygon fill="black" stroke="black" points="321.01,-1230.77 312.84,-1224.03 315.02,-1234.39 321.01,-1230.77"/>
 </g>
 <!-- pre_shinbox -->
-<g id="node41" class="node">
+<g id="node42" class="node">
 <title>pre_shinbox</title>
 <path fill="#a6cee3" stroke="#1f78b4" d="M1647.5,-609C1647.5,-609 1730.5,-609 1730.5,-609 1736.5,-609 1742.5,-615 1742.5,-621 1742.5,-621 1742.5,-633 1742.5,-633 1742.5,-639 1736.5,-645 1730.5,-645 1730.5,-645 1647.5,-645 1647.5,-645 1641.5,-645 1635.5,-639 1635.5,-633 1635.5,-633 1635.5,-621 1635.5,-621 1635.5,-615 1641.5,-609 1647.5,-609"/>
 <text text-anchor="middle" x="1655.5" y="-622.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">BW</text>
@@ -885,9 +909,9 @@
 <polygon fill="black" stroke="black" points="1692.5,-579.25 1689,-569.25 1685.5,-579.25 1692.5,-579.25"/>
 </g>
 <!-- mov_14_revrobotsc -->
-<g id="node43" class="node">
+<g id="node44" class="node">
 <title>mov_14_revrobotsc</title>
-<g id="a_node43"><a xlink:href="https://www.youtube.com/watch?v=Fun_Lscq5go&amp;list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&amp;index=23" xlink:title="{{14|Reverse Robot\nShield Cast}}">
+<g id="a_node44"><a xlink:href="https://www.youtube.com/watch?v=Fun_Lscq5go&amp;list=PLk4oYPJ7TXKiueHS7UMPv-DxNMK6UELds&amp;index=23" xlink:title="{{14|Reverse Robot\nShield Cast}}">
 <path fill="#cab2d6" stroke="#6a3d9a" d="M824.38,-1183.75C824.38,-1183.75 945.62,-1183.75 945.62,-1183.75 951.62,-1183.75 957.62,-1189.75 957.62,-1195.75 957.62,-1195.75 957.62,-1212.75 957.62,-1212.75 957.62,-1218.75 951.62,-1224.75 945.62,-1224.75 945.62,-1224.75 824.38,-1224.75 824.38,-1224.75 818.38,-1224.75 812.38,-1218.75 812.38,-1212.75 812.38,-1212.75 812.38,-1195.75 812.38,-1195.75 812.38,-1189.75 818.38,-1183.75 824.38,-1183.75"/>
 <text text-anchor="middle" x="828.62" y="-1199.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">14</text>
 <polyline fill="none" stroke="#6a3d9a" points="844.88,-1183.75 844.88,-1224.75"/>
@@ -918,7 +942,7 @@
 <!-- lay_squat2lunge&#45;&gt;mov_17_stepbacklunge -->
 <!-- lay_startsquat&#45;&gt;mov_10_squat -->
 <!-- Legend -->
-<g id="node48" class="node">
+<g id="node49" class="node">
 <title>Legend</title>
 <path fill="#b2df8a" stroke="none" d="M1990.5,-490C1990.5,-490 1817.5,-490 1817.5,-490 1811.5,-490 1805.5,-484 1805.5,-478 1805.5,-478 1805.5,-346 1805.5,-346 1805.5,-340 1811.5,-334 1817.5,-334 1817.5,-334 1990.5,-334 1990.5,-334 1996.5,-334 2002.5,-340 2002.5,-346 2002.5,-346 2002.5,-478 2002.5,-478 2002.5,-484 1996.5,-490 1990.5,-490"/>
 <polygon fill="none" stroke="#1f78b4" points="1805.5,-464 1805.5,-490 2002.5,-490 2002.5,-464 1805.5,-464"/>

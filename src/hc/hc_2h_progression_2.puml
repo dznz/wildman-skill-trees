@@ -31,7 +31,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     node [color=8, fillcolor=7]
     mov_kneelsc; mov_sblungepull; mov_fbpull; mov_kneelbackswing; mov_fbpullsit; mov_sblungepullbot; mov_fbpullsitpress; mov_altshinbox; mov_altshinboxfrpress; mov_sblungepullsbpress; mov_squatpress; mov_millprep
     mov_incirclesquat; mov_outcirclesquat; mov_39_pullsquat;
-    mov_sbfrontpress; mov_41_sblungepress
+    mov_sbfrontpress; mov_41_sblungepress; mov_42_kneelpull
   }
 
   subgraph "prereq" {
@@ -81,6 +81,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_39_pullsquat       [label="{{39|Pullover Squat}}"                                      URL="https://www.youtube.com/watch?v=3yf3VO2sd-4"];
   mov_40_swipe           [label="{{40|Technical Swipe}}"                                     URL="https://www.youtube.com/watch?v=nQ7npb0krRg"];
   mov_41_sblungepress    [label="{{41|Step Back Lunge\nFront Press at Bottom}}"              URL="https://www.youtube.com/watch?v=mf2dOl-QzEs"];
+  mov_42_kneelpull       [label="{{42|Half Kneeling\nPullover}}"                             URL="https://www.youtube.com/watch?v=FhIn5to6NmM"];
 
   // Prerequisite skills
   pre_shinbox -> mov_altshinbox;
@@ -115,6 +116,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_sblungepullbot -> mov_sblungepullsbpress;
   mov_sbfrontpress -> mov_sblungepullsbpress;
   mov_sbfrontpress -> mov_41_sblungepress;
+  {mov_kneelbackswing, mov_sblungepullbot} -> mov_42_kneelpull
 
   { rank = sink;
     Legend [shape=none, margin=0, label=<
