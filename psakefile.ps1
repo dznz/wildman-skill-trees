@@ -4,11 +4,25 @@ Properties {
   $DistDir = (Join-Path $PSScriptRoot "dist")
   $SrcRoot = (Join-Path $PSScriptRoot "src")
   [string[]] $OutputFormats = ,"svg"
+
+  # Files copied directly to Dist
+  $StaticFiles = @{
+    hc = (
+      "2hhc_bootstrap_program.xlsx",
+      "hc_2h_progression.csv",
+      "hc_sa_drills.csv")
+    kb = (
+      "kb_bootstrap_program.xlsx",
+      "kb_progression.csv")
+    mace = (
+      "mace_progression.csv"
+    )
+  }
 }
 
 Task default -Depends Full
 
-Task Full -Depends Clean, Compile {
+Task Full -Depends Clean, Compile, CopyStaticFiles {
 }
 
 Task Compile -Depends CompileHeavyClub, CompileKettlebell, CompileMace {
@@ -55,6 +69,29 @@ Task CompileMace {
     Puml -SrcFilePath (Join-Path $MaceRoot $SrcFile) `
         -OutputDirPath $DistDir `
         -OutputFormatList $OutputFormats
+  }
+}
+
+Task CopyStaticFiles -Depends CopyStaticHeavyClub, `
+                              CopyStaticKettlebell, `
+                              CopyStaticMace
+{}
+
+Task CopyStaticHeavyClub { Copy-Static -ToolName "hc" }
+
+Task CopyStaticKettlebell { Copy-Static -ToolName "kb" }
+
+Task CopyStaticMace { Copy-Static -ToolName "mace" }
+
+function Copy-Static {
+  param (
+    [string] $ToolName
+  )
+  $ToolRoot = (Join-Path $SrcRoot $ToolName)
+  $FilesToCopy = $StaticFiles[$ToolName]
+  foreach ($SrcFile in $FilesToCopy) {
+    Copy-Item -Path (Join-Path $ToolRoot $SrcFile) `
+      -Destination $DistDir
   }
 }
 
