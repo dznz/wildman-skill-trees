@@ -3,7 +3,9 @@ Include ".\build_utils.ps1"
 Properties {
   $DistDir = (Join-Path $PSScriptRoot "dist")
   $SrcRoot = (Join-Path $PSScriptRoot "src")
-  [string[]] $OutputFormats = ,"svg"
+
+  # By default, produce only SVG diagrams as output
+  [string[]] $script:OutputFormats = ,"svg"
 
   # PlantUML/Dot diagrams to compile
   $DiagramFiles = @{
@@ -43,9 +45,19 @@ Properties {
   }
 }
 
-Task default -Depends Full
+Task default -Depends Quick
 
-Task Full -Depends Clean, Compile, CopyStaticFiles {
+Task Quick -Depends Compile `
+  -Description "Build only SVG files for quick updates."
+
+Task Full -Depends Clean, SetReleaseFormats, Compile, CopyStaticFiles `
+  -Description "Prepare a full release of diagrams and static files"
+
+# Releases include SVG & PNG formats for accessibility
+Task SetReleaseFormats `
+  -Description "Set to the supported image formats for releases."
+{
+  $script:OutputFormats = "svg", "png"
 }
 
 Task Compile -Depends CompileHeavyClub, `
@@ -83,7 +95,7 @@ function Compile-PumlDiagram {
     Write-Host "Rendering $SrcFile"
     Puml -SrcFilePath (Join-Path $ToolRoot $SrcFile) `
         -OutputDirPath $DistDir `
-        -OutputFormatList $OutputFormats
+        -OutputFormatList $script:OutputFormats
   }
 }
 
@@ -98,5 +110,3 @@ function Copy-StaticFiles {
       -Destination $DistDir
   }
 }
-
-
