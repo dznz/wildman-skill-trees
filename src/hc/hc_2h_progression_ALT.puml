@@ -91,6 +91,12 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     mov_42_kneelpull          [label="{{42|Half Kneeling\nPullover}}"                             URL="https://www.youtube.com/watch?v=FhIn5to6NmM"];
   }
 
+  subgraph "43-51" {
+    node [color=11, fillcolor=7]
+    node [fontcolor=1]
+    mov_43_pullsquatpress     [label="{{43|Pullover Squat Press}}"                                URL="https://www.youtube.com/watch?v=pHjBhj7SHWo"];
+  }
+
   // Prerequisite skills
   pre_shinbox -> mov_31_altshinbox;
 
@@ -160,6 +166,7 @@ subgraph custer_squat {
   mov_10_squat -> mov_32_incirclesquat;
   mov_10_squat -> mov_36_squatpress;
   mov_10_squat -> mov_39_pullsquat;
+  {mov_39_pullsquat, mov_36_squatpress} -> mov_43_pullsquatpress
 }
 
 subgraph custer_lunge {
