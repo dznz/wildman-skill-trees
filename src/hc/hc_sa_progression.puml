@@ -27,7 +27,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   subgraph aux {
     node [color=10, fillcolor=9]
     mov_05_backs2s, mov_06_perry, mov_17_millprep, mov_23_outpull3count
-    mov_24_outpendoutpull3c, mov_26_inpull3count
+    mov_24_outpendoutpull3c, mov_26_inpull3count, mov_27_inpendinpull3c
   }
 
   // Movements external to this diagram
@@ -76,6 +76,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_24_outpendoutpull3c [label="{{24|Outside Pendulum\nOutside Pullover\n3 Count}}"   URL="https://www.youtube.com/watch?v=FauiblV5PHg"];
   mov_25_inpendinpull     [label="{{25|Inside Pendulum\nInside Pullover}}"              URL="https://www.youtube.com/watch?v=VFaO93BsNaA"];
   mov_26_inpull3count     [label="{{26|Inside Pullover\n3 Count}}"                      URL="https://www.youtube.com/watch?v=lBKIaQ6iej8"];
+  mov_27_inpendinpull3c   [label="{{27|Inside Pendulum\nInside Pullover\n3 Count}}"     URL="https://www.youtube.com/watch?v=Vv4rdCks2f8"];
 
   // external skill links
   ext_2h_s2s -> ext_2h_sideswingl2h -> ext_2h_s2srockit;
@@ -124,8 +125,9 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   {mov_12_outpend, mov_14_outpull, mov_24_outpendoutpull3c} -> mov_22_outpendoutpull;
   mov_14_outpull -> mov_23_outpull3count -> mov_19_mill
   {mov_23_outpull3count} -> mov_24_outpendoutpull3c
-  {mov_13_inpend, mov_15_inpull, mov_22_outpendoutpull} -> mov_25_inpendinpull
   {mov_15_inpull} -> mov_26_inpull3count
+  mov_26_inpull3count -> mov_27_inpendinpull3c
+  {mov_13_inpend, mov_15_inpull, mov_22_outpendoutpull, mov_27_inpendinpull3c} -> mov_25_inpendinpull
 
   // Layout Hacks
   { rank=same; mov_22_outpendoutpull; mov_16_altpend}
