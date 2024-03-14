@@ -82,19 +82,20 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   subgraph "36-42" {
     node [color=11, fillcolor=6]
     node [fontcolor=1]
-    mov_36_squatpress         [label="{{36|Squat Press}}"                                         URL="https://www.youtube.com/watch?v=6p1niExqXSA"]
-    mov_37_cap                [label="{{37|Clean & Press}}"                                       URL="https://www.youtube.com/watch?v=6kpEYglMJ1c"]
-    mov_38_millprep           [label="{{38|Mill Prep}}"                                           URL="https://www.youtube.com/watch?v=G_OXuFs2bRs"]
-    mov_39_pullsquat          [label="{{39|Pullover Squat}}"                                      URL="https://www.youtube.com/watch?v=3yf3VO2sd-4"];
-    mov_40_swipe              [label="{{40|Technical Swipe}}"                                     URL="https://www.youtube.com/watch?v=nQ7npb0krRg"];
-    mov_41_sblungepress       [label="{{41|Step Back Lunge\nFront Press at Bottom}}"              URL="https://www.youtube.com/watch?v=mf2dOl-QzEs"];
-    mov_42_kneelpull          [label="{{42|Half Kneeling\nPullover}}"                             URL="https://www.youtube.com/watch?v=FhIn5to6NmM"];
+    mov_36_squatpress         [label="{{36|Squat Press}}"                             URL="https://www.youtube.com/watch?v=6p1niExqXSA"]
+    mov_37_cap                [label="{{37|Clean & Press}}"                           URL="https://www.youtube.com/watch?v=6kpEYglMJ1c"]
+    mov_38_millprep           [label="{{38|Mill Prep}}"                               URL="https://www.youtube.com/watch?v=G_OXuFs2bRs"]
+    mov_39_pullsquat          [label="{{39|Pullover Squat}}"                          URL="https://www.youtube.com/watch?v=3yf3VO2sd-4"];
+    mov_40_swipe              [label="{{40|Technical Swipe}}"                         URL="https://www.youtube.com/watch?v=nQ7npb0krRg"];
+    mov_41_sblungepress       [label="{{41|Step Back Lunge\nFront Press at Bottom}}"  URL="https://www.youtube.com/watch?v=mf2dOl-QzEs"];
+    mov_42_kneelpull          [label="{{42|Half Kneeling\nPullover}}"                 URL="https://www.youtube.com/watch?v=FhIn5to6NmM"];
   }
 
   subgraph "43-51" {
     node [color=11, fillcolor=7]
     node [fontcolor=1]
-    mov_43_pullsquatpress     [label="{{43|Pullover Squat Press}}"                                URL="https://www.youtube.com/watch?v=pHjBhj7SHWo"];
+    mov_43_pullsquatpress     [label="{{43|Pullover Squat Press}}"                  URL="https://www.youtube.com/watch?v=pHjBhj7SHWo"];
+    mov_44_clockshoulder      [label="{{44|Clockwork Shoulder}|PROTECT COLLARBONE}" URL="https://www.youtube.com/watch?v=XjaBfgQW1qw"];
   }
 
   // Prerequisite skills
@@ -130,6 +131,7 @@ subgraph custer_circles {
   label="Circles"
   mov_05_insidecircle -> mov_06_outsidecircle;
   mov_06_outsidecircle -> mov_18_altcircle;
+  mov_18_altcircle -> mov_44_clockshoulder
 }
 
 subgraph custer_cap {

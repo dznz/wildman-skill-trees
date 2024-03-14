@@ -38,7 +38,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     // Shield Cast
     mov_08_backpossidetoside; mov_22_scsquat
     // Mill
-    mov_38_millprep;
+    mov_38_millprep; mov_44_clockshoulder;
     // Getups
     mov_31_altshinbox; mov_33_altshinboxfrpress; mov_26_fbpull; mov_27_fbpullsit; mov_29_fbpullsitpress
     // Squat
@@ -111,6 +111,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_41_sblungepress       [label="{{41|Step Back Lunge\nFront Press at Bottom}}"              URL="https://www.youtube.com/watch?v=mf2dOl-QzEs"];
   mov_42_kneelpull          [label="{{42|Half Kneeling\nPullover}}"                             URL="https://www.youtube.com/watch?v=FhIn5to6NmM"];
   mov_43_pullsquatpress     [label="{{43|Pullover Squat Press}}"                                URL="https://www.youtube.com/watch?v=pHjBhj7SHWo"];
+  mov_44_clockshoulder      [label="{{44|Clockwork Shoulder}|PROTECT COLLARBONE}"               URL="https://www.youtube.com/watch?v=XjaBfgQW1qw"];
 
   // Unsequenced
   ' mov_mill                   [label="{{|Mill}}"                            URL="https://www.youtube.com/watch?v=iFtaPBDwG7w"]
@@ -168,6 +169,7 @@ subgraph cluster_circles {
   mov_05_insidecircle -> mov_06_outsidecircle;
   mov_06_outsidecircle -> mov_18_altcircle;
   ' mov_18_altcircle -> mov_clockwork;
+  mov_18_altcircle -> mov_44_clockshoulder
 }
 
 subgraph cluster_cap {
