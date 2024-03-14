@@ -120,23 +120,15 @@ Here, we've grouped the sequenced drills into logical clusters, not quite the Se
 
 ![Tree of two-hand heavy club drills, arranged to highlight sequence.](/dist/hc_2h_progression_ALL.svg)
 
-Because any single diagram will eventually become too complicated to use, we also break out the sequence into parts. We're including the unsequenced drills that we know of as we go.
+**First Steps**
 
-**Part 1**
+In this diagram we focus on the drills of the first part of the progression, to make it simpler to get started from scratch.
 
 | Source | SVG |
 |------- | --- | 
 | [`/src/hc/hc_2h_progression_1.puml`](/src/hc/hc_2h_progression_1.puml) |  [`/dist/hc_2h_progression_1.svg`](/dist/hc_2h_progression_1.svg) |
 
 ![Tree of two-hand heavy club drills, arranged in order of learning.](/dist/hc_2h_progression_1.svg)
-
-**Part 2**
-
-| Source | SVG |
-|------- | --- | 
-| [`/src/hc/hc_2h_progression_2.puml`](/src/hc/hc_2h_progression_2.puml) |  [`/dist/hc_2h_progression_2.svg`](/dist/hc_2h_progression_2.svg) |
-
-![Tree of more two-hand heavy club drills, arranged in order of learning.](/dist/hc_2h_progression_2.svg)
 
 **ALT View**
 

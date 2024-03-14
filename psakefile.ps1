@@ -11,7 +11,6 @@ Properties {
   $DiagramFiles = @{
     hc = (
       "hc_2h_progression_1.puml",
-      "hc_2h_progression_2.puml",
       "hc_2h_progression_ALL.puml",
       "hc_2h_progression_ALT.puml",
       "hc_sa_progression.puml"
