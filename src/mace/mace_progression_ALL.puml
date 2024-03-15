@@ -122,7 +122,8 @@ mov_62_clockupper2180outwflair [label="{{62  |Clockwork uppercut to\noutside rot
 mov_63_clockupperwsasc         [label="{{63  |Clockwork uppercut +\nsingle arm shield cast}}"                        URL="https://www.youtube.com/watch?v=FQFBXlIjcDo" ];
 
 mov_64_altclockupperw360       [label="{{64  |Alternating\nclockwork uppercut with\ntwo-hand 360 shield cast}}"      URL="https://www.youtube.com/watch?v=uE1DaKTf6SI" ];
-mov_65_kneel360                [label="{{65  |Half-kneeling\n2 hand mace 360}|ISOLATE HIPS}"                                       URL="https://www.youtube.com/watch?v=HCCyUmShxYw" ];
+mov_65_kneel360                [label="{{65  |Half-kneeling\n2 hand mace 360}|ISOLATE HIPS}"                         URL="https://www.youtube.com/watch?v=HCCyUmShxYw" ];
+mov_66_kneelalt360             [label="{{66  |Half-kneeling\n10 to 2}}"                                              URL="https://www.youtube.com/watch?v=1sYBqQ1Ll_E" ];
 
 // Ungrouped arrows
 
@@ -253,6 +254,7 @@ mov_65_kneel360                [label="{{65  |Half-kneeling\n2 hand mace 360}|IS
     // 360 into stances
     mov_02_alt360 -> mov_35_waralt360
     mov_01_360 -> mov_65_kneel360
+    {mov_65_kneel360, mov_02_alt360} -> mov_66_kneelalt360
 
     {rank=same; mov_01_360; mov_031_prayer; mov_041_barbell}
     {rank=same; mov_051_sabackswing; mov_061_uppercut; mov_07_invs2sswing; mov_081_lowblockspin}

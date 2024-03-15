@@ -70,4 +70,5 @@ M-61,mov_61_clockupper2180outpull,Front clockwork\nupper cut to\n180 degree outs
 M-62,mov_62_clockupper2180outwflair,Clockwork uppercut to\noutside rotating 180 +\ntip away sword flair,https://www.youtube.com/watch?v=VjnRZIYV2H8,2,Left/Right,L,1,N
 M-63,mov_63_clockupperwsasc,Clockwork uppercut +\nsingle arm shield cast,https://www.youtube.com/watch?v=FQFBXlIjcDo,2,Left/Right,L,1,N
 M-64,mov_64_altclockupperw360,Alternating\nclockwork uppercut with\ntwo-hand 360 shield cast,https://www.youtube.com/watch?v=uE1DaKTf6SI,1,,,1,N
-M-65,mov_65_kneel360,Half-kneeling 2 hand mace 360,https://www.youtube.com/watch?v=HCCyUmShxYw,4,Left/Right * Cross/Straight,LX,2,S
+M-65,mov_65_kneel360,Half-kneeling 2 hand mace 360,https://www.youtube.com/watch?v=HCCyUmShxYw,8,Left/Right * Cross/Straight * Left Leg/Right Leg,LX,2,S
+M-66,mov_66_kneelalt360,Half-kneeling\n10 to 2,https://www.youtube.com/watch?v=1sYBqQ1Ll_E,4,Left/Right * Left Leg/Right Leg,L,2,S
