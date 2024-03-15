@@ -41,7 +41,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   subgraph isolated {
     node [color=4, fillcolor=3]
     mov_01_360, mov_031_prayer, mov_041_barbell, mov_061_uppercut, mov_07_invs2sswing, mov_081_lowblockspin, mov_101_martialspin, mov_102_samartialspin, mov_14_barpress2sq,mov_35_waralt360
-    mov_051_sabackswing, mov_052_backswing, mov_11_paddlerow2upblock, mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle, mov_48_frspear, mov_51_xbodspear, mov_53_outswordflair, mov_54_inswordflair
+    mov_051_sabackswing, mov_052_backswing, mov_11_paddlerow2upblock, mov_16_saincircle, mov_17_saoutcircle, mov_19_incircle2altcoin, mov_20_outcircle2altcoin, mov_22_incircle2sameflip, mov_23_outcircle2sameflip, mov_242_outflip, mov_243_inflip, mov_31_frcircle, mov_32_bkcircle, mov_33_warfrcircle, mov_36_warbkcircle, mov_48_frspear, mov_51_xbodspear, mov_53_outswordflair, mov_54_inswordflair, mov_65_kneel360
   }
 
 mov_01_360                    [label="{{01  |360}}"                                  URL="https://www.youtube.com/watch?v=TyZ8iYv6Ip0" ]
@@ -120,7 +120,9 @@ mov_60_altswordmillwflair      [label="{{60  |Alternating\nsword grip mill with\
 mov_61_clockupper2180outpull   [label="{{61  |Front clockwork\nupper cut to\n180 degree outside pullover}}"          URL="https://www.youtube.com/watch?v=XP7abuBs_V0" ];
 mov_62_clockupper2180outwflair [label="{{62  |Clockwork uppercut to\noutside rotating 180 +\ntip away sword flair}}" URL="https://www.youtube.com/watch?v=VjnRZIYV2H8" ];
 mov_63_clockupperwsasc         [label="{{63  |Clockwork uppercut +\nsingle arm shield cast}}"                        URL="https://www.youtube.com/watch?v=FQFBXlIjcDo" ];
+
 mov_64_altclockupperw360       [label="{{64  |Alternating\nclockwork uppercut with\ntwo-hand 360 shield cast}}"      URL="https://www.youtube.com/watch?v=uE1DaKTf6SI" ];
+mov_65_kneel360                [label="{{65  |Half-kneeling\n2 hand mace 360}|ISOLATE HIPS}"                                       URL="https://www.youtube.com/watch?v=HCCyUmShxYw" ];
 
 // Ungrouped arrows
 
@@ -248,7 +250,9 @@ mov_64_altclockupperw360       [label="{{64  |Alternating\nclockwork uppercut wi
     mov_041_barbell -> mov_14_barpress2sq
     mov_042_barbell2360 -> mov_15_3602bar2sq
 
+    // 360 into stances
     mov_02_alt360 -> mov_35_waralt360
+    mov_01_360 -> mov_65_kneel360
 
     {rank=same; mov_01_360; mov_031_prayer; mov_041_barbell}
     {rank=same; mov_051_sabackswing; mov_061_uppercut; mov_07_invs2sswing; mov_081_lowblockspin}
