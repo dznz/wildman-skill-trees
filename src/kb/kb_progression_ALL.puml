@@ -36,6 +36,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     ext_bw_altshinbox  [label="{{BW|Alt Shin Box}}"]
     ext_hc_dblswing    [label="{{HC|Double Swing}}"]
     ext_hc_dblrockit   [label="{{HC|Double Rockit}}"]
+    ext_hc_s2sswing    [label="{{2HHC-01|Side to Side\nSwing}}"]
 
     // Implied
     mov_tgd [label="{{|Turkish Get Down}}"]
@@ -131,9 +132,10 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_79_kneelsnatchdown    [label="{{79|Half-Kneeling Snatch Down}|KB CLOSE TO BODY}"          URL="https://www.youtube.com/watch?v=okO-7womT5Q"];
   mov_80_dblhangcsp         [label="{{80|Double Dead\nHang Clean\nSquat Press}}"                URL="https://www.youtube.com/watch?v=DpGOSw7kGO0"];
 
-  mov_81_kneelsnatch        [label="{{81|Half Kneeling\nFull Snatch}}"                          URL="https://www.youtube.com/watch?v=axx4kfUzkl4"];
-  mov_82_dblcleanpresssq    [label="{{82|Double Clean\nPress Squat}}"                           URL="https://www.youtube.com/watch?v=t5fDkX3vjiU"];
-  mov_83_dblcleansblunge    [label="{{83|Double Clean\nRack Step Back Lunge}}"                  URL="https://www.youtube.com/watch?v=mNt7guHRP4U"];
+  mov_81_kneelsnatch        [label="{{81|Half Kneeling\nFull Snatch}}"           URL="https://www.youtube.com/watch?v=axx4kfUzkl4"];
+  mov_82_dblcleanpresssq    [label="{{82|Double Clean\nPress Squat}}"            URL="https://www.youtube.com/watch?v=t5fDkX3vjiU"];
+  mov_83_dblcleansblunge    [label="{{83|Double Clean\nRack Step Back Lunge}}"   URL="https://www.youtube.com/watch?v=mNt7guHRP4U"];
+  mov_84_s2sswing           [label="{{84|Side to Side Swing}|LATERAL ROTATION}"  URL="https://www.youtube.com/watch?v=W_04Zv3p2HM"];
 
   mov_01_deadlift -> mov_02_swing;
   mov_01_deadlift -> mov_03_atw;
@@ -280,10 +282,13 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   // Ungrouped drills
   mov_56_suitcasedl -> mov_57_dblsuitcase;  
 
+  ext_hc_s2sswing -> mov_84_s2sswing;
+
   subgraph cluster_deadlift {
     label="Deadlifts"
     mov_56_suitcasedl -> mov_73_2hsbldl;
     mov_73_2hsbldl -> mov_75_2hssldl -> mov_77_shsldl;
+    mov_75_2hssldl -> mov_84_s2sswing;
   }
 
   subgraph cluster_double {
