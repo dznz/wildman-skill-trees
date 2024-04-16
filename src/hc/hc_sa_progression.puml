@@ -28,6 +28,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     node [color=10, fillcolor=9]
     mov_05_backs2s, mov_06_perry, mov_17_millprep, mov_23_outpull3count
     mov_24_outpendoutpull3c, mov_26_inpull3count, mov_27_inpendinpull3c
+    mov_29_kneelbackswing
   }
 
   // Movements external to this diagram
@@ -50,34 +51,35 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   ext_2h_inpend       [label="{{2H-16|Two-Hand\nInside Pendulum}}"]
   ext_2h_altpend      [label="{{2H-??|Two-Hand\nAlternating Pendulum}}" URL="https://www.youtube.com/watch?v=GULjXPS_ba4"]
   
-  mov_01_s2s              [label="{{01|Side to Side Swing}|ELBOWS LOCKED}"              URL="https://www.youtube.com/watch?v=cosgyt2BQG4"];
-  mov_02_incircle         [label="{{02|Inside Circle}}"                                 URL="https://www.youtube.com/watch?v=-gtRj1KEUmw"];
-  mov_03_outcircle        [label="{{03|Outside Circle}}"                                URL="https://www.youtube.com/watch?v=Mf2QuZvRtQ4"];
-  mov_04_pullover         [label="{{04|Pullover}}"                                      URL="https://www.youtube.com/watch?v=HHT6TrTLJM8"];
-  mov_05_backs2s          [label="{{05|Back Position Swing}|THUMB TO SHIRT}"            URL="https://www.youtube.com/watch?v=sxePeWDR1U0"];
-  mov_06_perry            [label="{{06|Perry Cast\naka Bailout}|SAFE FAILURE}"          URL="https://www.youtube.com/watch?v=FpUecSrX_AI"];
-  mov_07_sc               [label="{{07|Shield Cast}}"                                   URL="https://www.youtube.com/watch?v=huwc0g3yLWk"];
-  mov_08_sideswingl2h     [label="{{08|Side Swing\nLow to High\nwith Stop}|HIP SNAP}"   URL="https://www.youtube.com/watch?v=0_wHseV7B-o"];
-  mov_09_s2srockit        [label="{{09|Side to Side Rockit}}"                           URL="https://www.youtube.com/watch?v=I26O1ct_hik"];
-  mov_10_sideswingl2hcont [label="{{10|Side Swing\nLow to High\nContinuous}}"           URL="https://www.youtube.com/watch?v=_Yd8I7U44mw"];
-  mov_11_altcircle        [label="{{11|Alternating Circle}}"                            URL="https://www.youtube.com/watch?v=yuJNSETl-tI"];
-  mov_12_outpend          [label="{{12|Outside Pendulum}}"                              URL="https://www.youtube.com/watch?v=q8l1G7UoERA"];
-  mov_13_inpend           [label="{{13|Inside Pendulum}}"                               URL="https://www.youtube.com/watch?v=4LqqrNosRiI"];
-  mov_14_outpull          [label="{{14|Outside Pullover}|+ EXT ROTATION}"               URL="https://www.youtube.com/watch?v=sJ5XCgdCMx8"];
-  mov_15_inpull           [label="{{15|Inside Pullover}|+ INT ROTATION}"                URL="https://www.youtube.com/watch?v=DQg80eX08hg"];
-  mov_16_altpend          [label="{{16|Alternating Pendulum}}"                          URL="https://www.youtube.com/watch?v=eIkqXJ5d7V4"];
-  mov_17_millprep         [label="{{17|Mill Prep}}"                                     URL="https://www.youtube.com/watch?v=TSjIEfyJGKY"];
-  mov_18_alt180pull       [label="{{18|Alternating 180 Degree\nPullover}}"              URL="https://www.youtube.com/watch?v=brM1Ybg9v7E"];
-  mov_19_mill             [label="{{19|Mill}}"                                          URL="https://www.youtube.com/watch?v=0fm3VX0iKnA"];
-  mov_20_revmill          [label="{{20|Reverse Mill}}"                                  URL="https://www.youtube.com/watch?v=B8YWWwRB8fo"];
-  mov_21_outcirclesc      [label="{{21|Outside Circle\nShield Cast}|ORDER POS IN MILL}" URL="https://www.youtube.com/watch?v=NdJlzFTbQwo"];
-  mov_22_outpendoutpull   [label="{{22|Outside Pendulum\nOutside Pullover}}"            URL="https://www.youtube.com/watch?v=b0Ztc-54C_Y"];
-  mov_23_outpull3count    [label="{{23|Outside Pullover\n3 Count}}"                     URL="https://www.youtube.com/watch?v=_hJaJVaMPtE"];
-  mov_24_outpendoutpull3c [label="{{24|Outside Pendulum\nOutside Pullover\n3 Count}}"   URL="https://www.youtube.com/watch?v=FauiblV5PHg"];
-  mov_25_inpendinpull     [label="{{25|Inside Pendulum\nInside Pullover}}"              URL="https://www.youtube.com/watch?v=VFaO93BsNaA"];
-  mov_26_inpull3count     [label="{{26|Inside Pullover\n3 Count}}"                      URL="https://www.youtube.com/watch?v=lBKIaQ6iej8"];
-  mov_27_inpendinpull3c   [label="{{27|Inside Pendulum\nInside Pullover\n3 Count}}"     URL="https://www.youtube.com/watch?v=Vv4rdCks2f8"];
-  mov_28_outpend180pull   [label="{{28|Outside Pendulum\n180 Pullover}}"                URL="https://www.youtube.com/watch?v=dATAyVyvbnw"];
+  mov_01_s2s              [label="{{01|Side to Side Swing}|ELBOWS LOCKED}"                            URL="https://www.youtube.com/watch?v=cosgyt2BQG4"];
+  mov_02_incircle         [label="{{02|Inside Circle}}"                                               URL="https://www.youtube.com/watch?v=-gtRj1KEUmw"];
+  mov_03_outcircle        [label="{{03|Outside Circle}}"                                              URL="https://www.youtube.com/watch?v=Mf2QuZvRtQ4"];
+  mov_04_pullover         [label="{{04|Pullover}}"                                                    URL="https://www.youtube.com/watch?v=HHT6TrTLJM8"];
+  mov_05_backs2s          [label="{{05|Back Position Swing}|THUMB TO SHIRT}"                          URL="https://www.youtube.com/watch?v=sxePeWDR1U0"];
+  mov_06_perry            [label="{{06|Perry Cast\naka Bailout}|SAFE FAILURE}"                        URL="https://www.youtube.com/watch?v=FpUecSrX_AI"];
+  mov_07_sc               [label="{{07|Shield Cast}}"                                                 URL="https://www.youtube.com/watch?v=huwc0g3yLWk"];
+  mov_08_sideswingl2h     [label="{{08|Side Swing\nLow to High\nwith Stop}|HIP SNAP}"                 URL="https://www.youtube.com/watch?v=0_wHseV7B-o"];
+  mov_09_s2srockit        [label="{{09|Side to Side Rockit}}"                                         URL="https://www.youtube.com/watch?v=I26O1ct_hik"];
+  mov_10_sideswingl2hcont [label="{{10|Side Swing\nLow to High\nContinuous}}"                         URL="https://www.youtube.com/watch?v=_Yd8I7U44mw"];
+  mov_11_altcircle        [label="{{11|Alternating Circle}}"                                          URL="https://www.youtube.com/watch?v=yuJNSETl-tI"];
+  mov_12_outpend          [label="{{12|Outside Pendulum}}"                                            URL="https://www.youtube.com/watch?v=q8l1G7UoERA"];
+  mov_13_inpend           [label="{{13|Inside Pendulum}}"                                             URL="https://www.youtube.com/watch?v=4LqqrNosRiI"];
+  mov_14_outpull          [label="{{14|Outside Pullover}|+ EXT ROTATION}"                             URL="https://www.youtube.com/watch?v=sJ5XCgdCMx8"];
+  mov_15_inpull           [label="{{15|Inside Pullover}|+ INT ROTATION}"                              URL="https://www.youtube.com/watch?v=DQg80eX08hg"];
+  mov_16_altpend          [label="{{16|Alternating Pendulum}}"                                        URL="https://www.youtube.com/watch?v=eIkqXJ5d7V4"];
+  mov_17_millprep         [label="{{17|Mill Prep}}"                                                   URL="https://www.youtube.com/watch?v=TSjIEfyJGKY"];
+  mov_18_alt180pull       [label="{{18|Alternating 180 Degree\nPullover}}"                            URL="https://www.youtube.com/watch?v=brM1Ybg9v7E"];
+  mov_19_mill             [label="{{19|Mill}}"                                                        URL="https://www.youtube.com/watch?v=0fm3VX0iKnA"];
+  mov_20_revmill          [label="{{20|Reverse Mill}}"                                                URL="https://www.youtube.com/watch?v=B8YWWwRB8fo"];
+  mov_21_outcirclesc      [label="{{21|Outside Circle\nShield Cast}|ORDER POS IN MILL}"               URL="https://www.youtube.com/watch?v=NdJlzFTbQwo"];
+  mov_22_outpendoutpull   [label="{{22|Outside Pendulum\nOutside Pullover}}"                          URL="https://www.youtube.com/watch?v=b0Ztc-54C_Y"];
+  mov_23_outpull3count    [label="{{23|Outside Pullover\n3 Count}}"                                   URL="https://www.youtube.com/watch?v=_hJaJVaMPtE"];
+  mov_24_outpendoutpull3c [label="{{24|Outside Pendulum\nOutside Pullover\n3 Count}}"                 URL="https://www.youtube.com/watch?v=FauiblV5PHg"];
+  mov_25_inpendinpull     [label="{{25|Inside Pendulum\nInside Pullover}}"                            URL="https://www.youtube.com/watch?v=VFaO93BsNaA"];
+  mov_26_inpull3count     [label="{{26|Inside Pullover\n3 Count}}"                                    URL="https://www.youtube.com/watch?v=lBKIaQ6iej8"];
+  mov_27_inpendinpull3c   [label="{{27|Inside Pendulum\nInside Pullover\n3 Count}}"                   URL="https://www.youtube.com/watch?v=Vv4rdCks2f8"];
+  mov_28_outpend180pull   [label="{{28|Outside Pendulum\n180 Pullover}}"                              URL="https://www.youtube.com/watch?v=dATAyVyvbnw"];
+  mov_29_kneelbackswing   [label="{{29|Half Kneeling\nBack Position Swing}|CONNECT HIP\nTO SHOULDER}" URL="https://www.youtube.com/watch?v=H590if5eTeE"];
 
   // external skill links
   ext_2h_s2s -> ext_2h_sideswingl2h -> ext_2h_s2srockit;
@@ -109,6 +111,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_04_pullover -> mov_07_sc;
   mov_04_pullover -> mov_05_backs2s -> mov_07_sc;
   mov_04_pullover -> mov_06_perry -> mov_07_sc;
+  mov_29_kneelbackswing -> mov_07_sc;
   mov_05_backs2s -> mov_14_outpull;
   mov_06_perry -> mov_14_outpull;
   mov_04_pullover -> mov_14_outpull;
@@ -130,6 +133,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_26_inpull3count -> mov_27_inpendinpull3c
   {mov_13_inpend, mov_15_inpull, mov_22_outpendoutpull, mov_27_inpendinpull3c} -> mov_25_inpendinpull
   {mov_18_alt180pull, mov_22_outpendoutpull} -> mov_28_outpend180pull
+  mov_05_backs2s -> mov_29_kneelbackswing
 
   // Layout Hacks
   { rank=same; mov_22_outpendoutpull; mov_16_altpend}
