@@ -42,7 +42,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     // Getups
     mov_31_altshinbox; mov_33_altshinboxfrpress; mov_26_fbpull; mov_27_fbpullsit; mov_29_fbpullsitpress
     // Squat
-    mov_32_incirclesquat; mov_34_outcirclesquat; mov_36_squatpress; mov_39_pullsquat; mov_43_pullsquatpress
+    mov_32_incirclesquat; mov_34_outcirclesquat; mov_36_squatpress; mov_39_pullsquat; mov_43_pullsquatpress; mov_45_deadcleansquat
     // Lunge
     mov_23_kneelsc; mov_25_kneelbackswing; mov_24_sblungepull; mov_28_sblungepullbot; mov_30_sbfrontpress; mov_35_sblungepullsbpress; mov_41_sblungepress; mov_42_kneelpull
   }
@@ -112,6 +112,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
   mov_42_kneelpull          [label="{{42|Half Kneeling\nPullover}}"                             URL="https://www.youtube.com/watch?v=FhIn5to6NmM"];
   mov_43_pullsquatpress     [label="{{43|Pullover Squat Press}}"                                URL="https://www.youtube.com/watch?v=pHjBhj7SHWo"];
   mov_44_clockshoulder      [label="{{44|Clockwork Shoulder}|PROTECT COLLARBONE}"               URL="https://www.youtube.com/watch?v=XjaBfgQW1qw"];
+  mov_45_deadcleansquat     [label="{{45|Dead Clean Squat}}"                                    URL="https://www.youtube.com/watch?v=V1V6PTM5TQ0"];
 
   // Unsequenced
   ' mov_mill                   [label="{{|Mill}}"                            URL="https://www.youtube.com/watch?v=iFtaPBDwG7w"]
@@ -209,6 +210,7 @@ subgraph cluster_squat {
   mov_10_squat -> mov_36_squatpress;
   mov_22_scsquat -> mov_39_pullsquat;
   {mov_39_pullsquat, mov_36_squatpress} -> mov_43_pullsquatpress
+  mov_10_squat -> mov_45_deadcleansquat
 }
 
 subgraph cluster_lunge {

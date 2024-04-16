@@ -96,6 +96,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/<BR ALIGN="RIGHT"/>
     node [fontcolor=1]
     mov_43_pullsquatpress     [label="{{43|Pullover Squat Press}}"                  URL="https://www.youtube.com/watch?v=pHjBhj7SHWo"];
     mov_44_clockshoulder      [label="{{44|Clockwork Shoulder}|PROTECT COLLARBONE}" URL="https://www.youtube.com/watch?v=XjaBfgQW1qw"];
+    mov_45_deadcleansquat     [label="{{45|Dead Clean Squat}}"                      URL="https://www.youtube.com/watch?v=V1V6PTM5TQ0"];
   }
 
   // Prerequisite skills
@@ -169,6 +170,7 @@ subgraph custer_squat {
   mov_10_squat -> mov_36_squatpress;
   mov_10_squat -> mov_39_pullsquat;
   {mov_39_pullsquat, mov_36_squatpress} -> mov_43_pullsquatpress
+  mov_10_squat -> mov_45_deadcleansquat
 }
 
 subgraph custer_lunge {
@@ -218,6 +220,7 @@ subgraph custer_swipe {
   { rank=same;  mov_34_outcirclesquat; mov_35_sblungepullsbpress; }
   { rank=same; mov_36_squatpress; mov_37_cap; mov_38_millprep}
   { rank=same; mov_29_fbpullsitpress; mov_41_sblungepress}
+  { rank=same; mov_43_pullsquatpress; mov_45_deadcleansquat}
 
 // END LAYOUT HACKS
 
